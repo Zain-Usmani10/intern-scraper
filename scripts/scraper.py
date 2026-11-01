@@ -8,6 +8,7 @@ Usage:
 
 import argparse
 import asyncio
+import html
 import json
 import os
 import re
@@ -17,9 +18,10 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.message import EmailMessage
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from dotenv import load_dotenv
 from playwright.async_api import TimeoutError as PlaywrightTimeout
@@ -28,6 +30,9 @@ from playwright.async_api import async_playwright
 ROOT = Path(__file__).resolve().parent.parent
 COMPANIES_FILE = ROOT / "companies.json"
 STATE_FILE = ROOT / "seen_jobs.json"
+
+TIMEZONE = "America/Toronto"
+DIGEST_HOURS = (8, 17)
 
 MAX_PAGES_AT_ONCE = 5
 PAGE_TIMEOUT_MS = 30_000
@@ -298,8 +303,11 @@ def send_telegram(text):
         return False
 
 
-def send_gmail(subject, text):
-    """Send one email to yourself. Return True if it was delivered."""
+def send_gmail(subject, text, html=None, include_friend=False):
+    """Send one email to yourself, and optionally BCC your friend.
+
+    Return True if it was delivered.
+    """
     if not gmail_ready():
         return False
 
@@ -308,7 +316,12 @@ def send_gmail(subject, text):
     message["Subject"] = subject
     message["From"] = address
     message["To"] = address
+    friend = os.getenv("FRIEND_EMAIL", "").strip()
+    if include_friend and friend:
+        message["Bcc"] = friend
     message.set_content(text)
+    if html:
+        message.add_alternative(html, subtype="html")
     try:
         with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=20) as server:
             server.login(address, os.environ["GMAIL_APP_PASSWORD"].replace(" ", ""))
@@ -320,35 +333,73 @@ def send_gmail(subject, text):
 
 
 def notify(text):
-    """Send a status message to every channel. Return True if any worked."""
-    subject = clean_title(text)[:80]
-    sent_telegram = send_telegram(text)
-    sent_gmail = send_gmail(subject, text)
-    return sent_telegram or sent_gmail
+    """Send a status message by Telegram, using your email only as a backup."""
+    return send_telegram(text) or send_gmail(clean_title(text)[:80], text)
 
 
 def format_job(job):
     return f"{job['company']}\n{job['title']}\n{job['url']}"
 
 
-def alert_new_jobs(new_jobs):
-    """Alert on new jobs. Return the URLs delivered through at least one channel."""
-    delivered = set()
+def send_queued_telegrams(jobs):
+    """Send each job to Telegram. Return the jobs that still need sending."""
+    unsent = []
+    for job in jobs:
+        if not send_telegram(f"New internship\n\n{format_job(job)}"):
+            unsent.append(job)
+        time.sleep(1)  # Stay under Telegram's rate limit.
+    return unsent
 
-    for job in new_jobs:
-        if send_telegram(f"New internship\n\n{format_job(job)}"):
-            delivered.add(job["url"])
-        if telegram_ready():
-            time.sleep(1)  # Stay under Telegram's rate limit.
 
-    if new_jobs:
-        count = len(new_jobs)
-        subject = f"{count} new internship{'s' if count != 1 else ''}"
-        body = "\n\n".join(format_job(job) for job in new_jobs)
-        if send_gmail(subject, body):
-            delivered.update(job["url"] for job in new_jobs)
+def latest_digest_slot(now):
+    """Return the most recent scheduled email time at or before a local time."""
+    slots = (
+        (now - timedelta(days=days_ago)).replace(
+            hour=hour, minute=0, second=0, microsecond=0
+        )
+        for days_ago in (0, 1)
+        for hour in DIGEST_HOURS
+    )
+    return max(slot for slot in slots if slot <= now)
 
-    return delivered
+
+def build_digest(jobs, slot):
+    """Return the subject, plain text, and HTML for a scheduled email."""
+    count = len(jobs)
+    date = f"{slot:%B} {slot.day}, {slot.year}"
+    edition = "Morning Update" if slot.hour < 12 else "Evening Update"
+    summary = (
+        f"{count} new posting{'s' if count != 1 else ''} since the last update."
+        if jobs
+        else "No new postings since the last update."
+    )
+    subject = f"Internship {edition}: {count} New | {date}"
+
+    by_company = {}
+    for job in sorted(jobs, key=lambda job: (job["company"], job["title"])):
+        by_company.setdefault(job["company"], []).append(job)
+
+    text_parts = [f"Internship {edition}", date, "", summary]
+    html_parts = [
+        '<div style="font-family:Arial,sans-serif;color:#222;line-height:1.5;">',
+        f'<h2 style="margin:0;">Internship {edition}</h2>',
+        f'<p style="margin:4px 0 16px;color:#555;">{date}</p>',
+        f"<p>{summary}</p>",
+    ]
+    for company, company_jobs in by_company.items():
+        text_parts.extend(["", company])
+        html_parts.append(
+            f'<h3 style="margin:20px 0 6px;">{html.escape(company)}</h3>'
+            '<ul style="margin:0;padding-left:20px;">'
+        )
+        for job in company_jobs:
+            text_parts.append(f"- {job['title']}\n  {job['url']}")
+            url = html.escape(job["url"], quote=True)
+            html_parts.append(f'<li><a href="{url}">{html.escape(job["title"])}</a></li>')
+        html_parts.append("</ul>")
+    html_parts.append("</div>")
+
+    return subject, "\n".join(text_parts), "".join(html_parts)
 
 
 def load_state():
@@ -422,15 +473,21 @@ def main():
 
     if args.test_alert:
         telegram = send_telegram("Test alert from your internship scraper.")
-        gmail = send_gmail(
-            "Internship scraper test", "Test alert from your internship scraper."
+        sample = {
+            "company": "Example Company",
+            "title": "Sample Internship (Test)",
+            "url": "https://example.com/jobs/1",
+        }
+        subject, text, body = build_digest(
+            [sample], latest_digest_slot(datetime.now(ZoneInfo(TIMEZONE)))
         )
+        gmail = send_gmail(f"Test: {subject}", text, body, include_friend=True)
         print(f"Telegram: {'sent' if telegram else 'NOT sent'}")
         print(f"Gmail: {'sent' if gmail else 'NOT sent'}")
         return 0 if telegram or gmail else 1
 
     if not args.dry_run and not (telegram_ready() or gmail_ready()):
-        print("No alert channel is configured. See .env.example.")
+        print("No alert channel is configured. Add your settings to .env.")
         return 1
 
     companies = json.loads(COMPANIES_FILE.read_text(encoding="utf-8"))
@@ -450,10 +507,23 @@ def main():
     state = load_state()
     new_jobs, messages = apply_results(state, results, now)
 
-    delivered = alert_new_jobs(new_jobs)
+    # New jobs wait in these saved queues until each one is delivered.
     for job in new_jobs:
-        if job["url"] in delivered:
-            state["companies"][job["company"]]["seen"][job["url"]] = now
+        state["companies"][job["company"]]["seen"][job["url"]] = now
+    state["telegram_queue"] = send_queued_telegrams(
+        state.get("telegram_queue", []) + new_jobs
+    )
+    state["digest_queue"] = state.get("digest_queue", []) + new_jobs
+
+    # A late or failed email is sent on the next run.
+    slot = latest_digest_slot(datetime.now(ZoneInfo(TIMEZONE)))
+    digest_sent = True
+    if state.get("last_digest_slot") != slot.isoformat():
+        subject, text, body = build_digest(state["digest_queue"], slot)
+        digest_sent = send_gmail(subject, text, body, include_friend=True)
+        if digest_sent:
+            state["digest_queue"] = []
+            state["last_digest_slot"] = slot.isoformat()
 
     # Status alerts stay in the saved state until one is delivered.
     pending = state.get("pending_alerts", []) + messages
@@ -476,9 +546,13 @@ def main():
 
     save_state(state)
 
-    undelivered = len(new_jobs) - len(delivered)
-    print(f"{len(new_jobs)} new jobs, {undelivered} undelivered.")
-    if undelivered or state["pending_alerts"] or not status_sent:
+    print(f"{len(new_jobs)} new jobs, {len(state['telegram_queue'])} awaiting Telegram.")
+    if (
+        state["telegram_queue"]
+        or state["pending_alerts"]
+        or not status_sent
+        or not digest_sent
+    ):
         # Failing the run makes GitHub warn you and blocks the health ping.
         print("Some alerts weren't delivered and will be retried next run.")
         return 1

@@ -44,6 +44,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          FRIEND_EMAIL: ${{ secrets.FRIEND_EMAIL }}
         run: python scripts/scraper.py
 
       # Runs even after a failed send, so delivered jobs aren't alerted twice.
