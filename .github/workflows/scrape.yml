@@ -1,0 +1,71 @@
+name: Scrape internships
+
+# Started by cron-job.org, which keeps the schedule and timezone.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Never let two runs edit seen_jobs.json at the same time.
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - id: browser-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+      - if: steps.browser-cache.outputs.cache-hit == 'true'
+        run: playwright install-deps chromium
+
+      - if: steps.browser-cache.outputs.cache-hit != 'true'
+        run: playwright install --with-deps chromium
+
+      - name: Run scraper
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python scripts/scraper.py
+
+      # Runs even after a failed send, so delivered jobs aren't alerted twice.
+      - name: Save seen jobs
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seen_jobs.json
+          # Pull first in case companies.json was pushed during this run.
+          git diff --cached --quiet || (
+            git commit -m "Update seen jobs" &&
+            git pull --rebase origin main &&
+            git push
+          )
+
+      # Only reached when the whole run succeeds. Healthchecks.io warns you
+      # by email if these pings stop.
+      - name: Report healthy run
+        env:
+          HEALTHCHECK_URL: ${{ secrets.HEALTHCHECK_URL }}
+        run: |
+          if [ -n "$HEALTHCHECK_URL" ]; then
+            curl -fsS -m 10 --retry 3 -o /dev/null "$HEALTHCHECK_URL" || echo "Ping failed"
+          fi
