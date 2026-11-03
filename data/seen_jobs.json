@@ -699,7 +699,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-03",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.amd.com/careers-home/jobs/91311": {
           "title": "Short Term 2027 Data Analyst Intern/Co-Op",
@@ -1938,6 +1938,6 @@
   "last_heartbeat": "2026-11-03",
   "telegram_queue": [],
   "email_queue": [],
-  "last_email_slot": "2026-11-03T08:30:00-05:00",
+  "last_email_slot": "2026-11-03T16:30:00-05:00",
   "pending_alerts": []
 }
