@@ -1,11 +1,16 @@
 name: Scrape internships
 
 # Started by cron-job.org, which keeps the schedule and timezone.
+# Weekdays scrape. Weekends only send the reminder, so nothing is scraped.
 on:
   workflow_dispatch:
     inputs:
       test_alert:
         description: "Only send a test Telegram message and email"
+        type: boolean
+        default: false
+      reminder:
+        description: "Only send the weekend reminder to apply"
         type: boolean
         default: false
 
@@ -18,7 +23,27 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # About 10 seconds: no Python setup, no browser, no scraping.
+  reminder:
+    if: inputs.reminder
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Send reminder
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          count=$(python3 -c "import json; s = json.load(open('data/seen_jobs.json')); print(sum(len(c.get('seen', {})) for c in s['companies'].values()))" 2>/dev/null || echo "Your")
+          text=$(printf '☀️ Weekend reminder: time to apply to internships!\n%s open internships are on your list.' "$count")
+          curl -fsS -m 15 --retry 3 -o /dev/null \
+            --data-urlencode "chat_id=$TELEGRAM_CHAT_ID" --data-urlencode "text=$text" \
+            "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage"
+
   scrape:
+    if: ${{ !inputs.reminder }}
     runs-on: ubuntu-latest
     # A safety cap, not reserved compute: only the real run time is billed.
     # A normal run takes about 3 minutes. Raise this as companies grow.

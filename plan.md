@@ -1,23 +1,24 @@
 # Internship Scraper Plan
 
-## Timing requirements (Eastern time, every day)
+## Timing requirements (Eastern time)
 
 | What | When | Notes |
 |---|---|---|
-| Scrape run | 8:00am, every hour 10am to 4pm, 8:00pm | 9 runs a day, started by cron-job.org |
-| Email runs (recommended) | 8:30am and 4:30pm | Also scrape runs. Without them, the 8:30 email waits for the 10am run and the 4:30 email for the 8pm run. |
+| Scrape run | Weekdays: 8:00am, every hour 10am to 4pm, 8:00pm | 9 runs a day, started by cron-job.org. No scraping on weekends. |
+| Weekend reminder | Saturday and Sunday, 8:00am | Telegram only: a reminder to apply, with the number of open internships. No scraping, about 10 seconds. |
+| Email runs | Weekdays, 8:30am and 4:30pm | Also scrape runs. Without them, the 8:30 email waits for the 10am run and the 4:30 email for the 8pm run. |
 | Telegram alert | On the run that finds a new job | Within an hour in the daytime |
-| Email update | 8:30am and 4:30pm (`email_times`) | Sent on the first run at or after that time. A failed one is retried on the next run. |
+| Email update | Weekdays, 8:30am and 4:30pm (`email_times`) | Sent on the first run at or after that time. A failed one is retried on the next run. Monday 8:30am covers everything since Friday 4:30pm. |
 | Daily status message | First run of the day (8:00am) | "X/Y companies OK" |
 | Active-job check | Every run, at no extra cost | Each run already reads every company's full listing. A stored job missing from more than 3 successful runs in a row (`forget_after_missed_runs`) is removed. Failed or empty runs don't count. |
 | Failure alert | After 3 failed runs in a row | About 3 hours in the daytime |
 | Run time limit | 10 minutes per run (`timeout-minutes`) | A safety cap, not reserved compute. A run takes about 3 minutes. Raise it as companies grow. |
-| Healthchecks.io | Pinged by every successful run | Use a cron schedule matching the runs, so the overnight gap isn't an alert |
+| Healthchecks.io | Pinged by every successful scrape run | Cron schedule `0 8,10-16,20 * * 1-5`, so nights and weekends aren't alerts |
 | Adding companies | On demand, on your PC | Claude gets up to 5 attempts or 10 minutes per company |
 
-**cron-job.org:** one job at minute 0, hours 8, 10–16, and 20. One more at minute 30, hours 8 and 16.
+**cron-job.org:** Monday to Friday, one job at minute 0, hours 8, 10–16, and 20, and one at minute 30, hours 8 and 16. Saturday and Sunday, one job at 8:00 with the body `{"ref":"main","inputs":{"reminder":"true"}}`.
 
-**Actions minutes:** 11 runs × about 3 billed minutes ≈ 1,000 of the 3,000 free minutes a month.
+**Actions minutes:** about 22 weekdays × 11 runs × 2 billed minutes, plus 8 one-minute reminders ≈ 500 of the 3,000 free minutes a month.
 
 **Goal:** Get a phone alert within an hour when a tracked company posts a new internship in Canada (set in `data/settings.json`), at no cost.
 
