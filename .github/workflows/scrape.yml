@@ -15,7 +15,8 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    # More companies take longer. A hung run still stops here.
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
@@ -53,7 +54,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add seen_jobs.json
+          git add data/seen_jobs.json
           # Pull first in case companies.json was pushed during this run.
           git diff --cached --quiet || (
             git commit -m "Update seen jobs" &&

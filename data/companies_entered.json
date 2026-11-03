@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Qualcomm",
+    "careers_url": "https://careers.qualcomm.com/careers?start=0&location=Canada&pid=446721874877&sort_by=timestamp&filter_include_remote=0&filter_include_relocation=0&filter_seniority=Intern",
+    "entered": "2026-11-02",
+    "status": "added",
+    "method": "eightfold",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Anthropic",
+    "careers_url": "https://job-boards.greenhouse.io/anthropic",
+    "entered": "2026-11-02",
+    "status": "added",
+    "method": "greenhouse",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Figma",
+    "careers_url": "https://job-boards.greenhouse.io/figma",
+    "entered": "2026-11-02",
+    "status": "added",
+    "method": "greenhouse",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "NVIDIA",
+    "careers_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite?q=intern",
+    "entered": "2026-11-02",
+    "status": "added",
+    "method": "workday",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Shopify",
+    "careers_url": "https://www.shopify.com/careers/search",
+    "entered": "2026-11-02",
+    "status": "added",
+    "method": "browser_paginated",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "RBC",
+    "careers_url": "https://jobs.rbc.com/ca/en/search-results?keywords=intern",
+    "entered": "2026-11-02",
+    "status": "added",
+    "method": "browser_paginated",
+    "reason": "Read every job the site reports, twice, with stable results."
+  }
+]

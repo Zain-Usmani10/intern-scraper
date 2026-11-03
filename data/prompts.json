@@ -1,0 +1,69 @@
+{
+  "discover_companies": {
+    "purpose": "Turn the text you typed into company names and official careers URLs.",
+    "output_file": "data/tmp/discovery.json",
+    "output_template": {
+      "input_text": "",
+      "companies": []
+    },
+    "allowed_tools": ["Read", "Edit(data/tmp/discovery.json)", "WebSearch", "WebFetch"],
+    "prompt": [
+      "The user typed: \"{input_text}\"",
+      "List each company it names, fixing spelling (Nividia means NVIDIA). Use WebSearch and WebFetch to find each one's official careers page that lists jobs. If that page has a search parameter, add an intern search, like ?q=intern.",
+      "",
+      "Fill \"companies\" in @data/tmp/discovery.json with one object per company: {\"name\": official short name, \"careers_url\": URL, \"notes\": one sentence on how you confirmed it}. If you can't find a company, set \"careers_url\" to null and say why in notes.",
+      "Don't edit any other file. Reply with one line: how many companies you found."
+    ]
+  },
+  "investigate_company": {
+    "purpose": "When automatic detection fails, find a supported method and params that read every job, or recommend a new method.",
+    "output_file": "data/tmp/investigation.json",
+    "output_template": {
+      "company": "",
+      "careers_url": "",
+      "attempt": 0,
+      "previous_attempts": [],
+      "proposal": null,
+      "recommendation": null,
+      "notes": ""
+    },
+    "allowed_tools": [
+      "Read",
+      "Edit(data/tmp/investigation.json)",
+      "Write(data/tmp/scratch/**)",
+      "Edit(data/tmp/scratch/**)",
+      "Bash(.venv/Scripts/python:*)",
+      "Bash(.venv/Scripts/python.exe:*)",
+      "Bash(curl:*)",
+      "Bash(grep:*)",
+      "Bash(head:*)",
+      "Bash(wc:*)",
+      "Bash(sort:*)",
+      "Bash(uniq:*)",
+      "WebFetch",
+      "WebSearch"
+    ],
+    "prompt": [
+      "Find a way to scrape every job listing for {company}. This is attempt {attempt} of {max_attempts}.",
+      "",
+      "Inputs:",
+      "- @data/tmp/investigation.json: the careers URL and earlier attempts with the validator's reasons. Don't repeat a failed proposal.",
+      "- @data/tmp/evidence.json: what automatic inspection found on the careers page.",
+      "- @data/methods.json: the only supported methods and their params.",
+      "",
+      "Choose a method and params from methods.json. Prefer the company's job system API, which reports a total, over the browser methods. Investigate with WebFetch, WebSearch, and Bash.",
+      "Bash only allows .venv/Scripts/python, curl, grep, head, wc, sort, and uniq, run from the current folder. Don't use cd, mkdir, cat, or redirects. Write scratch scripts with the Write tool in data/tmp/scratch/, which already exists.",
+      "Jobs are later filtered to {allowed_countries}. With a browser method, add the site's own location filter for those countries to the URL when it has one.",
+      "Test by writing \"proposal\" in investigation.json, then running: .venv/Scripts/python scripts/test_method.py --investigation",
+      "It runs the real validator and prints the report. Adjust until the status is pass, or needs_approval when the site reports no total.",
+      "",
+      "Final result in investigation.json:",
+      "- \"proposal\": {\"method\": NAME, \"params\": {...}}, your best tested proposal.",
+      "- \"recommendation\": only when no supported method can work: {\"summary\", \"suggested_method\", \"how_it_works\", \"evidence\"}, with \"proposal\" set to null.",
+      "- \"notes\": two sentences on what you found.",
+      "",
+      "Only edit investigation.json. Scratch files may go in data/tmp/scratch/. Never change scripts/ or other data files. Don't bypass logins, CAPTCHAs, or bot protection. If the site blocks automated access, write a recommendation.",
+      "Reply with one word: pass, needs_approval, recommendation, or failed."
+    ]
+  }
+}

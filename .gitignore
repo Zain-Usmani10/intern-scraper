@@ -2,6 +2,10 @@
 .env
 .env.*
 
+# Claude handoff files: local only, except recommendations
+data/tmp/*
+!data/tmp/recommendations.json
+
 # Python
 .venv/
 __pycache__/

@@ -1,0 +1,111 @@
+[
+  {
+    "name": "Qualcomm",
+    "method": "eightfold",
+    "params": {
+      "url": "https://careers.qualcomm.com/careers?start=0&location=Canada&pid=446721874877&sort_by=timestamp&filter_include_remote=0&filter_include_relocation=0&filter_seniority=Intern"
+    },
+    "verified": {
+      "date": "2026-11-02",
+      "status": "pass",
+      "all_jobs": 36,
+      "reported_total": 36,
+      "internships": 36,
+      "internships_in_locations": 36
+    }
+  },
+  {
+    "name": "Anthropic",
+    "method": "greenhouse",
+    "params": {
+      "board": "anthropic"
+    },
+    "verified": {
+      "date": "2026-11-02",
+      "status": "pass",
+      "all_jobs": 677,
+      "reported_total": 677,
+      "internships": 0,
+      "internships_in_locations": 0
+    }
+  },
+  {
+    "name": "Figma",
+    "method": "greenhouse",
+    "params": {
+      "board": "figma"
+    },
+    "verified": {
+      "date": "2026-11-02",
+      "status": "pass",
+      "all_jobs": 141,
+      "reported_total": 141,
+      "internships": 11,
+      "internships_in_locations": 0
+    }
+  },
+  {
+    "name": "NVIDIA",
+    "method": "workday",
+    "params": {
+      "host": "nvidia.wd5.myworkdayjobs.com",
+      "tenant": "nvidia",
+      "site": "NVIDIAExternalCareerSite",
+      "search_text": "",
+      "applied_facets": {
+        "workerSubType": [
+          "0c40f6bd1d8f10adf6dae42e46d44a17"
+        ],
+        "locationHierarchy1": [
+          "2fcb99c455831013ea529c3b93ba3236"
+        ]
+      }
+    },
+    "verified": {
+      "date": "2026-11-02",
+      "status": "pass",
+      "all_jobs": 2,
+      "reported_total": 2,
+      "internships": 2,
+      "internships_in_locations": 2
+    }
+  },
+  {
+    "name": "Shopify",
+    "method": "browser_paginated",
+    "params": {
+      "url": "https://www.shopify.com/careers/jobs",
+      "page_param": "utm_page",
+      "link_pattern": "/careers/[a-z0-9-]+_[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+      "total_regex": "(?m)^\\s*([\\d,]+) roles\\s*$"
+    },
+    "verified": {
+      "date": "2026-11-02",
+      "status": "pass",
+      "all_jobs": 115,
+      "reported_total": 115,
+      "internships": 1,
+      "internships_in_locations": 1
+    }
+  },
+  {
+    "name": "RBC",
+    "method": "browser_paginated",
+    "params": {
+      "url": "https://jobs.rbc.com/ca/en/search-results?keywords=intern",
+      "page_param": "from",
+      "first_page": 0,
+      "page_step": 10,
+      "link_pattern": "/ca/en/job/R-\\d+",
+      "total_regex": "\\bof\\s+([\\d,]+)\\s*(?:results|jobs)"
+    },
+    "verified": {
+      "date": "2026-11-02",
+      "status": "pass",
+      "all_jobs": 84,
+      "reported_total": 84,
+      "internships": 39,
+      "internships_in_locations": 19
+    }
+  }
+]

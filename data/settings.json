@@ -1,0 +1,46 @@
+{
+  "locations": {
+    "allowed_countries": ["Canada"],
+    "include_unknown_locations": true
+  },
+  "internship_filter": {
+    "enabled_by_default": true,
+    "keywords": [
+      "intern", "interns", "internship", "internships",
+      "co-op", "co-ops",
+      "student", "students",
+      "university", "universities", "campus",
+      "early career", "early careers",
+      "apprentice", "apprentices", "apprenticeship", "apprenticeships",
+      "trainee", "trainees",
+      "summer analyst", "summer analysts",
+      "summer associate", "summer associates"
+    ]
+  },
+  "alerts": {
+    "timezone": "America/Toronto",
+    "email_hours": [8, 17],
+    "failures_before_alert": 3,
+    "telegram_delay_seconds": 1
+  },
+  "scraping": {
+    "companies_at_once": 5,
+    "request_timeout_seconds": 30,
+    "page_settle_seconds": 8,
+    "api_page_delay_seconds": 1,
+    "rate_limit_waits_seconds": [5, 20],
+    "max_api_pages": 100,
+    "max_browser_pages": 20
+  },
+  "add_company": {
+    "seconds_between_validation_scrapes": 3,
+    "stability_tolerance_percent": 1,
+    "max_titles_shown": 25
+  },
+  "claude": {
+    "max_attempts_per_company": 5,
+    "max_minutes_per_company": 10,
+    "discovery_timeout_minutes": 5,
+    "model": ""
+  }
+}

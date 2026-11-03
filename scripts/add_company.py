@@ -1,282 +1,194 @@
-"""Validate a company on this computer, then add it to companies.json.
+"""Add companies from plain text, such as "Nvidia, Tesla, and Ericsson".
 
 Usage:
-    python scripts/add_company.py "Company Name" "CAREER_PAGE_URL"
+    python scripts/add_company.py "Nvidia, Tesla, and Ericsson"
 
-Nothing is saved unless every check passes and you confirm the results.
-Add --allow-first-page-only to accept a generic page with more results than
-the scraper can reach. Use it only for a page sorted newest first.
+Steps for each company:
+    1. Claude finds the name and careers URL      -> data/tmp/discovery.json
+    2. Chromium inspects the careers page          -> data/tmp/evidence.json
+    3. Detection picks method candidates, and the validator tests them
+                                                   -> data/tmp/validation.json
+    4. If none pass, Claude investigates           -> data/tmp/investigation.json
+       and may recommend a scraper change          -> data/tmp/recommendations.json
+    5. You confirm, then the company is saved      -> data/companies.json
+       and the result is recorded                  -> data/companies_entered.json
 """
 
 import argparse
-import asyncio
-import json
 import re
 import sys
-import time
-import urllib.error
-import urllib.parse
+from datetime import date
 
-from playwright.async_api import TimeoutError as PlaywrightTimeout
-from playwright.async_api import async_playwright
-
-import scraper
-
-MAX_TITLES_SHOWN = 40
-SECONDS_BETWEEN_SCRAPES = 3
-SCROLL_WAIT_MS = 2_500
-
-LOGIN_PATH = re.compile(r"/(login|log-in|signin|sign-in|sso|auth)(/|$)", re.IGNORECASE)
-GREENHOUSE_LINK = re.compile(r"greenhouse\.io/([\w-]+)/jobs/\d+", re.IGNORECASE)
-
-# Returns the first visible, enabled control that leads to more results.
-FIND_MORE_RESULTS_CONTROL = r"""
-() => {
-  const label = /^(next|next page|next jobs|load more|show more|see more|view more)\b|^[›»>]$/i;
-  const controls = document.querySelectorAll('a, button, [role="button"]');
-  for (const control of controls) {
-    const text = (control.getAttribute('aria-label') || control.innerText || '').trim();
-    const disabled = control.disabled
-      || control.getAttribute('aria-disabled') === 'true'
-      || /disabled/i.test(control.className || '');
-    if (label.test(text) && !disabled && control.getClientRects().length) return text;
-  }
-  return document.querySelector('a[rel="next"]') ? 'rel=next link' : null;
-}
-"""
+import config
+from pipeline import claude, detect, discover, handoff, investigate, probe, validate
 
 
-class CheckFailed(Exception):
+NETWORK_ERRORS = re.compile(
+    r"ERR_NAME_NOT_RESOLVED|ERR_INTERNET_DISCONNECTED|ERR_NETWORK_CHANGED|getaddrinfo failed",
+    re.IGNORECASE,
+)
+
+
+class NetworkDown(Exception):
     pass
 
 
-def passed(message):
-    print(f"PASS  {message}")
+def check_network(error):
+    if NETWORK_ERRORS.search(str(error)):
+        raise NetworkDown("Your internet connection dropped. Nothing was saved. Try again later.")
 
 
-def greenhouse_board_from_url(url):
-    parts = urllib.parse.urlsplit(url)
-    if not (parts.hostname or "").endswith("greenhouse.io"):
-        return None
-    board = urllib.parse.parse_qs(parts.query).get("for", [""])[0]
-    path_parts = [part for part in parts.path.split("/") if part]
-    if not board and path_parts and path_parts[0] != "embed":
-        board = path_parts[0]
-    return board or None
+def find_method(name, url, settings):
+    """Return (report, recommendation) for one company."""
+    print(f"\n=== {name}\n  {url}")
+    try:
+        evidence = probe.inspect(name, url, settings)
+        print(f"  Page loaded (HTTP {evidence['status']}): {evidence['page_title'][:60]}")
+    except Exception as error:
+        check_network(error)
+        print(f"  Couldn't load the page: {str(error).splitlines()[0][:150]}")
+        evidence = {"company": name, "careers_url": url, "final_url": url, "error": str(error)[:300]}
+        config.write_json(config.EVIDENCE_FILE, {**evidence, "candidates_tried": []})
 
+    failed, waiting = [], None
+    for candidate in detect.candidates(name, evidence, settings):
+        report = validate.validate(name, candidate, settings)
+        check_network(report["reason"])
+        probe.record_tried(report)
+        print(f"  {candidate['method']} ({candidate['source']}): {report['status']}. {report['reason']}")
+        if report["status"] == "pass":
+            return report, None
+        if report["status"] == "needs_approval" and waiting is None:
+            waiting = report
+        else:
+            failed.append(report)
 
-async def inspect_page(url):
-    """Load a page and collect what's needed to identify and test it."""
-    search_requests = []
-
-    async with async_playwright() as playwright:
-        browser = await playwright.chromium.launch()
-        context = await browser.new_context(user_agent=scraper.USER_AGENT)
-        await context.route("**/*", scraper.block_heavy_resources)
-        page = await context.new_page()
-        page.on(
-            "request",
-            lambda request: search_requests.append(request.url)
-            if "/api/pcsx/search" in request.url
-            else None,
-        )
-
-        response = await page.goto(
-            url, wait_until="domcontentloaded", timeout=scraper.PAGE_TIMEOUT_MS
-        )
-        try:
-            await page.wait_for_load_state(
-                "networkidle", timeout=scraper.SETTLE_TIMEOUT_MS
-            )
-        except PlaywrightTimeout:
-            pass
-
-        count_links = "els => els.length"
-        links_before = await page.eval_on_selector_all("a[href]", count_links)
-        hrefs = await page.eval_on_selector_all("a[href]", "els => els.map(el => el.href)")
-        more_results = await page.evaluate(FIND_MORE_RESULTS_CONTROL)
-        await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-        await page.wait_for_timeout(SCROLL_WAIT_MS)
-        links_after = await page.eval_on_selector_all("a[href]", count_links)
-
-        info = {
-            "status": response.status if response else None,
-            "final_url": page.url,
-            "hrefs": hrefs,
-            "more_results": more_results,
-            "loads_on_scroll": links_after > links_before,
-            "search_requests": search_requests,
-        }
-        await browser.close()
-    return info
-
-
-def build_entry(name, url, info):
-    """Choose the most reliable way to read this company's jobs."""
-    board = greenhouse_board_from_url(url) or greenhouse_board_from_url(info["final_url"])
-    if not board:
-        match = GREENHOUSE_LINK.search(" ".join(info["hrefs"]))
-        board = match.group(1) if match else None
-    if board:
-        return {"name": name, "type": "greenhouse", "board": board}
-
-    if info["search_requests"]:
-        entry = {"name": name, "type": "eightfold", "url": info["final_url"]}
-        query = urllib.parse.urlsplit(info["search_requests"][0]).query
-        domain = urllib.parse.parse_qs(query).get("domain", [""])[0]
-        if domain and domain != scraper.eightfold_default_domain(info["final_url"]):
-            entry["eightfold_domain"] = domain
-        return entry
-
-    return {"name": name, "url": url}
-
-
-def reject_duplicates(companies, entry):
-    source = entry.get("board") or entry.get("url")
-    for company in companies:
-        if company["name"].casefold() == entry["name"].casefold():
-            raise CheckFailed(f'"{company["name"]}" is already in companies.json')
-        if source in (company.get("board"), company.get("url")):
-            raise CheckFailed(f'This source is already used by "{company["name"]}"')
-
-
-def check_page_loaded(info):
-    if info["status"] is None or info["status"] >= 400:
-        raise CheckFailed(f"The page returned HTTP {info['status']}")
-    if LOGIN_PATH.search(urllib.parse.urlsplit(info["final_url"]).path):
-        raise CheckFailed(f"The page redirected to a login screen: {info['final_url']}")
-    passed(f"Page is live (HTTP {info['status']})")
-
-
-def check_api_complete(entry):
-    """Compare what the scraper reads with the total reported by the API."""
-    if entry["type"] == "eightfold":
-        reported = scraper.get_json(scraper.eightfold_search_url(entry, 0))["data"]["count"]
-    else:
-        url = f"https://boards-api.greenhouse.io/v1/boards/{entry['board']}/jobs"
-        reported = scraper.get_json(url)["meta"]["total"]
-
-    time.sleep(scraper.API_PAGE_DELAY_SECONDS)
-    found = len(scraper.API_FETCHERS[entry["type"]](entry))
-    if found != reported:
-        raise CheckFailed(f"Read {found} of the {reported} jobs the site reports")
-    passed(f"All listings reachable ({found} of {reported} reported by the site)")
-
-
-def check_generic_page_complete(info, allow_first_page_only):
-    problems = []
-    if info["more_results"]:
-        problems.append(f'it has a "{info["more_results"]}" control')
-    if info["loads_on_scroll"]:
-        problems.append("more links load as you scroll")
-
-    if problems and not allow_first_page_only:
-        raise CheckFailed(
-            f"The scraper can only read part of this page: {' and '.join(problems)}. "
-            "Support for this site must be added first."
-        )
-    if problems:
-        print(f"WARN  Accepted with first-page-only access: {' and '.join(problems)}")
-    else:
-        passed("No further pages or scroll loading detected")
-    print("NOTE  This site reports no total, so compare the count below with the page.")
-
-
-def scrape_entry(entry):
-    return asyncio.run(scraper.scrape_all([entry]))[entry["name"]]
-
-
-def check_stable_results(entry):
-    first = scrape_entry(entry)
-    time.sleep(SECONDS_BETWEEN_SCRAPES)
-    second = scrape_entry(entry)
-
-    for result in (first, second):
-        if "error" in result:
-            raise CheckFailed(f"The scraper failed: {result['error']}")
-        if result["empty"]:
-            raise CheckFailed("The scraper found no job links on this page")
-    if set(first["jobs"]) != set(second["jobs"]):
-        raise CheckFailed("Two scrapes returned different jobs, so links aren't stable")
-
-    passed("Two scrapes returned the same jobs")
-    return first["jobs"]
-
-
-def show_jobs(entry, jobs):
-    print(f"\nInternships found: {len(jobs)}")
-    for title in sorted(jobs.values())[:MAX_TITLES_SHOWN]:
-        print(f"  {title}")
-    if len(jobs) > MAX_TITLES_SHOWN:
-        print(f"  ...and {len(jobs) - MAX_TITLES_SHOWN} more")
-    if not jobs:
-        print("  None right now. Confirm this matches the site.")
-    if entry.get("type") == "greenhouse":
-        print("\nGreenhouse mode checks every location, even if your URL had filters.")
-
-
-def save_entry(companies, entry):
-    temp_file = scraper.COMPANIES_FILE.with_suffix(".tmp")
-    temp_file.write_text(
-        json.dumps([*companies, entry], indent=2) + "\n", encoding="utf-8"
+    print("  Automatic detection didn't pass. Asking Claude to investigate.")
+    report, recommendation = investigate.investigate(
+        name, url, failed + ([waiting] if waiting else []), settings
     )
-    temp_file.replace(scraper.COMPANIES_FILE)
+    return report or waiting, recommendation
 
 
-def validate(name, url, companies, allow_first_page_only):
-    info = asyncio.run(inspect_page(url))
-    check_page_loaded(info)
+def describe(report):
+    counts = report["counts"]
+    total = counts["reported_total"]
+    total_text = f" of {total} reported" if total is not None else ""
+    return (
+        f"{report['method']}: read {counts['all_jobs']} jobs{total_text}, "
+        f"{counts['internships']} internships, "
+        f"{counts['internships_in_locations']} in your countries"
+    )
 
-    entry = build_entry(name, url, info)
-    passed(f"Platform: {entry.get('type', 'generic page')}")
-    reject_duplicates(companies, entry)
 
-    if "type" in entry:
-        check_api_complete(entry)
-    else:
-        check_generic_page_complete(info, allow_first_page_only)
+def build_entry(name, report):
+    return {
+        "name": name,
+        "method": report["method"],
+        "params": report["params"],
+        "verified": {
+            "date": date.today().isoformat(),
+            "status": report["status"],
+            **report["counts"],
+        },
+    }
 
-    return entry, check_stable_results(entry)
+
+def record_entered(name, url, status, reason, method=None):
+    entered = config.read_json(config.ENTERED_FILE, default=[])
+    entered = [item for item in entered if item["name"].casefold() != name.casefold()]
+    entered.append({
+        "name": name, "careers_url": url, "entered": date.today().isoformat(),
+        "status": status, "method": method, "reason": reason,
+    })
+    config.write_json(config.ENTERED_FILE, entered)
+
+
+def confirm(question):
+    return input(f"{question} Type y to confirm: ").strip().lower() == "y"
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    parser.add_argument("name")
-    parser.add_argument("url")
-    parser.add_argument("--allow-first-page-only", action="store_true")
+    parser.add_argument("text", nargs="+", help="Company names, such as: Nvidia, Tesla, and Ericsson")
     args = parser.parse_args()
-
     sys.stdout.reconfigure(errors="replace")
-    name = args.name.strip()
-    if not name:
-        print("FAIL  The company name is empty.")
-        return 1
-    if urllib.parse.urlsplit(args.url).scheme not in ("http", "https"):
-        print("FAIL  The URL must start with http:// or https://")
-        return 1
 
-    companies = json.loads(scraper.COMPANIES_FILE.read_text(encoding="utf-8"))
+    settings = config.load_settings()
+    handoff.prepare_tmp()
+    config.write_json(config.CLAUDE_LOG_FILE, [])
+    text = " ".join(args.text).strip()
+
+    print("Finding companies and careers pages with Claude...")
     try:
-        entry, jobs = validate(name, args.url, companies, args.allow_first_page_only)
-    except (CheckFailed, urllib.error.URLError, TimeoutError, KeyError) as error:
-        print(f"FAIL  {error}\n\nNot added. companies.json was not changed.")
+        found = discover.discover(text, settings)
+    except claude.ClaudeUnavailable as error:
+        print(f"FAIL  {error}")
         return 1
     except Exception as error:
-        print(f"FAIL  {type(error).__name__}: {str(error).splitlines()[0]}")
-        print("\nNot added. companies.json was not changed.")
+        print(f"FAIL  Company discovery failed: {str(error)[:200]}")
         return 1
+    print(f"Found {len(found)}: {', '.join(company['name'] for company in found)}")
 
-    show_jobs(entry, jobs)
-    if input(f"\nAdd {name}? Type y to confirm: ").strip().lower() != "y":
-        print("Not added. companies.json was not changed.")
-        return 1
+    companies = config.load_companies()
+    results = []
+    for company in found:
+        name, url = company["name"], company["careers_url"]
+        if any(existing["name"].casefold() == name.casefold() for existing in companies):
+            results.append((name, url, "already added", None, None))
+            continue
+        if not url:
+            results.append((name, url, "rejected", None, f"No careers URL found. {company['notes']}"))
+            continue
 
-    save_entry(companies, entry)
-    print(f"\nAdded {name}. To send it to GitHub:")
-    print("  git add companies.json")
-    print(f'  git commit -m "Add {name}"')
-    print("  git pull --rebase origin main")
-    print("  git push")
+        try:
+            report, recommendation = find_method(name, url, settings)
+        except NetworkDown as error:
+            print(f"\nFAIL  {error}")
+            return 1
+        if report and any(
+            detect.same_source(existing, report["method"], report["params"]) for existing in companies
+        ):
+            results.append((name, url, "already added", report, "Same source as an existing company."))
+        elif report:
+            results.append((name, url, report["status"], report, report["reason"]))
+        elif recommendation:
+            results.append((name, url, "needs new method", None, recommendation.get("summary", "")))
+        else:
+            results.append((name, url, "rejected", None, "No method passed validation."))
+
+    print("\n" + "=" * 60 + "\nSUMMARY")
+    added = 0
+    for name, url, status, report, reason in results:
+        print(f"\n{name}: {status.upper()}")
+        if report:
+            print(f"  {describe(report)}")
+            for title in report["sample_titles"]:
+                print(f"    {title}")
+        if reason:
+            print(f"  {reason}")
+
+        if status in ("pass", "needs_approval"):
+            if status == "needs_approval":
+                print("  WARNING: Completeness can't be proven. Compare these with the site.")
+            if confirm(f"  Add {name}?"):
+                companies.append(build_entry(name, report))
+                config.write_json(config.COMPANIES_FILE, companies)
+                record_entered(name, url, "added", report["reason"], report["method"])
+                added += 1
+            else:
+                record_entered(name, url, "declined", report["reason"], report["method"])
+        elif status != "already added":
+            record_entered(name, url, status, reason)
+
+    if added:
+        print(f"\nAdded {added}. To send the changes to GitHub:")
+        print("  git add data")
+        print('  git commit -m "Add companies"')
+        print("  git pull --rebase origin main")
+        print("  git push")
+    else:
+        print("\nNo companies were added. data/companies.json was not changed.")
     return 0
 
 

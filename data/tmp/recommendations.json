@@ -1,0 +1,11 @@
+[
+  {
+    "date": "2026-11-02T21:18:31",
+    "company": "Tesla",
+    "careers_url": "https://www.tesla.com/careers/search/?query=intern",
+    "summary": "Tesla runs its own careers system on tesla.com behind Akamai bot protection, which returns 403 Access Denied to automated clients, so no supported method can read it without getting around bot protection.",
+    "suggested_method": "manual / not scrapable",
+    "how_it_works": "The careers search page (https://www.tesla.com/careers/search/?query=intern) loads its listings from Tesla's internal endpoint https://www.tesla.com/cua-api/apps/careers/state, which returns JSON holding all listings and lookup tables for location and department. A browser would fetch it and filter listings by title keyword. Akamai blocks that endpoint and the page for automated clients, so it is only reachable from a real, unflagged browser session. Tesla doesn't use Greenhouse, Ashby, Lever, Workday or another third-party job board.",
+    "evidence": "Automatic inspection with headless Chromium got HTTP 403 with page title 'Access Denied' and no API requests or job links. WebFetch of https://www.tesla.com/cua-api/apps/careers/state also returned 403. Greenhouse board 'tesla' reset the connection, and Ashby and Lever 'tesla' returned 404. Bash wasn't available in this session, so I couldn't try curl or scripts/test_method.py."
+  }
+]

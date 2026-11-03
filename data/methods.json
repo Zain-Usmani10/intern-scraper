@@ -1,0 +1,198 @@
+{
+  "greenhouse": {
+    "description": "Greenhouse public job board API.",
+    "recognize": "Links or requests to boards.greenhouse.io/BOARD, job-boards.greenhouse.io/BOARD, or boards-api.greenhouse.io/v1/boards/BOARD.",
+    "completeness": "api_total",
+    "params": {
+      "board": {
+        "required": true,
+        "description": "Board name from the Greenhouse URL.",
+        "example": "figureai"
+      }
+    }
+  },
+  "ashby": {
+    "description": "Ashby public job board API.",
+    "recognize": "Links or requests to jobs.ashbyhq.com/BOARD or api.ashbyhq.com/posting-api/job-board/BOARD.",
+    "completeness": "complete_list",
+    "params": {
+      "board": {
+        "required": true,
+        "description": "Board name from the Ashby URL.",
+        "example": "skydio"
+      }
+    }
+  },
+  "lever": {
+    "description": "Lever public postings API.",
+    "recognize": "Links or requests to jobs.lever.co/SITE or api.lever.co/v0/postings/SITE.",
+    "completeness": "complete_list",
+    "params": {
+      "site": {
+        "required": true,
+        "description": "Site name from the Lever URL.",
+        "example": "palantir"
+      },
+      "region": {
+        "required": false,
+        "description": "Use \"eu\" for jobs.eu.lever.co boards.",
+        "example": "eu"
+      }
+    }
+  },
+  "workday": {
+    "description": "Workday career site search API.",
+    "recognize": "Host ends in myworkdayjobs.com, with requests to /wday/cxs/TENANT/SITE/jobs.",
+    "completeness": "api_total",
+    "params": {
+      "host": {
+        "required": true,
+        "description": "Workday host.",
+        "example": "nvidia.wd5.myworkdayjobs.com"
+      },
+      "tenant": {
+        "required": true,
+        "description": "Tenant from /wday/cxs/TENANT/SITE/jobs.",
+        "example": "nvidia"
+      },
+      "site": {
+        "required": true,
+        "description": "Site from /wday/cxs/TENANT/SITE/jobs.",
+        "example": "NVIDIAExternalCareerSite"
+      },
+      "search_text": {
+        "required": false,
+        "description": "Search text sent to Workday. Empty means all jobs.",
+        "example": "intern"
+      },
+      "applied_facets": {
+        "required": false,
+        "description": "Workday filters as {facetParameter: [value ids]}.",
+        "example": {
+          "workerSubType": [
+            "0c40f6bd1d8f10adf6dae42e46d44a17"
+          ]
+        }
+      }
+    }
+  },
+  "eightfold": {
+    "description": "Eightfold career site search API.",
+    "recognize": "Requests to /api/pcsx/search, or a footer that says Powered by eightfold.ai.",
+    "completeness": "api_total",
+    "params": {
+      "url": {
+        "required": true,
+        "description": "Career search page URL. Its filters carry over to the API.",
+        "example": "https://careers.qualcomm.com/careers?location=Canada&filter_seniority=Intern"
+      },
+      "domain": {
+        "required": false,
+        "description": "Eightfold domain value, when it isn't the site's main domain.",
+        "example": "microsoft.com"
+      }
+    }
+  },
+  "amazon": {
+    "description": "Amazon Jobs search API.",
+    "recognize": "The site is amazon.jobs.",
+    "completeness": "api_total",
+    "params": {
+      "query": {
+        "required": true,
+        "description": "Search text.",
+        "example": "intern"
+      },
+      "extra_query": {
+        "required": false,
+        "description": "Extra search.json query parameters.",
+        "example": {
+          "country": "USA"
+        }
+      }
+    }
+  },
+  "icims_jibe": {
+    "description": "iCIMS Jibe career site API at SITE/api/jobs.",
+    "recognize": "The page requests SITE/api/jobs and the response has totalCount and jobs[].data.",
+    "completeness": "api_total",
+    "params": {
+      "site": {
+        "required": true,
+        "description": "Site origin.",
+        "example": "https://careers.amd.com"
+      },
+      "jobs_path": {
+        "required": true,
+        "description": "Path that job pages live under.",
+        "example": "/careers-home/jobs"
+      },
+      "keywords": {
+        "required": false,
+        "description": "Search text.",
+        "example": "intern"
+      },
+      "extra_query": {
+        "required": false,
+        "description": "Extra /api/jobs query parameters.",
+        "example": {
+          "country": "Canada"
+        }
+      }
+    }
+  },
+  "browser_paginated": {
+    "description": "Loads numbered result pages in Chromium and collects job links until no new ones appear.",
+    "recognize": "Results are split into pages that change a URL parameter, such as page=2 or start=20.",
+    "completeness": "page_total_or_approval",
+    "params": {
+      "url": {
+        "required": true,
+        "description": "First results page URL.",
+        "example": "https://www.google.com/about/careers/applications/jobs/results/?q=intern"
+      },
+      "page_param": {
+        "required": true,
+        "description": "URL parameter that selects the page.",
+        "example": "page"
+      },
+      "first_page": {
+        "required": false,
+        "description": "Value of page_param on the first page. Default 1.",
+        "example": 1
+      },
+      "page_step": {
+        "required": false,
+        "description": "Amount page_param grows per page. Default 1.",
+        "example": 1
+      },
+      "link_pattern": {
+        "required": false,
+        "description": "Regex that only job posting links match.",
+        "example": "/jobs/results/\\d+"
+      },
+      "total_regex": {
+        "required": false,
+        "description": "Regex with one group capturing the site's total result count from the first page's text. Without it, the company needs manual approval.",
+        "example": "([\\d,]+) jobs matched"
+      }
+    }
+  },
+  "browser_page": {
+    "description": "Loads one page in Chromium and collects job links. Last resort.",
+    "recognize": "All jobs are on one page, with no pagination or loading on scroll.",
+    "completeness": "approval",
+    "params": {
+      "url": {
+        "required": true,
+        "description": "Page URL.",
+        "example": "https://example.com/careers"
+      },
+      "link_pattern": {
+        "required": false,
+        "description": "Regex that only job posting links match.",
+        "example": "/careers/\\d+"
+      }
+    }
+  }
+}
