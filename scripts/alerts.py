@@ -72,11 +72,42 @@ def notify(text):
     return send_telegram(text) or send_gmail(clean_title(text)[:80], text)
 
 
+# The alert formats are locked by tests/test_alert_format.py, which compares
+# them with the approved examples in sample/. To change them on purpose, run
+# scripts/make_samples.py after editing, and commit the new samples.
+
+NO_COUNTRY = "Location not listed"
+
+# Dummy jobs for --test-alert and the samples: 3 companies, one with Canadian,
+# US, and unlisted jobs.
+SAMPLE_JOBS = [
+    {"company": company, "title": title, "location": location, "country": country,
+     "url": f"https://example.com/jobs/{number}"}
+    for number, (company, title, location, country) in enumerate([
+        ("Northwind Robotics", "Embedded Firmware Intern (Summer 2027)", "Toronto, ON", "Canada"),
+        ("Northwind Robotics", "Hardware Validation Co-op", "Waterloo, ON", "Canada"),
+        ("Northwind Robotics", "Robotics Software Intern", "Boston, MA", "United States"),
+        ("Northwind Robotics", "FPGA Design Intern", "Austin, TX", "United States"),
+        ("Northwind Robotics", "Controls Engineering Intern", "Remote", ""),
+        ("Maple Silicon", "ASIC Verification Intern", "Ottawa, ON", "Canada"),
+        ("Maple Silicon", "Analog Design Co-op (8 months)", "Kanata, ON", "Canada"),
+        ("Maple Silicon", "Test Engineering Student", "Ottawa, ON", "Canada"),
+        ("Aurora Photonics", "Optical Systems Intern", "Vancouver, BC", "Canada"),
+        ("Aurora Photonics", "Data Pipeline Co-op", "Burnaby, BC", "Canada"),
+    ], 1)
+]
+
+
+def country_label(job):
+    return job.get("country") or NO_COUNTRY
+
+
 def format_job(job):
-    lines = [job["company"], job["title"]]
+    """One Telegram alert, casual: company and country, then the job."""
+    lines = ["🚨 New internship!", f"{job['company']} · {country_label(job)}", "", job["title"]]
     if job.get("location"):
-        lines.append(job["location"])
-    lines.append(job["url"])
+        lines.append(f"📍 {job['location']}")
+    lines.append(f"👉 {job['url']}")
     return "\n".join(lines)
 
 
@@ -84,7 +115,7 @@ def send_queued_telegrams(jobs, settings):
     """Send each job to Telegram. Return the jobs that still need sending."""
     unsent = []
     for job in jobs:
-        if not send_telegram(f"New internship\n\n{format_job(job)}"):
+        if not send_telegram(format_job(job)):
             unsent.append(job)
         time.sleep(settings["alerts"]["telegram_delay_seconds"])
     return unsent
@@ -103,8 +134,23 @@ def latest_email_slot(now, settings):
     return max(slot for slot in slots if slot <= now)
 
 
+def group_jobs(jobs):
+    """{company: {country: [jobs]}}, sorted, with unknown countries last."""
+    grouped = {}
+    for job in sorted(jobs, key=lambda job: (job["company"].casefold(), job["title"].casefold())):
+        grouped.setdefault(job["company"], {}).setdefault(country_label(job), []).append(job)
+    return {
+        company: dict(sorted(countries.items(), key=lambda item: (item[0] == NO_COUNTRY, item[0])))
+        for company, countries in grouped.items()
+    }
+
+
 def build_email(jobs, slot):
-    """Return the subject, plain text, and HTML for a scheduled email."""
+    """Return the subject, plain text, and HTML for a scheduled email.
+
+    Layout: numbered companies, each country in bold, then numbered jobs with
+    a linked title and the location.
+    """
     count = len(jobs)
     date = f"{slot:%B} {slot.day}, {slot.year}"
     edition = "Morning Update" if slot.hour < 12 else "Evening Update"
@@ -115,36 +161,26 @@ def build_email(jobs, slot):
     )
     subject = f"Internship {edition}: {count} New | {date}"
 
-    by_company = {}
-    for job in sorted(jobs, key=lambda job: (job["company"], job["title"])):
-        by_company.setdefault(job["company"], []).append(job)
-
-    text_parts = [f"Internship {edition}", date, "", summary]
-    html_parts = [
-        '<div style="font-family:Arial,sans-serif;color:#222;line-height:1.5;">',
-        f'<h2 style="margin:0;">Internship {edition}</h2>',
-        f'<p style="margin:4px 0 16px;color:#555;">{date}</p>',
-        f"<p>{summary}</p>",
+    text = [f"Internship {edition}", date, "", summary]
+    page = [
+        '<div style="font-family:Arial,sans-serif;font-size:14px;">',
+        f'<h2 style="font-size:20px;margin:0;">Internship {edition}</h2>',
+        f"<p>{date}<br>{summary}</p>",
     ]
-    for company, company_jobs in by_company.items():
-        text_parts.extend(["", company])
-        html_parts.append(
-            f'<h3 style="margin:20px 0 6px;">{html.escape(company)}</h3>'
-            '<ul style="margin:0;padding-left:20px;">'
-        )
-        for job in company_jobs:
-            location = job.get("location") or ""
-            text_parts.append(
-                f"- {job['title']}" + (f" ({location})" if location else "") + f"\n  {job['url']}"
-            )
-            url = html.escape(job["url"], quote=True)
-            place = (
-                f' <span style="color:#666;">({html.escape(location)})</span>' if location else ""
-            )
-            html_parts.append(
-                f'<li><a href="{url}">{html.escape(job["title"])}</a>{place}</li>'
-            )
-        html_parts.append("</ul>")
-    html_parts.append("</div>")
+    for number, (company, countries) in enumerate(group_jobs(jobs).items(), 1):
+        total = sum(len(country_jobs) for country_jobs in countries.values())
+        text += ["", f"{number}. {company} ({total})"]
+        page.append(f'<h3 style="font-size:17px;margin:18px 0 4px;">{number}. {html.escape(company)} ({total})</h3>')
+        for country, country_jobs in countries.items():
+            text.append(f"   {country} ({len(country_jobs)})")
+            page.append(f'<p style="margin:8px 0 2px;"><b>{html.escape(country)} ({len(country_jobs)})</b></p><ol style="margin:0;">')
+            for position, job in enumerate(country_jobs, 1):
+                location = job.get("location") or ""
+                text.append(f"      {position}. {job['title']}" + (f" - {location}" if location else ""))
+                text.append(f"         {job['url']}")
+                place = f" - {html.escape(location)}" if location else ""
+                page.append(f'<li><a href="{html.escape(job["url"], quote=True)}"><b>{html.escape(job["title"])}</b></a>{place}</li>')
+            page.append("</ol>")
+    page.append("</div>")
 
-    return subject, "\n".join(text_parts), "".join(html_parts)
+    return subject, "\n".join(text), "\n".join(page)

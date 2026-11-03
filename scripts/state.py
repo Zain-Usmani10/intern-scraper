@@ -34,6 +34,7 @@ def update_seen(record, jobs, today, forget_after_missed_runs):
         # Older files stored only a timestamp string.
         first_seen = old["first_seen"] if isinstance(old, dict) else (old or today)[:10]
         seen[url] = {"title": job["title"], "location": job["location"],
+                     "country": job.get("country", ""),
                      "first_seen": first_seen, "last_seen": today, "missed_runs": 0}
 
     for url in [url for url in seen if url not in jobs]:
@@ -97,7 +98,8 @@ def apply_results(state, results, today, settings):
         else:
             new = update_seen(record, jobs, today, forget_after)
             new_jobs.extend(
-                {"company": name, "title": job["title"], "location": job["location"], "url": url}
+                {"company": name, "title": job["title"], "location": job["location"],
+                 "country": job.get("country", ""), "url": url}
                 for url, job in new.items()
             )
 

@@ -49,6 +49,7 @@ No AI runs in GitHub Actions. Claude only helps add companies, and only the vali
 | `data/companies_entered.json` | Everything you entered, with its status and reason |
 | `data/seen_jobs.json` | Currently active matching jobs per company (title, location, first and last seen), alert queues, and failure counts |
 | `data/tmp/recommendations.json` | Claude's suggested scraper changes, kept permanently |
+| `sample/` | Approved alert examples: `email.pdf`, `email.html`, `email.txt`, `telegram.txt`. `tests/test_alert_format.py` fails if alerts stop matching them. To change the format, edit `scripts/alerts.py`, run `scripts/make_samples.py`, and commit. |
 
 ## Open items
 

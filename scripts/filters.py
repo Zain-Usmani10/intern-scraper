@@ -161,6 +161,40 @@ def location_allowed(locations, settings, countries=None):
     return settings["locations"]["include_unknown_locations"] if verdict is None else verdict
 
 
+@lru_cache(maxsize=None)
+def country_terms(countries):
+    """Map each place name or code to (allowed country, weight).
+
+    A code that is both a country code and another allowed country's state
+    code, like CA (Canada, or California), leans to the state, weakly.
+    """
+    names, codes, state_codes = {}, {}, {}
+    for name in countries:
+        country = pycountry.countries.lookup(name)
+        country_names, country_codes = country_names_and_codes(country)
+        for term in country_names:
+            names[term.casefold()] = (name, 2)
+        for region in pycountry.subdivisions.get(country_code=country.alpha_2) or []:
+            names.setdefault(region.name.casefold(), (name, 1))
+            state_codes[region.code.split("-")[1]] = name
+        for code in country_codes:
+            codes[code] = (name, 1)
+    for code, name in state_codes.items():
+        codes[code] = (name, 0.5) if code in codes and codes[code][0] != name else (name, 1)
+    return names, codes, terms_regex(set(names), set(codes))
+
+
+def job_country(text, countries):
+    """Return the allowed country a location or title points to, or ""."""
+    names, codes, pattern = country_terms(tuple(countries))
+    scores = {}
+    for term in pattern.findall(text or "") if pattern else []:
+        country, weight = names.get(term.casefold()) or codes.get(term) or (None, 0)
+        if country:
+            scores[country] = scores.get(country, 0) + weight
+    return max(scores, key=lambda country: (scores[country], -countries.index(country)), default="")
+
+
 def apply_filters(jobs, company, settings):
     """Filter {url: {title, locations}} with the company's or default rules."""
     filters = company.get("filters", {})
@@ -182,5 +216,9 @@ def apply_filters(jobs, company, settings):
             verdict = settings["locations"]["include_unknown_locations"]
         if not verdict:
             continue
-        kept[url] = {"title": job["title"], "location": "; ".join(job["locations"][:3])}
+        chosen = list(countries or settings["locations"]["allowed_countries"])
+        country = (job_country(" ; ".join(job["locations"]), chosen)
+                   or job_country(f"{job['title']} {job.get('location_hint', '')}", chosen))
+        kept[url] = {"title": job["title"], "location": "; ".join(job["locations"][:3]),
+                     "country": country}
     return kept

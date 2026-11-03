@@ -62,18 +62,13 @@ def print_dry_run(results):
 
 
 def send_test_alerts(settings):
-    telegram = alerts.send_telegram("Test alert from your internship scraper.")
-    sample = {
-        "company": "Example Company",
-        "title": "Sample Internship (Test)",
-        "location": "Toronto, Ontario, Canada",
-        "url": "https://example.com/jobs/1",
-    }
+    jobs = alerts.SAMPLE_JOBS
+    telegram = alerts.send_telegram("TEST (dummy data)\n\n" + alerts.format_job(jobs[2]))
     slot = alerts.latest_email_slot(
         datetime.now(ZoneInfo(settings["alerts"]["timezone"])), settings
     )
-    subject, text, body = alerts.build_email([sample], slot)
-    gmail = alerts.send_gmail(f"Test: {subject}", text, body, include_friend=True)
+    subject, text, body = alerts.build_email(jobs, slot)
+    gmail = alerts.send_gmail(f"TEST (dummy data): {subject}", text, body, include_friend=False)
     print(f"Telegram: {'sent' if telegram else 'NOT sent'}")
     print(f"Gmail: {'sent' if gmail else 'NOT sent'}")
     return 0 if telegram or gmail else 1
