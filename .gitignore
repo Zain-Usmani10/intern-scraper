@@ -1,21 +1,12 @@
-# Secrets
 .env
 .env.*
-
-# Claude handoff files: local only, except recommendations
 data/tmp/*
 !data/tmp/recommendations.json
-
-# Python
 .venv/
 __pycache__/
 *.py[cod]
-
-# Temporary files and logs
 *.tmp
 *.log
-
-# Editor and OS files
 .vscode/
 .idea/
 .claude/
