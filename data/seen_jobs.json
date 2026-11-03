@@ -1,0 +1,1943 @@
+{
+  "companies": {
+    "Qualcomm": {
+      "failures": 0,
+      "seen": {
+        "https://careers.qualcomm.com/careers/job/446721862429": {
+          "title": "FY27 Intern - AI Software Engineering Co-op - Canada (4 months)",
+          "location": "Toronto, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721862430": {
+          "title": "FY27 Intern - AI Software Systems Co-op - Canada (4 months)",
+          "location": "Toronto, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721913672": {
+          "title": "FY27 Intern - Digital Design Engineering Internship - Canada (16 months)",
+          "location": "Toronto, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721914045": {
+          "title": "FY27 Intern - Qualcomm SoC Engineering Internship - Canada (16 months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721913898": {
+          "title": "FY27 Intern - Deep Learning Research Internship - Canada (4 Months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721913769": {
+          "title": "FY27 Intern - Design Verification Engineering Internship - Canada (16 months)",
+          "location": "Toronto, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721874877": {
+          "title": "FY27 Intern - High-Speed Electrical and Optical Systems Validation Co-Op - Canada (4 months)",
+          "location": "Ottawa, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721862542": {
+          "title": "FY27 Intern - Softip Engineering Co-Op - Canada (4 months)",
+          "location": "Ottawa, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721876037": {
+          "title": "FY27 Intern - Camera Systems Internship - Canada (16 months)",
+          "location": "Vancouver, British Columbia, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721829462": {
+          "title": "FY27 Intern - Camera HW ASIC Verification Intern - Canada (12 or 16 months)",
+          "location": "Vancouver, British Columbia, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721858024": {
+          "title": "FY27 Intern - Deep Learning Research Internship - Embodied AI - Canada (4 Months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721828828": {
+          "title": "FY27 Intern - Deep Learning Research Internship - Canada (4 Months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721349404": {
+          "title": "FY27 Intern - Design Automation & Quality Assurance Engineering Intern - Canada (16 months)",
+          "location": "Toronto, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721829439": {
+          "title": "FY27 Intern - Camera Design Engineering Internship - Canada (12 or 16 months)",
+          "location": "Vancouver, British Columbia, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721636765": {
+          "title": "FY27 Intern - Machine Learning AISW Internship - Canada (4 Months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721678727": {
+          "title": "FY27 Intern - Camera Design Implementation Intern - Canada (16 months)",
+          "location": "Vancouver, British Columbia, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721678733": {
+          "title": "FY27 Intern - Applied AI Engineering Intern (Hardware Systems) - Canada (16 months)",
+          "location": "Vancouver, British Columbia, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721686396": {
+          "title": "FY27 Intern - AI and DSP Applications Engineering Internship - Canada (16 months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721661677": {
+          "title": "FY27 Intern - Display Systems Engineering Internship - Canada (16 months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721661830": {
+          "title": "FY27 Intern - Edge AI and Display Hardware Architecture Development Engineering Internship - Canada (16 months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721636316": {
+          "title": "FY27 Intern - QDSP Hardware Physical Design Internship - Canada (12 or 16 months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721615591": {
+          "title": "FY27 Intern - Automotive Engineering Internship - Canada (16 months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721302471": {
+          "title": "FY27 Intern - Soft IP ASIC Engineering Internship - Canada (12 or 16 months)",
+          "location": "Ottawa, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721229661": {
+          "title": "FY27 Intern - PAL Firmware Development Internship - Canada (16 months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721156182": {
+          "title": "FY27 Intern - MSIP Digital Design Engineering Internship - Canada (16 months)",
+          "location": "Toronto, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721156615": {
+          "title": "FY27 Intern - IP Applications Engineering Internship - Canada (16 months)",
+          "location": "Toronto, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721156800": {
+          "title": "FY27 Intern - MSIP Digital Design Verification Engineering Internship - Canada (16 months)",
+          "location": "Toronto, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721143274": {
+          "title": "FY27 Intern - Silicon Validation Internship - Canada (16 months)",
+          "location": "Toronto, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721143440": {
+          "title": "FY27 Intern - Low Power AI Software Development Internship - Canada (16 months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721064018": {
+          "title": "FY27 Intern - Machine Learning Compiler & Performance Engineering Intern - Canada (16 months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721064094": {
+          "title": "FY27 Intern - Compute DSP/AI Processor Engineering Internship - Canada (16 months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721109168": {
+          "title": "FY27 Intern - Low-Power AI, Audio, and Sensors Subsystem Engineering Internship - ASIC Firmware / Embedded - Canada (12 or 16 months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721140936": {
+          "title": "FY27 Intern - MSIP Design Methodology Engineering Internship - Canada (16 months)",
+          "location": "Toronto, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721141411": {
+          "title": "FY27 Intern - Firmware/Embedded Software Engineering Internship - Canada (12 or 16 months)",
+          "location": "Toronto, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721064141": {
+          "title": "FY27 Intern - Display IP Engineering Internship - Canada (16 months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721109229": {
+          "title": "FY27 Intern - Low-Power AI, Audio, and Sensors Subsystem Engineering Internship - ASIC Design / Verification/Implementation - Canada (12 or 16 months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        }
+      }
+    },
+    "Anthropic": {
+      "failures": 0,
+      "seen": {}
+    },
+    "Figma": {
+      "failures": 0,
+      "seen": {}
+    },
+    "NVIDIA": {
+      "failures": 0,
+      "seen": {
+        "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/ASIC-Verification-Intern---Summer-2027_JR2027982": {
+          "title": "ASIC Verification Intern - Summer 2027",
+          "location": "Canada, Toronto",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/PhD-Research-Intern--Quantum-and-AI-for-Chemistry---2027_JR2024997": {
+          "title": "PhD Research Intern, Quantum and AI for Chemistry - 2027",
+          "location": "Canada, Toronto",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        }
+      }
+    },
+    "Shopify": {
+      "failures": 0,
+      "seen": {
+        "https://www.shopify.com/careers/apprentice-product-manager-spring-2027_2f3b3b4f-be41-4e08-ab6f-d38b9f798c84": {
+          "title": "Apprentice Product Manager - Spring 2027",
+          "location": "",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        }
+      }
+    },
+    "RBC": {
+      "failures": 0,
+      "seen": {
+        "https://jobs.rbc.com/ca/en/job/R-0000190985/Client-Advisor-Intern": {
+          "title": "Client Advisor Intern",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000191485/Client-Advisor-Intern": {
+          "title": "Client Advisor Intern",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000190989/Banking-Advisor-Intern": {
+          "title": "Banking Advisor Intern",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000191043/Banking-Advisor-Intern": {
+          "title": "Banking Advisor Intern",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000191330/Financial-Advisor-Intern": {
+          "title": "Financial Advisor Intern",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000191284/Client-Advisor-Intern": {
+          "title": "Client Advisor Intern",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000190413/Client-Advisor-Intern": {
+          "title": "Client Advisor Intern",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000191628/Client-Advisor-Intern": {
+          "title": "Client Advisor Intern",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000191626/Banking-Advisor-Intern": {
+          "title": "Banking Advisor Intern",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000185223/Client-Advisor-Intern": {
+          "title": "Client Advisor Intern",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000185397/Banking-Advisor-Intern": {
+          "title": "Banking Advisor Intern",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000191721/Client-Advisor-Intern": {
+          "title": "Client Advisor Intern",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000190794/Banking-Advisor-Intern": {
+          "title": "Banking Advisor Intern",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000187724/Relationship-Manager-Intern-Commercial-Financial-Services": {
+          "title": "Relationship Manager Intern, Commercial Financial Services",
+          "location": "",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000190805/Financial-Planner-Relationship-Intern": {
+          "title": "Financial Planner Relationship Intern",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000190956/Relationship-Manager-Business-Markets-Intern": {
+          "title": "Relationship Manager Business Markets Intern",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000188258/Relationship-Manager-Intern-Business-Market": {
+          "title": "Relationship Manager Intern, Business Market",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000191326/Assistant-Branch-Manager-Intern-Bloor-Yonge-Branch": {
+          "title": "Assistant Branch Manager Intern, Bloor & Yonge Branch",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000191329/Assistant-Branch-Manager-Intern-Bloor-Yonge-Branch": {
+          "title": "Assistant Branch Manager Intern, Bloor & Yonge Branch",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        }
+      }
+    },
+    "Kepler Communications": {
+      "failures": 0,
+      "seen": {
+        "https://jobs.lever.co/kepler/ccb93343-3e2f-485d-bccf-5e34512bf4cb": {
+          "title": "IT Intern (January 2027) (4 months)",
+          "location": "Toronto, Ontario; CA",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.lever.co/kepler/d3762d72-05c4-4bfa-96c7-4cd40871756c": {
+          "title": "People & Culture Intern (January 2027) (4 months)",
+          "location": "Toronto, Ontario; CA",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.lever.co/kepler/5514238a-8301-49f1-8116-26d38ea0900c": {
+          "title": "Software Engineering Intern (January 2027)",
+          "location": "Toronto, Ontario; CA",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://jobs.lever.co/kepler/708c94ba-478f-4b2f-88dd-8fa808ca2866": {
+          "title": "Supply Chain Intern (Jan 2027) (4 months)",
+          "location": "Toronto, Ontario; CA",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        }
+      }
+    },
+    "Tenstorrent": {
+      "failures": 0,
+      "seen": {}
+    },
+    "Garmin": {
+      "failures": 0,
+      "seen": {}
+    },
+    "Miovision": {
+      "failures": 0,
+      "seen": {}
+    },
+    "Semtech": {
+      "failures": 0,
+      "seen": {
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/PCB-Layout-Intern_REQ3632": {
+          "title": "PCB Layout Intern",
+          "location": "CAN - Burlington, ON",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Richmond-BC/AI-Workflow---Operations-Intern_REQ3640": {
+          "title": "AI Workflow & Operations Intern",
+          "location": "CAN - Richmond, BC",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Richmond-BC/Software-Developer---Web-Cloud-Application--Co-op_REQ3644": {
+          "title": "Software Developer – Web/Cloud Application, Co-op",
+          "location": "CAN - Richmond, BC",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Validation-Engineering-Intern_REQ3628": {
+          "title": "Validation Engineering Intern",
+          "location": "CAN - Burlington, ON",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/R-D-Lab-Coordinator-Intern_REQ3626": {
+          "title": "R&D Lab Coordinator Intern",
+          "location": "CAN - Burlington, ON",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Analog-Design-Engineer-Intern_REQ3622": {
+          "title": "Analog Design Engineer Intern",
+          "location": "CAN - Burlington, ON",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Calgary-AB/Analog-Design-Engineer-Intern_REQ3623": {
+          "title": "Analog Design Engineer Intern",
+          "location": "CAN - Calgary, AB",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Calgary-AB/Analog-Design-Engineer-Intern_REQ3624": {
+          "title": "Analog Design Engineer Intern",
+          "location": "CAN - Calgary, AB",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Ottawa-ON/Analog-Design-Intern_REQ3625": {
+          "title": "Analog Design Intern",
+          "location": "CAN - Ottawa, ON",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Ottawa-ON/Digital-IC-Design-Engineering-Intern_REQ3620": {
+          "title": "Digital IC Design Engineering Intern",
+          "location": "CAN - Ottawa, ON",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Digital-IC-Design-Engineering-Intern_REQ3621": {
+          "title": "Digital IC Design Engineering Intern",
+          "location": "CAN - Burlington, ON",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Applications-Engineering-Intern_REQ3615": {
+          "title": "Applications Engineering Intern",
+          "location": "CAN - Burlington, ON",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Applications-Engineering-Intern_REQ3616": {
+          "title": "Applications Engineering Intern",
+          "location": "CAN - Burlington, ON",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Ottawa-ON/Firmware-Design-Intern_REQ3617": {
+          "title": "Firmware Design Intern",
+          "location": "CAN - Ottawa, ON",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Ottawa-ON/IC-Packaging-Design-Intern_REQ3619": {
+          "title": "IC Packaging Design Intern",
+          "location": "CAN - Ottawa, ON",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Ottawa-ON/Validation-Engineering-Intern_REQ3618": {
+          "title": "Validation Engineering Intern",
+          "location": "CAN - Ottawa, ON",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        }
+      }
+    },
+    "AMD": {
+      "failures": 0,
+      "seen": {
+        "https://careers.amd.com/careers-home/jobs/91368": {
+          "title": "Short Term 2027 Software Engineering Intern/Co-Op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/91953": {
+          "title": "Short Term 2027 Technical Marketing - Performance Analysis Intern/Co-Op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/90980": {
+          "title": "Summer 2027 Long Term Thermal Mechanical Test Engineer Intern/Co-op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/91311": {
+          "title": "Short Term 2027 Data Analyst Intern/Co-Op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/90367": {
+          "title": "Summer 2027 Long Term Hardware Design Engineering Intern/Co-Op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/90372": {
+          "title": "Summer 2027 Long Term Hardware Design Engineering Intern/Co-Op",
+          "location": "CA,BC,Vancouver; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/90301": {
+          "title": "Summer 2027 Long Term Firmware Engineering Intern/Co-op",
+          "location": "CA,BC,Vancouver; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/91367": {
+          "title": "Short Term 2027 Software Engineering Intern/Co-Op",
+          "location": "CA,BC,Vancouver; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/90297": {
+          "title": "Summer 2027 Long Term Firmware Engineering Intern/Co-op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/90425": {
+          "title": "Summer 2027 Long Term Software Engineering Intern/Co-op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/91364": {
+          "title": "Short Term 2027 Program Management Intern/Co-Op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/91365": {
+          "title": "Short Term 2027 Program Management Intern/Co-Op",
+          "location": "CA,AB,Calgary; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/90383": {
+          "title": "Summer 2027 Long Term Machine Learning/Artificial Intelligence Intern/Co-Op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/90429": {
+          "title": "Summer 2027 Long Term Software Test Engineering Intern/Co-Op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/90427": {
+          "title": "Summer 2027 Long Term AGS Libraries Intern/Co-op",
+          "location": "CA,AB,Calgary; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/91361": {
+          "title": "Short Term 2027 Hardware Design Verification Engineering Intern/Co-Op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/91362": {
+          "title": "Short Term 2027 Hardware Design Verification Engineering Intern/Co-Op",
+          "location": "CA,BC,Vancouver; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/90305": {
+          "title": "Summer 2027 Long Term Graphics Software Engineering Intern/Co-Op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/90411": {
+          "title": "Summer 2027 Long Term Product Management Intern/Co-Op",
+          "location": "CA,AB,Calgary; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/91369": {
+          "title": "Summer 2027 Long Term Analog and Mixed Signal Engineering Intern/Co-Op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/91207": {
+          "title": "Summer 2027 Long Term ASIC Verification Engineering Intern/ Co-Op",
+          "location": "CA,ON,Ottawa; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/91359": {
+          "title": "Short Term 2027 Graphics Software Engineering Intern/Co-Op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/91320": {
+          "title": "Short Term 2027 Firmware Engineering Intern/Co-Op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/91360": {
+          "title": "Short Term 2027 Hardware Design Engineering Intern/Co-Op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/91363": {
+          "title": "Short Term 2027 Machine Learning/Artificial Intelligence Intern/Co-Op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/90414": {
+          "title": "Summer 2027 Long Term Program Management Intern/Co-Op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/91313": {
+          "title": "Short Term 2027 Firmware Engineering Intern/Co-Op",
+          "location": "CA,BC,Vancouver; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/90379": {
+          "title": "Summer 2027 Long Term Hardware Design Verification Engineering Intern/Co-Op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.amd.com/careers-home/jobs/90435": {
+          "title": "Summer 2027 Long Term Diagnostics Design Engineering Intern/Co-Op",
+          "location": "CA,ON,Markham-1CV; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        }
+      }
+    },
+    "Evertz": {
+      "failures": 0,
+      "seen": {}
+    },
+    "Teledyne": {
+      "failures": 0,
+      "seen": {
+        "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Orlando-FL/Systems-Technologies-Intern_REQ37282": {
+          "title": "Systems Technologies Intern",
+          "location": "2 Locations",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Orlando-FL/Systems-Technologies-Intern---CW_REQ37278": {
+          "title": "Systems Technologies Intern - CW",
+          "location": "2 Locations",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Montreal-QC-TDY/Stagiaire-en-tests-thermiques--Thermal-Test-Co-op_REQ37169": {
+          "title": "Stagiaire en tests thermiques/ Thermal Test Co-op",
+          "location": "Canada - Montreal, QC (TDY)",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        }
+      }
+    },
+    "OPG": {
+      "failures": 0,
+      "seen": {}
+    },
+    "NXP": {
+      "failures": 0,
+      "seen": {
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Chandler-Office/Digital-Physical-Design--P-R--Intern_R-10064673": {
+          "title": "Digital Verification Intern - Spring 2027",
+          "location": "Chandler (Office)",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Chandler-Office/HW-SW-System-and-Application-Engineer-Intern-Summer-2027_R-10064708": {
+          "title": "HW/SW System and Application Engineer Intern-Summer 2027",
+          "location": "Chandler (Office)",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Kuala-Lumpur/Accountant-Intern_R-10064499": {
+          "title": "Accountant Intern",
+          "location": "Kuala Lumpur",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Eindhoven/Internship---Design-of-a-compact-solder-joint-resistance-sensor_R-10064018": {
+          "title": "Internship - Design of a compact solder joint resistance sensor",
+          "location": "2 Locations",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Eindhoven/BSc-Intern-position---In-Cabin-Sensing-for-Automotive-Applications-at-Systems-Innovation-Automotive--SI-A-_R-10062367": {
+          "title": "Master's Internship Project: Information-aware signal processing for software-defined EIS",
+          "location": "Eindhoven",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Hamburg/Working-Student--f-m-d--Embedded-Network-Software-Engineer---Automotive-Ethernet_R-10067322": {
+          "title": "Working Student (f/m/d) Embedded Network Software Engineer - Automotive Ethernet",
+          "location": "Hamburg",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Oakhill-Office/Digital-Validation-Intern---Summer-2027_R-10065557": {
+          "title": "Digital Validation Intern - Summer 2027",
+          "location": "Austin (Oakhill, Office)",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Hamburg/Working-Student--f-m-d--Industrial-Wired-Wireless-Communications-Lab_R-10066912": {
+          "title": "Working Student (f/m/d) Industrial Wired/Wireless Communications Lab",
+          "location": "Hamburg",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Gratkorn/Student-Position--Software-Toolchain---Debugger-Development--f-m-d-_R-10064613": {
+          "title": "Student Position: Software Toolchain & Debugger Development (f/m/d)",
+          "location": "Gratkorn",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Gratkorn/Student-Position--Software-Toolchain-Development--f-m-d-_R-10064662": {
+          "title": "Student Position: Software Toolchain Development (f/m/d)",
+          "location": "Gratkorn",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Gratkorn/Internship--Project-Management-Office--m-f-d-_R-10067367": {
+          "title": "Internship: Project Management Office (m/f/d)",
+          "location": "Gratkorn",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Irvine/UWB-Radar-Signal-Processing---Algorithms-Intern---Summer-2027_R-10065402": {
+          "title": "UWB Radar Signal Processing & Algorithms Intern - Summer 2027",
+          "location": "Irvine",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Guadalajara/Student-Intern---Non-Technical_R-10064559": {
+          "title": "Supply Chain Planning & Analytics Internship",
+          "location": "Guadalajara",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Hamburg/Working-Student--f-m-d--Tech---Brand-Experience_R-10063737": {
+          "title": "Working Student (f/m/d) Marketing and Communications",
+          "location": "Hamburg",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Tianjin-Weiwu/System---Application-Intern_R-10067316": {
+          "title": "System & Application Intern",
+          "location": "Tianjin (Weiwu)",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Nijmegen/Internship-project-for-automotive-RF-substrates_R-10067328": {
+          "title": "Internship project for automotive RF substrates",
+          "location": "Nijmegen",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Gratkorn/Internship--Software-Engineer--m-f-d----Java---Python-Tools-Development-for-Trust-Provisioning_R-10066936-1": {
+          "title": "Internship: Software Engineer (m/f/d) - Java & Python Tools Development for Trust Provisioning",
+          "location": "Gratkorn",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Gratkorn/Internship--Secure-Firmware-Development--m-f-d-_R-10066772": {
+          "title": "Internship: Secure Firmware Development (m/f/d)",
+          "location": "Gratkorn",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Eindhoven/AI---Future-of-HR-Research-Intern_R-10067318": {
+          "title": "AI & Future of HR Research Intern",
+          "location": "Eindhoven",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Bucharest/Radar-SDK-Internship-Student_R-10067346": {
+          "title": "Radar SDK Internship Student",
+          "location": "Bucharest",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Brno/AI-Software-developer---Intern_R-10064017-1": {
+          "title": "AI Software developer - Intern",
+          "location": "Brno",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Gratkorn/Internship--Pflichtpraktikum---FH-Joanneum--f-m-d-_R-10066313-1": {
+          "title": "Internship/ Pflichtpraktikum - FH Joanneum (f/m/d)",
+          "location": "Gratkorn",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Shanghai-JingAn/XMLNAME-2026-Intern---Product-Marketing---DES_R-10058896-1": {
+          "title": "Marketing & Applications Intern – Driver & Energy Systems",
+          "location": "Shanghai (JingAn)",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Eindhoven/Master-Thesis-Internship---AI-Driven-Transistor-Design-Exploration_R-10067224": {
+          "title": "Master Thesis Internship - AI-Driven Transistor Design Exploration",
+          "location": "Eindhoven",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Bucharest/Software-Internship---Systems-Engineering_R-10066965": {
+          "title": "Software Internship - Systems Engineering",
+          "location": "Bucharest",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Nijmegen/NVM-Reliability-Intern_R-10067150": {
+          "title": "NVM Reliability Intern",
+          "location": "Nijmegen",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Chandler-Office/Project-Engineer---Project-Management-Intern---Summer-2027_R-10064585": {
+          "title": "Project Engineer / Project Management Intern - Summer 2027",
+          "location": "Chandler (Office)",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Chandler-Office/Equipment-Engineer-Intern---Summer-2027_R-10064584": {
+          "title": "Equipment Engineer Intern - Summer 2027",
+          "location": "Chandler (Office)",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Oakhill-Office/Field-Applications-Engineer--FAE--Intern---Summer-2027_R-10067221": {
+          "title": "Field Applications Engineer (FAE) Intern - Summer 2027",
+          "location": "3 Locations",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Oakhill-Office/Technical-Sales-Engineer--TSE--Intern---Summer-2027_R-10067219": {
+          "title": "Technical Sales Engineer (TSE) Intern - Summer 2027",
+          "location": "3 Locations",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Catania/Internship-Student-Analog-Mixed-Signal-verification-F-M_R-10064672": {
+          "title": "Internship Student Analog Mixed Signal verification F/M",
+          "location": "Catania",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Chandler-Office/Photolithography-Equipment-Intern---Summer-2027_R-10064587": {
+          "title": "Photolithography Equipment Intern - Summer 2027",
+          "location": "Chandler (Office)",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Eindhoven/Master-Thesis-Internship---Intelligent-Thread-across-Semiconductor-Product-Lifecycle_R-10067003-1": {
+          "title": "Master Thesis Internship – Intelligent Thread across Semiconductor Product Lifecycle",
+          "location": "Eindhoven",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Tianjin-Weiwu/XMLNAME-2027-Intern---Facility-Student-Intern_R-10064116": {
+          "title": "2027 Intern - Facility Student Intern",
+          "location": "Tianjin (Weiwu)",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Tianjin-Teda/Analog-Mixed-Signal-Design-Intern_R-10066740": {
+          "title": "Analog/Mixed-Signal Design Intern",
+          "location": "Tianjin (Teda)",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Tianjin-Teda/DFT-Verification-intern_R-10066777": {
+          "title": "DFT Verification intern",
+          "location": "Tianjin (Teda)",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Bangkok/Process-Engineer-Intern_R-10064147": {
+          "title": "Process Engineer Intern",
+          "location": "Bangkok",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Bangkok/Technical-Student-Intern_R-10065031": {
+          "title": "Technical Student Intern",
+          "location": "Bangkok",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Bangkok/Product-Test-Engineer-Intern_R-10064150": {
+          "title": "Product Test Engineer Intern",
+          "location": "Bangkok",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Bangkok/Accountant-Intern_R-10064511": {
+          "title": "Accountant Intern",
+          "location": "Bangkok",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Munich/Intern--f-m-d--OEM-Key-Account-Management_R-10064462-1": {
+          "title": "Intern (f/m/d) OEM Key Account Management",
+          "location": "Munich",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Toulouse/Internship---Safety-engineer-for-Analog-IC-F-M_R-10066554": {
+          "title": "Stage ingénieur : Ingénieur(e) Sûreté Fonctionnelle (H/F)",
+          "location": "Toulouse",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Shanghai-JingAn/Strategy-Intern_R-10066699": {
+          "title": "Strategy Intern",
+          "location": "Shanghai (JingAn)",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Kuala-Lumpur/Package-Roadmap-Tool-Intern---Package-Innovation_R-10066735": {
+          "title": "Package Roadmap Tool Intern – Package Innovation",
+          "location": "Kuala Lumpur",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Beijing/GenAI-Field-Application-Engineer-Intern_R-10066609": {
+          "title": "GenAI Field Application Engineer Intern",
+          "location": "2 Locations",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Bangalore/Technical-Internship-2027_R-10066434": {
+          "title": "Technical Internship 2027",
+          "location": "2 Locations",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Shanghai-Pudong/Software-Intern---Linux-Yocto_R-10066605-1": {
+          "title": "Software Intern - Linux/Yocto",
+          "location": "2 Locations",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Shanghai-Pudong/Software-Intern--Linux-Yocto_R-10066617": {
+          "title": "Software Intern: Linux/Yocto",
+          "location": "2 Locations",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Gratkorn/Internship--Measurement-Equipment-and-Laboratory-Coordinator--m-f-d--_R-10064611": {
+          "title": "Internship: Measurement Equipment and Laboratory Coordinator (m/f/d)",
+          "location": "Gratkorn",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Bucharest/Functional-Safety-Engineer---Student_R-10064551": {
+          "title": "Functional Safety Engineer - Student",
+          "location": "Bucharest",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Bucharest/Functional-Safety-Engineer---Student_R-10066523": {
+          "title": "Functional Safety Engineer - Student",
+          "location": "Bucharest",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Sibiu/Crypto-Quality-SW-Process-Internship_R-10066282": {
+          "title": "Crypto Quality SW Process Internship",
+          "location": "2 Locations",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Glasgow/Intern-AI-and-Software-Engineer---Automotive-MPUs_R-10065882-1": {
+          "title": "Intern AI and Software Engineer - Automotive MPUs",
+          "location": "Glasgow",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Shenzhen/XMLNAME-2027-Intern---Field-Quality-Engineer-Intern_R-10065018": {
+          "title": "2027 Intern - Field Quality Engineer Intern",
+          "location": "Shenzhen",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Shanghai-JingAn/XMLNAME-2027-Intern---Field-Quality-Engineer-Intern_R-10065019": {
+          "title": "2027 Intern - Field Quality Engineer Intern",
+          "location": "Shanghai (JingAn)",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Gratkorn/Internship--Digital-Design-Team-Support--m-f-d-_R-10064594": {
+          "title": "Internship: Digital Design Team Support (m/f/d)",
+          "location": "Gratkorn",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Kuala-Lumpur/HR-Intern---Talent-Acquisition_R-10064166": {
+          "title": "HR Intern - Talent Acquisition",
+          "location": "Kuala Lumpur",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Eindhoven/Internship-Thesis---Signal-Processing-and-AI-for-autonomous-driving-_R-10064090": {
+          "title": "Internship/Thesis – Signal Processing and AI for autonomous driving",
+          "location": "Eindhoven",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Eindhoven/Internship----Robotics_R-10062364": {
+          "title": "Internship - Robotics",
+          "location": "Eindhoven",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Tianjin-DAC/XMLNAME-2027-Intern---Customer-Quality-Engineer-Intern_R-10065020-1": {
+          "title": "2027 Intern - Customer Quality Engineer Intern",
+          "location": "Tianjin (DAC)",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Eindhoven/Internship--Phase-Noise-Resilient-Architectures-for-Large-MIMO-FMCW-Automotive-Radars_R-10064089": {
+          "title": "Internship: Phase-Noise-Resilient Architectures for Large MIMO FMCW Automotive Radars",
+          "location": "Eindhoven",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Hamburg/Corporate-Real-Estate---Workplace-Intern--m-f-d-_R-10059455": {
+          "title": "Praktikant:in (w/m/d) Corporate Real Estate & Workplace Management",
+          "location": "Hamburg",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Tianjin-Weiwu/XMLNAME-2027-Intern---Finance-COE-Accountant_R-10063680": {
+          "title": "2027 Intern - Finance COE Accountant",
+          "location": "Tianjin (Weiwu)",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Tianjin-Weiwu/XMLNAME-2027-Intern---Finance-COE-Accountant_R-10063681": {
+          "title": "2027 Intern - Finance COE Accountant",
+          "location": "Tianjin (Weiwu)",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Suzhou/XMLNAME-2027-Intern---Analog-Design-Engineer_R-10064635": {
+          "title": "2027 Intern - Analog Design Engineer",
+          "location": "Suzhou",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Suzhou/XMLNAME-2027-Intern---Analog-Design-Engineer_R-10064636": {
+          "title": "2027 Intern - Analog Design Engineer",
+          "location": "Suzhou",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Kuala-Lumpur/XMLNAME-2026-Intern---Accounting_R-10064303": {
+          "title": "2026 Intern - Accounting",
+          "location": "Kuala Lumpur",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Guadalajara/Student-Intern---Non-Technical_R-10064560": {
+          "title": "Student Intern - Non Technical",
+          "location": "Guadalajara",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Kuala-Lumpur/XMLNAME-2026-Intern---Accounting_R-10062529": {
+          "title": "2026 Intern - Accounting",
+          "location": "Kuala Lumpur",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Bucharest/Software-Intern-Student---RealTime-Drivers_R-10062117": {
+          "title": "Software Intern Student - RealTime Drivers",
+          "location": "Bucharest",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Sibiu/Web-Application-Developer_R-10062194-1": {
+          "title": "Web Application Developer Intern",
+          "location": "Sibiu",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Tianjin-Xinghua/XMLNAME-2026-Intern---Information-System-Engineer_R-10059867": {
+          "title": "2026 Intern - Information System Engineer",
+          "location": "Tianjin (Xinghua)",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Kuala-Lumpur/XMLNAME-2026-Intern---HR_R-10058875": {
+          "title": "2026 Intern - HR",
+          "location": "Kuala Lumpur",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Noida/Internship----SoC--IP-Design---2024-_R-10052538": {
+          "title": "Technical Internship (2026)",
+          "location": "2 Locations",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Gratkorn/Student-Opportunities---Initiative-Application--m-f-d-_R-10030165": {
+          "title": "Student Internships - Initiative Application (m/f/d)",
+          "location": "Gratkorn",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://nxp.wd3.myworkdayjobs.com/careers/job/Kuala-Lumpur/Intern--Engineering-_R-10005472": {
+          "title": "Intern (Engineering & IT)",
+          "location": "Kuala Lumpur",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        }
+      }
+    },
+    "BlackBerry QNX": {
+      "failures": 0,
+      "seen": {}
+    },
+    "Fortinet": {
+      "failures": 0,
+      "seen": {}
+    },
+    "onsemi": {
+      "failures": 0,
+      "seen": {}
+    },
+    "Sinclair Technologies": {
+      "failures": 0,
+      "seen": {}
+    },
+    "Ranovus": {
+      "failures": 0,
+      "seen": {}
+    },
+    "LMI Technologies": {
+      "failures": 0,
+      "seen": {}
+    },
+    "L3Harris": {
+      "failures": 0,
+      "seen": {
+        "https://careers.l3harris.com/en/job/waterdown/program-management-co-op-waterdown-ontario-1/4832/102173096992": {
+          "title": "Program Management Co-op (Waterdown, Ontario) 1",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/manufacturing-engineering-co-op-waterdown-can/4832/102173096720": {
+          "title": "Manufacturing Engineering Co-op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/materials-receiving-co-op-waterdown-can/4832/102173096832": {
+          "title": "Materials - Receiving Co-op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/materials-co-op-waterdown-can/4832/101356263280": {
+          "title": "Materials Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/manufacturing-engineer-co-op-waterdown-can/4832/100667892832": {
+          "title": "Manufacturing Engineer Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/supply-chain-co-op-waterdown-can/4832/100436629200": {
+          "title": "Supply Chain Co-op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/procurement-co-op-waterdown-can/4832/102173096768": {
+          "title": "Procurement Co-op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/logistics-co-op/4832/100436629152": {
+          "title": "Logistics Co-op",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/toronto/manufacturing-engineering-co-op-toronto-can/4832/100667892464": {
+          "title": "Manufacturing Engineering Co-Op (Toronto, CAN)",
+          "location": "Toronto, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/intern-environmental-health-and-safety-waterdown-can/4832/100667892496": {
+          "title": "Intern, Environmental Health & Safety (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/canada/full-stack-developer-co-op-1/4832/100667892784": {
+          "title": "Full Stack Developer Co-op 1",
+          "location": "Remote",
+          "country": "",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/linux-administrator-co-op-waterdown-can/4832/101356263328": {
+          "title": "Linux Administrator Co-op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/accounts-payable-and-tax-co-op-waterdown-can/4832/102173096928": {
+          "title": "Accounts Payable & Tax Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/sales-operations-support-co-op-waterdown-can/4832/100667892752": {
+          "title": "Sales Operations Support Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/systems-engineering-co-op-waterdown-can/4832/101356263744": {
+          "title": "Systems Engineering Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/systems-engineering-r-and-a-co-op-waterdown-can/4832/101356263312": {
+          "title": "Systems Engineering (R&A) Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/software-engineering-co-op-waterdown-can/4832/100989141008": {
+          "title": "Software Engineering Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/software-engineering-co-op-waterdown-can/4832/100667892688": {
+          "title": "Software Engineering Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/software-engineering-co-op-waterdown-can/4832/100667892672": {
+          "title": "Software Engineering Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/project-engineering-co-op-waterdown-can/4832/100667892640": {
+          "title": "Project Engineering Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/project-engineering-co-op-waterdown-can/4832/100989140976": {
+          "title": "Project Engineering Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/toronto/opto-mechanical-design-co-op-waterdown-can/4832/100667892608": {
+          "title": "Opto-Mechanical Design Co-Op (Waterdown, CAN)",
+          "location": "Toronto, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/mechanical-engineering-co-op-waterdown-can/4832/100667892592": {
+          "title": "Mechanical Engineering Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/mechanical-engineering-co-op-waterdown-can/4832/100741477040": {
+          "title": "Mechanical Engineering Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/fpga-designer-coop-waterdown-can/4832/100667892560": {
+          "title": "FPGA Designer Coop (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/fpga-software-tool-developer-co-op-waterdown-can/4832/100667892544": {
+          "title": "FPGA Software Tool Developer Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/operations-test-engineering-mechanical-tooling-co-op-waterdown-can/4832/101356263296": {
+          "title": "Operations Test Engineering, Mechanical Tooling Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/manufacturing-engineering-mechanical-co-op/4832/100741476992": {
+          "title": "Manufacturing Engineering - Mechanical Co-Op",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/manufacturing-engineering-mechanical-co-op/4832/100741476912": {
+          "title": "Manufacturing Engineering - Mechanical Co-Op",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/manufacturing-engineering-intern-service-co-op/4832/100667892528": {
+          "title": "Manufacturing Engineering Intern - Service Co-op",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/test-and-integration-technician-co-op/4832/100087751312": {
+          "title": "Test & Integration Technician Co-op",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/quality-systems-co-op-waterdown-can/4832/100436629168": {
+          "title": "Quality Systems Co-op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/manufacturing-engineering-co-op-waterdown-can/4832/101356263264": {
+          "title": "Manufacturing Engineering Co-op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/manufacturing-engineering-co-op-waterdown-can/4832/101356263248": {
+          "title": "Manufacturing Engineering Co-op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/production-planning-co-op-waterdown-can/4832/100436629184": {
+          "title": "Production Planning Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/inventory-analyst-co-op-waterdown-can/4832/100436629120": {
+          "title": "Inventory Analyst Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/inventory-analyst-co-op-waterdown-can/4832/100436629104": {
+          "title": "Inventory Analyst Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/specialty-engineering-co-op-waterdown-can/4832/100436629088": {
+          "title": "Specialty Engineering Co-Op Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/electro-optical-engineering-co-op-waterdown-can/4832/100436629072": {
+          "title": "Electro-Optical Engineering Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/mechanical-engineering-co-op-waterdown-can/4832/100989137520": {
+          "title": "Mechanical Engineering Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/electrical-engineering-co-op-waterdown-can/4832/100436629024": {
+          "title": "Electrical Engineering Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        },
+        "https://careers.l3harris.com/en/job/waterdown/operations-npi-co-op-waterdown-can/4832/102563115536": {
+          "title": "Operations NPI, Co-Op (Waterdown, CAN)",
+          "location": "Waterdown, Ontario",
+          "country": "Canada",
+          "first_seen": "2026-11-03",
+          "last_seen": "2026-11-03",
+          "missed_runs": 0
+        }
+      }
+    },
+    "Shearwater Research": {
+      "failures": 0,
+      "seen": {}
+    },
+    "4iiii": {
+      "failures": 0,
+      "seen": {}
+    }
+  },
+  "last_heartbeat": "2026-11-03",
+  "telegram_queue": [],
+  "email_queue": [],
+  "last_email_slot": "2026-11-03T08:30:00-05:00",
+  "pending_alerts": []
+}
