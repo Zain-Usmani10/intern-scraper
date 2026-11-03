@@ -46,5 +46,173 @@
     "status": "added",
     "method": "browser_paginated",
     "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Kepler Communications",
+    "careers_url": "https://jobs.lever.co/kepler?commitment=Intern%2FCo-op",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "lever",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Tenstorrent",
+    "careers_url": "https://job-boards.greenhouse.io/tenstorrent?keyword=intern",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "greenhouse",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Untether AI",
+    "careers_url": "",
+    "entered": "2026-11-03",
+    "status": "rejected",
+    "method": null,
+    "reason": "No careers URL found. Untether AI shut down in June 2025 after AMD acquihired its engineering team (BetaKit, The Logic, Tom's Hardware), and its site no longer loads, so there is no active careers page."
+  },
+  {
+    "name": "Garmin",
+    "careers_url": "https://careers.garmin.com/careers-home/jobs?keywords=intern&location=Canada",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "icims_jibe",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Miovision",
+    "careers_url": "https://jobs.ashbyhq.com/miovision",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "ashby",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Semtech",
+    "careers_url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers?q=intern",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "workday",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "AMD",
+    "careers_url": "https://careers.amd.com/careers-home/jobs?keywords=intern",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "icims_jibe",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Evertz",
+    "careers_url": "https://evertz.com/careers",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "browser_paginated",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Teledyne",
+    "careers_url": "https://flir.wd1.myworkdayjobs.com/en-US/flircareers?q=intern",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "workday",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "OPG",
+    "careers_url": "https://jobs.opg.com/search/?q=intern",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "browser_paginated",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Mobile Data Technologies",
+    "careers_url": "",
+    "entered": "2026-11-03",
+    "status": "rejected",
+    "method": null,
+    "reason": "No careers URL found. Identified as the Edmonton oil-and-gas data acquisition firm at mobiledatatech.com, but its site fails with an SSL certificate error and no official careers or ATS page appeared in search results, so I couldn't confirm a page that lists jobs."
+  },
+  {
+    "name": "NXP",
+    "careers_url": "https://nxp.wd3.myworkdayjobs.com/careers?q=intern",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "workday",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "BlackBerry QNX",
+    "careers_url": "https://bb.wd3.myworkdayjobs.com/Student/jobs",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "workday",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Fortinet",
+    "careers_url": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/requisitions",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "oracle_hcm",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "onsemi",
+    "careers_url": "https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "oracle_hcm",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Sinclair Technologies",
+    "careers_url": "https://www.norsat.com/pages/careers",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "adp_workforcenow",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Ranovus",
+    "careers_url": "https://ranovus.bamboohr.com/careers",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "bamboohr",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "LMI Technologies",
+    "careers_url": "https://lmitechnologies.applytojob.com/apply",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "jazzhr",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "L3Harris",
+    "careers_url": "https://careers.l3harris.com/en/search-jobs",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "radancy",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Shearwater Research",
+    "careers_url": "https://shearwater.com/pages/careers",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "browser_page",
+    "reason": "The site reports no total, so compare these results with the site before approving."
+  },
+  {
+    "name": "4iiii",
+    "careers_url": "https://4iiii.com/careers",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "browser_page",
+    "reason": "The site reports no total, so compare these results with the site before approving."
   }
 ]

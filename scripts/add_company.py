@@ -111,6 +111,10 @@ def confirm(question):
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("text", nargs="+", help="Company names, such as: Nvidia, Tesla, and Ericsson")
+    parser.add_argument(
+        "--yes", action="store_true",
+        help="Don't ask. Add companies that pass. Record needs_approval ones for you to review.",
+    )
     args = parser.parse_args()
     sys.stdout.reconfigure(errors="replace")
 
@@ -171,7 +175,11 @@ def main():
         if status in ("pass", "needs_approval"):
             if status == "needs_approval":
                 print("  WARNING: Completeness can't be proven. Compare these with the site.")
-            if confirm(f"  Add {name}?"):
+                if args.yes:
+                    print("  Not added. Run this company again without --yes to review it.")
+                    record_entered(name, url, status, report["reason"], report["method"])
+                    continue
+            if args.yes or confirm(f"  Add {name}?"):
                 companies.append(build_entry(name, report))
                 config.write_json(config.COMPANIES_FILE, companies)
                 record_entered(name, url, "added", report["reason"], report["method"])

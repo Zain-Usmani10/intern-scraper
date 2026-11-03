@@ -125,36 +125,40 @@ def blocked_names_pattern(allowed_countries):
     return terms_regex(blocked, set())
 
 
-def hint_allowed(hint, settings, countries=None):
-    """Judge free text, such as a job card, when there's no location field."""
-    rules = settings["locations"]
-    chosen = tuple(countries or rules["allowed_countries"])
+def hint_verdict(hint, settings, countries=None):
+    """Judge free text, such as a title or job card. True, False, or None if unknown."""
+    chosen = tuple(countries or settings["locations"]["allowed_countries"])
     allowed, _ = location_patterns(chosen)
     if allowed and allowed.search(hint):
         return True
     blocked = blocked_names_pattern(chosen)
     if blocked and blocked.search(hint):
         return False
-    return rules["include_unknown_locations"]
+    return None
 
 
-def location_allowed(locations, settings, countries=None):
-    """Keep a job if any location is allowed or no country can be identified.
+def hint_allowed(hint, settings, countries=None):
+    verdict = hint_verdict(hint, settings, countries)
+    return settings["locations"]["include_unknown_locations"] if verdict is None else verdict
 
-    A job is dropped only when its locations name another country and none
-    of them names an allowed one.
-    """
-    rules = settings["locations"]
+
+def location_verdict(locations, settings, countries=None):
+    """True if any location is allowed, False if they only name other
+    countries, None if no country can be identified."""
     text = " ; ".join(location for location in locations if location)
     if not text.strip():
-        return rules["include_unknown_locations"]
-
-    allowed, blocked = location_patterns(tuple(countries or rules["allowed_countries"]))
+        return None
+    allowed, blocked = location_patterns(tuple(countries or settings["locations"]["allowed_countries"]))
     if allowed and allowed.search(text):
         return True
     if blocked and blocked.search(text):
         return False
-    return rules["include_unknown_locations"]
+    return None
+
+
+def location_allowed(locations, settings, countries=None):
+    verdict = location_verdict(locations, settings, countries)
+    return settings["locations"]["include_unknown_locations"] if verdict is None else verdict
 
 
 def apply_filters(jobs, company, settings):
@@ -169,11 +173,14 @@ def apply_filters(jobs, company, settings):
     for url, job in jobs.items():
         if use_intern_filter and not is_internship(job["title"], url, settings):
             continue
-        if job["locations"]:
-            if not location_allowed(job["locations"], settings, countries):
-                continue
-        elif job.get("location_hint"):
-            if not hint_allowed(f"{job['title']} {job['location_hint']}", settings, countries):
-                continue
+        # The location field decides. When it names no country, the title
+        # and card text decide, as in "Internship Germany (Nürnberg)".
+        verdict = location_verdict(job["locations"], settings, countries)
+        if verdict is None:
+            verdict = hint_verdict(f"{job['title']} {job.get('location_hint', '')}", settings, countries)
+        if verdict is None:
+            verdict = settings["locations"]["include_unknown_locations"]
+        if not verdict:
+            continue
         kept[url] = {"title": job["title"], "location": "; ".join(job["locations"][:3])}
     return kept

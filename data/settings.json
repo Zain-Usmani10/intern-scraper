@@ -19,8 +19,9 @@
   },
   "alerts": {
     "timezone": "America/Toronto",
-    "email_hours": [8, 17],
+    "email_times": ["08:30", "16:30"],
     "failures_before_alert": 3,
+    "forget_after_missed_runs": 3,
     "telegram_delay_seconds": 1
   },
   "scraping": {

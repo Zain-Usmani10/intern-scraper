@@ -9,7 +9,7 @@ Usage:
 import argparse
 import sys
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import datetime
 from zoneinfo import ZoneInfo
 
 from dotenv import load_dotenv
@@ -31,6 +31,14 @@ def scrape_company(company, settings):
         result = methods.fetch(company["method"], company["params"], settings)
     except Exception as error:
         return {"error": f"{type(error).__name__}: {str(error).splitlines()[0][:200]}"}
+
+    # A partial read would miss new jobs and wrongly mark unread ones as gone,
+    # so it counts as a failed run. Jobs posted mid-read get a small margin.
+    reported, read = result["reported_total"], len(result["jobs"])
+    margin = max(2, (reported or 0) * settings["add_company"]["stability_tolerance_percent"] // 100)
+    if reported is not None and read < reported - margin:
+        return {"error": f"Read only {read} of the {reported} jobs the site reports"}
+
     jobs = filters.apply_filters(result["jobs"], company, settings)
     return {"jobs": jobs, "empty": not result["jobs"]}
 
@@ -95,13 +103,11 @@ def main():
         print_dry_run(results)
         return 0
 
-    now = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    today = datetime.now(ZoneInfo(settings["alerts"]["timezone"])).date().isoformat()
     state = state_store.load_state()
-    new_jobs, messages = state_store.apply_results(state, results, now, settings)
+    new_jobs, messages = state_store.apply_results(state, results, today, settings)
 
     # New jobs wait in these saved queues until each one is delivered.
-    for job in new_jobs:
-        state["companies"][job["company"]]["seen"][job["url"]] = now
     state["telegram_queue"] = alerts.send_queued_telegrams(
         state.get("telegram_queue", []) + new_jobs, settings
     )
@@ -124,7 +130,6 @@ def main():
     state["pending_alerts"] = [message for message in pending if not alerts.notify(message)]
 
     # A daily message proves the whole pipeline is still running.
-    today = datetime.now(ZoneInfo(settings["alerts"]["timezone"])).date().isoformat()
     status_sent = True
     if state.get("last_heartbeat") != today:
         working = sum(

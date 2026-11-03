@@ -64,7 +64,7 @@ def load(page, url, settings):
 # something like "Learn more", plus the card's text for location filtering.
 LINK_DETAILS = r"""
 els => els.map(el => {
-  const generic = /^(learn more|apply( now)?|view( job| details| role| position)?|details|read more|see more|see full( role)? description|more info)?$/i;
+  const generic = /^(learn more|apply( now)?|view( the)?( complete| full)?( job| details| role| position)?( posting| description)?|details|read more|see more|see full( role)? description|more info)?$/i;
   let text = (el.innerText || '').trim();
   let card = el;
   for (let depth = 0; depth < 6 && card.parentElement; depth++) {
@@ -81,6 +81,16 @@ els => els.map(el => {
   return {href: el.href, text, card: cardText};
 })
 """
+
+
+def reported_total(page, total_regex):
+    """The site's own job count, read from the page text with total_regex."""
+    if not total_regex:
+        return None
+    match = re.search(total_regex, page.inner_text("body"), re.IGNORECASE)
+    if not match:
+        raise RuntimeError("total_regex didn't match the page")
+    return int(re.sub(r"[^\d]", "", match.group(1)))
 
 
 def page_links(page):

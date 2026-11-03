@@ -3,6 +3,11 @@ name: Scrape internships
 # Started by cron-job.org, which keeps the schedule and timezone.
 on:
   workflow_dispatch:
+    inputs:
+      test_alert:
+        description: "Only send a test Telegram message and email"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -15,7 +20,8 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    # More companies take longer. A hung run still stops here.
+    # A safety cap, not reserved compute: only the real run time is billed.
+    # A normal run takes about 3 minutes. Raise this as companies grow.
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
@@ -46,7 +52,7 @@ jobs:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           FRIEND_EMAIL: ${{ secrets.FRIEND_EMAIL }}
-        run: python scripts/scraper.py
+        run: python scripts/scraper.py ${{ inputs.test_alert && '--test-alert' || '' }}
 
       # Runs even after a failed send, so delivered jobs aren't alerted twice.
       - name: Save seen jobs

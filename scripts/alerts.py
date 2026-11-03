@@ -92,12 +92,13 @@ def send_queued_telegrams(jobs, settings):
 
 def latest_email_slot(now, settings):
     """Return the most recent scheduled email time at or before a local time."""
+    times = [tuple(map(int, text.split(":"))) for text in settings["alerts"]["email_times"]]
     slots = (
         (now - timedelta(days=days_ago)).replace(
-            hour=hour, minute=0, second=0, microsecond=0
+            hour=hour, minute=minute, second=0, microsecond=0
         )
         for days_ago in (0, 1)
-        for hour in settings["alerts"]["email_hours"]
+        for hour, minute in times
     )
     return max(slot for slot in slots if slot <= now)
 

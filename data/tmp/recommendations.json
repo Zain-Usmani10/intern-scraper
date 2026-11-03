@@ -7,5 +7,32 @@
     "suggested_method": "manual / not scrapable",
     "how_it_works": "The careers search page (https://www.tesla.com/careers/search/?query=intern) loads its listings from Tesla's internal endpoint https://www.tesla.com/cua-api/apps/careers/state, which returns JSON holding all listings and lookup tables for location and department. A browser would fetch it and filter listings by title keyword. Akamai blocks that endpoint and the page for automated clients, so it is only reachable from a real, unflagged browser session. Tesla doesn't use Greenhouse, Ashby, Lever, Workday or another third-party job board.",
     "evidence": "Automatic inspection with headless Chromium got HTTP 403 with page title 'Access Denied' and no API requests or job links. WebFetch of https://www.tesla.com/cua-api/apps/careers/state also returned 403. Greenhouse board 'tesla' reset the connection, and Ashby and Lever 'tesla' returned 404. Bash wasn't available in this session, so I couldn't try curl or scripts/test_method.py."
+  },
+  {
+    "date": "2026-11-03T02:00:50",
+    "company": "Fortinet",
+    "careers_url": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/requisitions?keyword=intern",
+    "summary": "Fortinet uses Oracle Recruiting Cloud (HCM Candidate Experience), which has a public JSON search API with a total count, but no supported method handles it; the browser methods can't work because the page loads results 25 at a time through a 'Show more results' button rather than URL pages.",
+    "suggested_method": "oracle_hcm",
+    "how_it_works": "GET https://edel.fa.us2.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber=CX_2001,limit=25,offset=N,locationId=300000000361286,sortBy=POSTING_DATES_DESC and page with offset until items[0].requisitionList is empty or offset >= items[0].TotalJobsCount. Each job has Id, Title, PrimaryLocation, PostedDate; the job URL is https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/{Id}. Params: host, site_number, optional keyword and location_id.",
+    "evidence": "The careers page calls hcmRestApi/CandidateExperience endpoints on edel.fa.us2.oraclecloud.com. Calling the requisitions finder with curl, without logging in, returned TotalJobsCount 545 for keyword=intern, and the LOCATIONS facet lists Canada (Id 300000000361286) with 144 jobs. The browser methods don't click 'Show more results', so they would only ever get the first 25."
+  },
+  {
+    "date": "2026-11-03T02:32:24",
+    "company": "onsemi",
+    "careers_url": "https://hctz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions?keyword=Intern",
+    "summary": "onsemi uses Oracle Recruiting Cloud (Candidate Experience site CX_1001), which has a public JSON search API with a total, but no supported method covers it, and the browser methods are unreliable because the Oracle page renders its job list and '7 OPEN JOBS' total 3-5 seconds after the network goes idle.",
+    "suggested_method": "oracle_hcm",
+    "how_it_works": "GET https://{host}/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList&finder=findReqs;siteNumber={site},selectedLocationsFacet={location_id},limit=25,offset={n} (URL-encode the finder value). items[0].TotalJobsCount is the total; items[0].requisitionList[] has Id, Title, PrimaryLocation, PostedDate. Page by offset += 25 until offset >= TotalJobsCount. Job URL: https://{host}/hcmUI/CandidateExperience/en/sites/{site}/job/{Id}. Params for onsemi: host=hctz.fa.us2.oraclecloud.com, site=CX_1001, selectedLocationsFacet=300000000341944 (Canada). A small fixed wait (~6s) or wait_for_selector on job links in the browser methods would also fix the browser approach.",
+    "evidence": "curl of the API with selectedLocationsFacet=300000000341944 returned HTTP 200 JSON with TotalJobsCount 7 (e.g. Id 2506170 'Digital IC Designer'). Rendering the Canada page with the project's own load() showed body text of 753/1014 chars with 0 job links at ~0.6s and ~2.7s, and 7 job links plus '7 OPEN JOBS' only at ~4.8s. browser_paginated with total_regex therefore failed ('total_regex didn't match the first page'), and re-testing browser_page in attempt 3 failed: scrape 1 returned 0 jobs while scrape 2 returned 7."
+  },
+  {
+    "date": "2026-11-03T02:49:29",
+    "company": "Sinclair Technologies",
+    "careers_url": "https://www.norsat.com/pages/careers",
+    "summary": "Sinclair Technologies posts jobs on ADP Workforce Now (cid 5b36c411-2caf-42bb-add4-63afc8e7706c, ccId 9200693907439_2), which no supported method handles; browser_page on the ADP page read 0 jobs because listings are not anchor links.",
+    "suggested_method": "adp_workforcenow",
+    "how_it_works": "GET https://workforcenow.adp.com/mascsr/default/careercenter/public/events/staffing/v1/job-requisitions?cid=CID&ccId=CCID&lang=en_CA&locale=en_CA&$top=50 (page with $skip). The response has meta.totalNumber and jobRequisitions[] with requisitionTitle, itemID, postDate and requisitionLocations[].nameCode.shortName. Job URL: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=CID&ccId=CCID&lang=en_CA&jobId=EXTERNAL_JOB_ID (ExternalJobID from customFieldGroup.stringFields) or itemID. Params: cid, ccId.",
+    "evidence": "norsat.com/pages/careers links the Sinclair section to the ADP URL with ccId=9200693907439_2 (the other ccId 9200686826445_2 is Norsat). curl of the public API with no login returned totalNumber 7: Fabricator, Manufacturing Engineer, Production Staff, Planner Junior, Financial Accountant, Accounts Receivable Specialist, Logistics Specialist Junior, all in Aurora, ON, CA. browser_page on the ADP recruitment page found 0 jobs."
   }
 ]

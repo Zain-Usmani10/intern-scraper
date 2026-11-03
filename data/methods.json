@@ -141,6 +141,100 @@
       }
     }
   },
+  "oracle_hcm": {
+    "description": "Oracle Recruiting Cloud (Candidate Experience) search API.",
+    "recognize": "Host ends in oraclecloud.com, with pages at /hcmUI/CandidateExperience/.../sites/SITE.",
+    "completeness": "api_total",
+    "params": {
+      "host": {
+        "required": true,
+        "description": "Oracle host.",
+        "example": "edel.fa.us2.oraclecloud.com"
+      },
+      "site": {
+        "required": true,
+        "description": "Site number from /sites/SITE.",
+        "example": "CX_2001"
+      },
+      "location_ids": {
+        "required": false,
+        "description": "Location filter IDs, one per allowed country. Detection looks them up.",
+        "example": [
+          "300000000361286"
+        ]
+      },
+      "keyword": {
+        "required": false,
+        "description": "Search text.",
+        "example": "intern"
+      }
+    }
+  },
+  "radancy": {
+    "description": "Radancy (TalentBrew) career site search results API.",
+    "recognize": "Career site with /search-jobs pages, and requests to SITE/search-jobs/results.",
+    "completeness": "api_total",
+    "params": {
+      "site": {
+        "required": true,
+        "description": "Site origin plus language path, before /search-jobs.",
+        "example": "https://careers.l3harris.com/en"
+      },
+      "country_ids": {
+        "required": false,
+        "description": "Country filter IDs, one per allowed country. Detection looks them up.",
+        "example": [
+          "6251999"
+        ]
+      },
+      "keywords": {
+        "required": false,
+        "description": "Search text.",
+        "example": "intern"
+      }
+    }
+  },
+  "bamboohr": {
+    "description": "BambooHR public careers list API.",
+    "recognize": "Links to COMPANY.bamboohr.com/careers.",
+    "completeness": "api_total",
+    "params": {
+      "company": {
+        "required": true,
+        "description": "Subdomain from COMPANY.bamboohr.com.",
+        "example": "ranovus"
+      }
+    }
+  },
+  "adp_workforcenow": {
+    "description": "ADP Workforce Now public career center API.",
+    "recognize": "Links to workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=CID&ccId=CC_ID.",
+    "completeness": "api_total",
+    "params": {
+      "cid": {
+        "required": true,
+        "description": "cid from the career center URL.",
+        "example": "5b36c411-2caf-42bb-add4-63afc8e7706c"
+      },
+      "cc_id": {
+        "required": true,
+        "description": "ccId from the career center URL.",
+        "example": "9200693907439_2"
+      }
+    }
+  },
+  "jazzhr": {
+    "description": "JazzHR job board, which lists every job on one page.",
+    "recognize": "Links to COMPANY.applytojob.com/apply.",
+    "completeness": "complete_list",
+    "params": {
+      "company": {
+        "required": true,
+        "description": "Subdomain from COMPANY.applytojob.com.",
+        "example": "lmitechnologies"
+      }
+    }
+  },
   "browser_paginated": {
     "description": "Loads numbered result pages in Chromium and collects job links until no new ones appear.",
     "recognize": "Results are split into pages that change a URL parameter, such as page=2 or start=20.",
@@ -179,9 +273,9 @@
     }
   },
   "browser_page": {
-    "description": "Loads one page in Chromium and collects job links. Last resort.",
+    "description": "Loads one page in Chromium and collects job links.",
     "recognize": "All jobs are on one page, with no pagination or loading on scroll.",
-    "completeness": "approval",
+    "completeness": "page_total_or_approval",
     "params": {
       "url": {
         "required": true,
@@ -192,6 +286,11 @@
         "required": false,
         "description": "Regex that only job posting links match.",
         "example": "/careers/\\d+"
+      },
+      "total_regex": {
+        "required": false,
+        "description": "Regex with one group capturing the site's total job count from the page text. Without it, the company needs manual approval.",
+        "example": "([\\d,]+) roles"
       }
     }
   }

@@ -17,7 +17,8 @@ from methods.common import USER_AGENT
 KNOWN_SYSTEMS = (
     r"greenhouse\.io|ashbyhq\.com|lever\.co|myworkdayjobs\.com|eightfold\.ai|/api/pcsx/"
     r"|icims\.com|amazon\.jobs|smartrecruiters\.com|successfactors|taleo|jobvite"
-    r"|workable\.com|rippling\.com|bamboohr\.com|avature|phenom"
+    r"|workable\.com|rippling\.com|bamboohr\.com|avature|phenom|oraclecloud\.com"
+    r"|workforcenow\.adp\.com|applytojob\.com|talentbrew|radancy"
 )
 SYSTEM_REFERENCE = re.compile(rf"[\w.-]*(?:{KNOWN_SYSTEMS})[^\"'\s<>)\\]{{0,80}}", re.I)
 VISIBLE_TOTAL = re.compile(

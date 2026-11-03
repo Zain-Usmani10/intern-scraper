@@ -1,10 +1,9 @@
 """Browser paginated: loads numbered result pages until no new job links appear."""
 
-import re
 import time
 import urllib.parse
 
-from methods.browser_common import browser_page, extract_jobs, load, page_links
+from methods.browser_common import browser_page, extract_jobs, load, page_links, reported_total
 from methods.common import listing, require
 
 
@@ -17,15 +16,6 @@ def with_page(url, param, value):
     ]
     query.append((param, str(value)))
     return urllib.parse.urlunsplit(parts._replace(query=urllib.parse.urlencode(query)))
-
-
-def reported_total(page, total_regex):
-    if not total_regex:
-        return None
-    match = re.search(total_regex, page.inner_text("body"), re.IGNORECASE)
-    if not match:
-        raise RuntimeError("total_regex didn't match the first page")
-    return int(re.sub(r"[^\d]", "", match.group(1)))
 
 
 def fetch(params, settings):

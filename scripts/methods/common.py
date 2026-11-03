@@ -30,10 +30,10 @@ def require(params, *names):
         raise ValueError(f"missing params: {', '.join(missing)}")
 
 
-def request_json(url, settings, body=None, headers=None):
+def request_text(url, settings, body=None, headers=None):
     """GET, or POST when body is given. Waits and retries on HTTP 429."""
     scraping = settings["scraping"]
-    all_headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
+    all_headers = {"User-Agent": USER_AGENT}
     data = None
     if body is not None:
         data = json.dumps(body).encode()
@@ -46,11 +46,17 @@ def request_json(url, settings, body=None, headers=None):
             with urllib.request.urlopen(
                 request, timeout=scraping["request_timeout_seconds"]
             ) as response:
-                return json.load(response)
+                return response.read().decode("utf-8", "replace")
         except urllib.error.HTTPError as error:
             if error.code != 429 or wait_seconds is None:
                 raise
             time.sleep(wait_seconds)
+
+
+def request_json(url, settings, body=None, headers=None):
+    return json.loads(request_text(
+        url, settings, body, {"Accept": "application/json", **(headers or {})}
+    ))
 
 
 def pause(settings):
