@@ -209,7 +209,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-04",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.qualcomm.com/careers/job/446721156800": {
           "title": "FY27 Intern - MSIP Digital Design Verification Engineering Internship - Canada (16 months)",
@@ -282,14 +282,6 @@
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-04",
           "missed_runs": 0
-        },
-        "https://careers.qualcomm.com/careers/job/446721109229": {
-          "title": "FY27 Intern - Low-Power AI, Audio, and Sensors Subsystem Engineering Internship - ASIC Design / Verification/Implementation - Canada (12 or 16 months)",
-          "location": "Markham, Ontario, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-03",
-          "last_seen": "2026-11-04",
-          "missed_runs": 3
         },
         "https://careers.qualcomm.com/careers/job/446721969460": {
           "title": "FY27 Intern - AI and DSP Applications Engineering Internship - Canada (4 months)",
@@ -540,6 +532,14 @@
         },
         "https://jobs.rbc.com/ca/en/job/R-0000191860/Banking-Advisor-Intern": {
           "title": "Banking Advisor Intern",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-04",
+          "last_seen": "2026-11-04",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000192059/Client-Advisor-Intern": {
+          "title": "Client Advisor Intern",
           "location": "",
           "country": "Canada",
           "first_seen": "2026-11-04",
@@ -1001,7 +1001,7 @@
       }
     },
     "OPG": {
-      "failures": 1,
+      "failures": 0,
       "seen": {}
     },
     "NXP": {
@@ -1374,7 +1374,7 @@
       "seen": {}
     },
     "Hitachi Rail": {
-      "failures": 1,
+      "failures": 2,
       "seen": {
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/ITV-Specialist-Intern--Winter-2027--12-months-_R0147191": {
           "title": "ITV Specialist Intern (Winter 2027, 12 months)",
@@ -2010,57 +2010,7 @@
   },
   "last_heartbeat": "2026-11-04",
   "telegram_queue": [],
-  "email_queue": [
-    {
-      "company": "Teledyne",
-      "title": "Hardware Design Test Coop",
-      "location": "Canada - Waterloo, ON",
-      "country": "Canada",
-      "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Waterloo-ON/XMLNAME--Hardware-Design-Test-Coop_REQ36840-1"
-    },
-    {
-      "company": "Qualcomm",
-      "title": "FY27 Intern - AI and DSP Applications Engineering Internship - Canada (4 months)",
-      "location": "Markham, Ontario, Canada",
-      "country": "Canada",
-      "url": "https://careers.qualcomm.com/careers/job/446721969460"
-    },
-    {
-      "company": "Qualcomm",
-      "title": "FY27 Intern - Machine Learning Engineering Internship - Canada (4 months)",
-      "location": "Markham, Ontario, Canada",
-      "country": "Canada",
-      "url": "https://careers.qualcomm.com/careers/job/446721969461"
-    },
-    {
-      "company": "RBC",
-      "title": "Group Advantage Relationship Manager Intern",
-      "location": "",
-      "country": "Canada",
-      "url": "https://jobs.rbc.com/ca/en/job/R-0000191899/Group-Advantage-Relationship-Manager-Intern"
-    },
-    {
-      "company": "RBC",
-      "title": "Banking Advisor Intern",
-      "location": "",
-      "country": "Canada",
-      "url": "https://jobs.rbc.com/ca/en/job/R-0000191860/Banking-Advisor-Intern"
-    },
-    {
-      "company": "Semtech",
-      "title": "Product Engineering Intern",
-      "location": "CAN - Burlington, ON",
-      "country": "Canada",
-      "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Product-Engineering-Intern_REQ3668-1"
-    },
-    {
-      "company": "Semtech",
-      "title": "Test Engineering Intern",
-      "location": "CAN - Burlington, ON",
-      "country": "Canada",
-      "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Test-Engineering-Intern_REQ3667"
-    }
-  ],
-  "last_email_slot": "2026-11-04T08:30:00-05:00",
+  "email_queue": [],
+  "last_email_slot": "2026-11-04T16:30:00-05:00",
   "pending_alerts": []
 }
