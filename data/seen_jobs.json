@@ -290,6 +290,22 @@
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-04",
           "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721969460": {
+          "title": "FY27 Intern - AI and DSP Applications Engineering Internship - Canada (4 months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-04",
+          "last_seen": "2026-11-04",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721969461": {
+          "title": "FY27 Intern - Machine Learning Engineering Internship - Canada (4 months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-04",
+          "last_seen": "2026-11-04",
+          "missed_runs": 0
         }
       }
     },
@@ -392,7 +408,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-04",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.rbc.com/ca/en/job/R-0000191628/Client-Advisor-Intern": {
           "title": "Client Advisor Intern",
@@ -518,6 +534,14 @@
           "title": "Relationship Manager Intern, Business Markets",
           "location": "",
           "country": "",
+          "first_seen": "2026-11-04",
+          "last_seen": "2026-11-04",
+          "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000191899/Group-Advantage-Relationship-Manager-Intern": {
+          "title": "Group Advantage Relationship Manager Intern",
+          "location": "",
+          "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-04",
           "missed_runs": 0
@@ -1758,7 +1782,7 @@
       }
     },
     "Intel": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539": {
           "title": "GPU & AI Accelerator Hardware Design Undergraduate Intern",
@@ -1977,6 +2001,27 @@
       "location": "Canada - Waterloo, ON",
       "country": "Canada",
       "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Waterloo-ON/XMLNAME--Hardware-Design-Test-Coop_REQ36840-1"
+    },
+    {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - AI and DSP Applications Engineering Internship - Canada (4 months)",
+      "location": "Markham, Ontario, Canada",
+      "country": "Canada",
+      "url": "https://careers.qualcomm.com/careers/job/446721969460"
+    },
+    {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Machine Learning Engineering Internship - Canada (4 months)",
+      "location": "Markham, Ontario, Canada",
+      "country": "Canada",
+      "url": "https://careers.qualcomm.com/careers/job/446721969461"
+    },
+    {
+      "company": "RBC",
+      "title": "Group Advantage Relationship Manager Intern",
+      "location": "",
+      "country": "Canada",
+      "url": "https://jobs.rbc.com/ca/en/job/R-0000191899/Group-Advantage-Relationship-Manager-Intern"
     }
   ],
   "last_email_slot": "2026-11-04T08:30:00-05:00",
