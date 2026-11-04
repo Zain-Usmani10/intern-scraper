@@ -254,5 +254,13 @@
     "status": "added",
     "method": "adp_workforcenow",
     "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Altera",
+    "careers_url": "https://altera.wd1.myworkdayjobs.com/Altera?q=intern",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "workday",
+    "reason": "Read every job the site reports, twice, with stable results."
   }
 ]

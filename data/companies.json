@@ -514,5 +514,28 @@
       "internships": 0,
       "internships_in_locations": 0
     }
+  },
+  {
+    "name": "Altera",
+    "method": "workday",
+    "params": {
+      "host": "altera.wd1.myworkdayjobs.com",
+      "tenant": "altera",
+      "site": "Altera",
+      "search_text": "",
+      "applied_facets": {
+        "jobFamilyGroup": [
+          "3a3ac0bdef3a100fb57f7caeff190000"
+        ]
+      }
+    },
+    "verified": {
+      "date": "2026-11-03",
+      "status": "pass",
+      "all_jobs": 14,
+      "reported_total": 14,
+      "internships": 13,
+      "internships_in_locations": 7
+    }
   }
 ]
