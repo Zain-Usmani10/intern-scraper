@@ -289,7 +289,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-04",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.qualcomm.com/careers/job/446721969460": {
           "title": "FY27 Intern - AI and DSP Applications Engineering Internship - Canada (4 months)",
@@ -401,14 +401,6 @@
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-04",
           "missed_runs": 0
-        },
-        "https://jobs.rbc.com/ca/en/job/R-0000190413/Client-Advisor-Intern": {
-          "title": "Client Advisor Intern",
-          "location": "",
-          "country": "Canada",
-          "first_seen": "2026-11-03",
-          "last_seen": "2026-11-04",
-          "missed_runs": 3
         },
         "https://jobs.rbc.com/ca/en/job/R-0000191628/Client-Advisor-Intern": {
           "title": "Client Advisor Intern",
@@ -545,11 +537,19 @@
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-04",
           "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000191860/Banking-Advisor-Intern": {
+          "title": "Banking Advisor Intern",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-04",
+          "last_seen": "2026-11-04",
+          "missed_runs": 0
         }
       }
     },
     "Kepler Communications": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://jobs.lever.co/kepler/ccb93343-3e2f-485d-bccf-5e34512bf4cb": {
           "title": "IT Intern (January 2027) (4 months)",
@@ -2022,6 +2022,13 @@
       "location": "",
       "country": "Canada",
       "url": "https://jobs.rbc.com/ca/en/job/R-0000191899/Group-Advantage-Relationship-Manager-Intern"
+    },
+    {
+      "company": "RBC",
+      "title": "Banking Advisor Intern",
+      "location": "",
+      "country": "Canada",
+      "url": "https://jobs.rbc.com/ca/en/job/R-0000191860/Banking-Advisor-Intern"
     }
   ],
   "last_email_slot": "2026-11-04T08:30:00-05:00",
