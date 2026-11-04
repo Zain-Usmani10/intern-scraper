@@ -565,5 +565,28 @@
       "internships": 102,
       "internships_in_locations": 3
     }
+  },
+  {
+    "name": "Aptiv",
+    "method": "workday",
+    "params": {
+      "host": "aptiv.wd5.myworkdayjobs.com",
+      "tenant": "aptiv",
+      "site": "APTIV_CAREERS",
+      "search_text": "",
+      "applied_facets": {
+        "Country": [
+          "a30a87ed25634629aa6c3958aa2b91ea"
+        ]
+      }
+    },
+    "verified": {
+      "date": "2026-11-04",
+      "status": "pass",
+      "all_jobs": 44,
+      "reported_total": 44,
+      "internships": 22,
+      "internships_in_locations": 22
+    }
   }
 ]

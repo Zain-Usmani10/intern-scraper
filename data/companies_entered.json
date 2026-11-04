@@ -270,5 +270,13 @@
     "status": "added",
     "method": "workday",
     "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Aptiv",
+    "careers_url": "https://www.aptiv.com/en/jobs/search?keyword=intern",
+    "entered": "2026-11-04",
+    "status": "added",
+    "method": "workday",
+    "reason": "Read every job the site reports, twice, with stable results."
   }
 ]
