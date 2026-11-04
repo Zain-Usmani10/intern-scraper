@@ -289,7 +289,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-04",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.qualcomm.com/careers/job/446721969460": {
           "title": "FY27 Intern - AI and DSP Applications Engineering Internship - Canada (4 months)",
@@ -408,7 +408,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-04",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.rbc.com/ca/en/job/R-0000191628/Client-Advisor-Intern": {
           "title": "Client Advisor Intern",
@@ -1782,7 +1782,7 @@
       }
     },
     "Intel": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539": {
           "title": "GPU & AI Accelerator Hardware Design Undergraduate Intern",
