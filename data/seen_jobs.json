@@ -392,7 +392,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-04",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.rbc.com/ca/en/job/R-0000191628/Client-Advisor-Intern": {
           "title": "Client Advisor Intern",
@@ -947,6 +947,14 @@
           "location": "Canada - Montreal, QC (TDY)",
           "country": "Canada",
           "first_seen": "2026-11-03",
+          "last_seen": "2026-11-04",
+          "missed_runs": 0
+        },
+        "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Waterloo-ON/XMLNAME--Hardware-Design-Test-Coop_REQ36840-1": {
+          "title": "Hardware Design Test Coop",
+          "location": "Canada - Waterloo, ON",
+          "country": "Canada",
+          "first_seen": "2026-11-04",
           "last_seen": "2026-11-04",
           "missed_runs": 0
         }
@@ -1962,7 +1970,15 @@
   },
   "last_heartbeat": "2026-11-04",
   "telegram_queue": [],
-  "email_queue": [],
+  "email_queue": [
+    {
+      "company": "Teledyne",
+      "title": "Hardware Design Test Coop",
+      "location": "Canada - Waterloo, ON",
+      "country": "Canada",
+      "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Waterloo-ON/XMLNAME--Hardware-Design-Test-Coop_REQ36840-1"
+    }
+  ],
   "last_email_slot": "2026-11-04T08:30:00-05:00",
   "pending_alerts": []
 }
