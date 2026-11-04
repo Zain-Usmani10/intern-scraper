@@ -10,6 +10,7 @@ EXTRA_COUNTRY_NAMES = {
     "US": ["USA", "U.S.", "U.S.A.", "United States of America", "America"],
     "GB": ["UK", "U.K.", "England", "Scotland", "Wales", "Great Britain", "Britain"],
     "KR": ["South Korea", "Korea"],
+    "CN": ["PRC", "Mainland China"],
     "TW": ["Taiwan"],
     "RU": ["Russia"],
     "VN": ["Vietnam"],

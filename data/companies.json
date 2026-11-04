@@ -53,19 +53,16 @@
       "site": "NVIDIAExternalCareerSite",
       "search_text": "",
       "applied_facets": {
-        "workerSubType": [
-          "0c40f6bd1d8f10adf6dae42e46d44a17"
-        ],
         "locationHierarchy1": [
           "2fcb99c455831013ea529c3b93ba3236"
         ]
       }
     },
     "verified": {
-      "date": "2026-11-02",
+      "date": "2026-11-03",
       "status": "pass",
-      "all_jobs": 2,
-      "reported_total": 2,
+      "all_jobs": 17,
+      "reported_total": 17,
       "internships": 2,
       "internships_in_locations": 2
     }
@@ -177,9 +174,6 @@
       "site": "SemtechCareers",
       "search_text": "",
       "applied_facets": {
-        "workerSubType": [
-          "fd915e2b32150101625b227126120000"
-        ],
         "Location_Country": [
           "a30a87ed25634629aa6c3958aa2b91ea"
         ]
@@ -188,8 +182,8 @@
     "verified": {
       "date": "2026-11-03",
       "status": "pass",
-      "all_jobs": 16,
-      "reported_total": 16,
+      "all_jobs": 35,
+      "reported_total": 35,
       "internships": 16,
       "internships_in_locations": 16
     }
@@ -238,15 +232,20 @@
       "host": "flir.wd1.myworkdayjobs.com",
       "tenant": "flir",
       "site": "flircareers",
-      "search_text": "intern"
+      "search_text": "",
+      "applied_facets": {
+        "locationCountry": [
+          "a30a87ed25634629aa6c3958aa2b91ea"
+        ]
+      }
     },
     "verified": {
       "date": "2026-11-03",
       "status": "pass",
-      "all_jobs": 358,
-      "reported_total": 358,
-      "internships": 15,
-      "internships_in_locations": 2
+      "all_jobs": 76,
+      "reported_total": 76,
+      "internships": 1,
+      "internships_in_locations": 1
     }
   },
   {
@@ -277,18 +276,18 @@
       "site": "careers",
       "search_text": "",
       "applied_facets": {
-        "jobFamily": [
-          "98d67abaaa8a100feabfca6a335c0b96"
+        "Location_Country": [
+          "a30a87ed25634629aa6c3958aa2b91ea"
         ]
       }
     },
     "verified": {
       "date": "2026-11-03",
       "status": "pass",
-      "all_jobs": 125,
-      "reported_total": 125,
-      "internships": 79,
-      "internships_in_locations": 79
+      "all_jobs": 2,
+      "reported_total": 2,
+      "internships": 0,
+      "internships_in_locations": 0
     }
   },
   {
@@ -298,13 +297,18 @@
       "host": "bb.wd3.myworkdayjobs.com",
       "tenant": "bb",
       "site": "QNX",
-      "search_text": ""
+      "search_text": "",
+      "applied_facets": {
+        "Country": [
+          "a30a87ed25634629aa6c3958aa2b91ea"
+        ]
+      }
     },
     "verified": {
       "date": "2026-11-03",
       "status": "pass",
-      "all_jobs": 20,
-      "reported_total": 20,
+      "all_jobs": 13,
+      "reported_total": 13,
       "internships": 0,
       "internships_in_locations": 0
     }
@@ -449,6 +453,7 @@
       "host": "hitachi.wd1.myworkdayjobs.com",
       "tenant": "hitachi",
       "site": "hitachi",
+      "search_text": "",
       "applied_facets": {
         "locationCountry": [
           "a30a87ed25634629aa6c3958aa2b91ea"
@@ -536,6 +541,29 @@
       "reported_total": 14,
       "internships": 13,
       "internships_in_locations": 7
+    }
+  },
+  {
+    "name": "Intel",
+    "method": "workday",
+    "params": {
+      "host": "intel.wd1.myworkdayjobs.com",
+      "tenant": "intel",
+      "site": "External",
+      "search_text": "",
+      "applied_facets": {
+        "jobFamilyGroup": [
+          "dc8bf79476611087d67b36517cf17036"
+        ]
+      }
+    },
+    "verified": {
+      "date": "2026-11-03",
+      "status": "pass",
+      "all_jobs": 103,
+      "reported_total": 103,
+      "internships": 102,
+      "internships_in_locations": 3
     }
   }
 ]

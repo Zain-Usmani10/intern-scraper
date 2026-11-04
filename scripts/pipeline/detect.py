@@ -73,6 +73,8 @@ def country_facet(facets, settings):
         ]
         if ids:
             return {facet["facetParameter"]: ids}
+    # City filters, like "Canada, Toronto", are left out on purpose: they only
+    # list cities with jobs today, so a job in a new city would be missed.
     return {}
 
 
@@ -96,7 +98,16 @@ def workday_candidates(host, tenant, site, settings):
         if values and (best is None or count > best[2]):
             best = (facet["facetParameter"], [value["id"] for value in values], count)
 
+    if countries:
+        # Every job in your countries, tried first: it also catches co-ops
+        # and student jobs that Workday doesn't tag as internships.
+        candidates.append({
+            "method": "workday",
+            "params": {**base, "search_text": "", "applied_facets": countries},
+            "source": f"Workday filter {next(iter(countries))}",
+        })
     if best and countries:
+        # Fallback when your countries have more jobs than max_api_pages allows.
         candidates.append({
             "method": "workday",
             "params": {**base, "search_text": "",

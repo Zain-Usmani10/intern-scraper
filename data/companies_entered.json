@@ -262,5 +262,13 @@
     "status": "added",
     "method": "workday",
     "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Intel",
+    "careers_url": "https://intel.wd1.myworkdayjobs.com/External?q=intern",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "workday",
+    "reason": "Read every job the site reports, twice, with stable results."
   }
 ]
