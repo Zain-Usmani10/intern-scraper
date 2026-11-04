@@ -209,7 +209,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-04",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.qualcomm.com/careers/job/446721156800": {
           "title": "FY27 Intern - MSIP Digital Design Verification Engineering Internship - Canada (16 months)",
@@ -289,7 +289,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-04",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.qualcomm.com/careers/job/446721969460": {
           "title": "FY27 Intern - AI and DSP Applications Engineering Internship - Canada (4 months)",
@@ -549,7 +549,7 @@
       }
     },
     "Kepler Communications": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://jobs.lever.co/kepler/ccb93343-3e2f-485d-bccf-5e34512bf4cb": {
           "title": "IT Intern (January 2027) (4 months)",
@@ -725,6 +725,22 @@
           "location": "CAN - Ottawa, ON",
           "country": "Canada",
           "first_seen": "2026-11-03",
+          "last_seen": "2026-11-04",
+          "missed_runs": 0
+        },
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Product-Engineering-Intern_REQ3668-1": {
+          "title": "Product Engineering Intern",
+          "location": "CAN - Burlington, ON",
+          "country": "Canada",
+          "first_seen": "2026-11-04",
+          "last_seen": "2026-11-04",
+          "missed_runs": 0
+        },
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Test-Engineering-Intern_REQ3667": {
+          "title": "Test Engineering Intern",
+          "location": "CAN - Burlington, ON",
+          "country": "Canada",
+          "first_seen": "2026-11-04",
           "last_seen": "2026-11-04",
           "missed_runs": 0
         }
@@ -985,7 +1001,7 @@
       }
     },
     "OPG": {
-      "failures": 0,
+      "failures": 1,
       "seen": {}
     },
     "NXP": {
@@ -1358,7 +1374,7 @@
       "seen": {}
     },
     "Hitachi Rail": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/ITV-Specialist-Intern--Winter-2027--12-months-_R0147191": {
           "title": "ITV Specialist Intern (Winter 2027, 12 months)",
@@ -2029,6 +2045,20 @@
       "location": "",
       "country": "Canada",
       "url": "https://jobs.rbc.com/ca/en/job/R-0000191860/Banking-Advisor-Intern"
+    },
+    {
+      "company": "Semtech",
+      "title": "Product Engineering Intern",
+      "location": "CAN - Burlington, ON",
+      "country": "Canada",
+      "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Product-Engineering-Intern_REQ3668-1"
+    },
+    {
+      "company": "Semtech",
+      "title": "Test Engineering Intern",
+      "location": "CAN - Burlington, ON",
+      "country": "Canada",
+      "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Test-Engineering-Intern_REQ3667"
     }
   ],
   "last_email_slot": "2026-11-04T08:30:00-05:00",
