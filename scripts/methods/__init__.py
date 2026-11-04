@@ -14,6 +14,7 @@ from methods import (
     lever,
     oracle_hcm,
     radancy,
+    rippling,
     workday,
 )
 
@@ -30,6 +31,7 @@ METHODS = {
     "bamboohr": bamboohr,
     "adp_workforcenow": adp_workforcenow,
     "jazzhr": jazzhr,
+    "rippling": rippling,
     "browser_paginated": browser_paginated,
     "browser_page": browser_page,
 }

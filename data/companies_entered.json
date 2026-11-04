@@ -214,5 +214,45 @@
     "status": "added",
     "method": "browser_page",
     "reason": "The site reports no total, so compare these results with the site before approving."
+  },
+  {
+    "name": "Hitachi Rail",
+    "careers_url": "https://hitachirail.com/careers/vacancies",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "workday",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Skyworks",
+    "careers_url": "https://careers.skyworksinc.com/search/?q=intern",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "browser_paginated",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "4AG Robotics",
+    "careers_url": "https://ats.rippling.com/4ag/jobs",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "rippling",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Tesla",
+    "careers_url": "https://www.tesla.com/careers/search/?query=intern",
+    "entered": "2026-11-03",
+    "status": "needs new method",
+    "method": null,
+    "reason": "Tesla runs its own in-house applicant tracking system behind bot protection, which returns 403 Access Denied to automated clients. None of the supported methods can reach it without bypassing that protection."
+  },
+  {
+    "name": "Novarc",
+    "careers_url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d355e8f6-9a6c-48a9-b7ba-45a41dc5daad&ccId=9200648065638_2&lang=en_CA",
+    "entered": "2026-11-03",
+    "status": "added",
+    "method": "adp_workforcenow",
+    "reason": "Read every job the site reports, twice, with stable results."
   }
 ]

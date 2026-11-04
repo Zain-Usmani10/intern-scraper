@@ -34,5 +34,14 @@
     "suggested_method": "adp_workforcenow",
     "how_it_works": "GET https://workforcenow.adp.com/mascsr/default/careercenter/public/events/staffing/v1/job-requisitions?cid=CID&ccId=CCID&lang=en_CA&locale=en_CA&$top=50 (page with $skip). The response has meta.totalNumber and jobRequisitions[] with requisitionTitle, itemID, postDate and requisitionLocations[].nameCode.shortName. Job URL: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=CID&ccId=CCID&lang=en_CA&jobId=EXTERNAL_JOB_ID (ExternalJobID from customFieldGroup.stringFields) or itemID. Params: cid, ccId.",
     "evidence": "norsat.com/pages/careers links the Sinclair section to the ADP URL with ccId=9200693907439_2 (the other ccId 9200686826445_2 is Norsat). curl of the public API with no login returned totalNumber 7: Fabricator, Manufacturing Engineer, Production Staff, Planner Junior, Financial Accountant, Accounts Receivable Specialist, Logistics Specialist Junior, all in Aurora, ON, CA. browser_page on the ADP recruitment page found 0 jobs."
+  },
+  {
+    "date": "2026-11-03T22:18:53",
+    "company": "Tesla",
+    "careers_url": "https://www.tesla.com/careers/search/?query=intern",
+    "summary": "Tesla runs its own in-house applicant tracking system behind bot protection, which returns 403 Access Denied to automated clients. None of the supported methods can reach it without bypassing that protection.",
+    "suggested_method": "manual",
+    "how_it_works": "Tesla's careers page (tesla.com/careers/search) loads listings from Tesla's own internal API under tesla.com/cua-api. That API is not Greenhouse, Lever, Ashby, or Workday. Both the page and the API return 403 to non-browser requests. Check Tesla internships in Canada by hand, or use an aggregator that is allowed to republish Tesla listings.",
+    "evidence": "Automatic inspection got HTTP 403 with the page title 'Access Denied' and no links or API requests. curl with a browser User-Agent got 403 for both /careers/search/?query=intern and /cua-api/apps/careers/state. The Greenhouse, Ashby, and Lever boards named 'tesla' all return 404. Reporting says Tesla built its own HR and applicant tracking software (driveteslacanada.ca/?p=55675), and Tesla has posted jobs for engineers to build its in-house applicant tracking system."
   }
 ]

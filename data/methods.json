@@ -235,6 +235,18 @@
       }
     }
   },
+  "rippling": {
+    "description": "Rippling public job board API.",
+    "recognize": "Links to ats.rippling.com/BOARD/jobs.",
+    "completeness": "api_total",
+    "params": {
+      "board": {
+        "required": true,
+        "description": "Board name from ats.rippling.com/BOARD.",
+        "example": "4ag"
+      }
+    }
+  },
   "browser_paginated": {
     "description": "Loads numbered result pages in Chromium and collects job links until no new ones appear.",
     "recognize": "Results are split into pages that change a URL parameter, such as page=2 or start=20.",

@@ -1,6 +1,7 @@
 """Paths to every data file, plus helpers to read and write JSON."""
 
 import json
+import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -38,7 +39,15 @@ def write_json(path, data):
     temp_file.write_text(
         json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
     )
-    temp_file.replace(path)
+    # On Windows, an editor or antivirus can lock the file for a moment.
+    for attempt in range(10):
+        try:
+            temp_file.replace(path)
+            return
+        except PermissionError:
+            if attempt == 9:
+                raise
+            time.sleep(0.5)
 
 
 def load_settings():

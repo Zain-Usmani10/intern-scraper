@@ -18,7 +18,7 @@ KNOWN_SYSTEMS = (
     r"greenhouse\.io|ashbyhq\.com|lever\.co|myworkdayjobs\.com|eightfold\.ai|/api/pcsx/"
     r"|icims\.com|amazon\.jobs|smartrecruiters\.com|successfactors|taleo|jobvite"
     r"|workable\.com|rippling\.com|bamboohr\.com|avature|phenom|oraclecloud\.com"
-    r"|workforcenow\.adp\.com|applytojob\.com|talentbrew|radancy"
+    r"|workforcenow\.adp\.com|applytojob\.com|talentbrew|radancy|rippling\.com"
 )
 SYSTEM_REFERENCE = re.compile(rf"[\w.-]*(?:{KNOWN_SYSTEMS})[^\"'\s<>)\\]{{0,80}}", re.I)
 VISIBLE_TOTAL = re.compile(

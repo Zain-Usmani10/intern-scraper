@@ -441,5 +441,78 @@
       "internships": 0,
       "internships_in_locations": 0
     }
+  },
+  {
+    "name": "Hitachi Rail",
+    "method": "workday",
+    "params": {
+      "host": "hitachi.wd1.myworkdayjobs.com",
+      "tenant": "hitachi",
+      "site": "hitachi",
+      "applied_facets": {
+        "locationCountry": [
+          "a30a87ed25634629aa6c3958aa2b91ea"
+        ]
+      }
+    },
+    "verified": {
+      "date": "2026-11-03",
+      "status": "pass",
+      "all_jobs": 161,
+      "reported_total": 161,
+      "internships": 28,
+      "internships_in_locations": 28
+    }
+  },
+  {
+    "name": "Skyworks",
+    "method": "browser_paginated",
+    "params": {
+      "url": "https://careers.skyworksinc.com/search/?q=&locationsearch=Canada&sortBy=date&pageNumber=0",
+      "page_param": "pageNumber",
+      "first_page": 0,
+      "page_step": 1,
+      "link_pattern": "/job/[^/]+/\\d+-en_US",
+      "total_regex": "of ([\\d,]+) results"
+    },
+    "verified": {
+      "date": "2026-11-03",
+      "status": "pass",
+      "all_jobs": 14,
+      "reported_total": 14,
+      "internships": 13,
+      "internships_in_locations": 13
+    }
+  },
+  {
+    "name": "4AG Robotics",
+    "method": "rippling",
+    "params": {
+      "board": "4ag"
+    },
+    "verified": {
+      "date": "2026-11-03",
+      "status": "pass",
+      "all_jobs": 5,
+      "reported_total": 5,
+      "internships": 4,
+      "internships_in_locations": 4
+    }
+  },
+  {
+    "name": "Novarc",
+    "method": "adp_workforcenow",
+    "params": {
+      "cid": "d355e8f6-9a6c-48a9-b7ba-45a41dc5daad",
+      "cc_id": "9200648065638_2"
+    },
+    "verified": {
+      "date": "2026-11-03",
+      "status": "pass",
+      "all_jobs": 29,
+      "reported_total": 29,
+      "internships": 0,
+      "internships_in_locations": 0
+    }
   }
 ]
