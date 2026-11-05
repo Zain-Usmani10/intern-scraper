@@ -1,7 +1,7 @@
 {
   "companies": {
     "Qualcomm": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://careers.qualcomm.com/careers/job/446721862429": {
           "title": "FY27 Intern - AI Software Engineering Co-op - Canada (4 months)",
@@ -425,7 +425,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-05",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/R-D-Lab-Coordinator-Intern_REQ3626": {
           "title": "R&D Lab Coordinator Intern",
@@ -435,21 +435,13 @@
           "last_seen": "2026-11-05",
           "missed_runs": 0
         },
-        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Analog-Design-Engineer-Intern_REQ3622": {
-          "title": "Analog Design Engineer Intern",
-          "location": "CAN - Burlington, ON",
-          "country": "Canada",
-          "first_seen": "2026-11-03",
-          "last_seen": "2026-11-05",
-          "missed_runs": 3
-        },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Calgary-AB/Analog-Design-Engineer-Intern_REQ3623": {
           "title": "Analog Design Engineer Intern",
           "location": "CAN - Calgary, AB",
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-05",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Calgary-AB/Analog-Design-Engineer-Intern_REQ3624": {
           "title": "Analog Design Engineer Intern",
@@ -457,7 +449,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-05",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Ottawa-ON/Analog-Design-Intern_REQ3625": {
           "title": "Analog Design Intern",
@@ -481,7 +473,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-05",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Applications-Engineering-Intern_REQ3615": {
           "title": "Applications Engineering Intern",
@@ -957,14 +949,6 @@
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-05",
           "missed_runs": 0
-        },
-        "https://careers.l3harris.com/en/job/waterdown/software-engineering-co-op-waterdown-can/4832/100667892688": {
-          "title": "Software Engineering Co-Op (Waterdown, CAN)",
-          "location": "Waterdown, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-03",
-          "last_seen": "2026-11-05",
-          "missed_runs": 3
         },
         "https://careers.l3harris.com/en/job/waterdown/software-engineering-co-op-waterdown-can/4832/100667892672": {
           "title": "Software Engineering Co-Op (Waterdown, CAN)",
@@ -2006,7 +1990,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-05",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://wd3.myworkdaysite.com/Magna/job/Milton-Ontario-CA/Industrial-Engineering-Co-op--Material-Flow_R00259404": {
           "title": "Industrial Engineering Co-op, Material Flow",
@@ -2297,7 +2281,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-05",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Brampton-Ontario-Canada/Intern--Technical-Sales---Consulting--Canada-_R26-5965-2": {
           "title": "Intern, Technical Sales & Consulting (Canada)",
