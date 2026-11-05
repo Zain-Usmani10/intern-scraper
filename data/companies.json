@@ -1135,5 +1135,38 @@
       "internships": 178,
       "internships_in_locations": 178
     }
+  },
+  {
+    "name": "Christie",
+    "method": "browser_paginated",
+    "params": {
+      "url": "https://jobs.dayforcehcm.com/en-US/cdsc/CANDIDATEPORTAL",
+      "page_param": "page",
+      "link_pattern": "/CANDIDATEPORTAL/jobs/\\d+"
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "needs_approval",
+      "all_jobs": 8,
+      "reported_total": null,
+      "internships": 0,
+      "internships_in_locations": 0
+    }
+  },
+  {
+    "name": "Ballard Power Systems",
+    "method": "browser_page",
+    "params": {
+      "url": "https://recruitingbypaycor.com/career/CareerHome.action?clientId=8a7883d06937f5f7016978fec55861f7&m=t",
+      "link_pattern": "JobIntroduction\\.action\\?.*id="
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "needs_approval",
+      "all_jobs": 11,
+      "reported_total": null,
+      "internships": 0,
+      "internships_in_locations": 0
+    }
   }
 ]
