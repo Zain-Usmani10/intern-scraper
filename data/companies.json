@@ -85,26 +85,6 @@
     }
   },
   {
-    "name": "RBC",
-    "method": "browser_paginated",
-    "params": {
-      "url": "https://jobs.rbc.com/ca/en/search-results?keywords=intern",
-      "page_param": "from",
-      "first_page": 0,
-      "page_step": 10,
-      "link_pattern": "/ca/en/job/R-\\d+",
-      "total_regex": "\\bof\\s+([\\d,]+)\\s*(?:results|jobs)"
-    },
-    "verified": {
-      "date": "2026-11-02",
-      "status": "pass",
-      "all_jobs": 84,
-      "reported_total": 84,
-      "internships": 39,
-      "internships_in_locations": 19
-    }
-  },
-  {
     "name": "Kepler Communications",
     "method": "lever",
     "params": {

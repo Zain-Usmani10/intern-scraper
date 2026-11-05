@@ -40,14 +40,6 @@
     "reason": "Read every job the site reports, twice, with stable results."
   },
   {
-    "name": "RBC",
-    "careers_url": "https://jobs.rbc.com/ca/en/search-results?keywords=intern",
-    "entered": "2026-11-02",
-    "status": "added",
-    "method": "browser_paginated",
-    "reason": "Read every job the site reports, twice, with stable results."
-  },
-  {
     "name": "Kepler Communications",
     "careers_url": "https://jobs.lever.co/kepler?commitment=Intern%2FCo-op",
     "entered": "2026-11-03",
