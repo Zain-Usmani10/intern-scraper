@@ -1,7 +1,7 @@
 {
   "companies": {
     "Qualcomm": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://careers.qualcomm.com/careers/job/446721862429": {
           "title": "FY27 Intern - AI Software Engineering Co-op - Canada (4 months)",
@@ -799,7 +799,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-04",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Waterloo-ON/XMLNAME--Software-Engineering-Coop_REQ36845": {
           "title": "Software Engineering Coop",
@@ -807,7 +807,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-04",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
@@ -816,7 +816,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 1,
+      "failures": 0,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -1589,14 +1589,6 @@
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-05",
           "missed_runs": 0
-        },
-        "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/Undergrad-Intern-Technical_R03351": {
-          "title": "Undergrad Intern Technical",
-          "location": "Toronto, Ontario, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-04",
-          "missed_runs": 3
         },
         "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/IP-Design-PEY-Intern_R03341": {
           "title": "IP Design PEY Intern",
