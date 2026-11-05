@@ -1,7 +1,7 @@
 {
   "companies": {
     "Qualcomm": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://careers.qualcomm.com/careers/job/446721862429": {
           "title": "FY27 Intern - AI Software Engineering Co-op - Canada (4 months)",
@@ -274,14 +274,6 @@
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-05",
           "missed_runs": 0
-        },
-        "https://careers.qualcomm.com/careers/job/446721969460": {
-          "title": "FY27 Intern - AI and DSP Applications Engineering Internship - Canada (4 months)",
-          "location": "Markham, Ontario, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-04",
-          "missed_runs": 3
         },
         "https://careers.qualcomm.com/careers/job/446721969461": {
           "title": "FY27 Intern - Machine Learning Engineering Internship - Canada (4 months)",
@@ -792,22 +784,6 @@
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-05",
           "missed_runs": 0
-        },
-        "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Waterloo-ON/XMLNAME--Hardware-Design-Test-Coop_REQ36840-1": {
-          "title": "Hardware Design Test Coop",
-          "location": "Canada - Waterloo, ON",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-04",
-          "missed_runs": 3
-        },
-        "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Waterloo-ON/XMLNAME--Software-Engineering-Coop_REQ36845": {
-          "title": "Software Engineering Coop",
-          "location": "Canada - Waterloo, ON",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-04",
-          "missed_runs": 3
         }
       }
     },
@@ -1193,7 +1169,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-05",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Intern-Safety-Specialist--Fall-2027--8-12-months-_R0143291": {
           "title": "Intern Safety Specialist (Fall 2027, 8-12 months)",
@@ -2120,7 +2096,7 @@
       }
     },
     "General Motors": {
-      "failures": 0,
+      "failures": 1,
       "seen": {}
     },
     "Ford": {
