@@ -433,7 +433,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-05",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Calgary-AB/Analog-Design-Engineer-Intern_REQ3623": {
           "title": "Analog Design Engineer Intern",
@@ -956,7 +956,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-05",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.l3harris.com/en/job/waterdown/software-engineering-co-op-waterdown-can/4832/100667892672": {
           "title": "Software Engineering Co-Op (Waterdown, CAN)",
@@ -1169,7 +1169,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-05",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Intern-Safety-Specialist--Fall-2027--8-12-months-_R0143291": {
           "title": "Intern Safety Specialist (Fall 2027, 8-12 months)",
@@ -2096,7 +2096,7 @@
       }
     },
     "General Motors": {
-      "failures": 1,
+      "failures": 0,
       "seen": {}
     },
     "Ford": {
