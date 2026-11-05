@@ -209,7 +209,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-04",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.qualcomm.com/careers/job/446721156800": {
           "title": "FY27 Intern - MSIP Digital Design Verification Engineering Internship - Canada (16 months)",
@@ -289,10 +289,18 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-04",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.qualcomm.com/careers/job/446721969461": {
           "title": "FY27 Intern - Machine Learning Engineering Internship - Canada (4 months)",
+          "location": "Markham, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-04",
+          "last_seen": "2026-11-04",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721972361": {
+          "title": "FY27 Intern - Display IP FPGA Emulation Intern - Canada (4 months)",
           "location": "Markham, Ontario, Canada",
           "country": "Canada",
           "first_seen": "2026-11-04",
@@ -545,6 +553,14 @@
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-04",
           "missed_runs": 0
+        },
+        "https://jobs.rbc.com/ca/en/job/R-0000191932/Assistant-Branch-Manager-Intern": {
+          "title": "Assistant Branch Manager Intern",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-04",
+          "last_seen": "2026-11-04",
+          "missed_runs": 0
         }
       }
     },
@@ -738,6 +754,14 @@
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Test-Engineering-Intern_REQ3667": {
           "title": "Test Engineering Intern",
+          "location": "CAN - Burlington, ON",
+          "country": "Canada",
+          "first_seen": "2026-11-04",
+          "last_seen": "2026-11-04",
+          "missed_runs": 0
+        },
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Quality-Engineering-Intern_REQ3692": {
+          "title": "Quality Engineering Intern",
           "location": "CAN - Burlington, ON",
           "country": "Canada",
           "first_seen": "2026-11-04",
@@ -992,6 +1016,14 @@
         },
         "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Waterloo-ON/XMLNAME--Hardware-Design-Test-Coop_REQ36840-1": {
           "title": "Hardware Design Test Coop",
+          "location": "Canada - Waterloo, ON",
+          "country": "Canada",
+          "first_seen": "2026-11-04",
+          "last_seen": "2026-11-04",
+          "missed_runs": 0
+        },
+        "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Waterloo-ON/XMLNAME--Software-Engineering-Coop_REQ36845": {
+          "title": "Software Engineering Coop",
           "location": "Canada - Waterloo, ON",
           "country": "Canada",
           "first_seen": "2026-11-04",
@@ -1374,7 +1406,7 @@
       "seen": {}
     },
     "Hitachi Rail": {
-      "failures": 2,
+      "failures": 0,
       "seen": {
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/ITV-Specialist-Intern--Winter-2027--12-months-_R0147191": {
           "title": "ITV Specialist Intern (Winter 2027, 12 months)",
@@ -1785,7 +1817,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-04",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/IP-Design-PEY-Intern_R03341": {
           "title": "IP Design PEY Intern",
@@ -2010,7 +2042,36 @@
   },
   "last_heartbeat": "2026-11-04",
   "telegram_queue": [],
-  "email_queue": [],
+  "email_queue": [
+    {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Display IP FPGA Emulation Intern - Canada (4 months)",
+      "location": "Markham, Ontario, Canada",
+      "country": "Canada",
+      "url": "https://careers.qualcomm.com/careers/job/446721972361"
+    },
+    {
+      "company": "RBC",
+      "title": "Assistant Branch Manager Intern",
+      "location": "",
+      "country": "Canada",
+      "url": "https://jobs.rbc.com/ca/en/job/R-0000191932/Assistant-Branch-Manager-Intern"
+    },
+    {
+      "company": "Semtech",
+      "title": "Quality Engineering Intern",
+      "location": "CAN - Burlington, ON",
+      "country": "Canada",
+      "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Quality-Engineering-Intern_REQ3692"
+    },
+    {
+      "company": "Teledyne",
+      "title": "Software Engineering Coop",
+      "location": "Canada - Waterloo, ON",
+      "country": "Canada",
+      "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Waterloo-ON/XMLNAME--Software-Engineering-Coop_REQ36845"
+    }
+  ],
   "last_email_slot": "2026-11-04T16:30:00-05:00",
   "pending_alerts": []
 }
