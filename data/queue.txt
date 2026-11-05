@@ -1,4 +1,4 @@
-Kinova, Sanctuary AI, Siemens, ABB, MDA Space
+Kinova, Siemens, ABB, MDA Space
 CAE, Bombardier, Pratt & Whitney Canada, Honeywell Aerospace, Thales Canada
 Lockheed Martin Canada, General Dynamics Land Systems Canada, General Dynamics Mission Systems Canada, Celestica, Christie Digital
 ecobee, NovAtel, Ballard Power Systems, D-Wave Quantum, Lumentum

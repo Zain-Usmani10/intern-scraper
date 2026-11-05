@@ -247,6 +247,18 @@
       }
     }
   },
+  "kula": {
+    "description": "Kula job board API behind careers.kula.ai.",
+    "recognize": "Links to careers.kula.ai/ACCOUNT.",
+    "completeness": "api_total",
+    "params": {
+      "account": {
+        "required": true,
+        "description": "Account name from careers.kula.ai/ACCOUNT.",
+        "example": "sanctuary-ai"
+      }
+    }
+  },
   "rippling": {
     "description": "Rippling public job board API.",
     "recognize": "Links to ats.rippling.com/BOARD/jobs.",

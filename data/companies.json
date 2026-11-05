@@ -855,5 +855,20 @@
       "internships": 0,
       "internships_in_locations": 0
     }
+  },
+  {
+    "name": "Sanctuary AI",
+    "method": "kula",
+    "params": {
+      "account": "sanctuary-ai"
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 9,
+      "reported_total": 9,
+      "internships": 0,
+      "internships_in_locations": 0
+    }
   }
 ]
