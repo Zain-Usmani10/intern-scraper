@@ -568,5 +568,292 @@
       "internships": 22,
       "internships_in_locations": 22
     }
+  },
+  {
+    "name": "Microchip",
+    "method": "workday",
+    "params": {
+      "host": "wd5.myworkdaysite.com",
+      "tenant": "microchiphr",
+      "site": "External"
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 534,
+      "reported_total": 534,
+      "internships": 8,
+      "internships_in_locations": 0
+    }
+  },
+  {
+    "name": "Synopsys",
+    "method": "radancy",
+    "params": {
+      "site": "https://careers.synopsys.com",
+      "country_ids": [
+        "6251999"
+      ]
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 46,
+      "reported_total": 46,
+      "internships": 0,
+      "internships_in_locations": 0
+    }
+  },
+  {
+    "name": "Cadence",
+    "method": "workday",
+    "params": {
+      "host": "cadence.wd1.myworkdayjobs.com",
+      "tenant": "cadence",
+      "site": "External_Careers",
+      "search_text": "",
+      "applied_facets": {
+        "Location_Country": [
+          "a30a87ed25634629aa6c3958aa2b91ea"
+        ]
+      }
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 13,
+      "reported_total": 13,
+      "internships": 1,
+      "internships_in_locations": 1
+    }
+  },
+  {
+    "name": "Analog Devices",
+    "method": "workday",
+    "params": {
+      "host": "analogdevices.wd1.myworkdayjobs.com",
+      "tenant": "analogdevices",
+      "site": "External",
+      "search_text": "",
+      "applied_facets": {
+        "locationCountry": [
+          "a30a87ed25634629aa6c3958aa2b91ea"
+        ]
+      }
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 8,
+      "reported_total": 8,
+      "internships": 1,
+      "internships_in_locations": 1
+    }
+  },
+  {
+    "name": "Infineon",
+    "method": "eightfold",
+    "params": {
+      "url": "https://jobs.infineon.com/careers?query=intern&start=0&pid=563808971984423&sort_by=relevance",
+      "domain": "infineon.com"
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 285,
+      "reported_total": 285,
+      "internships": 219,
+      "internships_in_locations": 0
+    }
+  },
+  {
+    "name": "Renesas",
+    "method": "browser_paginated",
+    "params": {
+      "url": "https://jobs.renesas.com/jobs?size=48",
+      "page_param": "page",
+      "link_pattern": "/job/[^/]+-jid-\\d+",
+      "total_regex": "([\\d,]+) result\\(s\\)"
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 941,
+      "reported_total": 941,
+      "internships": 9,
+      "internships_in_locations": 0
+    }
+  },
+  {
+    "name": "Marvell",
+    "method": "workday",
+    "params": {
+      "host": "marvell.wd1.myworkdayjobs.com",
+      "tenant": "marvell",
+      "site": "MarvellCareers",
+      "search_text": "",
+      "applied_facets": {
+        "Country": [
+          "a30a87ed25634629aa6c3958aa2b91ea"
+        ]
+      }
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 14,
+      "reported_total": 14,
+      "internships": 10,
+      "internships_in_locations": 10
+    }
+  },
+  {
+    "name": "Cerebras",
+    "method": "ashby",
+    "params": {
+      "board": "cerebras"
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 119,
+      "reported_total": null,
+      "internships": 0,
+      "internships_in_locations": 0
+    }
+  },
+  {
+    "name": "Magna",
+    "method": "workday",
+    "params": {
+      "host": "wd3.myworkdaysite.com",
+      "tenant": "magna",
+      "site": "Magna",
+      "applied_facets": {
+        "Country": [
+          "a30a87ed25634629aa6c3958aa2b91ea"
+        ]
+      }
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 199,
+      "reported_total": 199,
+      "internships": 18,
+      "internships_in_locations": 18
+    }
+  },
+  {
+    "name": "Linamar",
+    "method": "oracle_hcm",
+    "params": {
+      "host": "fa-epmd-saasfaprod1.fa.ocs.oraclecloud.com",
+      "site": "CX_3001",
+      "location_ids": [
+        "300000000396101"
+      ]
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 117,
+      "reported_total": 117,
+      "internships": 3,
+      "internships_in_locations": 3
+    }
+  },
+  {
+    "name": "General Motors",
+    "method": "workday",
+    "params": {
+      "host": "generalmotors.wd5.myworkdayjobs.com",
+      "tenant": "generalmotors",
+      "site": "Careers_GM",
+      "applied_facets": {
+        "Location_Country": [
+          "a30a87ed25634629aa6c3958aa2b91ea"
+        ]
+      }
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 28,
+      "reported_total": 28,
+      "internships": 0,
+      "internships_in_locations": 0
+    }
+  },
+  {
+    "name": "Ford",
+    "method": "radancy",
+    "params": {
+      "site": "https://www.careers.ford.com/en",
+      "country_ids": [
+        "6251999"
+      ]
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 47,
+      "reported_total": 47,
+      "internships": 19,
+      "internships_in_locations": 19
+    }
+  },
+  {
+    "name": "Rockwell Automation",
+    "method": "workday",
+    "params": {
+      "host": "rockwellautomation.wd1.myworkdayjobs.com",
+      "tenant": "rockwellautomation",
+      "site": "External_Rockwell_Automation",
+      "search_text": "",
+      "applied_facets": {
+        "locationCountry": [
+          "a30a87ed25634629aa6c3958aa2b91ea"
+        ]
+      }
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 33,
+      "reported_total": 33,
+      "internships": 5,
+      "internships_in_locations": 5
+    }
+  },
+  {
+    "name": "Avidbots",
+    "method": "bamboohr",
+    "params": {
+      "company": "avidbots"
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 11,
+      "reported_total": 11,
+      "internships": 0,
+      "internships_in_locations": 0
+    }
+  },
+  {
+    "name": "Groq",
+    "method": "gem",
+    "params": {
+      "board": "groq"
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 28,
+      "reported_total": null,
+      "internships": 0,
+      "internships_in_locations": 0
+    }
   }
 ]

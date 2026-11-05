@@ -1,4 +1,4 @@
-Kepler Communications, Tenstorrent, Untether AI, Garmin Canada, LMI Technologies
-Shearwater Research, Miovision, Semtech, Fortinet, 4iiii Innovations, AMD
-Evertz Microsystems, Ranovus, Teledyne Technologies, onsemi, Ontario Power Generation
-L3Harris, Mobile Data Technologies, Sinclair Technologies, NXP Semiconductors, BlackBerry QNX
+Kinova, Sanctuary AI, Siemens, ABB, MDA Space
+CAE, Bombardier, Pratt & Whitney Canada, Honeywell Aerospace, Thales Canada
+Lockheed Martin Canada, General Dynamics Land Systems Canada, General Dynamics Mission Systems Canada, Celestica, Christie Digital
+ecobee, NovAtel, Ballard Power Systems, D-Wave Quantum, Lumentum

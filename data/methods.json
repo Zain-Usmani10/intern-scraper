@@ -235,6 +235,18 @@
       }
     }
   },
+  "gem": {
+    "description": "Gem public job board API, which returns every job in one response.",
+    "recognize": "Links to jobs.gem.com/BOARD.",
+    "completeness": "complete_list",
+    "params": {
+      "board": {
+        "required": true,
+        "description": "Board name from jobs.gem.com/BOARD.",
+        "example": "groq"
+      }
+    }
+  },
   "rippling": {
     "description": "Rippling public job board API.",
     "recognize": "Links to ats.rippling.com/BOARD/jobs.",

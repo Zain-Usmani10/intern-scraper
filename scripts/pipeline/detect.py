@@ -33,6 +33,7 @@ ORACLE = re.compile(
 ADP = re.compile(r"https://workforcenow\.adp\.com/[^\s\"'<>]*recruitment\.html\?[^\s\"'<>]+", re.I)
 BAMBOOHR = [re.compile(r"https?://([\w-]+)\.bamboohr\.com", re.I)]
 JAZZHR = [re.compile(r"https?://([\w-]+)\.applytojob\.com", re.I)]
+GEM = [re.compile(r"https?://jobs\.gem\.com/([\w-]+)", re.I)]
 RIPPLING = [re.compile(r"https?://ats\.rippling\.com/(?!api/)([\w-]+)", re.I)]
 NOT_BOARD_NAMES = {"embed", "v1", "jobs", "api", "static", "assets", "www", "app"}
 
@@ -226,6 +227,8 @@ def candidates(name, evidence, settings):
         add("bamboohr", {"company": company}, "BambooHR link")
     for company in first_names(JAZZHR, text):
         add("jazzhr", {"company": company}, "JazzHR link")
+    for board in first_names(GEM, text):
+        add("gem", {"board": board}, "Gem link")
     for board in first_names(RIPPLING, text):
         add("rippling", {"board": board}, "Rippling link")
 
@@ -272,7 +275,7 @@ def same_source(company, method, params):
         "greenhouse": ("board",), "ashby": ("board",), "lever": ("site",),
         "workday": ("host", "site"), "eightfold": ("url",), "amazon": ("query",),
         "icims_jibe": ("site", "keywords"), "oracle_hcm": ("host", "site"), "radancy": ("site",),
-        "bamboohr": ("company",), "adp_workforcenow": ("cc_id",), "jazzhr": ("company",), "rippling": ("board",),
+        "bamboohr": ("company",), "adp_workforcenow": ("cc_id",), "jazzhr": ("company",), "rippling": ("board",), "gem": ("board",),
         "browser_paginated": ("url",), "browser_page": ("url",),
     }.get(method, ())
     return bool(keys) and all(company["params"].get(key) == params.get(key) for key in keys)

@@ -8,6 +8,7 @@ from methods.common import job, listing, normalize_url, pause, request_json, req
 
 PAGE_SIZE = 100
 TOTAL = re.compile(r'data-total-results="(\d+)"')
+TOTAL_PAGES = re.compile(r'data-total-pages="(\d+)"')
 JOB = re.compile(r'<a[^>]+href="([^"]*/job/[^"]+)"[^>]*>(.*?)</a>', re.S)
 TITLE = re.compile(r"<h[23][^>]*>(.*?)</h[23]>", re.S)
 LOCATION = re.compile(r'class="[^"]*job-location[^"]*"[^>]*>([^<]+)<')
@@ -59,10 +60,14 @@ def fetch(params, settings):
                     [html.unescape(location.group(1))] if location else [],
                 )
             read += len(found)
+            pages = TOTAL_PAGES.search(results)
             if not found or read >= total:
                 break
             pause(settings)
-        if read < total:
+        # Some sites count a few hidden jobs in the total but never serve them.
+        # A small gap is fine once every page the site has was read.
+        last_page = int(pages.group(1)) if pages else None
+        if read < total and not (last_page and page > last_page and total - read <= max(2, total // 100)):
             raise RuntimeError(f"Radancy stopped after {read} of {total} jobs")
-    # Every country's total was read in full, so the unique count is complete.
+    # Every page of every country was read, so the unique count is complete.
     return listing(jobs, len(jobs))

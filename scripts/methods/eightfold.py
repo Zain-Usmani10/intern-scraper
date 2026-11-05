@@ -2,6 +2,8 @@
 
 import urllib.parse
 
+import pycountry
+
 from methods.common import job, listing, normalize_url, pause, request_json, require
 
 
@@ -12,6 +14,18 @@ def site_origin(url):
 
 def default_domain(url):
     return ".".join(urllib.parse.urlsplit(url).hostname.split(".")[-2:])
+
+
+def places(position):
+    """Use Eightfold's standard locations, like "Kulim, 02, MY", with the
+    country code spelled out, since many raw locations name only a city."""
+    found = []
+    for place in position.get("standardizedLocations") or []:
+        parts = [part.strip() for part in place.split(",")]
+        country = pycountry.countries.get(alpha_2=parts[-1]) if len(parts[-1]) == 2 else None
+        if country:
+            found.append(", ".join([*parts[:-1], country.name]))
+    return found or position.get("locations") or []
 
 
 def search_url(params, start):
@@ -38,7 +52,7 @@ def fetch(params, settings):
         before = len(jobs)
         for position in data["positions"]:
             url = normalize_url(urllib.parse.urljoin(origin, position["positionUrl"]))
-            jobs[url] = job(position["name"], position.get("locations") or [])
+            jobs[url] = job(position["name"], places(position))
 
         if len(jobs) >= reported:
             return listing(jobs, reported)
