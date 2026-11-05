@@ -88,5 +88,14 @@
     "suggested_method": "successfactors_rmk",
     "how_it_works": "POST https://jobs.bombardier.com/services/recruiting/v1/jobs with JSON {\"locale\":\"en_US\",\"pageNumber\":N,\"sortBy\":\"\",\"keywords\":\"\",\"location\":\"Canada\",\"facetFilters\":{},\"brand\":\"\",\"skills\":[],\"categoryId\":0,\"alertId\":\"\",\"rcmCandidateId\":\"\"}. The response has totalJobs and jobSearchResult[].response with id, unifiedStandardTitle, urlTitle, jobLocationShort, cust_employeeClass. Page size is fixed at 10, so increment pageNumber from 0 until jobSearchResult is missing or totalJobs is reached. Job URL: https://jobs.bombardier.com/job/{urlTitle}/{id}-en_US. Params would be site origin, location, keywords, and optional facetFilters such as {\"jobLocationCountry\":[...]}.",
     "evidence": "Tested on 2026-11-05: totalJobs is 916 overall, 655 with location=Canada, and 346 with keywords=intern + Canada (35 pages). keywords=intern matches prefixes such as internal/international, so it can't be narrowed further. The site's URL takes pageNumber and facetFilters (both echo into the page config), and browser_paginated with pageNumber did paginate, but failed with 'More result pages than max_browser_pages allows'. The cust_employeeClass=Temporary facet gets it down to 174 jobs but drops real interns that are classed as Regular (e.g. 'Intern, PMO Project Coordinator (Winter 2027)', 'Intern, Operations (Winter 2027)'). Other keywords (internship 67, stage 13, student 27) miss most intern titles."
+  },
+  {
+    "date": "2026-11-05T17:28:58",
+    "company": "Christie",
+    "careers_url": "https://jobs.dayforcehcm.com/en-US/cdsc/CANDIDATEPORTAL",
+    "summary": "Add a Dayforce method. Christie's only job system is a Dayforce board (namespace cdsc, board CANDIDATEPORTAL), and its JSON API is behind Cloudflare.",
+    "suggested_method": "dayforce",
+    "how_it_works": "In a real browser session, after the Cloudflare JS check passes, POST https://jobs.dayforcehcm.com/api/geo/{namespace}/jobposting/search with {clientNamespace, jobBoardCode, cultureCode:'en-US', distanceUnit:0, exactLocationOnly:false, paginationStart:N}, increasing paginationStart until all postings are read. Jobs link to /en-US/{namespace}/{board}/jobs/{id}. The method would take the namespace and board code as params, and it would read the total from the response.",
+    "evidence": "evidence.json shows the page calling POST /api/geo/cdsc/jobposting/search (200 in the browser). A direct curl POST with the same body returns 403 from Cloudflare. christiedigital.com/about/careers redirects to Dayforce (globalus61.dayforcehcm.com/CandidatePortal/en-CAN/CDSC). browser_paginated and browser_page each found 8 jobs, but they could only reach needs_approval because the board shows no total."
   }
 ]
