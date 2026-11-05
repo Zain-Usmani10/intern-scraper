@@ -390,5 +390,157 @@
     "status": "added",
     "method": "bamboohr",
     "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "NovAtel",
+    "careers_url": "https://careers-hexagonpositioning.icims.com/jobs/search?ss=1&searchKeyword=intern",
+    "entered": "2026-11-05",
+    "status": "needs new method",
+    "method": null,
+    "reason": "NovAtel jobs are on a classic iCIMS portal (careers-hexagonpositioning.icims.com) behind AWS WAF; Chromium gets a 'confirm you are human' challenge (HTTP 405), so browser methods fail, and there is no Greenhouse/Ashby/Lever/Workday board."
+  },
+  {
+    "name": "ecobee",
+    "careers_url": "https://careers.generac.com/en/jobs/?search=intern&brand=ecobee",
+    "entered": "2026-11-05",
+    "status": "added",
+    "method": "workday",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "D-Wave",
+    "careers_url": "https://ats.rippling.com/d-wave-quantum/jobs",
+    "entered": "2026-11-05",
+    "status": "added",
+    "method": "rippling",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Lumentum",
+    "careers_url": "https://lumentum.wd5.myworkdayjobs.com/LITE?q=intern",
+    "entered": "2026-11-05",
+    "status": "added",
+    "method": "workday",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Celestica",
+    "careers_url": "https://careers.celestica.com/search/?q=intern",
+    "entered": "2026-11-05",
+    "status": "added",
+    "method": "browser_paginated",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "MDA Space",
+    "careers_url": "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/?q=&o=postedDateDesc",
+    "entered": "2026-11-05",
+    "status": "needs new method",
+    "method": null,
+    "reason": "MDA Space uses UKG Pro (UltiPro) Recruiting, which no supported method handles. The browser methods can't read titles because each job link is an <a> inside a web component's shadow DOM whose text comes through a <slot>, so innerText is empty."
+  },
+  {
+    "name": "General Dynamics Mission Systems Canada",
+    "careers_url": "https://careers.smartrecruiters.com/GDMSI/career-page-ca",
+    "entered": "2026-11-05",
+    "status": "needs_approval",
+    "method": "greenhouse",
+    "reason": "The board name was guessed. Confirm these jobs belong to General Dynamics Mission Systems Canada."
+  },
+  {
+    "name": "General Dynamics Land Systems Canada",
+    "careers_url": "https://generaldynamics-ca-careers.ttcportals.com/search/jobs",
+    "entered": "2026-11-05",
+    "status": "needs_approval",
+    "method": "greenhouse",
+    "reason": "The board name was guessed. Confirm these jobs belong to General Dynamics Land Systems Canada."
+  },
+  {
+    "name": "Kinova",
+    "careers_url": "https://assistive.kinovarobotics.com/career",
+    "entered": "2026-11-05",
+    "status": "needs_approval",
+    "method": "browser_page",
+    "reason": "The site reports no total, so compare these results with the site before approving."
+  },
+  {
+    "name": "Siemens",
+    "careers_url": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/intern",
+    "entered": "2026-11-05",
+    "status": "added",
+    "method": "browser_paginated",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "ABB",
+    "careers_url": "https://careers.abb/global/en/search-results?keywords=intern",
+    "entered": "2026-11-05",
+    "status": "added",
+    "method": "workday",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Christie",
+    "careers_url": "https://jobs.dayforcehcm.com/en-US/cdsc/CANDIDATEPORTAL/",
+    "entered": "2026-11-05",
+    "status": "needs_approval",
+    "method": "browser_page",
+    "reason": "The site reports no total, so compare these results with the site before approving."
+  },
+  {
+    "name": "Ballard",
+    "careers_url": "https://www.ballard.com/about-ballard/careers/",
+    "entered": "2026-11-05",
+    "status": "needs_approval",
+    "method": "browser_page",
+    "reason": "The site reports no total, so compare these results with the site before approving."
+  },
+  {
+    "name": "CAE",
+    "careers_url": "https://cae.wd3.myworkdayjobs.com/en-US/career?q=intern",
+    "entered": "2026-11-05",
+    "status": "added",
+    "method": "workday",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Bombardier",
+    "careers_url": "https://jobs.bombardier.com/search/?q=intern&locationsearch=&searchResultView=LIST",
+    "entered": "2026-11-05",
+    "status": "needs new method",
+    "method": null,
+    "reason": "Bombardier uses SAP SuccessFactors Recruiting Marketing (new RMK jobs-search UI), which has a public JSON search API with a total, but no supported method covers it, and browser_paginated can't fit the results within max_browser_pages (20 pages of 10 jobs)."
+  },
+  {
+    "name": "Pratt & Whitney Canada",
+    "careers_url": "https://careers.rtx.com/global/en/search-results?keywords=intern%20Pratt%20Whitney%20Canada",
+    "entered": "2026-11-05",
+    "status": "added",
+    "method": "workday",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Honeywell Aerospace",
+    "careers_url": "https://careers.honeywell.com/en/sites/Honeywell/jobs?keyword=intern%20aerospace",
+    "entered": "2026-11-05",
+    "status": "rejected",
+    "method": null,
+    "reason": "No method passed validation."
+  },
+  {
+    "name": "Thales Canada",
+    "careers_url": "https://careers.thalesgroup.com/global/en/search-results?keywords=intern%20canada",
+    "entered": "2026-11-05",
+    "status": "added",
+    "method": "workday",
+    "reason": "Read every job the site reports, twice, with stable results."
+  },
+  {
+    "name": "Lockheed Martin Canada",
+    "careers_url": "https://lockheedmartin.eightfold.ai/careers?query=intern&location=Canada",
+    "entered": "2026-11-05",
+    "status": "added",
+    "method": "eightfold",
+    "reason": "Read every job the site reports, twice, with stable results."
   }
 ]

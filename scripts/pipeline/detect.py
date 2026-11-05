@@ -35,6 +35,9 @@ BAMBOOHR = [re.compile(r"https?://([\w-]+)\.bamboohr\.com", re.I)]
 JAZZHR = [re.compile(r"https?://([\w-]+)\.applytojob\.com", re.I)]
 GEM = [re.compile(r"https?://jobs\.gem\.com/([\w-]+)", re.I)]
 KULA = [re.compile(r"https?://careers\.kula\.ai/(?!api/)([\w-]+)", re.I)]
+UKG_PRO = re.compile(r"https://(recruiting\.ultipro\.(?:ca|com))/(\w+)/JobBoard/([0-9a-f-]{36})", re.I)
+SMARTRECRUITERS = [re.compile(r"(?:jobs|careers)\.smartrecruiters\.com/([\w-]+)", re.I),
+                   re.compile(r"api\.smartrecruiters\.com/v1/companies/([\w-]+)", re.I)]
 RIPPLING = [re.compile(r"https?://ats\.rippling\.com/(?!api/)([\w-]+)", re.I)]
 NOT_BOARD_NAMES = {"embed", "v1", "jobs", "api", "static", "assets", "www", "app"}
 
@@ -232,6 +235,10 @@ def candidates(name, evidence, settings):
         add("gem", {"board": board}, "Gem link")
     for account in first_names(KULA, text):
         add("kula", {"account": account}, "Kula link")
+    for host, tenant, board_id in dict.fromkeys(UKG_PRO.findall(text)):
+        add("ukg_pro", {"host": host, "tenant": tenant, "board_id": board_id}, "UKG Pro job board link")
+    for company in first_names(SMARTRECRUITERS, text):
+        add("smartrecruiters", {"company": company}, "SmartRecruiters link")
     for board in first_names(RIPPLING, text):
         add("rippling", {"board": board}, "Rippling link")
 
@@ -278,7 +285,7 @@ def same_source(company, method, params):
         "greenhouse": ("board",), "ashby": ("board",), "lever": ("site",),
         "workday": ("host", "site"), "eightfold": ("url",), "amazon": ("query",),
         "icims_jibe": ("site", "keywords"), "oracle_hcm": ("host", "site"), "radancy": ("site",),
-        "bamboohr": ("company",), "adp_workforcenow": ("cc_id",), "jazzhr": ("company",), "rippling": ("board",), "gem": ("board",), "kula": ("account",),
+        "bamboohr": ("company",), "adp_workforcenow": ("cc_id",), "jazzhr": ("company",), "rippling": ("board",), "gem": ("board",), "kula": ("account",), "ukg_pro": ("tenant", "board_id"), "smartrecruiters": ("company",), "successfactors_rmk": ("site", "location"),
         "browser_paginated": ("url",), "browser_page": ("url",),
     }.get(method, ())
     return bool(keys) and all(company["params"].get(key) == params.get(key) for key in keys)

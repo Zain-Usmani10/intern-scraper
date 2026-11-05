@@ -870,5 +870,270 @@
       "internships": 0,
       "internships_in_locations": 0
     }
+  },
+  {
+    "name": "ecobee",
+    "method": "workday",
+    "params": {
+      "host": "generac.wd5.myworkdayjobs.com",
+      "tenant": "generac",
+      "site": "External"
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 461,
+      "reported_total": 461,
+      "internships": 14,
+      "internships_in_locations": 0
+    }
+  },
+  {
+    "name": "D-Wave",
+    "method": "rippling",
+    "params": {
+      "board": "d-wave-quantum"
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 45,
+      "reported_total": 45,
+      "internships": 0,
+      "internships_in_locations": 0
+    }
+  },
+  {
+    "name": "Lumentum",
+    "method": "workday",
+    "params": {
+      "host": "lumentum.wd5.myworkdayjobs.com",
+      "tenant": "lumentum",
+      "site": "LITE",
+      "search_text": "",
+      "applied_facets": {
+        "workerSubType": [
+          "01232ead616f017c8740653e6310c31d",
+          "01232ead616f01ef5e875b3e6310c01d",
+          "01232ead616f01895fdd7a406310c91d"
+        ]
+      }
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 17,
+      "reported_total": 17,
+      "internships": 17,
+      "internships_in_locations": 8
+    }
+  },
+  {
+    "name": "Celestica",
+    "method": "browser_paginated",
+    "params": {
+      "url": "https://careers.celestica.com/search/?q=&locationsearch=Canada",
+      "page_param": "startrow",
+      "first_page": 0,
+      "page_step": 25,
+      "link_pattern": "/job/[^/?]+/\\d+",
+      "total_regex": "Results\\s+\\d+\\s*\\S\\s*\\d+\\s+of\\s+([\\d,]+)"
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 75,
+      "reported_total": 75,
+      "internships": 31,
+      "internships_in_locations": 31
+    }
+  },
+  {
+    "name": "Siemens",
+    "method": "browser_paginated",
+    "params": {
+      "url": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/?42386=%5B812214%5D&listFilterMode=1&folderRecordsPerPage=6",
+      "page_param": "folderOffset",
+      "first_page": 0,
+      "page_step": 6,
+      "link_pattern": "^https://jobs\\.siemens\\.com/en_US/externaljobs/JobDetail/\\d+$",
+      "total_regex": "of\\s+([\\d,]+)\\s+results"
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 102,
+      "reported_total": 102,
+      "internships": 0,
+      "internships_in_locations": 0
+    }
+  },
+  {
+    "name": "ABB",
+    "method": "workday",
+    "params": {
+      "host": "abb.wd3.myworkdayjobs.com",
+      "tenant": "abb",
+      "site": "External_Career_Page",
+      "applied_facets": {
+        "locationCountry": [
+          "a30a87ed25634629aa6c3958aa2b91ea"
+        ]
+      }
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 72,
+      "reported_total": 72,
+      "internships": 6,
+      "internships_in_locations": 6
+    }
+  },
+  {
+    "name": "CAE",
+    "method": "workday",
+    "params": {
+      "host": "cae.wd3.myworkdayjobs.com",
+      "tenant": "cae",
+      "site": "career",
+      "search_text": "",
+      "applied_facets": {
+        "Location_Country": [
+          "a30a87ed25634629aa6c3958aa2b91ea"
+        ]
+      }
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 105,
+      "reported_total": 105,
+      "internships": 4,
+      "internships_in_locations": 4
+    }
+  },
+  {
+    "name": "Pratt & Whitney Canada",
+    "method": "workday",
+    "params": {
+      "host": "globalhr.wd5.myworkdayjobs.com",
+      "tenant": "globalhr",
+      "site": "REC_RTX_Ext_Gateway",
+      "search_text": "Pratt Whitney Canada"
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 221,
+      "reported_total": 221,
+      "internships": 21,
+      "internships_in_locations": 21
+    }
+  },
+  {
+    "name": "Thales Canada",
+    "method": "workday",
+    "params": {
+      "host": "thales.wd3.myworkdayjobs.com",
+      "tenant": "thales",
+      "site": "Careers",
+      "applied_facets": {
+        "locationCountry": [
+          "a30a87ed25634629aa6c3958aa2b91ea"
+        ]
+      }
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 87,
+      "reported_total": 87,
+      "internships": 1,
+      "internships_in_locations": 1
+    }
+  },
+  {
+    "name": "Lockheed Martin Canada",
+    "method": "eightfold",
+    "params": {
+      "url": "https://lockheedmartin.eightfold.ai/careers?query=intern&start=0&location=Canada&pid=996477136451&sort_by=relevance&filter_include_remote=1&filter_include_relocation=0",
+      "domain": "lockheedmartin.com"
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 2,
+      "reported_total": 2,
+      "internships": 2,
+      "internships_in_locations": 2
+    }
+  },
+  {
+    "name": "MDA Space",
+    "method": "ukg_pro",
+    "params": {
+      "host": "recruiting.ultipro.ca",
+      "tenant": "MAC5000MCDW",
+      "board_id": "7667adcc-47ae-477a-9183-0d8ef8bc0748"
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 25,
+      "reported_total": 25,
+      "internships": 25,
+      "internships_in_locations": 25
+    }
+  },
+  {
+    "name": "General Dynamics Mission Systems Canada",
+    "method": "smartrecruiters",
+    "params": {
+      "company": "GDMSI"
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 101,
+      "reported_total": 101,
+      "internships": 12,
+      "internships_in_locations": 12
+    }
+  },
+  {
+    "name": "Honeywell",
+    "method": "oracle_hcm",
+    "params": {
+      "host": "ibqbjb.fa.ocs.oraclecloud.com",
+      "site": "CX_1",
+      "location_ids": [
+        "300000000469284"
+      ]
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 32,
+      "reported_total": 32,
+      "internships": 5,
+      "internships_in_locations": 5
+    }
+  },
+  {
+    "name": "Bombardier",
+    "method": "successfactors_rmk",
+    "params": {
+      "site": "https://jobs.bombardier.com",
+      "location": "Canada"
+    },
+    "verified": {
+      "date": "2026-11-05",
+      "status": "pass",
+      "all_jobs": 656,
+      "reported_total": 656,
+      "internships": 178,
+      "internships_in_locations": 178
+    }
   }
 ]

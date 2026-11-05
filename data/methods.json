@@ -259,6 +259,62 @@
       }
     }
   },
+  "ukg_pro": {
+    "description": "UKG Pro (UltiPro) Recruiting job board search API.",
+    "recognize": "Links to recruiting.ultipro.ca/TENANT/JobBoard/BOARD_ID or recruiting.ultipro.com/TENANT/JobBoard/BOARD_ID.",
+    "completeness": "api_total",
+    "params": {
+      "host": {
+        "required": true,
+        "description": "recruiting.ultipro.ca or recruiting.ultipro.com.",
+        "example": "recruiting.ultipro.ca"
+      },
+      "tenant": {
+        "required": true,
+        "description": "Tenant code from the URL.",
+        "example": "MAC5000MCDW"
+      },
+      "board_id": {
+        "required": true,
+        "description": "Job board ID from the URL.",
+        "example": "7667adcc-47ae-477a-9183-0d8ef8bc0748"
+      }
+    }
+  },
+  "smartrecruiters": {
+    "description": "SmartRecruiters public postings API.",
+    "recognize": "Links to jobs.smartrecruiters.com/COMPANY or careers.smartrecruiters.com/COMPANY.",
+    "completeness": "api_total",
+    "params": {
+      "company": {
+        "required": true,
+        "description": "Company ID from the SmartRecruiters URL.",
+        "example": "GDMSI"
+      }
+    }
+  },
+  "successfactors_rmk": {
+    "description": "SAP SuccessFactors Recruiting Marketing job search API (SITE/services/recruiting/v1/jobs).",
+    "recognize": "A careers site whose page loads SITE/services/recruiting/v1/jobs, often with /search/?q= URLs and /job/TITLE/ID-en_US job links.",
+    "completeness": "api_total",
+    "params": {
+      "site": {
+        "required": true,
+        "description": "Careers site origin.",
+        "example": "https://jobs.bombardier.com"
+      },
+      "location": {
+        "required": false,
+        "description": "Location search text, like a country name.",
+        "example": "Canada"
+      },
+      "keywords": {
+        "required": false,
+        "description": "Search keywords. Leave empty to read every job.",
+        "example": ""
+      }
+    }
+  },
   "rippling": {
     "description": "Rippling public job board API.",
     "recognize": "Links to ats.rippling.com/BOARD/jobs.",
