@@ -290,6 +290,14 @@
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-05",
           "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446721989047": {
+          "title": "FY27 Intern - Telemetry Firmware, Driver and Tools Developer Internship - Canada (16 months)",
+          "location": "Markham, ON, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-05",
+          "last_seen": "2026-11-05",
+          "missed_runs": 0
         }
       }
     },
@@ -417,7 +425,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-05",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/R-D-Lab-Coordinator-Intern_REQ3626": {
           "title": "R&D Lab Coordinator Intern",
@@ -433,7 +441,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-05",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Calgary-AB/Analog-Design-Engineer-Intern_REQ3623": {
           "title": "Analog Design Engineer Intern",
@@ -441,7 +449,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-05",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Calgary-AB/Analog-Design-Engineer-Intern_REQ3624": {
           "title": "Analog Design Engineer Intern",
@@ -449,7 +457,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-05",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Ottawa-ON/Analog-Design-Intern_REQ3625": {
           "title": "Analog Design Intern",
@@ -473,7 +481,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-05",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Applications-Engineering-Intern_REQ3615": {
           "title": "Applications Engineering Intern",
@@ -956,7 +964,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-05",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.l3harris.com/en/job/waterdown/software-engineering-co-op-waterdown-can/4832/100667892672": {
           "title": "Software Engineering Co-Op (Waterdown, CAN)",
@@ -1169,7 +1177,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-05",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Intern-Safety-Specialist--Fall-2027--8-12-months-_R0143291": {
           "title": "Intern Safety Specialist (Fall 2027, 8-12 months)",
@@ -2289,7 +2297,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-05",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Brampton-Ontario-Canada/Intern--Technical-Sales---Consulting--Canada-_R26-5965-2": {
           "title": "Intern, Technical Sales & Consulting (Canada)",
@@ -2316,7 +2324,15 @@
   },
   "last_heartbeat": "2026-11-05",
   "telegram_queue": [],
-  "email_queue": [],
+  "email_queue": [
+    {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Telemetry Firmware, Driver and Tools Developer Internship - Canada (16 months)",
+      "location": "Markham, ON, Canada",
+      "country": "Canada",
+      "url": "https://careers.qualcomm.com/careers/job/446721989047"
+    }
+  ],
   "last_email_slot": "2026-11-05T08:30:00-05:00",
   "pending_alerts": []
 }
