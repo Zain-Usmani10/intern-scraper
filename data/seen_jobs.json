@@ -201,7 +201,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.qualcomm.com/careers/job/446721156800": {
           "title": "FY27 Intern - MSIP Digital Design Verification Engineering Internship - Canada (16 months)",
@@ -209,7 +209,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.qualcomm.com/careers/job/446721143274": {
           "title": "FY27 Intern - Silicon Validation Internship - Canada (16 months)",
@@ -242,14 +242,6 @@
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-06",
           "missed_runs": 0
-        },
-        "https://careers.qualcomm.com/careers/job/446721109168": {
-          "title": "FY27 Intern - Low-Power AI, Audio, and Sensors Subsystem Engineering Internship - ASIC Firmware / Embedded - Canada (12 or 16 months)",
-          "location": "Markham, ON, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-03",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
         },
         "https://careers.qualcomm.com/careers/job/446721140936": {
           "title": "FY27 Intern - MSIP Design Methodology Engineering Internship - Canada (16 months)",
@@ -1110,14 +1102,6 @@
           "last_seen": "2026-11-06",
           "missed_runs": 0
         },
-        "https://careers.l3harris.com/en/job/waterdown/mechanical-engineering-co-op-waterdown-can/4832/100989137520": {
-          "title": "Mechanical Engineering Co-Op (Waterdown, CAN)",
-          "location": "Waterdown, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-03",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
         "https://careers.l3harris.com/en/job/waterdown/electrical-engineering-co-op-waterdown-can/4832/100436629024": {
           "title": "Electrical Engineering Co-Op (Waterdown, CAN)",
           "location": "Waterdown, Ontario",
@@ -1510,14 +1494,6 @@
     "Altera": {
       "failures": 0,
       "seen": {
-        "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/Hardware-Design-Engineer---Intern_R03367": {
-          "title": "Hardware Design Engineer - Intern",
-          "location": "Toronto, Ontario, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
         "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/FPGA-Development-Tools---Intern_R03394": {
           "title": "FPGA Development Tools - Intern",
           "location": "Toronto, Ontario, Canada",
@@ -1805,7 +1781,7 @@
       "seen": {}
     },
     "Marvell": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/DSP---Systems-Architecture-Intern_2604806-1": {
           "title": "DSP & Systems Architecture Intern",
@@ -2715,7 +2691,7 @@
       }
     },
     "Pratt & Whitney Canada": {
-      "failures": 1,
+      "failures": 2,
       "seen": {
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage--Gestion-des-Programmes-Moteurs---Introduction-de-Nouveau-produit----Internship---Operations-Program-Management---New-Product-Introduction_01887628": {
           "title": "Stage- Gestion des Programmes Moteurs – Introduction de Nouveau produit / Internship- Operations Program Management – New Product Introduction",
@@ -3553,7 +3529,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Organizational-Learning-&amp;-Development-%28Winter-2027%29/16249-en_US": {
           "title": "Intern, Organizational Learning & Development (Winter 2027)",
@@ -3905,7 +3881,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Project-Coordination-and-Tool-Development%2C-Engineering-Strategy-%28Winter-2027%29/15907-en_US": {
           "title": "Intern, Project Coordination and Tool Development, Engineering Strategy (Winter 2027)",
