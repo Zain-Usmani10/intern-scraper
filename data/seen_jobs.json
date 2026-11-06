@@ -360,7 +360,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-06",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.lever.co/kepler/5514238a-8301-49f1-8116-26d38ea0900c": {
           "title": "Software Engineering Intern (January 2027)",
@@ -1529,7 +1529,7 @@
       }
     },
     "Intel": {
-      "failures": 2,
+      "failures": 3,
       "seen": {
         "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539": {
           "title": "GPU & AI Accelerator Hardware Design Undergraduate Intern",
@@ -1781,7 +1781,7 @@
       }
     },
     "Infineon": {
-      "failures": 0,
+      "failures": 1,
       "seen": {}
     },
     "Renesas": {
@@ -2653,7 +2653,7 @@
       }
     },
     "CAE": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/Stagiaire---Gnie-Industriel-Manufacturier-et-Amlioration-Continue---ndustrial-Manufacturing-Engineering-and-Continuous-Improvement-Intern_123650": {
           "title": "Stagiaire - Génie Industriel/Manufacturier et Amélioration Continue / Industrial/Manufacturing Engineering and Continuous Improvement Intern",
@@ -2690,7 +2690,7 @@
       }
     },
     "Pratt & Whitney Canada": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage--Gestion-des-Programmes-Moteurs---Introduction-de-Nouveau-produit----Internship---Operations-Program-Management---New-Product-Introduction_01887628": {
           "title": "Stage- Gestion des Programmes Moteurs – Introduction de Nouveau produit / Internship- Operations Program Management – New Product Introduction",
@@ -3205,14 +3205,6 @@
     "Honeywell": {
       "failures": 0,
       "seen": {
-        "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/161825": {
-          "title": "Intern, Customer Experience Administrator",
-          "location": "Markham, ON, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-05",
-          "missed_runs": 3
-        },
         "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/160043": {
           "title": "Internship Manufacturing Engineering Technician",
           "location": "Vancouver, BC, Canada",
@@ -3230,7 +3222,7 @@
           "missed_runs": 0
         },
         "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/160397": {
-          "title": "Intern Bachelors Field Service Technician",
+          "title": "Intern Bachelors Field Service Tech (Mississauga | Oakville)",
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-05",
@@ -3850,14 +3842,6 @@
           "last_seen": "2026-11-06",
           "missed_runs": 0
         },
-        "https://jobs.bombardier.com/job/Intern%2C-Business-Process-Optimization%2C-Indirect-Procurement-%28Winter-2027%29/15969-en_US": {
-          "title": "Intern, Business Process Optimization, Indirect Procurement (Winter 2027)",
-          "location": "Dorval, QC, CAN, H4S 1Y9",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-05",
-          "missed_runs": 3
-        },
         "https://jobs.bombardier.com/job/Intern%2C-Strategic-Program-Analyst-%28Winter-2027%29/15897-en_US": {
           "title": "Intern, Strategic Program Analyst (Winter 2027)",
           "location": "Dorval, QC, CAN, H4S 1Y9",
@@ -4250,14 +4234,6 @@
           "last_seen": "2026-11-06",
           "missed_runs": 0
         },
-        "https://jobs.bombardier.com/job/Intern%2C-in-Cabin-Electrical-Systems-Integration-and-Test-%28Winter-2027%29/15979-en_US": {
-          "title": "Intern, in Cabin Electrical Systems Integration and Test (Winter 2027)",
-          "location": "Dorval, QC, CAN, H4S 1Y9",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-05",
-          "missed_runs": 3
-        },
         "https://jobs.bombardier.com/job/Intern%2C-Stress-Engineering-Final-Assembly-Line-%28Winter-2027%29/15981-en_US": {
           "title": "Intern, Stress Engineering - Final Assembly Line (Winter 2027)",
           "location": "Mississauga, ON, CAN, L5S 1W1",
@@ -4608,7 +4584,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Material-Logsitics-%28Winter-2027%29/15483-en_US": {
           "title": "Intern, Material Logsitics (Winter 2027)",
