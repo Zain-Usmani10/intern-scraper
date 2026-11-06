@@ -1,7 +1,7 @@
 {
   "companies": {
     "Qualcomm": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://careers.qualcomm.com/careers/job/446721862429": {
           "title": "FY27 Intern - AI Software Engineering Co-op - Canada (4 months)",
@@ -360,7 +360,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.lever.co/kepler/5514238a-8301-49f1-8116-26d38ea0900c": {
           "title": "Software Engineering Intern (January 2027)",
@@ -1529,14 +1529,14 @@
       }
     },
     "Intel": {
-      "failures": 3,
+      "failures": 0,
       "seen": {
         "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539": {
           "title": "GPU & AI Accelerator Hardware Design Undergraduate Intern",
           "location": "Canada, Toronto",
           "country": "Canada",
           "first_seen": "2026-11-04",
-          "last_seen": "2026-11-05",
+          "last_seen": "2026-11-06",
           "missed_runs": 0
         },
         "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Compiler-Engineering-Graduate-Intern_JR0287933": {
@@ -1544,7 +1544,7 @@
           "location": "Canada, Toronto",
           "country": "Canada",
           "first_seen": "2026-11-04",
-          "last_seen": "2026-11-05",
+          "last_seen": "2026-11-06",
           "missed_runs": 0
         },
         "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Compiler-Engineering-Intern_JR0287934": {
@@ -1552,7 +1552,7 @@
           "location": "Canada, Toronto",
           "country": "Canada",
           "first_seen": "2026-11-04",
-          "last_seen": "2026-11-05",
+          "last_seen": "2026-11-06",
           "missed_runs": 0
         },
         "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535": {
@@ -1560,7 +1560,7 @@
           "location": "Canada, Toronto",
           "country": "Canada",
           "first_seen": "2026-11-05",
-          "last_seen": "2026-11-05",
+          "last_seen": "2026-11-06",
           "missed_runs": 0
         }
       }
@@ -1781,7 +1781,7 @@
       }
     },
     "Infineon": {
-      "failures": 1,
+      "failures": 0,
       "seen": {}
     },
     "Renesas": {
@@ -2653,7 +2653,7 @@
       }
     },
     "CAE": {
-      "failures": 1,
+      "failures": 2,
       "seen": {
         "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/Stagiaire---Gnie-Industriel-Manufacturier-et-Amlioration-Continue---ndustrial-Manufacturing-Engineering-and-Continuous-Improvement-Intern_123650": {
           "title": "Stagiaire - Génie Industriel/Manufacturier et Amélioration Continue / Industrial/Manufacturing Engineering and Continuous Improvement Intern",
@@ -2690,7 +2690,7 @@
       }
     },
     "Pratt & Whitney Canada": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage--Gestion-des-Programmes-Moteurs---Introduction-de-Nouveau-produit----Internship---Operations-Program-Management---New-Product-Introduction_01887628": {
           "title": "Stage- Gestion des Programmes Moteurs – Introduction de Nouveau produit / Internship- Operations Program Management – New Product Introduction",
@@ -2786,7 +2786,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Stagiaire-en-Ressources-Humaines---Internship---Winter-2027----Human-Resources-Internship_01863091": {
           "title": "Stage - Hiver 2027 - Stagiaire en Ressources Humaines / Internship - Winter 2027 - Human Resources Internship",
@@ -2794,7 +2794,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Support-technique---Internship---Winter-2027---Technical-support_01876876": {
           "title": "Stage - Hiver 2027 - Support technique / Internship - Winter 2027 - Technical support",
@@ -2818,7 +2818,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Gestion-et-strategie-du-reseau-de-service--Internship---Winter-2027---Service-Network-Management-and-Strategy_01873147": {
           "title": "Stage - Hiver 2027 - Gestion et stratégie du réseau de service/ Internship - Winter 2027 - Service Network Management and Strategy",
@@ -2842,7 +2842,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Superviseur-COOP--St-Hubert----Hiver-2027---Internship---COOP-Supervisor--St-Hubert----Winter-2027_01868719": {
           "title": "Stage - Superviseur COOP (St-Hubert )- Hiver 2027 | Internship – COOP Supervisor (St-Hubert) – Winter 2027",
@@ -2858,7 +2858,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     },
@@ -4584,7 +4584,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Material-Logsitics-%28Winter-2027%29/15483-en_US": {
           "title": "Intern, Material Logsitics (Winter 2027)",
