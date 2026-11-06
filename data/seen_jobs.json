@@ -1529,7 +1529,7 @@
       }
     },
     "Intel": {
-      "failures": 1,
+      "failures": 2,
       "seen": {
         "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539": {
           "title": "GPU & AI Accelerator Hardware Design Undergraduate Intern",
@@ -1781,7 +1781,7 @@
       }
     },
     "Infineon": {
-      "failures": 1,
+      "failures": 0,
       "seen": {}
     },
     "Renesas": {
@@ -2818,7 +2818,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Gestion-et-strategie-du-reseau-de-service--Internship---Winter-2027---Service-Network-Management-and-Strategy_01873147": {
           "title": "Stage - Hiver 2027 - Gestion et stratégie du réseau de service/ Internship - Winter 2027 - Service Network Management and Strategy",
@@ -3211,7 +3211,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-05",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/160043": {
           "title": "Internship Manufacturing Engineering Technician",
@@ -3856,7 +3856,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-05",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Strategic-Program-Analyst-%28Winter-2027%29/15897-en_US": {
           "title": "Intern, Strategic Program Analyst (Winter 2027)",
@@ -4256,7 +4256,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-05",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Stress-Engineering-Final-Assembly-Line-%28Winter-2027%29/15981-en_US": {
           "title": "Intern, Stress Engineering - Final Assembly Line (Winter 2027)",
@@ -4687,22 +4687,7 @@
   },
   "last_heartbeat": "2026-11-06",
   "telegram_queue": [],
-  "email_queue": [
-    {
-      "company": "Intel",
-      "title": "Graphics Hardware Validation Undergraduate Engineering Intern",
-      "location": "Canada, Toronto",
-      "country": "Canada",
-      "url": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535"
-    },
-    {
-      "company": "Bombardier",
-      "title": "Intern, Hydromechanical systems (Winter 2027)",
-      "location": "Dorval, QC, CAN, H4S 1Y9",
-      "country": "Canada",
-      "url": "https://jobs.bombardier.com/job/Intern%2C-Hydromechanical-systems-%28Winter-2027%29/15210-en_US"
-    }
-  ],
-  "last_email_slot": "2026-11-05T16:30:00-05:00",
+  "email_queue": [],
+  "last_email_slot": "2026-11-06T08:30:00-05:00",
   "pending_alerts": []
 }
