@@ -249,7 +249,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.qualcomm.com/careers/job/446721140936": {
           "title": "FY27 Intern - MSIP Design Methodology Engineering Internship - Canada (16 months)",
@@ -1108,7 +1108,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.l3harris.com/en/job/waterdown/electrical-engineering-co-op-waterdown-can/4832/100436629024": {
           "title": "Electrical Engineering Co-Op (Waterdown, CAN)",
@@ -1265,7 +1265,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-06",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Stoney-Creek-Ontario-Canada/Improvement-Project-Implementation-Intern_R0146693": {
           "title": "Improvement Project Implementation Intern",
@@ -1516,7 +1516,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/FPGA-Development-Tools---Intern_R03394": {
           "title": "FPGA Development Tools - Intern",
@@ -2279,7 +2279,16 @@
     },
     "Sanctuary AI": {
       "failures": 0,
-      "seen": {}
+      "seen": {
+        "https://careers.kula.ai/sanctuary-ai/66607-machine-learning-research-intern-reinforcement-imitation-learning": {
+          "title": "Machine Learning Research Intern (Reinforcement/Imitation Learning)",
+          "location": "Vancouver, British Columbia, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-06",
+          "last_seen": "2026-11-06",
+          "missed_runs": 0
+        }
+      }
     },
     "ecobee": {
       "failures": 0,
@@ -2706,7 +2715,7 @@
       }
     },
     "Pratt & Whitney Canada": {
-      "failures": 2,
+      "failures": 0,
       "seen": {
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage--Gestion-des-Programmes-Moteurs---Introduction-de-Nouveau-produit----Internship---Operations-Program-Management---New-Product-Introduction_01887628": {
           "title": "Stage- Gestion des Programmes Moteurs – Introduction de Nouveau produit / Internship- Operations Program Management – New Product Introduction",
@@ -2802,7 +2811,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Stagiaire-en-Ressources-Humaines---Internship---Winter-2027----Human-Resources-Internship_01863091": {
           "title": "Stage - Hiver 2027 - Stagiaire en Ressources Humaines / Internship - Winter 2027 - Human Resources Internship",
@@ -2810,7 +2819,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Support-technique---Internship---Winter-2027---Technical-support_01876876": {
           "title": "Stage - Hiver 2027 - Support technique / Internship - Winter 2027 - Technical support",
@@ -2834,7 +2843,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Gestion-et-strategie-du-reseau-de-service--Internship---Winter-2027---Service-Network-Management-and-Strategy_01873147": {
           "title": "Stage - Hiver 2027 - Gestion et stratégie du réseau de service/ Internship - Winter 2027 - Service Network Management and Strategy",
@@ -2858,7 +2867,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Superviseur-COOP--St-Hubert----Hiver-2027---Internship---COOP-Supervisor--St-Hubert----Winter-2027_01868719": {
           "title": "Stage - Superviseur COOP (St-Hubert )- Hiver 2027 | Internship – COOP Supervisor (St-Hubert) – Winter 2027",
@@ -2874,7 +2883,15 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
+        },
+        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Ingnieur-client-et-Nouveau-programme-moteur---Internship---Winter-2027---Customer-Engineering---New-Engine-Program_01871696": {
+          "title": "Stage - Hiver 2027 - Ingénieur client et Nouveau programme moteur / Internship - Winter 2027 - Customer Engineering & New Engine Program",
+          "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
+          "country": "Canada",
+          "first_seen": "2026-11-06",
+          "last_seen": "2026-11-06",
+          "missed_runs": 0
         }
       }
     },
@@ -4692,6 +4709,20 @@
       "location": "Canada - Waterloo, ON",
       "country": "Canada",
       "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Waterloo-ON/Lifesciences-Coop_REQ36842-1"
+    },
+    {
+      "company": "Sanctuary AI",
+      "title": "Machine Learning Research Intern (Reinforcement/Imitation Learning)",
+      "location": "Vancouver, British Columbia, Canada",
+      "country": "Canada",
+      "url": "https://careers.kula.ai/sanctuary-ai/66607-machine-learning-research-intern-reinforcement-imitation-learning"
+    },
+    {
+      "company": "Pratt & Whitney Canada",
+      "title": "Stage - Hiver 2027 - Ingénieur client et Nouveau programme moteur / Internship - Winter 2027 - Customer Engineering & New Engine Program",
+      "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
+      "country": "Canada",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Ingnieur-client-et-Nouveau-programme-moteur---Internship---Winter-2027---Customer-Engineering---New-Engine-Program_01871696"
     }
   ],
   "last_email_slot": "2026-11-06T08:30:00-05:00",
