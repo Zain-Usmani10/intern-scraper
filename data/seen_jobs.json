@@ -1,7 +1,7 @@
 {
   "companies": {
     "Qualcomm": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://careers.qualcomm.com/careers/job/446721862429": {
           "title": "FY27 Intern - AI Software Engineering Co-op - Canada (4 months)",
@@ -298,6 +298,14 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
           "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446722001120": {
+          "title": "FY27 Intern - RF/Analog Verification Engineering Internship - Canada (4 or 16 months)",
+          "location": "Markham, ON, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-06",
+          "last_seen": "2026-11-06",
+          "missed_runs": 0
         }
       }
     },
@@ -360,7 +368,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-06",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.lever.co/kepler/5514238a-8301-49f1-8116-26d38ea0900c": {
           "title": "Software Engineering Intern (January 2027)",
@@ -1249,7 +1257,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-06",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Stoney-Creek-Ontario-Canada/Improvement-Project-Implementation-Intern_R0146693": {
           "title": "Improvement Project Implementation Intern",
@@ -2653,7 +2661,7 @@
       }
     },
     "CAE": {
-      "failures": 2,
+      "failures": 0,
       "seen": {
         "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/Stagiaire---Gnie-Industriel-Manufacturier-et-Amlioration-Continue---ndustrial-Manufacturing-Engineering-and-Continuous-Improvement-Intern_123650": {
           "title": "Stagiaire - Génie Industriel/Manufacturier et Amélioration Continue / Industrial/Manufacturing Engineering and Continuous Improvement Intern",
@@ -2690,7 +2698,7 @@
       }
     },
     "Pratt & Whitney Canada": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage--Gestion-des-Programmes-Moteurs---Introduction-de-Nouveau-produit----Internship---Operations-Program-Management---New-Product-Introduction_01887628": {
           "title": "Stage- Gestion des Programmes Moteurs – Introduction de Nouveau produit / Internship- Operations Program Management – New Product Introduction",
@@ -3214,7 +3222,7 @@
           "missed_runs": 0
         },
         "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/160178": {
-          "title": "Intern Bachelors Field Service Technician",
+          "title": "Intern Bachelors Field Service Technician, Markham Ontario",
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-05",
@@ -4584,7 +4592,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Material-Logsitics-%28Winter-2027%29/15483-en_US": {
           "title": "Intern, Material Logsitics (Winter 2027)",
@@ -4663,7 +4671,15 @@
   },
   "last_heartbeat": "2026-11-06",
   "telegram_queue": [],
-  "email_queue": [],
+  "email_queue": [
+    {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - RF/Analog Verification Engineering Internship - Canada (4 or 16 months)",
+      "location": "Markham, ON, Canada",
+      "country": "Canada",
+      "url": "https://careers.qualcomm.com/careers/job/446722001120"
+    }
+  ],
   "last_email_slot": "2026-11-06T08:30:00-05:00",
   "pending_alerts": []
 }
