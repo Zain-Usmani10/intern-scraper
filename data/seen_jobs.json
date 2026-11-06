@@ -201,7 +201,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-06",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.qualcomm.com/careers/job/446721156800": {
           "title": "FY27 Intern - MSIP Digital Design Verification Engineering Internship - Canada (16 months)",
@@ -209,7 +209,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-06",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.qualcomm.com/careers/job/446721143274": {
           "title": "FY27 Intern - Silicon Validation Internship - Canada (16 months)",
@@ -1781,7 +1781,7 @@
       "seen": {}
     },
     "Marvell": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/DSP---Systems-Architecture-Intern_2604806-1": {
           "title": "DSP & Systems Architecture Intern",
@@ -2691,7 +2691,7 @@
       }
     },
     "Pratt & Whitney Canada": {
-      "failures": 2,
+      "failures": 0,
       "seen": {
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage--Gestion-des-Programmes-Moteurs---Introduction-de-Nouveau-produit----Internship---Operations-Program-Management---New-Product-Introduction_01887628": {
           "title": "Stage- Gestion des Programmes Moteurs – Introduction de Nouveau produit / Internship- Operations Program Management – New Product Introduction",
@@ -2723,7 +2723,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027-Stagiaire-Technicien-en-Instrumentation-Internship---Winter-2027-Instrumentation-Technician_01878634": {
           "title": "Stage - Hiver 2027-Stagiaire Technicien en Instrumentation/Internship - Winter 2027-Instrumentation Technician",
@@ -2787,7 +2787,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Stagiaire-en-Ressources-Humaines---Internship---Winter-2027----Human-Resources-Internship_01863091": {
           "title": "Stage - Hiver 2027 - Stagiaire en Ressources Humaines / Internship - Winter 2027 - Human Resources Internship",
@@ -2795,7 +2795,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Support-technique---Internship---Winter-2027---Technical-support_01876876": {
           "title": "Stage - Hiver 2027 - Support technique / Internship - Winter 2027 - Technical support",
@@ -2803,7 +2803,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Gestion-de-la-chane-d-approvisionnement---Internship---Winter-2027---Supply-Chain-Management_01868000": {
           "title": "Stage - Hiver 2027 - Gestion de la chaîne d’approvisionnement / Internship - Winter 2027 - Supply Chain Management",
@@ -2812,14 +2812,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
           "missed_runs": 0
-        },
-        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Support-Excutif-et-Analyse-d-Affaires---Internship---Winter-2027---Executive-Support-and-Business-Analysis_01873471": {
-          "title": "Stage - Hiver 2027 - Support Exécutif et Analyse d’Affaires / Internship - Winter 2027 - Executive Support and Business Analysis",
-          "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Gestion-et-strategie-du-reseau-de-service--Internship---Winter-2027---Service-Network-Management-and-Strategy_01873147": {
           "title": "Stage - Hiver 2027 - Gestion et stratégie du réseau de service/ Internship - Winter 2027 - Service Network Management and Strategy",
@@ -2843,7 +2835,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Superviseur-COOP--St-Hubert----Hiver-2027---Internship---COOP-Supervisor--St-Hubert----Winter-2027_01868719": {
           "title": "Stage - Superviseur COOP (St-Hubert )- Hiver 2027 | Internship – COOP Supervisor (St-Hubert) – Winter 2027",
@@ -2859,7 +2851,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Ingnieur-client-et-Nouveau-programme-moteur---Internship---Winter-2027---Customer-Engineering---New-Engine-Program_01871696": {
           "title": "Stage - Hiver 2027 - Ingénieur client et Nouveau programme moteur / Internship - Winter 2027 - Customer Engineering & New Engine Program",
@@ -3529,7 +3521,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Organizational-Learning-&amp;-Development-%28Winter-2027%29/16249-en_US": {
           "title": "Intern, Organizational Learning & Development (Winter 2027)",
@@ -3881,7 +3873,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Project-Coordination-and-Tool-Development%2C-Engineering-Strategy-%28Winter-2027%29/15907-en_US": {
           "title": "Intern, Project Coordination and Tool Development, Engineering Strategy (Winter 2027)",
@@ -4664,50 +4656,7 @@
   },
   "last_heartbeat": "2026-11-06",
   "telegram_queue": [],
-  "email_queue": [
-    {
-      "company": "Qualcomm",
-      "title": "FY27 Intern - RF/Analog Verification Engineering Internship - Canada (4 or 16 months)",
-      "location": "Markham, ON, Canada",
-      "country": "Canada",
-      "url": "https://careers.qualcomm.com/careers/job/446722001120"
-    },
-    {
-      "company": "Qualcomm",
-      "title": "FY27 Intern - Software Validation Engineering Internship - Canada (16 months)",
-      "location": "Markham, ON, Canada",
-      "country": "Canada",
-      "url": "https://careers.qualcomm.com/careers/job/446722003454"
-    },
-    {
-      "company": "Teledyne",
-      "title": "Lifesciences Coop",
-      "location": "Canada - Waterloo, ON",
-      "country": "Canada",
-      "url": "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Waterloo-ON/Lifesciences-Coop_REQ36842-1"
-    },
-    {
-      "company": "Sanctuary AI",
-      "title": "Machine Learning Research Intern (Reinforcement/Imitation Learning)",
-      "location": "Vancouver, British Columbia, Canada",
-      "country": "Canada",
-      "url": "https://careers.kula.ai/sanctuary-ai/66607-machine-learning-research-intern-reinforcement-imitation-learning"
-    },
-    {
-      "company": "Pratt & Whitney Canada",
-      "title": "Stage - Hiver 2027 - Ingénieur client et Nouveau programme moteur / Internship - Winter 2027 - Customer Engineering & New Engine Program",
-      "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
-      "country": "Canada",
-      "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Ingnieur-client-et-Nouveau-programme-moteur---Internship---Winter-2027---Customer-Engineering---New-Engine-Program_01871696"
-    },
-    {
-      "company": "Qualcomm",
-      "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
-      "location": "Toronto, ON, Canada",
-      "country": "Canada",
-      "url": "https://careers.qualcomm.com/careers/job/446722005254"
-    }
-  ],
-  "last_email_slot": "2026-11-06T08:30:00-05:00",
+  "email_queue": [],
+  "last_email_slot": "2026-11-06T16:30:00-05:00",
   "pending_alerts": []
 }
