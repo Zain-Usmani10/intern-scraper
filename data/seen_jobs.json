@@ -201,7 +201,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-06",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.qualcomm.com/careers/job/446721156800": {
           "title": "FY27 Intern - MSIP Digital Design Verification Engineering Internship - Canada (16 months)",
@@ -209,7 +209,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-06",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.qualcomm.com/careers/job/446721143274": {
           "title": "FY27 Intern - Silicon Validation Internship - Canada (16 months)",
@@ -249,7 +249,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-06",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.qualcomm.com/careers/job/446721140936": {
           "title": "FY27 Intern - MSIP Design Methodology Engineering Internship - Canada (16 months)",
@@ -310,6 +310,14 @@
         "https://careers.qualcomm.com/careers/job/446722003454": {
           "title": "FY27 Intern - Software Validation Engineering Internship - Canada (16 months)",
           "location": "Markham, ON, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-06",
+          "last_seen": "2026-11-06",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446722005254": {
+          "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+          "location": "Toronto, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-06",
           "last_seen": "2026-11-06",
@@ -1108,7 +1116,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-06",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.l3harris.com/en/job/waterdown/electrical-engineering-co-op-waterdown-can/4832/100436629024": {
           "title": "Electrical Engineering Co-Op (Waterdown, CAN)",
@@ -1258,14 +1266,6 @@
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-06",
           "missed_runs": 0
-        },
-        "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Varennes-Quebec-Canada/Stagiaire-Gnie-lectrique-et-Contrle---Electrical-and-Controls-Engineering-Intern_R0147259": {
-          "title": "Stagiaire Génie Électrique et Contrôle / Electrical and Controls Engineering Intern",
-          "location": "Varennes, Quebec, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
         },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Stoney-Creek-Ontario-Canada/Improvement-Project-Implementation-Intern_R0146693": {
           "title": "Improvement Project Implementation Intern",
@@ -1516,7 +1516,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-06",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/FPGA-Development-Tools---Intern_R03394": {
           "title": "FPGA Development Tools - Intern",
@@ -2715,7 +2715,7 @@
       }
     },
     "Pratt & Whitney Canada": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage--Gestion-des-Programmes-Moteurs---Introduction-de-Nouveau-produit----Internship---Operations-Program-Management---New-Product-Introduction_01887628": {
           "title": "Stage- Gestion des Programmes Moteurs – Introduction de Nouveau produit / Internship- Operations Program Management – New Product Introduction",
@@ -3553,7 +3553,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Organizational-Learning-&amp;-Development-%28Winter-2027%29/16249-en_US": {
           "title": "Intern, Organizational Learning & Development (Winter 2027)",
@@ -3905,7 +3905,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Project-Coordination-and-Tool-Development%2C-Engineering-Strategy-%28Winter-2027%29/15907-en_US": {
           "title": "Intern, Project Coordination and Tool Development, Engineering Strategy (Winter 2027)",
@@ -4723,6 +4723,13 @@
       "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
       "country": "Canada",
       "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Ingnieur-client-et-Nouveau-programme-moteur---Internship---Winter-2027---Customer-Engineering---New-Engine-Program_01871696"
+    },
+    {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Digital Design Engineering Intern - Canada (16 months)",
+      "location": "Toronto, ON, Canada",
+      "country": "Canada",
+      "url": "https://careers.qualcomm.com/careers/job/446722005254"
     }
   ],
   "last_email_slot": "2026-11-06T08:30:00-05:00",
