@@ -233,7 +233,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-09",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.qualcomm.com/careers/job/446721141411": {
           "title": "FY27 Intern - Firmware/Embedded Software Engineering Internship - Canada (12 or 16 months)",
@@ -756,11 +756,11 @@
       }
     },
     "OPG": {
-      "failures": 1,
+      "failures": 0,
       "seen": {}
     },
     "NXP": {
-      "failures": 7,
+      "failures": 8,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -1806,7 +1806,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/Analog-Design-Intern--Master-s---2027-Co-Op_2603862": {
           "title": "Analog Design Intern, Master’s - 2027 Co-Op",
@@ -1953,14 +1953,6 @@
           "last_seen": "2026-11-09",
           "missed_runs": 0
         },
-        "https://wd3.myworkdaysite.com/Magna/job/Aurora-Ontario-CA/Co-op-Student--Organizational-Change-Management_R00256547": {
-          "title": "Co-op Student, Organizational Change Management",
-          "location": "Aurora, Ontario, CA",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-09",
-          "missed_runs": 3
-        },
         "https://wd3.myworkdaysite.com/Magna/job/Milton-Ontario-CA/Manufacturing-Execution-Systems--MES--Co-Op---Starting-in-September_R00252658": {
           "title": "Manufacturing Execution Systems (MES) Co-Op - Starting in September",
           "location": "Milton, Ontario, CA",
@@ -2020,7 +2012,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://fa-epmd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/13394": {
           "title": "Apprentice - Millwright",
@@ -2116,7 +2108,7 @@
       }
     },
     "ecobee": {
-      "failures": 1,
+      "failures": 2,
       "seen": {}
     },
     "D-Wave": {
@@ -2434,6 +2426,14 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
           "missed_runs": 0
+        },
+        "https://careers.celestica.com/job/Toronto-Student-Intern%2C-IT-Business-Application-Development-ON/1455777233": {
+          "title": "Student Intern, IT Business Application Development",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-09",
+          "last_seen": "2026-11-09",
+          "missed_runs": 0
         }
       }
     },
@@ -2573,14 +2573,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
           "missed_runs": 0
-        },
-        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Gestion-de-la-chane-d-approvisionnement---Internship---Winter-2027---Supply-Chain-Management_01868000": {
-          "title": "Stage - Hiver 2027 - Gestion de la chaîne d’approvisionnement / Internship - Winter 2027 - Supply Chain Management",
-          "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-09",
-          "missed_runs": 3
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Gestion-et-strategie-du-reseau-de-service--Internship---Winter-2027---Service-Network-Management-and-Strategy_01873147": {
           "title": "Stage - Hiver 2027 - Gestion et stratégie du réseau de service/ Internship - Winter 2027 - Service Network Management and Strategy",
@@ -2912,7 +2904,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.smartrecruiters.com/GDMSI/744000149046839": {
           "title": "Co-op Winter 2027 – Systems Engineering – 4-8-Months",
@@ -2944,7 +2936,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.smartrecruiters.com/GDMSI/744000147554134": {
           "title": "Co-op Winter 2027 - Software Developer - 8 Months",
@@ -4420,6 +4412,13 @@
       "location": "Dorval, QC, CAN, H4S 1Y9",
       "country": "Canada",
       "url": "https://jobs.bombardier.com/job/Intern%2C-Digital-Innovation-Office-Digital-Analytics-%28Winter-2027%29/16106-en_US"
+    },
+    {
+      "company": "Celestica",
+      "title": "Student Intern, IT Business Application Development",
+      "location": "",
+      "country": "Canada",
+      "url": "https://careers.celestica.com/job/Toronto-Student-Intern%2C-IT-Business-Application-Development-ON/1455777233"
     }
   ],
   "last_email_slot": "2026-11-09T08:30:00-05:00",
