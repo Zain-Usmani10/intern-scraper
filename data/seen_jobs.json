@@ -743,7 +743,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-09",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Waterloo-ON/Lifesciences-Coop_REQ36842-1": {
           "title": "Lifesciences Coop",
@@ -760,7 +760,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 3,
+      "failures": 4,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -1516,14 +1516,6 @@
     "Intel": {
       "failures": 0,
       "seen": {
-        "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/GPU---AI-Accelerator-Hardware-Design-Undergraduate-Intern_JR0287539": {
-          "title": "GPU & AI Accelerator Hardware Design Undergraduate Intern",
-          "location": "Canada, Toronto",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
         "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Compiler-Engineering-Graduate-Intern_JR0287933": {
           "title": "Compiler Engineering Graduate Intern",
           "location": "Canada, Toronto",
@@ -1539,14 +1531,6 @@
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-09",
           "missed_runs": 0
-        },
-        "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535": {
-          "title": "Graphics Hardware Validation Undergraduate Engineering Intern",
-          "location": "Canada, Toronto",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
         }
       }
     },
@@ -2062,142 +2046,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
           "missed_runs": 0
-        },
-        "https://www.careers.ford.com/en/job/oakville/marketing-intern-connected-services/48560/102471580736": {
-          "title": "Marketing Intern - Connected Services",
-          "location": "Oakville, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
-        "https://www.careers.ford.com/en/job/oakville/marketing-intern-vehicle-lines/48560/102466870320": {
-          "title": "Marketing Intern - Vehicle Lines",
-          "location": "Oakville, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
-        "https://www.careers.ford.com/en/job/paris/supply-merchandising-intern/48560/102486253696": {
-          "title": "Supply/Merchandising Intern",
-          "location": "Paris, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
-        "https://www.careers.ford.com/en/job/oakville/stagiaire-bilingue-en-marketing-zone-de-marche-quebec-ouest-bilingual-marketing-intern-market-area-/48560/102471581216": {
-          "title": "Stagiaire bilingue en marketing – Zone de marché (Québec/Ouest) / Bilingual Marketing Intern – Market Area (Quebec/Western)",
-          "location": "Oakville, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
-        "https://www.careers.ford.com/en/job/oakville/ai-strategy-intern/48560/102471581024": {
-          "title": "AI Strategy Intern",
-          "location": "Oakville, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
-        "https://www.careers.ford.com/en/job/oakville/finance-intern/48560/102471580960": {
-          "title": "Finance Intern",
-          "location": "Oakville, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
-        "https://www.careers.ford.com/en/job/oakville/human-resources-intern/48560/102466870400": {
-          "title": "Human Resources Intern",
-          "location": "Oakville, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
-        "https://www.careers.ford.com/en/job/oakville/communications-intern/48560/102466870384": {
-          "title": "Communications Intern",
-          "location": "Oakville, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
-        "https://www.careers.ford.com/en/job/oakville/sales-operations-communications-intern/48560/102471580672": {
-          "title": "Sales Operations – Communications Intern",
-          "location": "Oakville, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
-        "https://www.careers.ford.com/en/job/oakville/marketing-and-sales-intern-lincoln/48560/102471580544": {
-          "title": "Marketing & Sales Intern - Lincoln",
-          "location": "Oakville, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
-        "https://www.careers.ford.com/en/job/oakville/market-representation-intern/48560/102466869680": {
-          "title": "Market Representation Intern",
-          "location": "Oakville, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
-        "https://www.careers.ford.com/en/job/paris/financial-internal-controls-intern/48560/102471581328": {
-          "title": "Financial/Internal Controls Intern",
-          "location": "Paris, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
-        "https://www.careers.ford.com/en/job/oakville/marketing-analyst-intern-parts-and-service-and-customer-experience/48560/102471580816": {
-          "title": "Marketing Analyst Intern - Parts & Service and Customer Experience",
-          "location": "Oakville, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
-        "https://www.careers.ford.com/en/job/oakville/marketing-intern-retail-and-strategy-support/48560/102466870368": {
-          "title": "Marketing Intern - Retail & Strategy Support",
-          "location": "Oakville, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
-        "https://www.careers.ford.com/en/job/oakville/marketing-and-sales-intern-ford-pro-fleet/48560/102466870352": {
-          "title": "Marketing & Sales Intern - Ford Pro (Fleet)",
-          "location": "Oakville, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
-        "https://www.careers.ford.com/en/job/oakville/marketing-communications-intern/48560/102466870336": {
-          "title": "Marketing Communications Intern",
-          "location": "Oakville, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
-        "https://www.careers.ford.com/en/job/oakville/marketing-intern-eastern-market-area/48560/102466870288": {
-          "title": "Marketing Intern - Eastern Market Area",
-          "location": "Oakville, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
         }
       }
     },
@@ -2596,14 +2444,6 @@
           "last_seen": "2026-11-09",
           "missed_runs": 0
         },
-        "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Dorval-Quebec-Canada/Manufacturing-Engineering-Intern-Winter-2027_JR00051511": {
-          "title": "Manufacturing Engineering Intern-Winter 2027",
-          "location": "Dorval, Quebec, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Quebec-Quebec-Canada/Industrial-Engineering-Intern--Fall-2026-_JR00040859": {
           "title": "Industrial Engineering Intern (Winter 2027)",
           "location": "Quebec, Quebec, Canada",
@@ -2627,14 +2467,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
           "missed_runs": 0
-        },
-        "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Saint-Laurent-Quebec-Canada/Continuous-Improvement-Intern---Winter-2027_JR00050659": {
-          "title": "Continuous Improvement Intern - Winter 2027",
-          "location": "Saint-Laurent, Quebec, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
         }
       }
     },
@@ -2676,7 +2508,7 @@
       }
     },
     "Pratt & Whitney Canada": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage--Gestion-des-Programmes-Moteurs---Introduction-de-Nouveau-produit----Internship---Operations-Program-Management---New-Product-Introduction_01887628": {
           "title": "Stage- Gestion des Programmes Moteurs – Introduction de Nouveau produit / Internship- Operations Program Management – New Product Introduction",
@@ -2692,7 +2524,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Gestion-des-Programmes---Hiver-2027-Internship---Operations-Program-Management---Winter-2027_01873718": {
           "title": "Stage - Gestion des Programmes - Hiver 2027 Internship - Operations Program Management - Winter 2027",
@@ -2716,7 +2548,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver---Etudiant-en-droit---Internship---Winter---Legal-student_01867495": {
           "title": "Stage - Hiver - Etudiant en droit / Internship - Winter - Legal student",
@@ -2740,7 +2572,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-NS-HALIFAX-PLANT-41--189-Pratt--Whitney-Dr--PLANT-41/Internship-Spring-2027---Mechanical-Engineering-Technology--CNC--or-Precision-Machining-Student_01883260": {
           "title": "Internship Spring 2027 - Mechanical Engineering Technology, CNC, or Precision Machining Student",
@@ -2795,6 +2627,14 @@
           "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
           "country": "Canada",
           "first_seen": "2026-11-06",
+          "last_seen": "2026-11-09",
+          "missed_runs": 1
+        },
+        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Spcialiste-en-ingnierie-du-support-technique-aux-ateliers-MRO---Internship---Winter-2027---Specialist--MRO-Engineering-Overhaul-Support-Services_01868612": {
+          "title": "Stage - Hiver 2027 - Spécialiste en ingénierie du support technique aux ateliers MRO / Internship - Winter 2027 - Specialist, MRO Engineering Overhaul Support Services",
+          "location": "CA-QC-SAINT HUBERT-H05 ~ 7007 Chemin De La Savane ~ BLDG H05 FACTORY",
+          "country": "Canada",
+          "first_seen": "2026-11-09",
           "last_seen": "2026-11-09",
           "missed_runs": 0
         }
@@ -3698,7 +3538,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Supply-Chain-%28Systems%29-%28Winter-2027%29/16234-en_US": {
           "title": "Intern, Supply Chain (Systems) (Winter 2027)",
@@ -3922,7 +3762,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Logistics-%28Winter-2027%29/16098-en_US": {
           "title": "Intern, Logistics (Winter 2027)",
@@ -4266,7 +4106,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Project-Management-Production-Support-%28Winter-2027%29/16036-en_US": {
           "title": "Intern, Project Management - Production Support (Winter 2027)",
@@ -4577,7 +4417,15 @@
   },
   "last_heartbeat": "2026-11-09",
   "telegram_queue": [],
-  "email_queue": [],
+  "email_queue": [
+    {
+      "company": "Pratt & Whitney Canada",
+      "title": "Stage - Hiver 2027 - Spécialiste en ingénierie du support technique aux ateliers MRO / Internship - Winter 2027 - Specialist, MRO Engineering Overhaul Support Services",
+      "location": "CA-QC-SAINT HUBERT-H05 ~ 7007 Chemin De La Savane ~ BLDG H05 FACTORY",
+      "country": "Canada",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Spcialiste-en-ingnierie-du-support-technique-aux-ateliers-MRO---Internship---Winter-2027---Specialist--MRO-Engineering-Overhaul-Support-Services_01868612"
+    }
+  ],
   "last_email_slot": "2026-11-09T08:30:00-05:00",
   "pending_alerts": []
 }
