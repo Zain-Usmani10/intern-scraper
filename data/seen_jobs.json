@@ -233,7 +233,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-09",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.qualcomm.com/careers/job/446721141411": {
           "title": "FY27 Intern - Firmware/Embedded Software Engineering Internship - Canada (12 or 16 months)",
@@ -743,7 +743,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-09",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Waterloo-ON/Lifesciences-Coop_REQ36842-1": {
           "title": "Lifesciences Coop",
@@ -760,7 +760,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 5,
+      "failures": 6,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -1951,7 +1951,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://wd3.myworkdaysite.com/Magna/job/Milton-Ontario-CA/Manufacturing-Execution-Systems--MES--Co-Op---Starting-in-September_R00252658": {
           "title": "Manufacturing Execution Systems (MES) Co-Op - Starting in September",
@@ -2524,7 +2524,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Gestion-des-Programmes---Hiver-2027-Internship---Operations-Program-Management---Winter-2027_01873718": {
           "title": "Stage - Gestion des Programmes - Hiver 2027 Internship - Operations Program Management - Winter 2027",
@@ -2548,7 +2548,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver---Etudiant-en-droit---Internship---Winter---Legal-student_01867495": {
           "title": "Stage - Hiver - Etudiant en droit / Internship - Winter - Legal student",
@@ -2572,7 +2572,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-NS-HALIFAX-PLANT-41--189-Pratt--Whitney-Dr--PLANT-41/Internship-Spring-2027---Mechanical-Engineering-Technology--CNC--or-Precision-Machining-Student_01883260": {
           "title": "Internship Spring 2027 - Mechanical Engineering Technology, CNC, or Precision Machining Student",
@@ -2596,7 +2596,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Gestion-et-strategie-du-reseau-de-service--Internship---Winter-2027---Service-Network-Management-and-Strategy_01873147": {
           "title": "Stage - Hiver 2027 - Gestion et stratégie du réseau de service/ Internship - Winter 2027 - Service Network Management and Strategy",
@@ -2628,7 +2628,7 @@
           "country": "Canada",
           "first_seen": "2026-11-06",
           "last_seen": "2026-11-09",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Spcialiste-en-ingnierie-du-support-technique-aux-ateliers-MRO---Internship---Winter-2027---Specialist--MRO-Engineering-Overhaul-Support-Services_01868612": {
           "title": "Stage - Hiver 2027 - Spécialiste en ingénierie du support technique aux ateliers MRO / Internship - Winter 2027 - Specialist, MRO Engineering Overhaul Support Services",
@@ -3532,14 +3532,6 @@
           "last_seen": "2026-11-09",
           "missed_runs": 0
         },
-        "https://jobs.bombardier.com/job/Intern%2C-Supply-Chain-%28Interiors%29-%28Winter-2027%29/16233-en_US": {
-          "title": "Intern, Supply Chain (Interiors) (Winter 2027)",
-          "location": "Dorval, QC, CAN, H4S 1Y9",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-09",
-          "missed_runs": 3
-        },
         "https://jobs.bombardier.com/job/Intern%2C-Supply-Chain-%28Systems%29-%28Winter-2027%29/16234-en_US": {
           "title": "Intern, Supply Chain (Systems) (Winter 2027)",
           "location": "Dorval, QC, CAN, H4S 1Y9",
@@ -3755,14 +3747,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
           "missed_runs": 0
-        },
-        "https://jobs.bombardier.com/job/Intern%2C-Graphic-Design-%28Winter-2027%29/15645-en_US": {
-          "title": "Intern, Graphic Design (Winter 2027)",
-          "location": "Dorval, QC, CAN, H4S 1Y9",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-09",
-          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Logistics-%28Winter-2027%29/16098-en_US": {
           "title": "Intern, Logistics (Winter 2027)",
@@ -4099,14 +4083,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
           "missed_runs": 0
-        },
-        "https://jobs.bombardier.com/job/Intern%2C-Project-Quality-%28Winter-2027%29/16041-en_US": {
-          "title": "Intern, Project Quality (Winter 2027)",
-          "location": "Mississauga, ON, CAN, L5S 1W1",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-09",
-          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Project-Management-Production-Support-%28Winter-2027%29/16036-en_US": {
           "title": "Intern, Project Management - Production Support (Winter 2027)",
