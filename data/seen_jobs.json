@@ -233,7 +233,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-09",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.qualcomm.com/careers/job/446721141411": {
           "title": "FY27 Intern - Firmware/Embedded Software Engineering Internship - Canada (12 or 16 months)",
@@ -296,6 +296,14 @@
           "location": "Toronto, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-06",
+          "last_seen": "2026-11-09",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446722038614": {
+          "title": "FY27 Intern - Firmware Engineering Internship - Canada (16 months)",
+          "location": "Toronto, ON, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-09",
           "last_seen": "2026-11-09",
           "missed_runs": 0
         }
@@ -737,14 +745,6 @@
     "Teledyne": {
       "failures": 0,
       "seen": {
-        "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Montreal-QC-TDY/Stagiaire-en-tests-thermiques--Thermal-Test-Co-op_REQ37169": {
-          "title": "Stagiaire en tests thermiques/ Thermal Test Co-op",
-          "location": "Canada - Montreal, QC (TDY)",
-          "country": "Canada",
-          "first_seen": "2026-11-03",
-          "last_seen": "2026-11-09",
-          "missed_runs": 3
-        },
         "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Waterloo-ON/Lifesciences-Coop_REQ36842-1": {
           "title": "Lifesciences Coop",
           "location": "Canada - Waterloo, ON",
@@ -756,11 +756,11 @@
       }
     },
     "OPG": {
-      "failures": 0,
+      "failures": 1,
       "seen": {}
     },
     "NXP": {
-      "failures": 6,
+      "failures": 7,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -1510,6 +1510,14 @@
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-09",
           "missed_runs": 0
+        },
+        "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/FPGA-Design-Verification-Intern_R03440": {
+          "title": "FPGA Design Verification Intern",
+          "location": "Toronto, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-09",
+          "last_seen": "2026-11-09",
+          "missed_runs": 0
         }
       }
     },
@@ -1951,7 +1959,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://wd3.myworkdaysite.com/Magna/job/Milton-Ontario-CA/Manufacturing-Execution-Systems--MES--Co-Op---Starting-in-September_R00252658": {
           "title": "Manufacturing Execution Systems (MES) Co-Op - Starting in September",
@@ -2012,7 +2020,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://fa-epmd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/13394": {
           "title": "Apprentice - Millwright",
@@ -2108,7 +2116,7 @@
       }
     },
     "ecobee": {
-      "failures": 0,
+      "failures": 1,
       "seen": {}
     },
     "D-Wave": {
@@ -2518,14 +2526,6 @@
           "last_seen": "2026-11-09",
           "missed_runs": 0
         },
-        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Stagiaire-aux-affaires-corporatives---Internship---Winter-2027---Corporate-Affairs-Intern_01865331": {
-          "title": "Stage - Hiver 2027 - Stagiaire aux affaires corporatives / Internship - Winter 2027 - Corporate Affairs Intern",
-          "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-09",
-          "missed_runs": 3
-        },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Gestion-des-Programmes---Hiver-2027-Internship---Operations-Program-Management---Winter-2027_01873718": {
           "title": "Stage - Gestion des Programmes - Hiver 2027 Internship - Operations Program Management - Winter 2027",
           "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
@@ -2542,14 +2542,6 @@
           "last_seen": "2026-11-09",
           "missed_runs": 0
         },
-        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Planificateur-de-production--Hiver-2027----Internship---Production-Planner-Winter-2027_01867333": {
-          "title": "Stage - Planificateur de production (Hiver 2027) | Internship – Production Planner Winter 2027",
-          "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-09",
-          "missed_runs": 3
-        },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver---Etudiant-en-droit---Internship---Winter---Legal-student_01867495": {
           "title": "Stage - Hiver - Etudiant en droit / Internship - Winter - Legal student",
           "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
@@ -2565,14 +2557,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
           "missed_runs": 0
-        },
-        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Industrialisation----Internship---Winter-2027---Industrialization-Production-Readiness_01867520": {
-          "title": "Stage - Hiver 2027 - Industrialisation / Internship - Winter 2027 - Industrialization Production Readiness",
-          "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-09",
-          "missed_runs": 3
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-NS-HALIFAX-PLANT-41--189-Pratt--Whitney-Dr--PLANT-41/Internship-Spring-2027---Mechanical-Engineering-Technology--CNC--or-Precision-Machining-Student_01883260": {
           "title": "Internship Spring 2027 - Mechanical Engineering Technology, CNC, or Precision Machining Student",
@@ -2596,7 +2580,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Gestion-et-strategie-du-reseau-de-service--Internship---Winter-2027---Service-Network-Management-and-Strategy_01873147": {
           "title": "Stage - Hiver 2027 - Gestion et stratégie du réseau de service/ Internship - Winter 2027 - Service Network Management and Strategy",
@@ -2622,17 +2606,17 @@
           "last_seen": "2026-11-09",
           "missed_runs": 0
         },
-        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Ingnieur-client-et-Nouveau-programme-moteur---Internship---Winter-2027---Customer-Engineering---New-Engine-Program_01871696": {
-          "title": "Stage - Hiver 2027 - Ingénieur client et Nouveau programme moteur / Internship - Winter 2027 - Customer Engineering & New Engine Program",
-          "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
-          "country": "Canada",
-          "first_seen": "2026-11-06",
-          "last_seen": "2026-11-09",
-          "missed_runs": 3
-        },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Spcialiste-en-ingnierie-du-support-technique-aux-ateliers-MRO---Internship---Winter-2027---Specialist--MRO-Engineering-Overhaul-Support-Services_01868612": {
           "title": "Stage - Hiver 2027 - Spécialiste en ingénierie du support technique aux ateliers MRO / Internship - Winter 2027 - Specialist, MRO Engineering Overhaul Support Services",
           "location": "CA-QC-SAINT HUBERT-H05 ~ 7007 Chemin De La Savane ~ BLDG H05 FACTORY",
+          "country": "Canada",
+          "first_seen": "2026-11-09",
+          "last_seen": "2026-11-09",
+          "missed_runs": 0
+        },
+        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver---Responsable-de-la-gestion-des-stocks---Internship-Winter-Material-Management-Lead_01887159-1": {
+          "title": "Stage - Hiver - Responsable de la gestion des stocks / Internship-Winter-Material Management Lead",
+          "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
           "country": "Canada",
           "first_seen": "2026-11-09",
           "last_seen": "2026-11-09",
@@ -2928,7 +2912,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.smartrecruiters.com/GDMSI/744000149046839": {
           "title": "Co-op Winter 2027 – Systems Engineering – 4-8-Months",
@@ -2960,7 +2944,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.smartrecruiters.com/GDMSI/744000147554134": {
           "title": "Co-op Winter 2027 - Software Developer - 8 Months",
@@ -4379,6 +4363,14 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
           "missed_runs": 0
+        },
+        "https://jobs.bombardier.com/job/Intern%2C-Digital-Innovation-Office-Digital-Analytics-%28Winter-2027%29/16106-en_US": {
+          "title": "Intern, Digital Innovation Office - Digital Analytics (Winter 2027)",
+          "location": "Dorval, QC, CAN, H4S 1Y9",
+          "country": "Canada",
+          "first_seen": "2026-11-09",
+          "last_seen": "2026-11-09",
+          "missed_runs": 0
         }
       }
     },
@@ -4400,6 +4392,34 @@
       "location": "CA-QC-SAINT HUBERT-H05 ~ 7007 Chemin De La Savane ~ BLDG H05 FACTORY",
       "country": "Canada",
       "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Spcialiste-en-ingnierie-du-support-technique-aux-ateliers-MRO---Internship---Winter-2027---Specialist--MRO-Engineering-Overhaul-Support-Services_01868612"
+    },
+    {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - Firmware Engineering Internship - Canada (16 months)",
+      "location": "Toronto, ON, Canada",
+      "country": "Canada",
+      "url": "https://careers.qualcomm.com/careers/job/446722038614"
+    },
+    {
+      "company": "Altera",
+      "title": "FPGA Design Verification Intern",
+      "location": "Toronto, Ontario, Canada",
+      "country": "Canada",
+      "url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/FPGA-Design-Verification-Intern_R03440"
+    },
+    {
+      "company": "Pratt & Whitney Canada",
+      "title": "Stage - Hiver - Responsable de la gestion des stocks / Internship-Winter-Material Management Lead",
+      "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
+      "country": "Canada",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver---Responsable-de-la-gestion-des-stocks---Internship-Winter-Material-Management-Lead_01887159-1"
+    },
+    {
+      "company": "Bombardier",
+      "title": "Intern, Digital Innovation Office - Digital Analytics (Winter 2027)",
+      "location": "Dorval, QC, CAN, H4S 1Y9",
+      "country": "Canada",
+      "url": "https://jobs.bombardier.com/job/Intern%2C-Digital-Innovation-Office-Digital-Analytics-%28Winter-2027%29/16106-en_US"
     }
   ],
   "last_email_slot": "2026-11-09T08:30:00-05:00",
