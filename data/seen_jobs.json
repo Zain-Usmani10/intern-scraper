@@ -752,7 +752,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 9,
+      "failures": 10,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -1798,7 +1798,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/Analog-Design-Intern--Master-s---2027-Co-Op_2603862": {
           "title": "Analog Design Intern, Master’s - 2027 Co-Op",
@@ -2005,14 +2005,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
           "missed_runs": 0
-        },
-        "https://fa-epmd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/13808": {
-          "title": "Apprentice - Machinist",
-          "location": "Guelph, ON, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-09",
-          "missed_runs": 3
         },
         "https://fa-epmd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/13394": {
           "title": "Apprentice - Millwright",
@@ -2433,7 +2425,7 @@
           "country": "Canada",
           "first_seen": "2026-11-09",
           "last_seen": "2026-11-09",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     },
@@ -2580,7 +2572,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H12--7007-Chemin-De-La-Savane--BLDG-H12-TRAINING/Stage---Hiver-2027----Ventes-globales---Internship---Winter-2027----Global-Sales_01869713": {
           "title": "Stage - Hiver 2027 - Ventes globales / Internship - Winter 2027 - Global Sales",
@@ -2617,7 +2609,7 @@
       }
     },
     "Thales Canada": {
-      "failures": 1,
+      "failures": 2,
       "seen": {
         "https://thales.wd3.myworkdayjobs.com/Careers/job/Ottawa/Project-Planning---Scheduling-Co-op-Student_R0343079": {
           "title": "Project Planning & Scheduling Co-op Student or intern",
@@ -2898,14 +2890,6 @@
           "last_seen": "2026-11-09",
           "missed_runs": 0
         },
-        "https://jobs.smartrecruiters.com/GDMSI/744000149071040": {
-          "title": "Co-op Winter 2027 DevOps Engineering - 8-16 Months",
-          "location": "Ottawa, ON, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-09",
-          "missed_runs": 3
-        },
         "https://jobs.smartrecruiters.com/GDMSI/744000149046839": {
           "title": "Co-op Winter 2027 – Systems Engineering – 4-8-Months",
           "location": "Cole Harbour, NS, Canada",
@@ -2929,14 +2913,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
           "missed_runs": 0
-        },
-        "https://jobs.smartrecruiters.com/GDMSI/744000147556214": {
-          "title": "Co-op Winter 2027 - Software Engineering Developer - 16-Months",
-          "location": "Calgary, AB, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-09",
-          "missed_runs": 3
         },
         "https://jobs.smartrecruiters.com/GDMSI/744000147554134": {
           "title": "Co-op Winter 2027 - Software Developer - 8 Months",
@@ -3330,7 +3306,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Software-Developer-%28Winter-2027%29/16151-en_US": {
           "title": "Intern, Software Developer (Winter 2027)",
@@ -4377,57 +4353,7 @@
   },
   "last_heartbeat": "2026-11-09",
   "telegram_queue": [],
-  "email_queue": [
-    {
-      "company": "Pratt & Whitney Canada",
-      "title": "Stage - Hiver 2027 - Spécialiste en ingénierie du support technique aux ateliers MRO / Internship - Winter 2027 - Specialist, MRO Engineering Overhaul Support Services",
-      "location": "CA-QC-SAINT HUBERT-H05 ~ 7007 Chemin De La Savane ~ BLDG H05 FACTORY",
-      "country": "Canada",
-      "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Spcialiste-en-ingnierie-du-support-technique-aux-ateliers-MRO---Internship---Winter-2027---Specialist--MRO-Engineering-Overhaul-Support-Services_01868612"
-    },
-    {
-      "company": "Qualcomm",
-      "title": "FY27 Intern - Firmware Engineering Internship - Canada (16 months)",
-      "location": "Toronto, ON, Canada",
-      "country": "Canada",
-      "url": "https://careers.qualcomm.com/careers/job/446722038614"
-    },
-    {
-      "company": "Altera",
-      "title": "FPGA Design Verification Intern",
-      "location": "Toronto, Ontario, Canada",
-      "country": "Canada",
-      "url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/FPGA-Design-Verification-Intern_R03440"
-    },
-    {
-      "company": "Pratt & Whitney Canada",
-      "title": "Stage - Hiver - Responsable de la gestion des stocks / Internship-Winter-Material Management Lead",
-      "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
-      "country": "Canada",
-      "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver---Responsable-de-la-gestion-des-stocks---Internship-Winter-Material-Management-Lead_01887159-1"
-    },
-    {
-      "company": "Bombardier",
-      "title": "Intern, Digital Innovation Office - Digital Analytics (Winter 2027)",
-      "location": "Dorval, QC, CAN, H4S 1Y9",
-      "country": "Canada",
-      "url": "https://jobs.bombardier.com/job/Intern%2C-Digital-Innovation-Office-Digital-Analytics-%28Winter-2027%29/16106-en_US"
-    },
-    {
-      "company": "Celestica",
-      "title": "Student Intern, IT Business Application Development",
-      "location": "",
-      "country": "Canada",
-      "url": "https://careers.celestica.com/job/Toronto-Student-Intern%2C-IT-Business-Application-Development-ON/1455777233"
-    },
-    {
-      "company": "Magna",
-      "title": "Engineering Co-Op Student",
-      "location": "Woodbridge, Ontario, CA",
-      "country": "Canada",
-      "url": "https://wd3.myworkdaysite.com/Magna/job/Woodbridge-Ontario-CA/Engineering-Co-Op-Student_R00252065"
-    }
-  ],
-  "last_email_slot": "2026-11-09T08:30:00-05:00",
+  "email_queue": [],
+  "last_email_slot": "2026-11-09T16:30:00-05:00",
   "pending_alerts": []
 }
