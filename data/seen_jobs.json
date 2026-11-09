@@ -227,14 +227,6 @@
           "last_seen": "2026-11-09",
           "missed_runs": 0
         },
-        "https://careers.qualcomm.com/careers/job/446721140936": {
-          "title": "FY27 Intern - MSIP Design Methodology Engineering Internship - Canada (16 months)",
-          "location": "Toronto, ON, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-03",
-          "last_seen": "2026-11-09",
-          "missed_runs": 3
-        },
         "https://careers.qualcomm.com/careers/job/446721141411": {
           "title": "FY27 Intern - Firmware/Embedded Software Engineering Internship - Canada (12 or 16 months)",
           "location": "Toronto, ON, Canada",
@@ -760,7 +752,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 8,
+      "failures": 9,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -1806,7 +1798,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/Analog-Design-Intern--Master-s---2027-Co-Op_2603862": {
           "title": "Analog Design Intern, Master’s - 2027 Co-Op",
@@ -1992,6 +1984,14 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
           "missed_runs": 0
+        },
+        "https://wd3.myworkdaysite.com/Magna/job/Woodbridge-Ontario-CA/Engineering-Co-Op-Student_R00252065": {
+          "title": "Engineering Co-Op Student",
+          "location": "Woodbridge, Ontario, CA",
+          "country": "Canada",
+          "first_seen": "2026-11-09",
+          "last_seen": "2026-11-09",
+          "missed_runs": 0
         }
       }
     },
@@ -2012,7 +2012,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://fa-epmd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/13394": {
           "title": "Apprentice - Millwright",
@@ -2108,7 +2108,7 @@
       }
     },
     "ecobee": {
-      "failures": 2,
+      "failures": 0,
       "seen": {}
     },
     "D-Wave": {
@@ -2580,7 +2580,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H12--7007-Chemin-De-La-Savane--BLDG-H12-TRAINING/Stage---Hiver-2027----Ventes-globales---Internship---Winter-2027----Global-Sales_01869713": {
           "title": "Stage - Hiver 2027 - Ventes globales / Internship - Winter 2027 - Global Sales",
@@ -2617,7 +2617,7 @@
       }
     },
     "Thales Canada": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://thales.wd3.myworkdayjobs.com/Careers/job/Ottawa/Project-Planning---Scheduling-Co-op-Student_R0343079": {
           "title": "Project Planning & Scheduling Co-op Student or intern",
@@ -2904,7 +2904,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.smartrecruiters.com/GDMSI/744000149046839": {
           "title": "Co-op Winter 2027 – Systems Engineering – 4-8-Months",
@@ -2936,7 +2936,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.smartrecruiters.com/GDMSI/744000147554134": {
           "title": "Co-op Winter 2027 - Software Developer - 8 Months",
@@ -3330,7 +3330,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Software-Developer-%28Winter-2027%29/16151-en_US": {
           "title": "Intern, Software Developer (Winter 2027)",
@@ -4419,6 +4419,13 @@
       "location": "",
       "country": "Canada",
       "url": "https://careers.celestica.com/job/Toronto-Student-Intern%2C-IT-Business-Application-Development-ON/1455777233"
+    },
+    {
+      "company": "Magna",
+      "title": "Engineering Co-Op Student",
+      "location": "Woodbridge, Ontario, CA",
+      "country": "Canada",
+      "url": "https://wd3.myworkdaysite.com/Magna/job/Woodbridge-Ontario-CA/Engineering-Co-Op-Student_R00252065"
     }
   ],
   "last_email_slot": "2026-11-09T08:30:00-05:00",
