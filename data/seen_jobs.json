@@ -760,7 +760,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 1,
+      "failures": 2,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -1522,7 +1522,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Compiler-Engineering-Graduate-Intern_JR0287933": {
           "title": "Compiler Engineering Graduate Intern",
@@ -1546,7 +1546,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -1774,14 +1774,14 @@
       "seen": {}
     },
     "Marvell": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/DSP---Systems-Architecture-Intern_2604806-1": {
           "title": "DSP & Systems Architecture Intern",
           "location": "Toronto, Canada",
           "country": "Canada",
           "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
+          "last_seen": "2026-11-09",
           "missed_runs": 0
         },
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Firmware-Engineer-Intern---Winter-2027_2604738": {
@@ -1789,7 +1789,7 @@
           "location": "Ottawa, Canada",
           "country": "Canada",
           "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
+          "last_seen": "2026-11-09",
           "missed_runs": 0
         },
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/IC-Validation-Engineer-Intern---BS-MS---2027-Co-Op_2603925": {
@@ -1797,7 +1797,7 @@
           "location": "Ottawa, Canada",
           "country": "Canada",
           "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
+          "last_seen": "2026-11-09",
           "missed_runs": 0
         },
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/CA-ON---Toronto---TOR/Hardware-Validation-Intern--MS---2027-Co-Op_2603755": {
@@ -1805,7 +1805,7 @@
           "location": "CA-ON - Toronto - TOR",
           "country": "Canada",
           "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
+          "last_seen": "2026-11-09",
           "missed_runs": 0
         },
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525": {
@@ -1813,7 +1813,7 @@
           "location": "Ottawa, Canada; Toronto, Canada; Canada",
           "country": "Canada",
           "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
+          "last_seen": "2026-11-09",
           "missed_runs": 0
         },
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/Analog-Design-Intern--Master-s---2027-Co-Op_2603862": {
@@ -1821,7 +1821,7 @@
           "location": "Toronto, Canada",
           "country": "Canada",
           "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
+          "last_seen": "2026-11-09",
           "missed_runs": 0
         },
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Silicon-Photonics-Intern---PhD_2502469-1": {
@@ -1829,7 +1829,7 @@
           "location": "Ottawa, Canada",
           "country": "Canada",
           "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
+          "last_seen": "2026-11-09",
           "missed_runs": 0
         },
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Vancouver-Canada/Analog-Engineer-Intern---PhD_2502424-1": {
@@ -1837,7 +1837,7 @@
           "location": "Vancouver, Canada",
           "country": "Canada",
           "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
+          "last_seen": "2026-11-09",
           "missed_runs": 0
         },
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/Analog-Engineer-Intern---PhD_2502426-1": {
@@ -1845,7 +1845,7 @@
           "location": "Toronto, Canada",
           "country": "Canada",
           "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
+          "last_seen": "2026-11-09",
           "missed_runs": 0
         },
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Analog-Engineer-Intern---PhD_2502430-1": {
@@ -1853,7 +1853,7 @@
           "location": "Ottawa, Canada",
           "country": "Canada",
           "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
+          "last_seen": "2026-11-09",
           "missed_runs": 0
         }
       }
@@ -2069,7 +2069,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://www.careers.ford.com/en/job/oakville/marketing-intern-vehicle-lines/48560/102466870320": {
           "title": "Marketing Intern - Vehicle Lines",
@@ -2077,7 +2077,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://www.careers.ford.com/en/job/paris/supply-merchandising-intern/48560/102486253696": {
           "title": "Supply/Merchandising Intern",
@@ -2085,7 +2085,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://www.careers.ford.com/en/job/oakville/stagiaire-bilingue-en-marketing-zone-de-marche-quebec-ouest-bilingual-marketing-intern-market-area-/48560/102471581216": {
           "title": "Stagiaire bilingue en marketing – Zone de marché (Québec/Ouest) / Bilingual Marketing Intern – Market Area (Quebec/Western)",
@@ -2093,7 +2093,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://www.careers.ford.com/en/job/oakville/ai-strategy-intern/48560/102471581024": {
           "title": "AI Strategy Intern",
@@ -2101,7 +2101,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://www.careers.ford.com/en/job/oakville/finance-intern/48560/102471580960": {
           "title": "Finance Intern",
@@ -2109,7 +2109,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://www.careers.ford.com/en/job/oakville/human-resources-intern/48560/102466870400": {
           "title": "Human Resources Intern",
@@ -2117,7 +2117,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://www.careers.ford.com/en/job/oakville/communications-intern/48560/102466870384": {
           "title": "Communications Intern",
@@ -2125,7 +2125,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://www.careers.ford.com/en/job/oakville/sales-operations-communications-intern/48560/102471580672": {
           "title": "Sales Operations – Communications Intern",
@@ -2133,7 +2133,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://www.careers.ford.com/en/job/oakville/marketing-and-sales-intern-lincoln/48560/102471580544": {
           "title": "Marketing & Sales Intern - Lincoln",
@@ -2141,7 +2141,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://www.careers.ford.com/en/job/oakville/market-representation-intern/48560/102466869680": {
           "title": "Market Representation Intern",
@@ -2149,7 +2149,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://www.careers.ford.com/en/job/paris/financial-internal-controls-intern/48560/102471581328": {
           "title": "Financial/Internal Controls Intern",
@@ -2157,7 +2157,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://www.careers.ford.com/en/job/oakville/marketing-analyst-intern-parts-and-service-and-customer-experience/48560/102471580816": {
           "title": "Marketing Analyst Intern - Parts & Service and Customer Experience",
@@ -2165,7 +2165,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://www.careers.ford.com/en/job/oakville/marketing-intern-retail-and-strategy-support/48560/102466870368": {
           "title": "Marketing Intern - Retail & Strategy Support",
@@ -2173,7 +2173,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://www.careers.ford.com/en/job/oakville/marketing-and-sales-intern-ford-pro-fleet/48560/102466870352": {
           "title": "Marketing & Sales Intern - Ford Pro (Fleet)",
@@ -2181,7 +2181,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://www.careers.ford.com/en/job/oakville/marketing-communications-intern/48560/102466870336": {
           "title": "Marketing Communications Intern",
@@ -2189,7 +2189,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://www.careers.ford.com/en/job/oakville/marketing-intern-eastern-market-area/48560/102466870288": {
           "title": "Marketing Intern - Eastern Market Area",
@@ -2197,7 +2197,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -2473,7 +2473,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.celestica.com/job/Newmarket-Student-Intern%2C-Planning-Associate-ON/1443371833": {
           "title": "Student Intern, Planning Associate",
@@ -2610,7 +2610,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Quebec-Quebec-Canada/Industrial-Engineering-Intern--Fall-2026-_JR00040859": {
           "title": "Industrial Engineering Intern (Winter 2027)",
@@ -2642,7 +2642,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-06",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -2710,14 +2710,6 @@
           "last_seen": "2026-11-09",
           "missed_runs": 0
         },
-        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Logistique-et-gestion-d-approvisionnement---Internship---Winter-2027---Logistics-and-material-management_01869784": {
-          "title": "Stage - Hiver 2027 - Logistique et gestion d’approvisionnement / Internship - Winter 2027 - Logistics and material management",
-          "location": "CA-QC-SAINT HUBERT-H05 ~ 7007 Chemin De La Savane ~ BLDG H05 FACTORY",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
-        },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027-Stagiaire-Technicien-en-Instrumentation-Internship---Winter-2027-Instrumentation-Technician_01878634": {
           "title": "Stage - Hiver 2027-Stagiaire Technicien en Instrumentation/Internship - Winter 2027-Instrumentation Technician",
           "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
@@ -2773,14 +2765,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
           "missed_runs": 0
-        },
-        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Support-technique---Internship---Winter-2027---Technical-support_01876876": {
-          "title": "Stage - Hiver 2027 - Support technique / Internship - Winter 2027 - Technical support",
-          "location": "CA-QC-SAINT HUBERT-H05 ~ 7007 Chemin De La Savane ~ BLDG H05 FACTORY",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-06",
-          "missed_runs": 3
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Gestion-de-la-chane-d-approvisionnement---Internship---Winter-2027---Supply-Chain-Management_01868000": {
           "title": "Stage - Hiver 2027 - Gestion de la chaîne d’approvisionnement / Internship - Winter 2027 - Supply Chain Management",
@@ -4602,6 +4586,6 @@
   "last_heartbeat": "2026-11-09",
   "telegram_queue": [],
   "email_queue": [],
-  "last_email_slot": "2026-11-08T16:30:00-05:00",
+  "last_email_slot": "2026-11-09T08:30:00-05:00",
   "pending_alerts": []
 }
