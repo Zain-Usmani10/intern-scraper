@@ -225,7 +225,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-09",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.qualcomm.com/careers/job/446721141411": {
           "title": "FY27 Intern - Firmware/Embedded Software Engineering Internship - Canada (12 or 16 months)",
@@ -481,7 +481,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-09",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Test-Engineering-Intern_REQ3667": {
           "title": "Test Engineering Intern",
@@ -489,7 +489,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-09",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Quality-Engineering-Intern_REQ3692": {
           "title": "Quality Engineering Intern",
@@ -752,7 +752,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 10,
+      "failures": 11,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -1510,6 +1510,14 @@
           "first_seen": "2026-11-09",
           "last_seen": "2026-11-09",
           "missed_runs": 0
+        },
+        "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/Software-Engineer----Intern_R03414": {
+          "title": "Software Engineer - Intern",
+          "location": "Toronto, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-09",
+          "last_seen": "2026-11-09",
+          "missed_runs": 0
         }
       }
     },
@@ -1791,14 +1799,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
           "missed_runs": 0
-        },
-        "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525": {
-          "title": "Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op",
-          "location": "Ottawa, Canada; Toronto, Canada; Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-09",
-          "missed_runs": 3
         },
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/Analog-Design-Intern--Master-s---2027-Co-Op_2603862": {
           "title": "Analog Design Intern, Master’s - 2027 Co-Op",
@@ -2425,7 +2425,7 @@
           "country": "Canada",
           "first_seen": "2026-11-09",
           "last_seen": "2026-11-09",
-          "missed_runs": 1
+          "missed_runs": 0
         }
       }
     },
@@ -2572,7 +2572,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H12--7007-Chemin-De-La-Savane--BLDG-H12-TRAINING/Stage---Hiver-2027----Ventes-globales---Internship---Winter-2027----Global-Sales_01869713": {
           "title": "Stage - Hiver 2027 - Ventes globales / Internship - Winter 2027 - Global Sales",
@@ -2609,7 +2609,7 @@
       }
     },
     "Thales Canada": {
-      "failures": 2,
+      "failures": 0,
       "seen": {
         "https://thales.wd3.myworkdayjobs.com/Careers/job/Ottawa/Project-Planning---Scheduling-Co-op-Student_R0343079": {
           "title": "Project Planning & Scheduling Co-op Student or intern",
@@ -3306,7 +3306,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-09",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Software-Developer-%28Winter-2027%29/16151-en_US": {
           "title": "Intern, Software Developer (Winter 2027)",
@@ -4353,7 +4353,15 @@
   },
   "last_heartbeat": "2026-11-09",
   "telegram_queue": [],
-  "email_queue": [],
+  "email_queue": [
+    {
+      "company": "Altera",
+      "title": "Software Engineer - Intern",
+      "location": "Toronto, Ontario, Canada",
+      "country": "Canada",
+      "url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/Software-Engineer----Intern_R03414"
+    }
+  ],
   "last_email_slot": "2026-11-09T16:30:00-05:00",
   "pending_alerts": []
 }
