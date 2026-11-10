@@ -719,7 +719,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 17,
+      "failures": 18,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -1081,7 +1081,7 @@
       "seen": {}
     },
     "Hitachi Rail": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Intern-Safety-Specialist--Fall-2027--8-12-months-_R0143291": {
           "title": "Intern Safety Specialist (Fall 2027, 8-12 months)",
@@ -1298,6 +1298,14 @@
           "first_seen": "2026-11-10",
           "last_seen": "2026-11-10",
           "missed_runs": 0
+        },
+        "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Burnaby-British-Columbia-Canada/Signalling-Design-Intern--Winter-2027-_R0146876": {
+          "title": "Signalling Design Intern (Winter 2027)",
+          "location": "Burnaby, British Columbia, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-10",
+          "last_seen": "2026-11-10",
+          "missed_runs": 0
         }
       }
     },
@@ -1419,7 +1427,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-10",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://ats.rippling.com/4ag/jobs/921801f5-ae83-4a49-a234-221a87d94fe7": {
           "title": "AI Co-op Student (Winter 2027)",
@@ -2075,7 +2083,7 @@
       }
     },
     "ecobee": {
-      "failures": 0,
+      "failures": 1,
       "seen": {}
     },
     "D-Wave": {
@@ -2409,6 +2417,14 @@
           "first_seen": "2026-11-10",
           "last_seen": "2026-11-10",
           "missed_runs": 0
+        },
+        "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Human-Resources-ON/1456196333": {
+          "title": "Student Intern, Human Resources",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-10",
+          "last_seen": "2026-11-10",
+          "missed_runs": 0
         }
       }
     },
@@ -2516,7 +2532,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027-Stagiaire-Technicien-en-Instrumentation-Internship---Winter-2027-Instrumentation-Technician_01878634": {
           "title": "Stage - Hiver 2027-Stagiaire Technicien en Instrumentation/Internship - Winter 2027-Instrumentation Technician",
@@ -2588,7 +2604,7 @@
           "country": "Canada",
           "first_seen": "2026-11-09",
           "last_seen": "2026-11-10",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
@@ -3268,14 +3284,6 @@
           "last_seen": "2026-11-10",
           "missed_runs": 0
         },
-        "https://jobs.bombardier.com/job/Intern%2C-Finance-Travel-Canada-%28Winter-2027%29/16099-en_US": {
-          "title": "Intern, Finance - Travel Canada (Winter 2027)",
-          "location": "Dorval, QC, CAN, H4S 1Y9",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-10",
-          "missed_runs": 3
-        },
         "https://jobs.bombardier.com/job/Intern-in-the-Health%2C-Safety%2C-and-Environment-Department-%28Winter-2027%29/16139-en_US": {
           "title": "Intern in the Health, Safety, and Environment Department (Winter 2027)",
           "location": "St-Laurent, QC, CAN, H4R 1K2",
@@ -3356,14 +3364,6 @@
           "last_seen": "2026-11-10",
           "missed_runs": 0
         },
-        "https://jobs.bombardier.com/job/Intern%2C-Stress-Integration-%28Winter-2027%29/16082-en_US": {
-          "title": "Intern, Stress Integration (Winter 2027)",
-          "location": "St-Laurent, QC, CAN,",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-10",
-          "missed_runs": 3
-        },
         "https://jobs.bombardier.com/job/Intern%2C-Finance-Business-partner-Toronto-%28Winter-2027%29/16085-en_US": {
           "title": "Intern, Finance Business partner Toronto (Winter 2027)",
           "location": "Mississauga, ON, CAN, L5S 1W1",
@@ -3371,14 +3371,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
           "missed_runs": 0
-        },
-        "https://jobs.bombardier.com/job/Intern%2C-Finance-St-Laurent-%28Winter-2027%29/16087-en_US": {
-          "title": "Intern, Finance St-Laurent (Winter 2027)",
-          "location": "St-Laurent, QC, CAN, H4R 1K2",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-10",
-          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Finance-Deal-Management-%28Winter-2027%29/16091-en_US": {
           "title": "Intern, Finance Deal Management (Winter 2027)",
@@ -3684,14 +3676,6 @@
           "last_seen": "2026-11-10",
           "missed_runs": 0
         },
-        "https://jobs.bombardier.com/job/Intern%2C-Logistics-%28Winter-2027%29/16098-en_US": {
-          "title": "Intern, Logistics (Winter 2027)",
-          "location": "Dorval, QC, CAN, H4S 2A3",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-10",
-          "missed_runs": 3
-        },
         "https://jobs.bombardier.com/job/Intern%2C-Logistics-Process-Improvements-%28Winter-2027%29/15496-en_US": {
           "title": "Intern, Logistics Process Improvements (Winter 2027)",
           "location": "Mississauga, ON, CAN, L5S 1W1",
@@ -3747,14 +3731,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
           "missed_runs": 0
-        },
-        "https://jobs.bombardier.com/job/Intern%2C-Engineering-Stress-%28Winter-2027%29/16179-en_US": {
-          "title": "Intern, Engineering Stress (Winter 2027)",
-          "location": "Dorval, QC, CAN, H4S 1Y9",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-10",
-          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Supply-Chain-%28Data-Insights-and-Profitability%29%2C-%28Winter-2027%29/16096-en_US": {
           "title": "Intern, Supply Chain (Data Insights and Profitability), (Winter 2027)",
@@ -4084,14 +4060,6 @@
           "last_seen": "2026-11-10",
           "missed_runs": 0
         },
-        "https://jobs.bombardier.com/job/Intern%2C-Completions-Systems-Electric-%28Winter-2027%29/15804-en_US": {
-          "title": "Intern, Completions Systems Electric (Winter 2027)",
-          "location": "Dorval, QC, CAN, H4S 1Y9",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-10",
-          "missed_runs": 3
-        },
         "https://jobs.bombardier.com/job/Intern%2C-Legal-Services-Services-and-Support-%28Aftermarket%29-%28Winter-2027%29/15833-en_US": {
           "title": "Intern, Legal Services - Services and Support (Aftermarket) (Winter 2027)",
           "location": "Dorval, QC, CAN, H4S 1Y9",
@@ -4365,6 +4333,20 @@
       "location": "Sainte-Anne-de-Bellevue, Quebec, Canada",
       "country": "Canada",
       "url": "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=8b307f48-c679-4bbd-b1ff-d7976e66d6a9"
+    },
+    {
+      "company": "Hitachi Rail",
+      "title": "Signalling Design Intern (Winter 2027)",
+      "location": "Burnaby, British Columbia, Canada",
+      "country": "Canada",
+      "url": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Burnaby-British-Columbia-Canada/Signalling-Design-Intern--Winter-2027-_R0146876"
+    },
+    {
+      "company": "Celestica",
+      "title": "Student Intern, Human Resources",
+      "location": "",
+      "country": "Canada",
+      "url": "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Human-Resources-ON/1456196333"
     }
   ],
   "last_email_slot": "2026-11-10T08:30:00-05:00",
