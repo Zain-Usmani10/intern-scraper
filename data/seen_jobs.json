@@ -719,7 +719,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 15,
+      "failures": 16,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -1497,7 +1497,7 @@
       }
     },
     "Intel": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Compiler-Engineering-Graduate-Intern_JR0287933": {
           "title": "Compiler Engineering Graduate Intern",
@@ -2075,7 +2075,7 @@
       }
     },
     "ecobee": {
-      "failures": 1,
+      "failures": 0,
       "seen": {}
     },
     "D-Wave": {
@@ -2392,13 +2392,21 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.celestica.com/job/Toronto-Student-Intern%2C-IT-Business-Application-Development-ON/1455777233": {
           "title": "Student Intern, IT Business Application Development",
           "location": "",
           "country": "Canada",
           "first_seen": "2026-11-09",
+          "last_seen": "2026-11-10",
+          "missed_runs": 0
+        },
+        "https://careers.celestica.com/job/Newmarket-Student-Intern%2C-Automation-Support-Development-Engineering-ON/1456169333": {
+          "title": "Student Intern, Automation Support / Development Engineering",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-10",
           "last_seen": "2026-11-10",
           "missed_runs": 0
         }
@@ -2455,7 +2463,7 @@
       }
     },
     "CAE": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/Stagiaire---Gnie-Industriel-Manufacturier-et-Amlioration-Continue---ndustrial-Manufacturing-Engineering-and-Continuous-Improvement-Intern_123650": {
           "title": "Stagiaire - Génie Industriel/Manufacturier et Amélioration Continue / Industrial/Manufacturing Engineering and Continuous Improvement Intern",
@@ -2580,7 +2588,7 @@
           "country": "Canada",
           "first_seen": "2026-11-09",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     },
@@ -2818,6 +2826,14 @@
           "location": "Brampton, Ontario, Canada",
           "country": "Canada",
           "first_seen": "2026-11-05",
+          "last_seen": "2026-11-10",
+          "missed_runs": 0
+        },
+        "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=8b307f48-c679-4bbd-b1ff-d7976e66d6a9": {
+          "title": "Storekeeper - Kitting (Student)",
+          "location": "Sainte-Anne-de-Bellevue, Quebec, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-10",
           "last_seen": "2026-11-10",
           "missed_runs": 0
         }
@@ -3258,7 +3274,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern-in-the-Health%2C-Safety%2C-and-Environment-Department-%28Winter-2027%29/16139-en_US": {
           "title": "Intern in the Health, Safety, and Environment Department (Winter 2027)",
@@ -3346,7 +3362,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Finance-Business-partner-Toronto-%28Winter-2027%29/16085-en_US": {
           "title": "Intern, Finance Business partner Toronto (Winter 2027)",
@@ -3362,7 +3378,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Finance-Deal-Management-%28Winter-2027%29/16091-en_US": {
           "title": "Intern, Finance Deal Management (Winter 2027)",
@@ -3674,7 +3690,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Logistics-Process-Improvements-%28Winter-2027%29/15496-en_US": {
           "title": "Intern, Logistics Process Improvements (Winter 2027)",
@@ -3738,7 +3754,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Supply-Chain-%28Data-Insights-and-Profitability%29%2C-%28Winter-2027%29/16096-en_US": {
           "title": "Intern, Supply Chain (Data Insights and Profitability), (Winter 2027)",
@@ -4074,7 +4090,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Legal-Services-Services-and-Support-%28Aftermarket%29-%28Winter-2027%29/15833-en_US": {
           "title": "Intern, Legal Services - Services and Support (Aftermarket) (Winter 2027)",
@@ -4335,6 +4351,20 @@
       "location": "Toronto, Ontario, Canada",
       "country": "Canada",
       "url": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/DevOps-Analyst-Intern_R0145523"
+    },
+    {
+      "company": "Celestica",
+      "title": "Student Intern, Automation Support / Development Engineering",
+      "location": "",
+      "country": "Canada",
+      "url": "https://careers.celestica.com/job/Newmarket-Student-Intern%2C-Automation-Support-Development-Engineering-ON/1456169333"
+    },
+    {
+      "company": "MDA Space",
+      "title": "Storekeeper - Kitting (Student)",
+      "location": "Sainte-Anne-de-Bellevue, Quebec, Canada",
+      "country": "Canada",
+      "url": "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=8b307f48-c679-4bbd-b1ff-d7976e66d6a9"
     }
   ],
   "last_email_slot": "2026-11-10T08:30:00-05:00",
