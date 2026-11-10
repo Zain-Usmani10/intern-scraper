@@ -719,7 +719,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 16,
+      "failures": 17,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -1081,7 +1081,7 @@
       "seen": {}
     },
     "Hitachi Rail": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Intern-Safety-Specialist--Fall-2027--8-12-months-_R0143291": {
           "title": "Intern Safety Specialist (Fall 2027, 8-12 months)",
@@ -1419,7 +1419,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://ats.rippling.com/4ag/jobs/921801f5-ae83-4a49-a234-221a87d94fe7": {
           "title": "AI Co-op Student (Winter 2027)",
@@ -1497,7 +1497,7 @@
       }
     },
     "Intel": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Compiler-Engineering-Graduate-Intern_JR0287933": {
           "title": "Compiler Engineering Graduate Intern",
@@ -2392,7 +2392,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 1
+          "missed_runs": 0
         },
         "https://careers.celestica.com/job/Toronto-Student-Intern%2C-IT-Business-Application-Development-ON/1455777233": {
           "title": "Student Intern, IT Business Application Development",
@@ -2588,7 +2588,7 @@
           "country": "Canada",
           "first_seen": "2026-11-09",
           "last_seen": "2026-11-10",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -3274,7 +3274,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern-in-the-Health%2C-Safety%2C-and-Environment-Department-%28Winter-2027%29/16139-en_US": {
           "title": "Intern in the Health, Safety, and Environment Department (Winter 2027)",
@@ -3362,7 +3362,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Finance-Business-partner-Toronto-%28Winter-2027%29/16085-en_US": {
           "title": "Intern, Finance Business partner Toronto (Winter 2027)",
@@ -3378,7 +3378,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Finance-Deal-Management-%28Winter-2027%29/16091-en_US": {
           "title": "Intern, Finance Deal Management (Winter 2027)",
@@ -3690,7 +3690,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Logistics-Process-Improvements-%28Winter-2027%29/15496-en_US": {
           "title": "Intern, Logistics Process Improvements (Winter 2027)",
@@ -3754,7 +3754,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Supply-Chain-%28Data-Insights-and-Profitability%29%2C-%28Winter-2027%29/16096-en_US": {
           "title": "Intern, Supply Chain (Data Insights and Profitability), (Winter 2027)",
@@ -4090,7 +4090,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Legal-Services-Services-and-Support-%28Aftermarket%29-%28Winter-2027%29/15833-en_US": {
           "title": "Intern, Legal Services - Services and Support (Aftermarket) (Winter 2027)",
