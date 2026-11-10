@@ -719,7 +719,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 18,
+      "failures": 19,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -1427,7 +1427,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-10",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://ats.rippling.com/4ag/jobs/921801f5-ae83-4a49-a234-221a87d94fe7": {
           "title": "AI Co-op Student (Winter 2027)",
@@ -2083,7 +2083,7 @@
       }
     },
     "ecobee": {
-      "failures": 1,
+      "failures": 2,
       "seen": {}
     },
     "D-Wave": {
@@ -2475,6 +2475,14 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
           "missed_runs": 0
+        },
+        "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Saint-Laurent-Quebec-Canada/ELDS-Marketing-Communications-Intern-Winter-2027_JR00052657": {
+          "title": "ELDS Marketing Communications Intern-Winter 2027",
+          "location": "Saint-Laurent, Quebec, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-10",
+          "last_seen": "2026-11-10",
+          "missed_runs": 0
         }
       }
     },
@@ -2532,7 +2540,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027-Stagiaire-Technicien-en-Instrumentation-Internship---Winter-2027-Instrumentation-Technician_01878634": {
           "title": "Stage - Hiver 2027-Stagiaire Technicien en Instrumentation/Internship - Winter 2027-Instrumentation Technician",
@@ -2597,14 +2605,6 @@
           "first_seen": "2026-11-09",
           "last_seen": "2026-11-10",
           "missed_runs": 0
-        },
-        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver---Responsable-de-la-gestion-des-stocks---Internship-Winter-Material-Management-Lead_01887159-1": {
-          "title": "Stage - Hiver - Responsable de la gestion des stocks / Internship-Winter-Material Management Lead",
-          "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
-          "country": "Canada",
-          "first_seen": "2026-11-09",
-          "last_seen": "2026-11-10",
-          "missed_runs": 3
         }
       }
     },
@@ -4347,6 +4347,13 @@
       "location": "",
       "country": "Canada",
       "url": "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Human-Resources-ON/1456196333"
+    },
+    {
+      "company": "ABB",
+      "title": "ELDS Marketing Communications Intern-Winter 2027",
+      "location": "Saint-Laurent, Quebec, Canada",
+      "country": "Canada",
+      "url": "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Saint-Laurent-Quebec-Canada/ELDS-Marketing-Communications-Intern-Winter-2027_JR00052657"
     }
   ],
   "last_email_slot": "2026-11-10T08:30:00-05:00",
