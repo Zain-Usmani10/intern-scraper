@@ -219,14 +219,6 @@
           "last_seen": "2026-11-10",
           "missed_runs": 0
         },
-        "https://careers.qualcomm.com/careers/job/446721064094": {
-          "title": "FY27 Intern - Compute DSP/AI Processor Engineering Internship - Canada (16 months)",
-          "location": "Markham, ON, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-03",
-          "last_seen": "2026-11-09",
-          "missed_runs": 3
-        },
         "https://careers.qualcomm.com/careers/job/446721141411": {
           "title": "FY27 Intern - Firmware/Embedded Software Engineering Internship - Canada (12 or 16 months)",
           "location": "Toronto, ON, Canada",
@@ -339,7 +331,7 @@
           "country": "",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-09",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
@@ -474,22 +466,6 @@
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-10",
           "missed_runs": 0
-        },
-        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Product-Engineering-Intern_REQ3668-1": {
-          "title": "Product Engineering Intern",
-          "location": "CAN - Burlington, ON",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-09",
-          "missed_runs": 3
-        },
-        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Test-Engineering-Intern_REQ3667": {
-          "title": "Test Engineering Intern",
-          "location": "CAN - Burlington, ON",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-09",
-          "missed_runs": 3
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Quality-Engineering-Intern_REQ3692": {
           "title": "Quality Engineering Intern",
@@ -752,7 +728,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 13,
+      "failures": 14,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -2431,7 +2407,16 @@
     },
     "Siemens": {
       "failures": 0,
-      "seen": {}
+      "seen": {
+        "https://jobs.siemens.com/en_US/externaljobs/JobDetail/523351": {
+          "title": "B2B Marketing Student - Jan 2027 - April 2027",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-10",
+          "last_seen": "2026-11-10",
+          "missed_runs": 0
+        }
+      }
     },
     "ABB": {
       "failures": 0,
@@ -4337,7 +4322,15 @@
   },
   "last_heartbeat": "2026-11-10",
   "telegram_queue": [],
-  "email_queue": [],
+  "email_queue": [
+    {
+      "company": "Siemens",
+      "title": "B2B Marketing Student - Jan 2027 - April 2027",
+      "location": "",
+      "country": "Canada",
+      "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/523351"
+    }
+  ],
   "last_email_slot": "2026-11-10T08:30:00-05:00",
   "pending_alerts": []
 }
