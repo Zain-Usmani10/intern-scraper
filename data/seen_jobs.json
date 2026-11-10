@@ -719,7 +719,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 19,
+      "failures": 20,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -828,7 +828,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.l3harris.com/en/job/waterdown/intern-environmental-health-and-safety-waterdown-can/4832/100667892496": {
           "title": "Intern, Environmental Health & Safety (Waterdown, CAN)",
@@ -1421,14 +1421,6 @@
     "4AG Robotics": {
       "failures": 0,
       "seen": {
-        "https://ats.rippling.com/4ag/jobs/52ac25d1-c68e-4b6e-a5f5-36e312c03878": {
-          "title": "Supply Chain Co-op Student (Winter 2027)",
-          "location": "Salmon Arm, British Columbia, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-10",
-          "missed_runs": 3
-        },
         "https://ats.rippling.com/4ag/jobs/921801f5-ae83-4a49-a234-221a87d94fe7": {
           "title": "AI Co-op Student (Winter 2027)",
           "location": "Salmon Arm, British Columbia, Canada",
@@ -2083,7 +2075,7 @@
       }
     },
     "ecobee": {
-      "failures": 2,
+      "failures": 3,
       "seen": {}
     },
     "D-Wave": {
@@ -2425,6 +2417,22 @@
           "first_seen": "2026-11-10",
           "last_seen": "2026-11-10",
           "missed_runs": 0
+        },
+        "https://careers.celestica.com/job/Newmarket-Student-Intern%2C-Test-Manufacturing-and-Process-Engineering-ON/1456225233": {
+          "title": "Student Intern, Test Manufacturing and Process Engineering",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-10",
+          "last_seen": "2026-11-10",
+          "missed_runs": 0
+        },
+        "https://careers.celestica.com/job/Newmarket-Student-Intern%2C-Process-and-Manufacturing-Engineer-ON/1456226233": {
+          "title": "Student Intern, Process and Manufacturing Engineer",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-10",
+          "last_seen": "2026-11-10",
+          "missed_runs": 0
         }
       }
     },
@@ -2540,7 +2548,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027-Stagiaire-Technicien-en-Instrumentation-Internship---Winter-2027-Instrumentation-Technician_01878634": {
           "title": "Stage - Hiver 2027-Stagiaire Technicien en Instrumentation/Internship - Winter 2027-Instrumentation Technician",
@@ -4354,6 +4362,20 @@
       "location": "Saint-Laurent, Quebec, Canada",
       "country": "Canada",
       "url": "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Saint-Laurent-Quebec-Canada/ELDS-Marketing-Communications-Intern-Winter-2027_JR00052657"
+    },
+    {
+      "company": "Celestica",
+      "title": "Student Intern, Test Manufacturing and Process Engineering",
+      "location": "",
+      "country": "Canada",
+      "url": "https://careers.celestica.com/job/Newmarket-Student-Intern%2C-Test-Manufacturing-and-Process-Engineering-ON/1456225233"
+    },
+    {
+      "company": "Celestica",
+      "title": "Student Intern, Process and Manufacturing Engineer",
+      "location": "",
+      "country": "Canada",
+      "url": "https://careers.celestica.com/job/Newmarket-Student-Intern%2C-Process-and-Manufacturing-Engineer-ON/1456226233"
     }
   ],
   "last_email_slot": "2026-11-10T08:30:00-05:00",
