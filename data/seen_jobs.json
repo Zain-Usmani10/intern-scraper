@@ -225,7 +225,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-09",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.qualcomm.com/careers/job/446721141411": {
           "title": "FY27 Intern - Firmware/Embedded Software Engineering Internship - Canada (12 or 16 months)",
@@ -339,19 +339,19 @@
           "country": "",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-09",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
     "Kepler Communications": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://jobs.lever.co/kepler/ccb93343-3e2f-485d-bccf-5e34512bf4cb": {
           "title": "IT Intern (January 2027) (4 months)",
           "location": "Toronto, Ontario; CA",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-09",
+          "last_seen": "2026-11-10",
           "missed_runs": 0
         },
         "https://jobs.lever.co/kepler/5514238a-8301-49f1-8116-26d38ea0900c": {
@@ -359,7 +359,7 @@
           "location": "Toronto, Ontario; CA",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-09",
+          "last_seen": "2026-11-10",
           "missed_runs": 0
         },
         "https://jobs.lever.co/kepler/708c94ba-478f-4b2f-88dd-8fa808ca2866": {
@@ -367,7 +367,7 @@
           "location": "Toronto, Ontario; CA",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-09",
+          "last_seen": "2026-11-10",
           "missed_runs": 0
         }
       }
@@ -481,7 +481,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-09",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Test-Engineering-Intern_REQ3667": {
           "title": "Test Engineering Intern",
@@ -489,7 +489,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-09",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Quality-Engineering-Intern_REQ3692": {
           "title": "Quality Engineering Intern",
@@ -752,7 +752,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 12,
+      "failures": 13,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -4337,15 +4337,7 @@
   },
   "last_heartbeat": "2026-11-10",
   "telegram_queue": [],
-  "email_queue": [
-    {
-      "company": "Altera",
-      "title": "Software Engineer - Intern",
-      "location": "Toronto, Ontario, Canada",
-      "country": "Canada",
-      "url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/Software-Engineer----Intern_R03414"
-    }
-  ],
-  "last_email_slot": "2026-11-09T16:30:00-05:00",
+  "email_queue": [],
+  "last_email_slot": "2026-11-10T08:30:00-05:00",
   "pending_alerts": []
 }
