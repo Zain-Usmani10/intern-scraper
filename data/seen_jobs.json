@@ -324,16 +324,7 @@
     },
     "Shopify": {
       "failures": 0,
-      "seen": {
-        "https://www.shopify.com/careers/apprentice-product-manager-spring-2027_2f3b3b4f-be41-4e08-ab6f-d38b9f798c84": {
-          "title": "Apprentice Product Manager - Spring 2027",
-          "location": "",
-          "country": "",
-          "first_seen": "2026-11-03",
-          "last_seen": "2026-11-09",
-          "missed_runs": 3
-        }
-      }
+      "seen": {}
     },
     "Kepler Communications": {
       "failures": 0,
@@ -728,7 +719,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 14,
+      "failures": 15,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -1297,6 +1288,14 @@
           "location": "Saint-Laurent, Quebec, Canada",
           "country": "Canada",
           "first_seen": "2026-11-04",
+          "last_seen": "2026-11-10",
+          "missed_runs": 0
+        },
+        "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/DevOps-Analyst-Intern_R0145523": {
+          "title": "DevOps Analyst Intern",
+          "location": "Toronto, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-10",
           "last_seen": "2026-11-10",
           "missed_runs": 0
         }
@@ -2076,7 +2075,7 @@
       }
     },
     "ecobee": {
-      "failures": 0,
+      "failures": 1,
       "seen": {}
     },
     "D-Wave": {
@@ -2456,7 +2455,7 @@
       }
     },
     "CAE": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/Stagiaire---Gnie-Industriel-Manufacturier-et-Amlioration-Continue---ndustrial-Manufacturing-Engineering-and-Continuous-Improvement-Intern_123650": {
           "title": "Stagiaire - Génie Industriel/Manufacturier et Amélioration Continue / Industrial/Manufacturing Engineering and Continuous Improvement Intern",
@@ -3259,7 +3258,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern-in-the-Health%2C-Safety%2C-and-Environment-Department-%28Winter-2027%29/16139-en_US": {
           "title": "Intern in the Health, Safety, and Environment Department (Winter 2027)",
@@ -3347,7 +3346,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Finance-Business-partner-Toronto-%28Winter-2027%29/16085-en_US": {
           "title": "Intern, Finance Business partner Toronto (Winter 2027)",
@@ -3363,7 +3362,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Finance-Deal-Management-%28Winter-2027%29/16091-en_US": {
           "title": "Intern, Finance Deal Management (Winter 2027)",
@@ -3675,7 +3674,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Logistics-Process-Improvements-%28Winter-2027%29/15496-en_US": {
           "title": "Intern, Logistics Process Improvements (Winter 2027)",
@@ -3739,7 +3738,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Supply-Chain-%28Data-Insights-and-Profitability%29%2C-%28Winter-2027%29/16096-en_US": {
           "title": "Intern, Supply Chain (Data Insights and Profitability), (Winter 2027)",
@@ -4075,7 +4074,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Legal-Services-Services-and-Support-%28Aftermarket%29-%28Winter-2027%29/15833-en_US": {
           "title": "Intern, Legal Services - Services and Support (Aftermarket) (Winter 2027)",
@@ -4329,6 +4328,13 @@
       "location": "",
       "country": "Canada",
       "url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/523351"
+    },
+    {
+      "company": "Hitachi Rail",
+      "title": "DevOps Analyst Intern",
+      "location": "Toronto, Ontario, Canada",
+      "country": "Canada",
+      "url": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/DevOps-Analyst-Intern_R0145523"
     }
   ],
   "last_email_slot": "2026-11-10T08:30:00-05:00",
