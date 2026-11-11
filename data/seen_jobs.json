@@ -105,7 +105,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-11",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.qualcomm.com/careers/job/446721829439": {
           "title": "FY27 Intern - Camera Design Engineering Internship - Canada (12 or 16 months)",
@@ -193,7 +193,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-11",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.qualcomm.com/careers/job/446721143440": {
           "title": "FY27 Intern - Low Power AI Software Development Internship - Canada (16 months)",
@@ -491,12 +491,12 @@
           "country": "Canada",
           "first_seen": "2026-11-11",
           "last_seen": "2026-11-11",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
     "NXP": {
-      "failures": 28,
+      "failures": 29,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -1174,6 +1174,14 @@
           "location": "",
           "country": "Canada",
           "first_seen": "2026-11-04",
+          "last_seen": "2026-11-11",
+          "missed_runs": 0
+        },
+        "https://careers.skyworksinc.com/job/RF-Systems-Co-Op-%28May-2027-Apr-2028%29/78257-en_US": {
+          "title": "RF Systems Co-Op (May 2027 - Apr 2028)",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-11",
           "last_seen": "2026-11-11",
           "missed_runs": 0
         }
@@ -1946,7 +1954,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-11",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.celestica.com/job/Remote-Employee-Canada-Student-Intern%2C-Aerospace-and-Defense-Engineering-Associate-ON/1440660533": {
           "title": "Student Intern, Aerospace and Defense Engineering Associate",
@@ -2318,7 +2326,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-11",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Spcialiste-Qualit---Internship---Winter-2027---Quality-Specialist_01874468": {
           "title": "Stage - Hiver 2027 - Spécialiste Qualité / Internship - Winter 2027 - Quality Specialist",
@@ -2980,7 +2988,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-11",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Computational-Aerodynamics-Advanced-Aerodynamics-%28Winter-2027%29/15600-en_US": {
           "title": "Intern, Computational Aerodynamics - Advanced Aerodynamics (Winter 2027)",
@@ -3140,7 +3148,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-11",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-PMO-Project-Coordinator-%28Winter-2027%29/16117-en_US": {
           "title": "Intern, PMO Project Coordinator (Winter 2027)",
@@ -3380,7 +3388,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-11",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Project-Management-Production-Support-%28Winter-2027%29/16137-en_US": {
           "title": "Intern, Project Management - Production Support (Winter 2027)",
@@ -3500,7 +3508,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-11",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Mechanical-and-Electrical-Design-Product-Development-Test-Laboratory-%28Winter-2027%29/15913-en_US": {
           "title": "Intern, Mechanical and Electrical Design - Product Development Test Laboratory (Winter 2027)",
@@ -3764,7 +3772,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-11",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Mass-Properties-%28Winter-2027%29/15776-en_US": {
           "title": "Intern, Mass Properties (Winter 2027)",
@@ -3916,7 +3924,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-11",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Material-Logsitics-%28Winter-2027%29/15483-en_US": {
           "title": "Intern, Material Logsitics (Winter 2027)",
@@ -3956,7 +3964,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-11",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Operations-Coordinator-%28Winter-2027%29/15514-en_US": {
           "title": "Intern, Operations Coordinator (Winter 2027)",
@@ -4049,6 +4057,13 @@
       "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
       "country": "Canada",
       "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Genie-de-la-fabrication---Internship---Winter-2027---Manufacturing-engineering-_01871322"
+    },
+    {
+      "company": "Skyworks",
+      "title": "RF Systems Co-Op (May 2027 - Apr 2028)",
+      "location": "",
+      "country": "Canada",
+      "url": "https://careers.skyworksinc.com/job/RF-Systems-Co-Op-%28May-2027-Apr-2028%29/78257-en_US"
     }
   ],
   "last_email_slot": "2026-11-11T08:30:00-05:00",
