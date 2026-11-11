@@ -185,7 +185,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.qualcomm.com/careers/job/446721229661": {
           "title": "FY27 Intern - PAL Firmware Development Internship - Canada (16 months)",
@@ -719,7 +719,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 21,
+      "failures": 22,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -828,7 +828,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-10",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.l3harris.com/en/job/waterdown/intern-environmental-health-and-safety-waterdown-can/4832/100667892496": {
           "title": "Intern, Environmental Health & Safety (Waterdown, CAN)",
@@ -1704,7 +1704,16 @@
     },
     "Synopsys": {
       "failures": 0,
-      "seen": {}
+      "seen": {
+        "https://careers.synopsys.com/job/nepean/engineering-documentation-and-ai-automation-internship-16-month-co-op/44408/103136134960": {
+          "title": "Engineering Documentation and AI Automation Internship (16-Month Co-op)",
+          "location": "",
+          "country": "",
+          "first_seen": "2026-11-10",
+          "last_seen": "2026-11-10",
+          "missed_runs": 0
+        }
+      }
     },
     "Cadence": {
       "failures": 0,
@@ -3346,7 +3355,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Data-Analyst-%28Winter-2027%29/16080-en_US": {
           "title": "Intern, Data Analyst (Winter 2027)",
@@ -3506,7 +3515,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Engineering-Liaison-%28Winter-2027%29/16001-en_US": {
           "title": "Intern, Engineering Liaison (Winter 2027)",
@@ -3538,7 +3547,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Communications-Operational-Excellence-%28Winter-2027%29/15937-en_US": {
           "title": "Intern, Communications Operational Excellence (Winter 2027)",
@@ -3562,7 +3571,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Information-Archiving-and-Governance-Montr%C3%A9al-%28Winter-2027%29/15902-en_US": {
           "title": "Intern, Information Archiving and Governance Montréal (Winter 2027)",
@@ -3666,7 +3675,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-in-Strategy-and-Governance%2C-Bombardier-Business-Aircraft-%28Services-&amp;-Support%29-%28Winter-2027%29/15653-en_US": {
           "title": "Intern, in Strategy and Governance, Bombardier Business Aircraft (Services & Support) (Winter 2027)",
@@ -3730,7 +3739,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Supply-Chain-%28Data-Insights-and-Profitability%29%2C-%28Winter-2027%29/16096-en_US": {
           "title": "Intern, Supply Chain (Data Insights and Profitability), (Winter 2027)",
@@ -4106,7 +4115,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Project-Engineering-New-development-%28Winter-2027%29/15387-en_US": {
           "title": "Intern, Project Engineering - New development (Winter 2027)",
@@ -4146,7 +4155,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-10",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2CConfiguration-and-Data-management-%28Winter-2027%29/15652-en_US": {
           "title": "Intern,Configuration and Data management (Winter 2027)",
@@ -4291,6 +4300,22 @@
           "first_seen": "2026-11-09",
           "last_seen": "2026-11-10",
           "missed_runs": 0
+        },
+        "https://jobs.bombardier.com/job/Intern%2C-Plant-Engineering-Projects-%28Summer-2027%29/16393-en_US": {
+          "title": "Intern, Plant Engineering Projects (Summer 2027)",
+          "location": "Mississauga, ON, CAN, L5S 1W1",
+          "country": "Canada",
+          "first_seen": "2026-11-10",
+          "last_seen": "2026-11-10",
+          "missed_runs": 0
+        },
+        "https://jobs.bombardier.com/job/Intern%2C-Plant-Engineering-Maintenance-%28Summer-2027%29/16390-en_US": {
+          "title": "Intern, Plant Engineering Maintenance (Summer 2027)",
+          "location": "Mississauga, ON, CAN, L5S 1W1",
+          "country": "Canada",
+          "first_seen": "2026-11-10",
+          "last_seen": "2026-11-10",
+          "missed_runs": 0
         }
       }
     },
@@ -4300,12 +4325,50 @@
     },
     "Ballard Power Systems": {
       "failures": 0,
-      "seen": {}
+      "seen": {
+        "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d06937f5f7016978fec55861f7&id=8a7883aca184742f01a1a2b3fa2e6a64&lang=en&m=t": {
+          "title": "Research co-op",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-10",
+          "last_seen": "2026-11-10",
+          "missed_runs": 0
+        }
+      }
     }
   },
   "last_heartbeat": "2026-11-10",
   "telegram_queue": [],
-  "email_queue": [],
+  "email_queue": [
+    {
+      "company": "Synopsys",
+      "title": "Engineering Documentation and AI Automation Internship (16-Month Co-op)",
+      "location": "",
+      "country": "",
+      "url": "https://careers.synopsys.com/job/nepean/engineering-documentation-and-ai-automation-internship-16-month-co-op/44408/103136134960"
+    },
+    {
+      "company": "Bombardier",
+      "title": "Intern, Plant Engineering Projects (Summer 2027)",
+      "location": "Mississauga, ON, CAN, L5S 1W1",
+      "country": "Canada",
+      "url": "https://jobs.bombardier.com/job/Intern%2C-Plant-Engineering-Projects-%28Summer-2027%29/16393-en_US"
+    },
+    {
+      "company": "Bombardier",
+      "title": "Intern, Plant Engineering Maintenance (Summer 2027)",
+      "location": "Mississauga, ON, CAN, L5S 1W1",
+      "country": "Canada",
+      "url": "https://jobs.bombardier.com/job/Intern%2C-Plant-Engineering-Maintenance-%28Summer-2027%29/16390-en_US"
+    },
+    {
+      "company": "Ballard Power Systems",
+      "title": "Research co-op",
+      "location": "",
+      "country": "Canada",
+      "url": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d06937f5f7016978fec55861f7&id=8a7883aca184742f01a1a2b3fa2e6a64&lang=en&m=t"
+    }
+  ],
   "last_email_slot": "2026-11-10T16:30:00-05:00",
   "pending_alerts": []
 }
