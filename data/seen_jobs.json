@@ -438,16 +438,7 @@
     },
     "AMD": {
       "failures": 0,
-      "seen": {
-        "https://careers.amd.com/careers-home/jobs/91207": {
-          "title": "Summer 2027 Long Term ASIC Verification Engineering Intern/ Co-Op",
-          "location": "CA,ON,Ottawa; Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-03",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        }
-      }
+      "seen": {}
     },
     "Evertz": {
       "failures": 0,
@@ -471,7 +462,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 38,
+      "failures": 39,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -1229,14 +1220,6 @@
           "first_seen": "2026-11-09",
           "last_seen": "2026-11-12",
           "missed_runs": 0
-        },
-        "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer----PEY-Intern_R03443": {
-          "title": "FPGA IP Design Engineer - PEY Intern",
-          "location": "Toronto, Ontario, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-12",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
         }
       }
     },
@@ -2349,7 +2332,7 @@
           "country": "Canada",
           "first_seen": "2026-11-12",
           "last_seen": "2026-11-12",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -2476,7 +2459,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-12",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=3daed8f6-991d-4feb-a441-ed964a56f00d": {
           "title": "Engineering Student, Safety and Mission Assurance - Winter 2027 (12-16 months)",
@@ -2723,7 +2706,7 @@
       }
     },
     "Bombardier": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://jobs.bombardier.com/job/Intern%2C-Electromechanical-EWIS-Design-%28EWIS%29-%28Winter-2027%29/16010-en_US": {
           "title": "Intern, Electromechanical EWIS Design (EWIS) (Winter 2027)",
