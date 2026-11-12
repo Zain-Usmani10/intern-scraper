@@ -105,7 +105,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-11",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.qualcomm.com/careers/job/446721829439": {
           "title": "FY27 Intern - Camera Design Engineering Internship - Canada (12 or 16 months)",
@@ -193,7 +193,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-11",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.qualcomm.com/careers/job/446721143440": {
           "title": "FY27 Intern - Low Power AI Software Development Internship - Canada (16 months)",
@@ -487,7 +487,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 30,
+      "failures": 31,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -1844,7 +1844,7 @@
       }
     },
     "ecobee": {
-      "failures": 1,
+      "failures": 0,
       "seen": {}
     },
     "D-Wave": {
@@ -2211,7 +2211,7 @@
       }
     },
     "ABB": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Quebec-Quebec-Canada/Environment--Health---Safety-Intern----Winter-2027_JR00047128": {
           "title": "Environment, Health & Safety Intern - Winter 2027",
@@ -2235,7 +2235,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-11",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Calgary-Alberta-Canada/Marketing-Discovery-Trainee_JR00047301": {
           "title": "Marketing Discovery Trainee",
@@ -2303,14 +2303,6 @@
           "last_seen": "2026-11-11",
           "missed_runs": 0
         },
-        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027-Stagiaire-Technicien-en-Instrumentation-Internship---Winter-2027-Instrumentation-Technician_01878634": {
-          "title": "Stage - Hiver 2027-Stagiaire Technicien en Instrumentation/Internship - Winter 2027-Instrumentation Technician",
-          "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-11",
-          "missed_runs": 3
-        },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Spcialiste-Qualit---Internship---Winter-2027---Quality-Specialist_01874468": {
           "title": "Stage - Hiver 2027 - Spécialiste Qualité / Internship - Winter 2027 - Quality Specialist",
           "location": "CA-QC-SAINT HUBERT-H05 ~ 7007 Chemin De La Savane ~ BLDG H05 FACTORY",
@@ -2357,7 +2349,7 @@
           "country": "Canada",
           "first_seen": "2026-11-09",
           "last_seen": "2026-11-11",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Genie-de-la-fabrication---Internship---Winter-2027---Manufacturing-engineering-_01871322": {
           "title": "Stage - Hiver 2027 - Genie de la fabrication / Internship - Winter 2027 - Manufacturing engineering,",
@@ -2755,7 +2747,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-11",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Stress-Engineering/15782-en_US": {
           "title": "Intern, Stress Engineering",
@@ -3349,14 +3341,6 @@
           "last_seen": "2026-11-11",
           "missed_runs": 0
         },
-        "https://jobs.bombardier.com/job/Intern%2C-Quality-Web-Developper-%28Winter-2027%29/16136-en_US": {
-          "title": "Intern, Quality - Web Developper (Winter 2027)",
-          "location": "Dorval, QC, CAN, H4S 1Y9",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-11",
-          "missed_runs": 3
-        },
         "https://jobs.bombardier.com/job/Intern%2C-Project-Management-Production-Support-%28Winter-2027%29/16137-en_US": {
           "title": "Intern, Project Management - Production Support (Winter 2027)",
           "location": "Pointe-Claire, QC, CAN, H9R 5Z3",
@@ -3499,7 +3483,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-11",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Digital-Transformation-%28Winter-2027%29/15795-en_US": {
           "title": "Intern, Digital Transformation (Winter 2027)",
@@ -3523,7 +3507,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-11",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-in-Technical-Publications-Support-&amp;-Business-process-Automation-%28Winter-2027%29/15701-en_US": {
           "title": "Intern, in Technical Publications Support & Business process Automation (Winter 2027)",
@@ -3724,14 +3708,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-11",
           "missed_runs": 0
-        },
-        "https://jobs.bombardier.com/job/Intern%2C-Materials-and-Processes-%28Winter-2027%29/15793-en_US": {
-          "title": "Intern, Materials and Processes (Winter 2027)",
-          "location": "St-Laurent, QC, CAN, H4R 1K2",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-11",
-          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Mass-Properties-%28Winter-2027%29/15776-en_US": {
           "title": "Intern, Mass Properties (Winter 2027)",
