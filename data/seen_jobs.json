@@ -445,7 +445,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-12",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -471,7 +471,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 36,
+      "failures": 37,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -969,7 +969,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-12",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Hardware-Test-Engineering-Intern--Summer-2027--16months-_R0142476": {
           "title": "Hardware Test Engineering Intern (Summer 2027, 16months)",
@@ -1244,7 +1244,7 @@
           "country": "Canada",
           "first_seen": "2026-11-12",
           "last_seen": "2026-11-12",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -1852,7 +1852,7 @@
       }
     },
     "ecobee": {
-      "failures": 0,
+      "failures": 1,
       "seen": {}
     },
     "D-Wave": {
@@ -2731,7 +2731,7 @@
       }
     },
     "Bombardier": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://jobs.bombardier.com/job/Intern%2C-Electromechanical-EWIS-Design-%28EWIS%29-%28Winter-2027%29/16010-en_US": {
           "title": "Intern, Electromechanical EWIS Design (EWIS) (Winter 2027)",
