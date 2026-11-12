@@ -471,7 +471,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 33,
+      "failures": 34,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -1905,7 +1905,7 @@
       }
     },
     "Celestica": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://careers.celestica.com/job/Remote-Employee-Canada-Student-Intern%2C-Industrial-Engineering-Associate-ON/1452651333": {
           "title": "Student Intern, Industrial Engineering Associate",
@@ -2211,14 +2211,6 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-11",
-          "missed_runs": 2
-        },
-        "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Saint-Laurent-Quebec-Canada/Marketing-and-Communications-Intern---Mining---Materials-Winter-2027_JR00050049": {
-          "title": "Marketing and Communications Intern - Mining & Materials-Winter 2027",
-          "location": "Saint-Laurent, Quebec, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-11",
           "missed_runs": 3
         },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Calgary-Alberta-Canada/Marketing-Discovery-Trainee_JR00047301": {
@@ -2332,6 +2324,14 @@
           "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
           "country": "Canada",
           "first_seen": "2026-11-11",
+          "last_seen": "2026-11-12",
+          "missed_runs": 0
+        },
+        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Analyste-gestion-des-projets---Internship---Winter-2027--Project-Management-Analyst_01862961": {
+          "title": "Stage - Hiver 2027 - Analyste gestion des projets / Internship - Winter 2027- Project Management Analyst",
+          "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
+          "country": "Canada",
+          "first_seen": "2026-11-12",
           "last_seen": "2026-11-12",
           "missed_runs": 0
         }
@@ -3907,7 +3907,15 @@
   },
   "last_heartbeat": "2026-11-12",
   "telegram_queue": [],
-  "email_queue": [],
+  "email_queue": [
+    {
+      "company": "Pratt & Whitney Canada",
+      "title": "Stage - Hiver 2027 - Analyste gestion des projets / Internship - Winter 2027- Project Management Analyst",
+      "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
+      "country": "Canada",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Analyste-gestion-des-projets---Internship---Winter-2027--Project-Management-Analyst_01862961"
+    }
+  ],
   "last_email_slot": "2026-11-12T08:30:00-05:00",
   "pending_alerts": []
 }
