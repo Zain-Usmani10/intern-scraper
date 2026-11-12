@@ -471,7 +471,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 32,
+      "failures": 33,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -2211,7 +2211,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-11",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Saint-Laurent-Quebec-Canada/Marketing-and-Communications-Intern---Mining---Materials-Winter-2027_JR00050049": {
           "title": "Marketing and Communications Intern - Mining & Materials-Winter 2027",
@@ -2219,7 +2219,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-11",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Calgary-Alberta-Canada/Marketing-Discovery-Trainee_JR00047301": {
           "title": "Marketing Discovery Trainee",
@@ -2326,14 +2326,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-12",
           "missed_runs": 0
-        },
-        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Spcialiste-en-ingnierie-du-support-technique-aux-ateliers-MRO---Internship---Winter-2027---Specialist--MRO-Engineering-Overhaul-Support-Services_01868612": {
-          "title": "Stage - Hiver 2027 - Spécialiste en ingénierie du support technique aux ateliers MRO / Internship - Winter 2027 - Specialist, MRO Engineering Overhaul Support Services",
-          "location": "CA-QC-SAINT HUBERT-H05 ~ 7007 Chemin De La Savane ~ BLDG H05 FACTORY",
-          "country": "Canada",
-          "first_seen": "2026-11-09",
-          "last_seen": "2026-11-11",
-          "missed_runs": 3
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Genie-de-la-fabrication---Internship---Winter-2027---Manufacturing-engineering-_01871322": {
           "title": "Stage - Hiver 2027 - Genie de la fabrication / Internship - Winter 2027 - Manufacturing engineering,",
@@ -2724,14 +2716,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-12",
           "missed_runs": 0
-        },
-        "https://jobs.bombardier.com/job/Intern%2C-Executive-Level-Project-Management-%28Winter-2027%29/15491-en_US": {
-          "title": "Intern, Executive-Level Project Management (Winter 2027)",
-          "location": "Dorval, QC, CAN, H4S 2A3",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-11",
-          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Stress-Engineering/15782-en_US": {
           "title": "Intern, Stress Engineering",
@@ -3461,14 +3445,6 @@
           "last_seen": "2026-11-12",
           "missed_runs": 0
         },
-        "https://jobs.bombardier.com/job/Intern-Materials-&amp;-Processes-%28Winter-2027%29/15829-en_US": {
-          "title": "Intern Materials & Processes (Winter 2027)",
-          "location": "St-Laurent, QC, CAN, H4R 1K2",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-11",
-          "missed_runs": 3
-        },
         "https://jobs.bombardier.com/job/Intern%2C-Digital-Transformation-%28Winter-2027%29/15795-en_US": {
           "title": "Intern, Digital Transformation (Winter 2027)",
           "location": "Dorval, QC, CAN, H4S 1Y9",
@@ -3484,14 +3460,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-12",
           "missed_runs": 0
-        },
-        "https://jobs.bombardier.com/job/Intern%2C-Program-Management-Program-Development-NPD-%28Winter-2027%29/15841-en_US": {
-          "title": "Intern, Program Management - Program Development NPD (Winter 2027)",
-          "location": "Mississauga, ON, CAN, L5S 1W1",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-11",
-          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-in-Technical-Publications-Support-&amp;-Business-process-Automation-%28Winter-2027%29/15701-en_US": {
           "title": "Intern, in Technical Publications Support & Business process Automation (Winter 2027)",
@@ -3940,6 +3908,6 @@
   "last_heartbeat": "2026-11-12",
   "telegram_queue": [],
   "email_queue": [],
-  "last_email_slot": "2026-11-11T16:30:00-05:00",
+  "last_email_slot": "2026-11-12T08:30:00-05:00",
   "pending_alerts": []
 }
