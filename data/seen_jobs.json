@@ -1,7 +1,7 @@
 {
   "companies": {
     "Qualcomm": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://careers.qualcomm.com/careers/job/446721862429": {
           "title": "FY27 Intern - AI Software Engineering Co-op - Canada (4 months)",
@@ -462,7 +462,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 40,
+      "failures": 41,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -808,7 +808,7 @@
       "seen": {}
     },
     "Hitachi Rail": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Intern-Safety-Specialist--Fall-2027--8-12-months-_R0143291": {
           "title": "Intern Safety Specialist (Fall 2027, 8-12 months)",
@@ -1827,7 +1827,7 @@
       }
     },
     "ecobee": {
-      "failures": 0,
+      "failures": 1,
       "seen": {}
     },
     "D-Wave": {
@@ -1904,7 +1904,7 @@
       }
     },
     "Celestica": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://careers.celestica.com/job/Remote-Employee-Canada-Student-Intern%2C-Industrial-Engineering-Associate-ON/1452651333": {
           "title": "Student Intern, Industrial Engineering Associate",
@@ -2325,19 +2325,11 @@
           "first_seen": "2026-11-11",
           "last_seen": "2026-11-12",
           "missed_runs": 0
-        },
-        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Analyste-gestion-des-projets---Internship---Winter-2027--Project-Management-Analyst_01862961": {
-          "title": "Stage - Hiver 2027 - Analyste gestion des projets / Internship - Winter 2027- Project Management Analyst",
-          "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
-          "country": "Canada",
-          "first_seen": "2026-11-12",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
         }
       }
     },
     "Thales Canada": {
-      "failures": 1,
+      "failures": 2,
       "seen": {
         "https://thales.wd3.myworkdayjobs.com/Careers/job/Ottawa/Project-Planning---Scheduling-Co-op-Student_R0343079": {
           "title": "Project Planning & Scheduling Co-op Student or intern",
@@ -2379,7 +2371,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-12",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=6e6b20f0-d908-4f9e-9edb-f3ac82d1ab64": {
           "title": "Student, Cyber Security Analyst - Winter 2027",
@@ -2459,7 +2451,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-12",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=3daed8f6-991d-4feb-a441-ed964a56f00d": {
           "title": "Engineering Student, Safety and Mission Assurance - Winter 2027 (12-16 months)",
@@ -3906,43 +3898,7 @@
   },
   "last_heartbeat": "2026-11-12",
   "telegram_queue": [],
-  "email_queue": [
-    {
-      "company": "Pratt & Whitney Canada",
-      "title": "Stage - Hiver 2027 - Analyste gestion des projets / Internship - Winter 2027- Project Management Analyst",
-      "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
-      "country": "Canada",
-      "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Analyste-gestion-des-projets---Internship---Winter-2027--Project-Management-Analyst_01862961"
-    },
-    {
-      "company": "Altera",
-      "title": "FPGA IP Design Engineer - PEY Intern",
-      "location": "Toronto, Ontario, Canada",
-      "country": "Canada",
-      "url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer----PEY-Intern_R03443"
-    },
-    {
-      "company": "Analog Devices",
-      "title": "Product Engineering (Prod Dev) Intern",
-      "location": "Canada, Ottawa",
-      "country": "Canada",
-      "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Ottawa/Product-Engineering--Prod-Dev--Intern_R267447"
-    },
-    {
-      "company": "Analog Devices",
-      "title": "Analog Design Engineering Intern",
-      "location": "Canada, Ottawa",
-      "country": "Canada",
-      "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Ottawa/Analog-Design-Engineering-Intern_R267446"
-    },
-    {
-      "company": "ABB",
-      "title": "Trade Compliance Intern-Winter 2027",
-      "location": "Dorval, Quebec, Canada",
-      "country": "Canada",
-      "url": "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Dorval-Quebec-Canada/Trade-Compliance-Intern-Winter-2027_JR00052505"
-    }
-  ],
-  "last_email_slot": "2026-11-12T08:30:00-05:00",
+  "email_queue": [],
+  "last_email_slot": "2026-11-12T16:30:00-05:00",
   "pending_alerts": []
 }
