@@ -445,7 +445,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-12",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
@@ -471,7 +471,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 37,
+      "failures": 38,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -963,14 +963,6 @@
           "last_seen": "2026-11-12",
           "missed_runs": 0
         },
-        "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Electrical-Component-Engineering-Intern--Fall-2026-or-Winter-2027-_R0144279": {
-          "title": "Electrical Component Engineering Intern (Fall 2026 or Winter 2027)",
-          "location": "Toronto, Ontario, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Hardware-Test-Engineering-Intern--Summer-2027--16months-_R0142476": {
           "title": "Hardware Test Engineering Intern (Summer 2027, 16months)",
           "location": "Toronto, Ontario, Canada",
@@ -1244,7 +1236,7 @@
           "country": "Canada",
           "first_seen": "2026-11-12",
           "last_seen": "2026-11-12",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
@@ -1852,7 +1844,7 @@
       }
     },
     "ecobee": {
-      "failures": 1,
+      "failures": 0,
       "seen": {}
     },
     "D-Wave": {
@@ -2357,7 +2349,7 @@
           "country": "Canada",
           "first_seen": "2026-11-12",
           "last_seen": "2026-11-12",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     },
@@ -2731,7 +2723,7 @@
       }
     },
     "Bombardier": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://jobs.bombardier.com/job/Intern%2C-Electromechanical-EWIS-Design-%28EWIS%29-%28Winter-2027%29/16010-en_US": {
           "title": "Intern, Electromechanical EWIS Design (EWIS) (Winter 2027)",
