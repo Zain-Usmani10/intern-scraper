@@ -344,7 +344,7 @@
       "seen": {}
     },
     "Semtech": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/PCB-Layout-Intern_REQ3632": {
           "title": "PCB Layout Intern",
@@ -471,7 +471,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 34,
+      "failures": 35,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -969,7 +969,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-12",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Hardware-Test-Engineering-Intern--Summer-2027--16months-_R0142476": {
           "title": "Hardware Test Engineering Intern (Summer 2027, 16months)",
@@ -1237,6 +1237,14 @@
           "first_seen": "2026-11-09",
           "last_seen": "2026-11-12",
           "missed_runs": 0
+        },
+        "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer----PEY-Intern_R03443": {
+          "title": "FPGA IP Design Engineer - PEY Intern",
+          "location": "Toronto, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-12",
+          "last_seen": "2026-11-12",
+          "missed_runs": 0
         }
       }
     },
@@ -1480,6 +1488,22 @@
           "location": "Canada, Toronto",
           "country": "Canada",
           "first_seen": "2026-11-05",
+          "last_seen": "2026-11-12",
+          "missed_runs": 0
+        },
+        "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Ottawa/Product-Engineering--Prod-Dev--Intern_R267447": {
+          "title": "Product Engineering (Prod Dev) Intern",
+          "location": "Canada, Ottawa",
+          "country": "Canada",
+          "first_seen": "2026-11-12",
+          "last_seen": "2026-11-12",
+          "missed_runs": 0
+        },
+        "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Ottawa/Analog-Design-Engineering-Intern_R267446": {
+          "title": "Analog Design Engineering Intern",
+          "location": "Canada, Ottawa",
+          "country": "Canada",
+          "first_seen": "2026-11-12",
           "last_seen": "2026-11-12",
           "missed_runs": 0
         }
@@ -1836,7 +1860,7 @@
       "seen": {}
     },
     "Lumentum": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Project-Manager-Analyst---Co-op-Intern_20261145": {
           "title": "Project Manager Analyst – Co-op/Intern",
@@ -1905,7 +1929,7 @@
       }
     },
     "Celestica": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://careers.celestica.com/job/Remote-Employee-Canada-Student-Intern%2C-Industrial-Engineering-Associate-ON/1452651333": {
           "title": "Student Intern, Industrial Engineering Associate",
@@ -2205,14 +2229,6 @@
           "last_seen": "2026-11-12",
           "missed_runs": 0
         },
-        "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Quebec-Quebec-Canada/Industrial-Engineering-Intern--Fall-2026-_JR00040859": {
-          "title": "Industrial Engineering Intern (Winter 2027)",
-          "location": "Quebec, Quebec, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-11",
-          "missed_runs": 3
-        },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Calgary-Alberta-Canada/Marketing-Discovery-Trainee_JR00047301": {
           "title": "Marketing Discovery Trainee",
           "location": "Calgary, Alberta, Canada",
@@ -2226,6 +2242,14 @@
           "location": "Saint-Laurent, Quebec, Canada",
           "country": "Canada",
           "first_seen": "2026-11-10",
+          "last_seen": "2026-11-12",
+          "missed_runs": 0
+        },
+        "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Dorval-Quebec-Canada/Trade-Compliance-Intern-Winter-2027_JR00052505": {
+          "title": "Trade Compliance Intern-Winter 2027",
+          "location": "Dorval, Quebec, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-12",
           "last_seen": "2026-11-12",
           "missed_runs": 0
         }
@@ -3914,6 +3938,34 @@
       "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
       "country": "Canada",
       "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Analyste-gestion-des-projets---Internship---Winter-2027--Project-Management-Analyst_01862961"
+    },
+    {
+      "company": "Altera",
+      "title": "FPGA IP Design Engineer - PEY Intern",
+      "location": "Toronto, Ontario, Canada",
+      "country": "Canada",
+      "url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/FPGA-IP-Design-Engineer----PEY-Intern_R03443"
+    },
+    {
+      "company": "Analog Devices",
+      "title": "Product Engineering (Prod Dev) Intern",
+      "location": "Canada, Ottawa",
+      "country": "Canada",
+      "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Ottawa/Product-Engineering--Prod-Dev--Intern_R267447"
+    },
+    {
+      "company": "Analog Devices",
+      "title": "Analog Design Engineering Intern",
+      "location": "Canada, Ottawa",
+      "country": "Canada",
+      "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Ottawa/Analog-Design-Engineering-Intern_R267446"
+    },
+    {
+      "company": "ABB",
+      "title": "Trade Compliance Intern-Winter 2027",
+      "location": "Dorval, Quebec, Canada",
+      "country": "Canada",
+      "url": "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Dorval-Quebec-Canada/Trade-Compliance-Intern-Winter-2027_JR00052505"
     }
   ],
   "last_email_slot": "2026-11-12T08:30:00-05:00",
