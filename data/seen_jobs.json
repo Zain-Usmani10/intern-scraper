@@ -453,7 +453,7 @@
           "country": "Canada",
           "first_seen": "2026-11-06",
           "last_seen": "2026-11-13",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     },
@@ -1037,7 +1037,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-13",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.skyworksinc.com/job/Product-Engineering-Co-Op-%28Jan-Dec-2027%29/78462-en_US": {
           "title": "Product Engineering Co-Op (Jan-Dec 2027)",
@@ -1748,14 +1748,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
           "missed_runs": 0
-        },
-        "https://fa-epmd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/13394": {
-          "title": "Apprentice - Millwright",
-          "location": "Guelph, ON, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-13",
-          "missed_runs": 3
         }
       }
     },
@@ -2284,7 +2276,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Spcialiste-Qualit---Internship---Winter-2027---Quality-Specialist_01874468": {
           "title": "Stage - Hiver 2027 - Spécialiste Qualité / Internship - Winter 2027 - Quality Specialist",
@@ -2324,7 +2316,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     },
@@ -2362,7 +2354,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=22619eb6-89ca-40d4-8484-4ac004b4932d": {
           "title": "Engineering Student, Mechanical - Winter 2027 - 4-12 months",
@@ -2434,7 +2426,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=4620a5ce-7260-4d2c-bb1a-d6beff72610e": {
           "title": "Engineering Student - Electronics Production and AI&T - Winter 2027",
@@ -2530,7 +2522,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=ddd5244b-ac58-4b9e-8414-b630dc99ef3e": {
           "title": "Student - Corporate Finance - Winter 2027",
