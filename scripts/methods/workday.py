@@ -3,7 +3,7 @@
 import re
 
 import filters
-from methods.common import job, listing, normalize_url, pause, request_json, require
+from methods.common import Collector, job, normalize_url, pause, request_json, require
 
 PAGE_SIZE = 20  # Workday's maximum.
 SEVERAL_PLACES = re.compile(r"^\d+ Locations?$")
@@ -44,9 +44,17 @@ def real_locations(params, settings, posting):
 
 def fetch(params, settings):
     require(params, "host", "tenant", "site")
-    jobs = {}
+    found = Collector()
     total = None
     offset = 0
+
+    def read_posting(posting):
+        url = normalize_url(job_url(params, posting["externalPath"]))
+        places = [posting.get("locationsText")]
+        # Only internships are looked up, to keep the extra requests few.
+        if SEVERAL_PLACES.match(places[0] or "") and filters.is_internship(posting["title"], url, settings):
+            places = real_locations(params, settings, posting)
+        return url, job(posting["title"], places)
 
     for _ in range(settings["scraping"]["max_api_pages"]):
         data = search(params, settings, offset)
@@ -54,16 +62,13 @@ def fetch(params, settings):
             total = data.get("total")  # Only the first page reports it.
         postings = data.get("jobPostings") or []
         for posting in postings:
-            url = normalize_url(job_url(params, posting["externalPath"]))
-            places = [posting.get("locationsText")]
-            # Only internships are looked up, to keep the extra requests few.
-            if SEVERAL_PLACES.match(places[0] or "") and filters.is_internship(posting["title"], url, settings):
-                places = real_locations(params, settings, posting)
-            jobs[url] = job(posting["title"], places)
+            # A half-built entry (only an ID, e.g. while Thales closed a posting)
+            # is set aside as broken instead of failing the whole company.
+            found.add(posting, read_posting)
 
         offset += len(postings)
         if not postings or (total is not None and offset >= total):
-            return listing(jobs, total)
+            return found.listing(total)
         pause(settings)
 
     raise RuntimeError("Workday returned more pages than max_api_pages allows")

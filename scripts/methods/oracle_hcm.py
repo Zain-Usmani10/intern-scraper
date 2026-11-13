@@ -2,7 +2,7 @@
 
 import urllib.parse
 
-from methods.common import job, listing, normalize_url, pause, request_json, require
+from methods.common import Collector, job, normalize_url, pause, request_json, require
 
 PAGE_SIZE = 25  # Oracle's maximum.
 
@@ -35,7 +35,17 @@ def country_ids(params, settings, countries):
 
 def fetch(params, settings):
     require(params, "host", "site")
-    jobs = {}
+    found = Collector()
+
+    def read_posting(posting):
+        url = normalize_url(
+            f"https://{params['host']}/hcmUI/CandidateExperience/en/sites/"
+            f"{params['site']}/job/{posting['Id']}"
+        )
+        places = [posting.get("PrimaryLocation")]
+        places += [extra.get("Name") for extra in posting.get("secondaryLocations") or []]
+        return url, job(posting["Title"], places)
+
     for location_id in params.get("location_ids") or [None]:
         read, offset, total = 0, 0, None
         for _ in range(settings["scraping"]["max_api_pages"]):
@@ -43,13 +53,7 @@ def fetch(params, settings):
             total = data["TotalJobsCount"]
             postings = data.get("requisitionList") or []
             for posting in postings:
-                url = normalize_url(
-                    f"https://{params['host']}/hcmUI/CandidateExperience/en/sites/"
-                    f"{params['site']}/job/{posting['Id']}"
-                )
-                places = [posting.get("PrimaryLocation")]
-                places += [extra.get("Name") for extra in posting.get("secondaryLocations") or []]
-                jobs[url] = job(posting["Title"], places)
+                found.add(posting, read_posting)
             read += len(postings)
             offset += PAGE_SIZE
             if not postings or offset >= total:
@@ -58,4 +62,4 @@ def fetch(params, settings):
         if read < total:
             raise RuntimeError(f"Oracle stopped after {read} of {total} jobs")
     # Every location's total was read in full, so the unique count is complete.
-    return listing(jobs, len(jobs))
+    return found.listing(len(found))

@@ -4,7 +4,7 @@ import urllib.parse
 
 import pycountry
 
-from methods.common import job, listing, normalize_url, pause, request_json, require
+from methods.common import Collector, job, normalize_url, pause, request_json, require
 
 
 def site_origin(url):
@@ -43,22 +43,24 @@ def search_url(params, start):
 def fetch(params, settings):
     require(params, "url")
     origin = site_origin(params["url"])
-    jobs = {}
+    found = Collector()
     reported = None
 
     for _ in range(settings["scraping"]["max_api_pages"]):
-        data = request_json(search_url(params, len(jobs)), settings)["data"]
+        data = request_json(search_url(params, len(found)), settings)["data"]
         reported = data["count"]
-        before = len(jobs)
+        before = len(found)
         for position in data["positions"]:
-            url = normalize_url(urllib.parse.urljoin(origin, position["positionUrl"]))
-            jobs[url] = job(position["name"], places(position))
+            found.add(position, lambda p: (
+                normalize_url(urllib.parse.urljoin(origin, p["positionUrl"])),
+                job(p["name"], places(p)),
+            ))
 
-        if len(jobs) >= reported:
-            return listing(jobs, reported)
-        if len(jobs) == before:
+        if len(found) >= reported:
+            return found.listing(reported)
+        if len(found) == before:
             # The API stopped returning jobs early. Treat it as a failed read.
-            raise RuntimeError(f"Eightfold stopped after {len(jobs)} of {reported} jobs")
+            raise RuntimeError(f"Eightfold stopped after {len(found)} of {reported} jobs")
         pause(settings)
 
     raise RuntimeError("Eightfold returned more pages than max_api_pages allows")

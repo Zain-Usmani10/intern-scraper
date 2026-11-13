@@ -8,9 +8,14 @@ are still active needs no extra requests. A job missing from more than
 settings.alerts.forget_after_missed_runs successful runs in a row is removed.
 Waiting a few runs stops a job that briefly disappears from being alerted
 again when it comes back.
+
+A posting the site sent broken (no title or link) is still listed, so it isn't
+counted as missed: the saved job whose link holds its ID is kept. If its ID
+matches no saved job, or it has none, no job is counted as missed that run.
 """
 
 import config
+from methods.common import id_in_url
 
 
 def load_state():
@@ -23,7 +28,7 @@ def save_state(state):
     config.write_json(config.STATE_FILE, state)
 
 
-def update_seen(record, jobs, today, forget_after_missed_runs):
+def update_seen(record, jobs, today, forget_after_missed_runs, broken=()):
     """Refresh the active jobs. Return the jobs that weren't stored before."""
     seen = record.setdefault("seen", {})
     new = {}
@@ -37,7 +42,14 @@ def update_seen(record, jobs, today, forget_after_missed_runs):
                      "country": job.get("country", ""),
                      "first_seen": first_seen, "last_seen": today, "missed_runs": 0}
 
-    for url in [url for url in seen if url not in jobs]:
+    missing = [url for url in seen if url not in jobs]
+    unsure = any(
+        posting_id is None or not any(id_in_url(posting_id, url) for url in missing)
+        for posting_id in broken
+    )
+    for url in missing:
+        if unsure or any(posting_id and id_in_url(posting_id, url) for posting_id in broken):
+            continue  # Still listed, just broken this run: not a miss.
         item = seen[url]
         if not isinstance(item, dict):
             item = seen[url] = {"title": "", "location": "", "first_seen": item[:10],
@@ -75,6 +87,7 @@ def apply_results(state, results, today, settings):
             continue
 
         jobs = result["jobs"]
+        broken = result.get("broken") or []
         print(f"[{name}] {len(jobs)} matching jobs")
 
         if result.get("empty"):
@@ -93,10 +106,10 @@ def apply_results(state, results, today, settings):
         if record is None or "seen" not in record:
             # First successful run: save what exists without alerting.
             record = state["companies"].setdefault(name, {"failures": 0})
-            update_seen(record, jobs, today, forget_after)
+            update_seen(record, jobs, today, forget_after, broken)
             print(f"[{name}] Saved as baseline. No alerts sent.")
         else:
-            new = update_seen(record, jobs, today, forget_after)
+            new = update_seen(record, jobs, today, forget_after, broken)
             new_jobs.extend(
                 {"company": name, "title": job["title"], "location": job["location"],
                  "country": job.get("country", ""), "url": url}
@@ -106,5 +119,19 @@ def apply_results(state, results, today, settings):
         if record.get("failures", 0) >= threshold:
             messages.append(f"Scraper recovered: {name}")
         record["failures"] = 0
+
+        # Broken postings are skipped quietly, unless they last several runs.
+        if broken:
+            print(f"[{name}] {len(broken)} broken posting(s) skipped: {', '.join(i or 'no ID' for i in broken)}")
+            record["broken_runs"] = record.get("broken_runs", 0) + 1
+            if record["broken_runs"] == threshold:
+                messages.append(
+                    f"Broken postings: {name}\n"
+                    f"{len(broken)} posting(s) came back without a title or link for "
+                    f"{threshold} runs in a row (ID: {', '.join(i or 'none' for i in broken)}). "
+                    "Your saved jobs there are kept until this clears."
+                )
+        else:
+            record.pop("broken_runs", None)
 
     return new_jobs, messages

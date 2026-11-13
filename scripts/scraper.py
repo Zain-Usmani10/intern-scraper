@@ -24,8 +24,9 @@ import state as state_store
 def scrape_company(company, settings):
     """Run the company's method, then filter.
 
-    Returns {"jobs": {url: {title, location}}, "empty": bool} or {"error": str}.
-    "empty" means the method read no jobs at all, before filtering.
+    Returns {"jobs": {url: {title, location}}, "empty": bool, "broken": [id]}
+    or {"error": str}. "empty" means the method read no jobs at all, before
+    filtering. "broken" lists postings the site sent without a title or link.
     """
     try:
         result = methods.fetch(company["method"], company["params"], settings)
@@ -34,13 +35,20 @@ def scrape_company(company, settings):
 
     # A partial read would miss new jobs and wrongly mark unread ones as gone,
     # so it counts as a failed run. Jobs posted mid-read get a small margin.
-    reported, read = result["reported_total"], len(result["jobs"])
+    broken = result.get("broken") or []
+    reported, read = result["reported_total"], len(result["jobs"]) + len(broken)
     margin = max(2, (reported or 0) * settings["add_company"]["stability_tolerance_percent"] // 100)
     if reported is not None and read < reported - margin:
         return {"error": f"Read only {read} of the {reported} jobs the site reports"}
 
+    # One or two broken postings are a glitch on the site's side. If nothing
+    # else was read, or many are broken, the site's format probably changed:
+    # fail the run like any other error, so nothing is wrongly kept or deleted.
+    if broken and (not result["jobs"] or len(broken) > max(3, read // 10)):
+        return {"error": f"{len(broken)} of {read} postings came back without a title or link"}
+
     jobs = filters.apply_filters(result["jobs"], company, settings)
-    return {"jobs": jobs, "empty": not result["jobs"]}
+    return {"jobs": jobs, "empty": not result["jobs"], "broken": broken}
 
 
 def scrape_all(companies, settings):
