@@ -1037,7 +1037,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-13",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.skyworksinc.com/job/Product-Engineering-Co-Op-%28Jan-Dec-2027%29/78462-en_US": {
           "title": "Product Engineering Co-Op (Jan-Dec 2027)",
@@ -1086,14 +1086,6 @@
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-13",
           "missed_runs": 0
-        },
-        "https://careers.skyworksinc.com/job/RF-&amp;-Semiconductor-Test-Engineering-Co-Op-%288-12-Months%29/78405-en_US": {
-          "title": "RF & Semiconductor Test Engineering Co-Op (8-12 Months)",
-          "location": "",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-13",
-          "missed_runs": 3
         },
         "https://careers.skyworksinc.com/job/RFEM-Design-Co-Op/78395-en_US": {
           "title": "RF/EM Design Co-Op",
@@ -1763,7 +1755,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
@@ -2244,8 +2236,7 @@
           "last_seen": "2026-11-13",
           "missed_runs": 0
         }
-      },
-      "broken_runs": 1
+      }
     },
     "CAE": {
       "failures": 0,
@@ -2334,14 +2325,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
           "missed_runs": 0
-        },
-        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Genie-de-la-fabrication---Internship---Winter-2027---Manufacturing-engineering-_01871322": {
-          "title": "Stage - Hiver 2027 - Genie de la fabrication / Internship - Winter 2027 - Manufacturing engineering,",
-          "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
-          "country": "Canada",
-          "first_seen": "2026-11-11",
-          "last_seen": "2026-11-13",
-          "missed_runs": 3
         }
       }
     },
@@ -2379,7 +2362,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=22619eb6-89ca-40d4-8484-4ac004b4932d": {
           "title": "Engineering Student, Mechanical - Winter 2027 - 4-12 months",
@@ -2451,7 +2434,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=4620a5ce-7260-4d2c-bb1a-d6beff72610e": {
           "title": "Engineering Student - Electronics Production and AI&T - Winter 2027",
@@ -2547,7 +2530,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=ddd5244b-ac58-4b9e-8414-b630dc99ef3e": {
           "title": "Student - Corporate Finance - Winter 2027",
