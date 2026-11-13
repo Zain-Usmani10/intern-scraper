@@ -458,7 +458,7 @@
       }
     },
     "OPG": {
-      "failures": 0,
+      "failures": 1,
       "seen": {}
     },
     "NXP": {
@@ -1093,7 +1093,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-13",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.skyworksinc.com/job/RFEM-Design-Co-Op/78395-en_US": {
           "title": "RF/EM Design Co-Op",
@@ -1218,6 +1218,14 @@
           "location": "Toronto, Ontario, Canada",
           "country": "Canada",
           "first_seen": "2026-11-09",
+          "last_seen": "2026-11-13",
+          "missed_runs": 0
+        },
+        "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/Quartus-Compiler-Software---Intern_R03108": {
+          "title": "Quartus Compiler Software - Intern",
+          "location": "Toronto, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-13",
           "last_seen": "2026-11-13",
           "missed_runs": 0
         }
@@ -1504,7 +1512,7 @@
           "missed_runs": 0
         },
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Firmware-Engineer-Intern---Winter-2027_2604738": {
-          "title": "Firmware Engineer Intern - Winter 2027",
+          "title": "Firmware Engineer Intern - Co-Op 2027",
           "location": "Ottawa, Canada",
           "country": "Canada",
           "first_seen": "2026-11-05",
@@ -1566,6 +1574,22 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
           "missed_runs": 0
+        },
+        "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525": {
+          "title": "Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op",
+          "location": "Ottawa, Canada; Toronto, Canada; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-13",
+          "last_seen": "2026-11-13",
+          "missed_runs": 0
+        },
+        "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/Analog-Layout-Intern---BS-MS---2027-Co-Op_2604789": {
+          "title": "Analog Layout Intern - BS/MS - 2027 Co-Op",
+          "location": "Toronto, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-13",
+          "last_seen": "2026-11-13",
+          "missed_runs": 0
         }
       }
     },
@@ -1576,150 +1600,6 @@
     "Magna": {
       "failures": 0,
       "seen": {
-        "https://wd3.myworkdaysite.com/Magna/job/Concord-Ontario-CA/Tool---Die-Maker-Apprentice_R00262205": {
-          "title": "Tool & Die Maker Apprentice",
-          "location": "Concord, Ontario, CA",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
-        "https://wd3.myworkdaysite.com/Magna/job/St-Thomas--Formet-Ontario-CA/Apprentice---Tool---Die_R00267808": {
-          "title": "Apprentice - Tool & Die",
-          "location": "St. Thomas – Formet, Ontario, CA",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
-        "https://wd3.myworkdaysite.com/Magna/job/St-Thomas--Formet-Ontario-CA/Apprentice---Millwright_R00267802": {
-          "title": "Apprentice - Millwright",
-          "location": "St. Thomas – Formet, Ontario, CA",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
-        "https://wd3.myworkdaysite.com/Magna/job/St-Thomas--Formet-Ontario-CA/Apprentice---Electrician_R00267792-1": {
-          "title": "Apprentice - Electrician",
-          "location": "St. Thomas – Formet, Ontario, CA",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
-        "https://wd3.myworkdaysite.com/Magna/job/Brampton-Ontario-CA/Mould-Maker-Apprentice_R00256073": {
-          "title": "Mould Maker Apprentice",
-          "location": "Brampton, Ontario, CA",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
-        "https://wd3.myworkdaysite.com/Magna/job/Brampton-Ontario-CA/WCM-Co-op-Student_R00267687": {
-          "title": "WCM Co-op Student",
-          "location": "Brampton, Ontario, CA",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
-        "https://wd3.myworkdaysite.com/Magna/job/Brampton-Ontario-CA/Manufacturing-Engineering-Student_R00266968": {
-          "title": "Manufacturing Engineering Student",
-          "location": "Brampton, Ontario, CA",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
-        "https://wd3.myworkdaysite.com/Magna/job/St-Thomas--Formet-Ontario-CA/Engineering-Student_R00266422": {
-          "title": "Engineering Student",
-          "location": "St. Thomas – Formet, Ontario, CA",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
-        "https://wd3.myworkdaysite.com/Magna/job/Brampton-Ontario-CA/Manufacturing-Engineer---Technical-Team-Co-op-Student_R00264460": {
-          "title": "Manufacturing Engineer - Technical Team Co-op Student",
-          "location": "Brampton, Ontario, CA",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
-        "https://wd3.myworkdaysite.com/Magna/job/Vaughan-Ontario-CA/Student-Systems-Administrator_R00261124": {
-          "title": "Student Systems Administrator",
-          "location": "Vaughan, Ontario, CA",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
-        "https://wd3.myworkdaysite.com/Magna/job/Milton-Ontario-CA/Industrial-Engineering-Co-op--Material-Flow_R00259404": {
-          "title": "Industrial Engineering Co-op, Material Flow",
-          "location": "Milton, Ontario, CA",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
-        "https://wd3.myworkdaysite.com/Magna/job/Milton-Ontario-CA/Finance-Co-op-Student_R00258630": {
-          "title": "Finance Co-op Student",
-          "location": "Milton, Ontario, CA",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
-        "https://wd3.myworkdaysite.com/Magna/job/Milton-Ontario-CA/Manufacturing-Execution-Systems--MES--Co-Op---Starting-in-September_R00252658": {
-          "title": "Manufacturing Execution Systems (MES) Co-Op - Starting in September",
-          "location": "Milton, Ontario, CA",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
-        "https://wd3.myworkdaysite.com/Magna/job/Milton-Ontario-CA/Junior-Full-Stack-Developer-Coop_R00244793": {
-          "title": "Junior Full Stack Developer Coop",
-          "location": "Milton, Ontario, CA",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
-        "https://wd3.myworkdaysite.com/Magna/job/Aurora-Ontario-CA/Jr-Financial-Analyst--Co-op-_R00240559": {
-          "title": "Jr. Financial Analyst (Co-op)",
-          "location": "Aurora, Ontario, CA",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
-        "https://wd3.myworkdaysite.com/Magna/job/Penetanguishene-Ontario-CA/IT-Co-op_R00230813": {
-          "title": "IT Co-op",
-          "location": "Penetanguishene, Ontario, CA",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
-        "https://wd3.myworkdaysite.com/Magna/job/Brampton-Ontario-CA/IT-Co-op-Student_R00268028-1": {
-          "title": "IT Co-op Student",
-          "location": "Brampton, Ontario, CA",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
-        "https://wd3.myworkdaysite.com/Magna/job/Woodbridge-Ontario-CA/Engineering-Co-Op-Student_R00252065": {
-          "title": "Engineering Co-Op Student",
-          "location": "Woodbridge, Ontario, CA",
-          "country": "Canada",
-          "first_seen": "2026-11-09",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
         "https://wd3.myworkdaysite.com/recruiting/magna/Magna/job/Woodbridge-Ontario-CA/Engineering-Co-Op-Student_R00252065": {
           "title": "Engineering Co-Op Student",
           "location": "Woodbridge, Ontario, CA",
@@ -2122,14 +2002,6 @@
           "last_seen": "2026-11-13",
           "missed_runs": 0
         },
-        "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Human-Resources-%28Global-Compensation%29-ON/1448227733": {
-          "title": "Student Intern, Human Resources (Global Compensation)",
-          "location": "",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        },
         "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Corporate-Sustainability-ON/1454470533": {
           "title": "Student Intern, Corporate Sustainability",
           "location": "",
@@ -2468,22 +2340,13 @@
           "country": "Canada",
           "first_seen": "2026-11-11",
           "last_seen": "2026-11-13",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     },
     "Thales Canada": {
       "failures": 0,
-      "seen": {
-        "https://thales.wd3.myworkdayjobs.com/Careers/job/Ottawa/Project-Planning---Scheduling-Co-op-Student_R0343079": {
-          "title": "Project Planning & Scheduling Co-op Student or intern",
-          "location": "Ottawa; Halifax - Wilkinson; Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
-        }
-      }
+      "seen": {}
     },
     "Lockheed Martin Canada": {
       "failures": 0,
@@ -4026,7 +3889,29 @@
   },
   "last_heartbeat": "2026-11-13",
   "telegram_queue": [],
-  "email_queue": [],
+  "email_queue": [
+    {
+      "company": "Altera",
+      "title": "Quartus Compiler Software - Intern",
+      "location": "Toronto, Ontario, Canada",
+      "country": "Canada",
+      "url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/Quartus-Compiler-Software---Intern_R03108"
+    },
+    {
+      "company": "Marvell",
+      "title": "Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op",
+      "location": "Ottawa, Canada; Toronto, Canada; Canada",
+      "country": "Canada",
+      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525"
+    },
+    {
+      "company": "Marvell",
+      "title": "Analog Layout Intern - BS/MS - 2027 Co-Op",
+      "location": "Toronto, Canada",
+      "country": "Canada",
+      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/Analog-Layout-Intern---BS-MS---2027-Co-Op_2604789"
+    }
+  ],
   "last_email_slot": "2026-11-13T08:30:00-05:00",
   "pending_alerts": []
 }
