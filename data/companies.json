@@ -251,7 +251,7 @@
     "name": "NXP",
     "method": "workday",
     "params": {
-      "host": "nxp.wd3.myworkdayjobs.com",
+      "host": "nxp.myworkdayjobs.com",
       "tenant": "nxp",
       "site": "careers",
       "search_text": "",

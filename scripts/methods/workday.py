@@ -9,6 +9,12 @@ PAGE_SIZE = 20  # Workday's maximum.
 SEVERAL_PLACES = re.compile(r"^\d+ Locations?$")
 
 
+def job_url(params, external_path):
+    """The public link to a job. myworkdaysite.com hosts need /recruiting/TENANT/ first."""
+    prefix = f"recruiting/{params['tenant']}/" if params["host"].endswith("myworkdaysite.com") else ""
+    return f"https://{params['host']}/{prefix}{params['site']}{external_path}"
+
+
 def search_url(params):
     return f"https://{params['host']}/wday/cxs/{params['tenant']}/{params['site']}/jobs"
 
@@ -48,9 +54,7 @@ def fetch(params, settings):
             total = data.get("total")  # Only the first page reports it.
         postings = data.get("jobPostings") or []
         for posting in postings:
-            url = normalize_url(
-                f"https://{params['host']}/{params['site']}{posting['externalPath']}"
-            )
+            url = normalize_url(job_url(params, posting["externalPath"]))
             places = [posting.get("locationsText")]
             # Only internships are looked up, to keep the extra requests few.
             if SEVERAL_PLACES.match(places[0] or "") and filters.is_internship(posting["title"], url, settings):
