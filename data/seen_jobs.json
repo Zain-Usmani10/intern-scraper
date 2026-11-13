@@ -453,7 +453,7 @@
           "country": "Canada",
           "first_seen": "2026-11-06",
           "last_seen": "2026-11-13",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -1031,14 +1031,6 @@
     "Skyworks": {
       "failures": 0,
       "seen": {
-        "https://careers.skyworksinc.com/job/RFIC-Co-Op-%28Jan-Dec-2027%29/78343-en_US": {
-          "title": "RFIC Co-Op (Jan - Dec 2027)",
-          "location": "",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-13",
-          "missed_runs": 3
-        },
         "https://careers.skyworksinc.com/job/Product-Engineering-Co-Op-%28Jan-Dec-2027%29/78462-en_US": {
           "title": "Product Engineering Co-Op (Jan-Dec 2027)",
           "location": "",
@@ -1736,7 +1728,8 @@
           "last_seen": "2026-11-13",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "Linamar": {
       "failures": 0,
@@ -1752,7 +1745,7 @@
       }
     },
     "General Motors": {
-      "failures": 0,
+      "failures": 1,
       "seen": {}
     },
     "Ford": {
@@ -1836,7 +1829,8 @@
     },
     "ecobee": {
       "failures": 0,
-      "seen": {}
+      "seen": {},
+      "broken_runs": 1
     },
     "D-Wave": {
       "failures": 0,
@@ -2177,6 +2171,14 @@
           "first_seen": "2026-11-11",
           "last_seen": "2026-11-13",
           "missed_runs": 0
+        },
+        "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Power-Infrastructure-Pricing-Management-and-Product-Data-Analysis-ON/1439155533": {
+          "title": "Student Intern, Power Infrastructure - Pricing Management and Product Data Analysis",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-13",
+          "last_seen": "2026-11-13",
+          "missed_runs": 0
         }
       }
     },
@@ -2276,7 +2278,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Spcialiste-Qualit---Internship---Winter-2027---Quality-Specialist_01874468": {
           "title": "Stage - Hiver 2027 - Spécialiste Qualité / Internship - Winter 2027 - Quality Specialist",
@@ -2316,7 +2318,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -2354,7 +2356,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=22619eb6-89ca-40d4-8484-4ac004b4932d": {
           "title": "Engineering Student, Mechanical - Winter 2027 - 4-12 months",
@@ -2426,7 +2428,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=4620a5ce-7260-4d2c-bb1a-d6beff72610e": {
           "title": "Engineering Student - Electronics Production and AI&T - Winter 2027",
@@ -2522,7 +2524,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=ddd5244b-ac58-4b9e-8414-b630dc99ef3e": {
           "title": "Student - Corporate Finance - Winter 2027",
@@ -3864,7 +3866,15 @@
     }
   },
   "last_heartbeat": "2026-11-13",
-  "telegram_queue": [],
+  "telegram_queue": [
+    {
+      "company": "Celestica",
+      "title": "Student Intern, Power Infrastructure - Pricing Management and Product Data Analysis",
+      "location": "",
+      "country": "Canada",
+      "url": "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Power-Infrastructure-Pricing-Management-and-Product-Data-Analysis-ON/1439155533"
+    }
+  ],
   "email_queue": [
     {
       "company": "Altera",
@@ -3886,6 +3896,13 @@
       "location": "Toronto, Canada",
       "country": "Canada",
       "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/Analog-Layout-Intern---BS-MS---2027-Co-Op_2604789"
+    },
+    {
+      "company": "Celestica",
+      "title": "Student Intern, Power Infrastructure - Pricing Management and Product Data Analysis",
+      "location": "",
+      "country": "Canada",
+      "url": "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Power-Infrastructure-Pricing-Management-and-Product-Data-Analysis-ON/1439155533"
     }
   ],
   "last_email_slot": "2026-11-13T08:30:00-05:00",
