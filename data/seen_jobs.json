@@ -462,7 +462,7 @@
       "seen": {}
     },
     "NXP": {
-      "failures": 41,
+      "failures": 42,
       "seen": {}
     },
     "BlackBerry QNX": {
@@ -1827,7 +1827,7 @@
       }
     },
     "ecobee": {
-      "failures": 1,
+      "failures": 0,
       "seen": {}
     },
     "D-Wave": {
@@ -2329,7 +2329,7 @@
       }
     },
     "Thales Canada": {
-      "failures": 2,
+      "failures": 3,
       "seen": {
         "https://thales.wd3.myworkdayjobs.com/Careers/job/Ottawa/Project-Planning---Scheduling-Co-op-Student_R0343079": {
           "title": "Project Planning & Scheduling Co-op Student or intern",
@@ -2371,7 +2371,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-12",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=6e6b20f0-d908-4f9e-9edb-f3ac82d1ab64": {
           "title": "Student, Cyber Security Analyst - Winter 2027",
@@ -2444,14 +2444,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-12",
           "missed_runs": 0
-        },
-        "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=5d1ad472-563c-404e-8c19-cc42ede7a396": {
-          "title": "Engineering Student, Systems Design - Winter 2027",
-          "location": "Brampton, Ontario, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-12",
-          "missed_runs": 3
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=3daed8f6-991d-4feb-a441-ed964a56f00d": {
           "title": "Engineering Student, Safety and Mission Assurance - Winter 2027 (12-16 months)",
