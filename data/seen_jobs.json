@@ -1037,7 +1037,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-13",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.skyworksinc.com/job/Product-Engineering-Co-Op-%28Jan-Dec-2027%29/78462-en_US": {
           "title": "Product Engineering Co-Op (Jan-Dec 2027)",
@@ -1093,7 +1093,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-13",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.skyworksinc.com/job/RFEM-Design-Co-Op/78395-en_US": {
           "title": "RF/EM Design Co-Op",
@@ -1763,7 +1763,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -1852,8 +1852,7 @@
     },
     "ecobee": {
       "failures": 0,
-      "seen": {},
-      "broken_runs": 1
+      "seen": {}
     },
     "D-Wave": {
       "failures": 0,
@@ -2245,7 +2244,8 @@
           "last_seen": "2026-11-13",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "CAE": {
       "failures": 0,
@@ -2341,7 +2341,7 @@
           "country": "Canada",
           "first_seen": "2026-11-11",
           "last_seen": "2026-11-13",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
@@ -2690,7 +2690,7 @@
       }
     },
     "Bombardier": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://jobs.bombardier.com/job/Intern%2C-Electromechanical-EWIS-Design-%28EWIS%29-%28Winter-2027%29/16010-en_US": {
           "title": "Intern, Electromechanical EWIS Design (EWIS) (Winter 2027)",
