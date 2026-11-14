@@ -278,7 +278,7 @@
       "seen": {}
     },
     "NVIDIA": {
-      "failures": 1,
+      "failures": 2,
       "seen": {
         "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/ASIC-Verification-Intern---Summer-2027_JR2027982": {
           "title": "ASIC Verification Intern - Summer 2027",
@@ -344,7 +344,7 @@
       "seen": {}
     },
     "Semtech": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/PCB-Layout-Intern_REQ3632": {
           "title": "PCB Layout Intern",
@@ -445,7 +445,7 @@
       "seen": {}
     },
     "Teledyne": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://flir.wd1.myworkdayjobs.com/flircareers/job/Canada---Waterloo-ON/Lifesciences-Coop_REQ36842-1": {
           "title": "Lifesciences Coop",
@@ -808,7 +808,7 @@
       "seen": {}
     },
     "Hitachi Rail": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Intern-Safety-Specialist--Fall-2027--8-12-months-_R0143291": {
           "title": "Intern Safety Specialist (Fall 2027, 8-12 months)",
@@ -1163,7 +1163,7 @@
       "seen": {}
     },
     "Altera": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/FPGA-Development-Tools---Intern_R03394": {
           "title": "FPGA Development Tools - Intern",
@@ -1216,7 +1216,7 @@
       }
     },
     "Intel": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Compiler-Engineering-Graduate-Intern_JR0287933": {
           "title": "Compiler Engineering Graduate Intern",
@@ -1238,7 +1238,7 @@
       "broken_runs": 1
     },
     "Aptiv": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://aptiv.wd5.myworkdayjobs.com/APTIV_CAREERS/job/CAN-Kanata-2-ON---WR/Cloud-Engineering-Intern_J000704383": {
           "title": "Cloud Engineering Intern",
@@ -1436,7 +1436,7 @@
       }
     },
     "Cadence": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://cadence.wd1.myworkdayjobs.com/External_Careers/job/MOUNT-ROYAL-Montreal/Analog-Mixed-Signal-IC-Design-Co-Op-Intern---Summer-2026----Stage-Co-Op-en-Conception-de-CI-Analogiques-Signal-Mixte--t--2026-_R53993-2": {
           "title": "Analog/Mixed-Signal IC Design Co-Op/Intern (Summer 2026) / Stage/Co-Op en Conception de CI Analogiques/Signal Mixte (Été 2026)",
@@ -1449,7 +1449,7 @@
       }
     },
     "Analog Devices": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Analog-Design-Engineering-Intern_R266614": {
           "title": "Analog Design Engineering Intern",
@@ -1486,7 +1486,7 @@
       "seen": {}
     },
     "Marvell": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/DSP---Systems-Architecture-Intern_2604806-1": {
           "title": "DSP & Systems Architecture Intern",
@@ -1745,7 +1745,7 @@
       }
     },
     "General Motors": {
-      "failures": 2,
+      "failures": 3,
       "seen": {}
     },
     "Ford": {
@@ -1770,7 +1770,7 @@
       }
     },
     "Rockwell Automation": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Waterloo-Ontario-Canada/Co-op--User-Experience---Robotics_R26-8569": {
           "title": "Co-op, User Experience - Robotics (Jan - Apr 2027)",
@@ -1828,7 +1828,7 @@
       }
     },
     "ecobee": {
-      "failures": 0,
+      "failures": 1,
       "seen": {}
     },
     "D-Wave": {
@@ -1836,7 +1836,7 @@
       "seen": {}
     },
     "Lumentum": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Project-Manager-Analyst---Co-op-Intern_20261145": {
           "title": "Project Manager Analyst – Co-op/Intern",
@@ -1905,7 +1905,7 @@
       }
     },
     "Celestica": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://careers.celestica.com/job/Remote-Employee-Canada-Student-Intern%2C-Industrial-Engineering-Associate-ON/1452651333": {
           "title": "Student Intern, Industrial Engineering Associate",
@@ -2269,7 +2269,7 @@
       }
     },
     "Pratt & Whitney Canada": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage--Gestion-des-Programmes-Moteurs---Introduction-de-Nouveau-produit----Internship---Operations-Program-Management---New-Product-Introduction_01887628": {
           "title": "Stage- Gestion des Programmes Moteurs – Introduction de Nouveau produit / Internship- Operations Program Management – New Product Introduction",
@@ -2642,7 +2642,7 @@
       }
     },
     "Bombardier": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://jobs.bombardier.com/job/Intern%2C-Electromechanical-EWIS-Design-%28EWIS%29-%28Winter-2027%29/16010-en_US": {
           "title": "Intern, Electromechanical EWIS Design (EWIS) (Winter 2027)",
