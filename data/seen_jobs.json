@@ -1,7 +1,7 @@
 {
   "companies": {
     "Qualcomm": {
-      "failures": 1,
+      "failures": 2,
       "seen": {
         "https://careers.qualcomm.com/careers/job/446721862429": {
           "title": "FY27 Intern - AI Software Engineering Co-op - Canada (4 months)",
@@ -1171,7 +1171,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-16",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/Software-Engineer---Factory-Apps---Intern_R03384": {
           "title": "Software Engineer - Factory Apps - Intern",
@@ -1422,7 +1422,7 @@
       "seen": {}
     },
     "Synopsys": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://careers.synopsys.com/job/nepean/engineering-documentation-and-ai-automation-internship-16-month-co-op/44408/103136134960": {
           "title": "Engineering Documentation and AI Automation Internship (16-Month Co-op)",
@@ -1745,7 +1745,16 @@
     },
     "General Motors": {
       "failures": 0,
-      "seen": {}
+      "seen": {
+        "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Oshawa-Ontario-Canada/XMLNAME-2027-Winter-Co-op-Data-Engineering-Software-Developer_JR-202624328": {
+          "title": "2027 Winter Co-op Data Engineering Software Developer",
+          "location": "Oshawa, Ontario, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-16",
+          "last_seen": "2026-11-16",
+          "missed_runs": 0
+        }
+      }
     },
     "Ford": {
       "failures": 0,
@@ -2246,7 +2255,7 @@
           "country": "",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -2543,14 +2552,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
           "missed_runs": 0
-        },
-        "https://jobs.smartrecruiters.com/GDMSI/744000147554134": {
-          "title": "Co-op Winter 2027 - Software Developer - 8 Months",
-          "location": "Ottawa, ON, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-16",
-          "missed_runs": 3
         },
         "https://jobs.smartrecruiters.com/GDMSI/744000147511629": {
           "title": "Co-op Winter 2027 - Software Engineering - 4-8 months",
@@ -3770,16 +3771,7 @@
     },
     "Ballard Power Systems": {
       "failures": 0,
-      "seen": {
-        "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883d06937f5f7016978fec55861f7&id=8a7883aca184742f01a1a2b3fa2e6a64&lang=en&m=t": {
-          "title": "Research co-op",
-          "location": "",
-          "country": "Canada",
-          "first_seen": "2026-11-10",
-          "last_seen": "2026-11-16",
-          "missed_runs": 3
-        }
-      }
+      "seen": {}
     }
   },
   "last_heartbeat": "2026-11-16",
@@ -3833,6 +3825,13 @@
       "location": "Canada - Ottawa (Bill Leathem)",
       "country": "Canada",
       "url": "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/AI-Engineer---Co-op-Intern_20261778"
+    },
+    {
+      "company": "General Motors",
+      "title": "2027 Winter Co-op Data Engineering Software Developer",
+      "location": "Oshawa, Ontario, Canada",
+      "country": "Canada",
+      "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Oshawa-Ontario-Canada/XMLNAME-2027-Winter-Co-op-Data-Engineering-Software-Developer_JR-202624328"
     }
   ],
   "last_email_slot": "2026-11-16T08:30:00-05:00",
