@@ -307,7 +307,7 @@
           "country": "",
           "first_seen": "2026-11-16",
           "last_seen": "2026-11-16",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://www.shopify.com/careers/can-software-engineering-internships-summer-2027_7ebb28da-0f4a-40ae-b41f-f5de60f3ca2a": {
           "title": "CAN Software Engineering Internships Summer 2027",
@@ -315,7 +315,7 @@
           "country": "Canada",
           "first_seen": "2026-11-16",
           "last_seen": "2026-11-16",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://www.shopify.com/careers/data-internships-summer-2027_33763bbb-341b-4d78-be50-4076570e5e95": {
           "title": "Data Internships - Summer 2027",
@@ -323,7 +323,7 @@
           "country": "",
           "first_seen": "2026-11-16",
           "last_seen": "2026-11-16",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     },
@@ -378,14 +378,6 @@
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-16",
           "missed_runs": 0
-        },
-        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Richmond-BC/AI-Workflow---Operations-Intern_REQ3640": {
-          "title": "AI Workflow & Operations Intern",
-          "location": "CAN - Richmond, BC",
-          "country": "Canada",
-          "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
-          "missed_runs": 3
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/R-D-Lab-Coordinator-Intern_REQ3626": {
           "title": "R&D Lab Coordinator Intern",
@@ -483,8 +475,7 @@
     },
     "BlackBerry QNX": {
       "failures": 0,
-      "seen": {},
-      "broken_runs": 1
+      "seen": {}
     },
     "Fortinet": {
       "failures": 0,
@@ -1494,7 +1485,7 @@
       }
     },
     "Infineon": {
-      "failures": 1,
+      "failures": 0,
       "seen": {}
     },
     "Renesas": {
@@ -1590,7 +1581,7 @@
           "country": "Canada",
           "first_seen": "2026-11-13",
           "last_seen": "2026-11-16",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     },
@@ -1766,24 +1757,7 @@
     },
     "Ford": {
       "failures": 0,
-      "seen": {
-        "https://www.careers.ford.com/en/job/paris/dealer-claims-intern/48560/102824320560": {
-          "title": "Dealer Claims Intern",
-          "location": "Paris, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-13",
-          "missed_runs": 3
-        },
-        "https://www.careers.ford.com/en/job/paris/customer-service-intern/48560/102824320496": {
-          "title": "Customer Service Intern",
-          "location": "Paris, Ontario",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-13",
-          "missed_runs": 3
-        }
-      }
+      "seen": {}
     },
     "Rockwell Automation": {
       "failures": 0,
@@ -1845,8 +1819,7 @@
     },
     "ecobee": {
       "failures": 0,
-      "seen": {},
-      "broken_runs": 1
+      "seen": {}
     },
     "D-Wave": {
       "failures": 0,
@@ -1869,7 +1842,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Optical-Engineering-Co-op_20261023-1": {
           "title": "Optical Engineering Co-op",
@@ -2284,7 +2257,7 @@
           "missed_runs": 0
         }
       },
-      "broken_runs": 1
+      "broken_runs": 2
     },
     "Pratt & Whitney Canada": {
       "failures": 0,
@@ -2327,7 +2300,7 @@
           "country": "Canada",
           "first_seen": "2026-11-16",
           "last_seen": "2026-11-16",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Superviseur-COOP--St-Hubert----Hiver-2027---Internship---COOP-Supervisor--St-Hubert----Winter-2027_01868719": {
           "title": "Stage - Superviseur COOP (St-Hubert )- Hiver 2027 | Internship – COOP Supervisor (St-Hubert) – Winter 2027",
@@ -2533,7 +2506,7 @@
           "country": "Canada",
           "first_seen": "2026-11-10",
           "last_seen": "2026-11-16",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -2724,7 +2697,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Aftermarket-Programs-%28Winter-2027%29/15873-en_US": {
           "title": "Intern, Aftermarket Programs (Winter 2027)",
@@ -3260,7 +3233,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Project-Management-Production-Support-%28Winter-2027%29/16137-en_US": {
           "title": "Intern, Project Management - Production Support (Winter 2027)",
@@ -3404,7 +3377,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Operations-CouncilStrategy-%28Winter-2027%29/15662-en_US": {
           "title": "Intern, Operations Council/Strategy (Winter 2027)",
