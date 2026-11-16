@@ -300,7 +300,32 @@
     },
     "Shopify": {
       "failures": 0,
-      "seen": {}
+      "seen": {
+        "https://www.shopify.com/careers/applied-machine-learning-engineering-internships-summer-2027_1d6b9bb9-a132-4ad9-b33f-3e55d2cfc536": {
+          "title": "Applied Machine Learning Engineering Internships Summer 2027",
+          "location": "",
+          "country": "",
+          "first_seen": "2026-11-16",
+          "last_seen": "2026-11-16",
+          "missed_runs": 0
+        },
+        "https://www.shopify.com/careers/can-software-engineering-internships-summer-2027_7ebb28da-0f4a-40ae-b41f-f5de60f3ca2a": {
+          "title": "CAN Software Engineering Internships Summer 2027",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-16",
+          "last_seen": "2026-11-16",
+          "missed_runs": 0
+        },
+        "https://www.shopify.com/careers/data-internships-summer-2027_33763bbb-341b-4d78-be50-4076570e5e95": {
+          "title": "Data Internships - Summer 2027",
+          "location": "",
+          "country": "",
+          "first_seen": "2026-11-16",
+          "last_seen": "2026-11-16",
+          "missed_runs": 0
+        }
+      }
     },
     "Kepler Communications": {
       "failures": 0,
@@ -360,7 +385,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-13",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/R-D-Lab-Coordinator-Intern_REQ3626": {
           "title": "R&D Lab Coordinator Intern",
@@ -458,7 +483,8 @@
     },
     "BlackBerry QNX": {
       "failures": 0,
-      "seen": {}
+      "seen": {},
+      "broken_runs": 1
     },
     "Fortinet": {
       "failures": 0,
@@ -1468,7 +1494,7 @@
       }
     },
     "Infineon": {
-      "failures": 0,
+      "failures": 1,
       "seen": {}
     },
     "Renesas": {
@@ -1747,7 +1773,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://www.careers.ford.com/en/job/paris/customer-service-intern/48560/102824320496": {
           "title": "Customer Service Intern",
@@ -1755,7 +1781,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
@@ -1819,7 +1845,8 @@
     },
     "ecobee": {
       "failures": 0,
-      "seen": {}
+      "seen": {},
+      "broken_runs": 1
     },
     "D-Wave": {
       "failures": 0,
@@ -1842,7 +1869,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Optical-Engineering-Co-op_20261023-1": {
           "title": "Optical Engineering Co-op",
@@ -2256,7 +2283,8 @@
           "last_seen": "2026-11-16",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "Pratt & Whitney Canada": {
       "failures": 0,
@@ -2296,6 +2324,14 @@
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Hiver-2027---Ingnieur-client-et-Nouveau-programme-moteur---Internship---Winter-2027---Customer-Engineering---New-Engine-Program_01871696": {
           "title": "Stage - Hiver 2027 - Ingénieur client et Nouveau programme moteur / Internship - Winter 2027 - Customer Engineering & New Engine Program",
           "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
+          "country": "Canada",
+          "first_seen": "2026-11-16",
+          "last_seen": "2026-11-16",
+          "missed_runs": 0
+        },
+        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Superviseur-COOP--St-Hubert----Hiver-2027---Internship---COOP-Supervisor--St-Hubert----Winter-2027_01868719": {
+          "title": "Stage - Superviseur COOP (St-Hubert )- Hiver 2027 | Internship – COOP Supervisor (St-Hubert) – Winter 2027",
+          "location": "CA-QC-SAINT HUBERT-H05 ~ 7007 Chemin De La Savane ~ BLDG H05 FACTORY",
           "country": "Canada",
           "first_seen": "2026-11-16",
           "last_seen": "2026-11-16",
@@ -2497,7 +2533,7 @@
           "country": "Canada",
           "first_seen": "2026-11-10",
           "last_seen": "2026-11-16",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     },
@@ -2688,7 +2724,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Aftermarket-Programs-%28Winter-2027%29/15873-en_US": {
           "title": "Intern, Aftermarket Programs (Winter 2027)",
@@ -3224,7 +3260,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Project-Management-Production-Support-%28Winter-2027%29/16137-en_US": {
           "title": "Intern, Project Management - Production Support (Winter 2027)",
@@ -3368,7 +3404,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Operations-CouncilStrategy-%28Winter-2027%29/15662-en_US": {
           "title": "Intern, Operations Council/Strategy (Winter 2027)",
@@ -3801,6 +3837,14 @@
           "first_seen": "2026-11-10",
           "last_seen": "2026-11-16",
           "missed_runs": 0
+        },
+        "https://jobs.bombardier.com/job/Intern%2C-Operations-Management-Support-%28Winter-2027%29/16133-en_US": {
+          "title": "Intern, Operations Management Support (Winter 2027)",
+          "location": "Pointe-Claire, QC, CAN, H9R 5Z3",
+          "country": "Canada",
+          "first_seen": "2026-11-16",
+          "last_seen": "2026-11-16",
+          "missed_runs": 0
         }
       }
     },
@@ -3824,7 +3868,43 @@
   },
   "last_heartbeat": "2026-11-16",
   "telegram_queue": [],
-  "email_queue": [],
+  "email_queue": [
+    {
+      "company": "Shopify",
+      "title": "Applied Machine Learning Engineering Internships Summer 2027",
+      "location": "",
+      "country": "",
+      "url": "https://www.shopify.com/careers/applied-machine-learning-engineering-internships-summer-2027_1d6b9bb9-a132-4ad9-b33f-3e55d2cfc536"
+    },
+    {
+      "company": "Shopify",
+      "title": "CAN Software Engineering Internships Summer 2027",
+      "location": "",
+      "country": "Canada",
+      "url": "https://www.shopify.com/careers/can-software-engineering-internships-summer-2027_7ebb28da-0f4a-40ae-b41f-f5de60f3ca2a"
+    },
+    {
+      "company": "Shopify",
+      "title": "Data Internships - Summer 2027",
+      "location": "",
+      "country": "",
+      "url": "https://www.shopify.com/careers/data-internships-summer-2027_33763bbb-341b-4d78-be50-4076570e5e95"
+    },
+    {
+      "company": "Pratt & Whitney Canada",
+      "title": "Stage - Superviseur COOP (St-Hubert )- Hiver 2027 | Internship – COOP Supervisor (St-Hubert) – Winter 2027",
+      "location": "CA-QC-SAINT HUBERT-H05 ~ 7007 Chemin De La Savane ~ BLDG H05 FACTORY",
+      "country": "Canada",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Superviseur-COOP--St-Hubert----Hiver-2027---Internship---COOP-Supervisor--St-Hubert----Winter-2027_01868719"
+    },
+    {
+      "company": "Bombardier",
+      "title": "Intern, Operations Management Support (Winter 2027)",
+      "location": "Pointe-Claire, QC, CAN, H9R 5Z3",
+      "country": "Canada",
+      "url": "https://jobs.bombardier.com/job/Intern%2C-Operations-Management-Support-%28Winter-2027%29/16133-en_US"
+    }
+  ],
   "last_email_slot": "2026-11-16T08:30:00-05:00",
   "pending_alerts": []
 }
