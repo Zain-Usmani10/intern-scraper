@@ -1,14 +1,14 @@
 {
   "companies": {
     "Qualcomm": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://careers.qualcomm.com/careers/job/446721862429": {
           "title": "FY27 Intern - AI Software Engineering Co-op - Canada (4 months)",
           "location": "Toronto, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721862430": {
@@ -16,7 +16,7 @@
           "location": "Toronto, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721913672": {
@@ -24,7 +24,7 @@
           "location": "Toronto, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721914045": {
@@ -32,7 +32,7 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721913898": {
@@ -40,7 +40,7 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721913769": {
@@ -48,7 +48,7 @@
           "location": "Toronto, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721874877": {
@@ -56,7 +56,7 @@
           "location": "Ottawa, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721862542": {
@@ -64,7 +64,7 @@
           "location": "Ottawa, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721876037": {
@@ -72,7 +72,7 @@
           "location": "Vancouver, BC, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721829462": {
@@ -80,7 +80,7 @@
           "location": "Vancouver, BC, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721858024": {
@@ -88,7 +88,7 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721828828": {
@@ -96,7 +96,7 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721829439": {
@@ -104,7 +104,7 @@
           "location": "Vancouver, BC, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721636765": {
@@ -112,7 +112,7 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721678727": {
@@ -120,7 +120,7 @@
           "location": "Vancouver, BC, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721678733": {
@@ -128,7 +128,7 @@
           "location": "Vancouver, BC, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721686396": {
@@ -136,7 +136,7 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721661677": {
@@ -144,7 +144,7 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721661830": {
@@ -152,7 +152,7 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721636316": {
@@ -160,7 +160,7 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721615591": {
@@ -168,7 +168,7 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721229661": {
@@ -176,7 +176,7 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721143440": {
@@ -184,7 +184,7 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721064018": {
@@ -192,7 +192,7 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721141411": {
@@ -200,7 +200,7 @@
           "location": "Toronto, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721064141": {
@@ -208,7 +208,7 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-03",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721969461": {
@@ -216,7 +216,7 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-04",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721972361": {
@@ -224,7 +224,7 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-04",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446721989047": {
@@ -232,7 +232,7 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-05",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446722001120": {
@@ -240,7 +240,7 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-06",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446722003454": {
@@ -248,7 +248,7 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-06",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446722005254": {
@@ -256,7 +256,7 @@
           "location": "Toronto, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-06",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         },
         "https://careers.qualcomm.com/careers/job/446722038614": {
@@ -264,7 +264,7 @@
           "location": "Toronto, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-09",
-          "last_seen": "2026-11-13",
+          "last_seen": "2026-11-16",
           "missed_runs": 0
         }
       }
@@ -360,7 +360,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-13",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/R-D-Lab-Coordinator-Intern_REQ3626": {
           "title": "R&D Lab Coordinator Intern",
@@ -1747,7 +1747,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://www.careers.ford.com/en/job/paris/customer-service-intern/48560/102824320496": {
           "title": "Customer Service Intern",
@@ -1755,7 +1755,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-13",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -3825,6 +3825,6 @@
   "last_heartbeat": "2026-11-16",
   "telegram_queue": [],
   "email_queue": [],
-  "last_email_slot": "2026-11-15T16:30:00-05:00",
+  "last_email_slot": "2026-11-16T08:30:00-05:00",
   "pending_alerts": []
 }
