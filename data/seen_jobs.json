@@ -1,7 +1,7 @@
 {
   "companies": {
     "Qualcomm": {
-      "failures": 2,
+      "failures": 0,
       "seen": {
         "https://careers.qualcomm.com/careers/job/446721862429": {
           "title": "FY27 Intern - AI Software Engineering Co-op - Canada (4 months)",
@@ -25,7 +25,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-16",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.qualcomm.com/careers/job/446721914045": {
           "title": "FY27 Intern - Qualcomm SoC Engineering Internship - Canada (16 months)",
@@ -1171,7 +1171,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-16",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/Software-Engineer---Factory-Apps---Intern_R03384": {
           "title": "Software Engineer - Factory Apps - Intern",
@@ -1422,7 +1422,7 @@
       "seen": {}
     },
     "Synopsys": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://careers.synopsys.com/job/nepean/engineering-documentation-and-ai-automation-internship-16-month-co-op/44408/103136134960": {
           "title": "Engineering Documentation and AI Automation Internship (16-Month Co-op)",
@@ -1777,7 +1777,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Cambridge-Ontario-Canada/Co-op--Delivery---Projects--LCS-_R26-5039-2": {
           "title": "Co-op, Delivery - Projects (LCS)",
@@ -1819,7 +1819,7 @@
       }
     },
     "ecobee": {
-      "failures": 0,
+      "failures": 1,
       "seen": {}
     },
     "D-Wave": {
@@ -2255,7 +2255,7 @@
           "country": "",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
@@ -3776,64 +3776,7 @@
   },
   "last_heartbeat": "2026-11-16",
   "telegram_queue": [],
-  "email_queue": [
-    {
-      "company": "Shopify",
-      "title": "Applied Machine Learning Engineering Internships Summer 2027",
-      "location": "",
-      "country": "",
-      "url": "https://www.shopify.com/careers/applied-machine-learning-engineering-internships-summer-2027_1d6b9bb9-a132-4ad9-b33f-3e55d2cfc536"
-    },
-    {
-      "company": "Shopify",
-      "title": "CAN Software Engineering Internships Summer 2027",
-      "location": "",
-      "country": "Canada",
-      "url": "https://www.shopify.com/careers/can-software-engineering-internships-summer-2027_7ebb28da-0f4a-40ae-b41f-f5de60f3ca2a"
-    },
-    {
-      "company": "Shopify",
-      "title": "Data Internships - Summer 2027",
-      "location": "",
-      "country": "",
-      "url": "https://www.shopify.com/careers/data-internships-summer-2027_33763bbb-341b-4d78-be50-4076570e5e95"
-    },
-    {
-      "company": "Pratt & Whitney Canada",
-      "title": "Stage - Superviseur COOP (St-Hubert )- Hiver 2027 | Internship – COOP Supervisor (St-Hubert) – Winter 2027",
-      "location": "CA-QC-SAINT HUBERT-H05 ~ 7007 Chemin De La Savane ~ BLDG H05 FACTORY",
-      "country": "Canada",
-      "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Superviseur-COOP--St-Hubert----Hiver-2027---Internship---COOP-Supervisor--St-Hubert----Winter-2027_01868719"
-    },
-    {
-      "company": "Bombardier",
-      "title": "Intern, Operations Management Support (Winter 2027)",
-      "location": "Pointe-Claire, QC, CAN, H9R 5Z3",
-      "country": "Canada",
-      "url": "https://jobs.bombardier.com/job/Intern%2C-Operations-Management-Support-%28Winter-2027%29/16133-en_US"
-    },
-    {
-      "company": "Marvell",
-      "title": "System Engineer - Optical DSP Intern (PhD) - Co-Op 2027",
-      "location": "CA-ON - Ontario - Toronto; CA-ON - Ottawa; Canada",
-      "country": "Canada",
-      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/CA-ON---Ontario---Toronto/System-Engineer---Optical-DSP-Intern--PhD----Co-Op-2027_2604424"
-    },
-    {
-      "company": "Lumentum",
-      "title": "AI Engineer - Co-op/Intern",
-      "location": "Canada - Ottawa (Bill Leathem)",
-      "country": "Canada",
-      "url": "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/AI-Engineer---Co-op-Intern_20261778"
-    },
-    {
-      "company": "General Motors",
-      "title": "2027 Winter Co-op Data Engineering Software Developer",
-      "location": "Oshawa, Ontario, Canada",
-      "country": "Canada",
-      "url": "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Oshawa-Ontario-Canada/XMLNAME-2027-Winter-Co-op-Data-Engineering-Software-Developer_JR-202624328"
-    }
-  ],
-  "last_email_slot": "2026-11-16T08:30:00-05:00",
+  "email_queue": [],
+  "last_email_slot": "2026-11-16T16:30:00-05:00",
   "pending_alerts": []
 }
