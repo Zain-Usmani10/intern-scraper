@@ -270,7 +270,7 @@
       }
     },
     "Anthropic": {
-      "failures": 0,
+      "failures": 1,
       "seen": {}
     },
     "Figma": {
@@ -1162,7 +1162,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-16",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -1581,7 +1581,15 @@
           "country": "Canada",
           "first_seen": "2026-11-13",
           "last_seen": "2026-11-16",
-          "missed_runs": 2
+          "missed_runs": 3
+        },
+        "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/CA-ON---Ontario---Toronto/System-Engineer---Optical-DSP-Intern--PhD----Co-Op-2027_2604424": {
+          "title": "System Engineer - Optical DSP Intern (PhD) - Co-Op 2027",
+          "location": "CA-ON - Ontario - Toronto; CA-ON - Ottawa; Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-16",
+          "last_seen": "2026-11-16",
+          "missed_runs": 0
         }
       }
     },
@@ -1836,14 +1844,6 @@
           "last_seen": "2026-11-16",
           "missed_runs": 0
         },
-        "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Optical-Algorithms-and-Analytics-Engineering-Co-op-Intern_20261547": {
-          "title": "Optical Algorithms and Analytics Engineering Co-op/Intern",
-          "location": "Canada - Ottawa (Bill Leathem)",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-16",
-          "missed_runs": 3
-        },
         "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Optical-Engineering-Co-op_20261023-1": {
           "title": "Optical Engineering Co-op",
           "location": "Canada - Ottawa (Bill Leathem)",
@@ -1889,6 +1889,14 @@
           "location": "Canada - Ottawa (Bill Leathem)",
           "country": "Canada",
           "first_seen": "2026-11-05",
+          "last_seen": "2026-11-16",
+          "missed_runs": 0
+        },
+        "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/AI-Engineer---Co-op-Intern_20261778": {
+          "title": "AI Engineer - Co-op/Intern",
+          "location": "Canada - Ottawa (Bill Leathem)",
+          "country": "Canada",
+          "first_seen": "2026-11-16",
           "last_seen": "2026-11-16",
           "missed_runs": 0
         }
@@ -2256,8 +2264,7 @@
           "last_seen": "2026-11-16",
           "missed_runs": 0
         }
-      },
-      "broken_runs": 3
+      }
     },
     "Pratt & Whitney Canada": {
       "failures": 0,
@@ -2300,7 +2307,7 @@
           "country": "Canada",
           "first_seen": "2026-11-16",
           "last_seen": "2026-11-16",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Superviseur-COOP--St-Hubert----Hiver-2027---Internship---COOP-Supervisor--St-Hubert----Winter-2027_01868719": {
           "title": "Stage - Superviseur COOP (St-Hubert )- Hiver 2027 | Internship – COOP Supervisor (St-Hubert) – Winter 2027",
@@ -2308,7 +2315,7 @@
           "country": "Canada",
           "first_seen": "2026-11-16",
           "last_seen": "2026-11-16",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -2499,14 +2506,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
           "missed_runs": 0
-        },
-        "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=8b307f48-c679-4bbd-b1ff-d7976e66d6a9": {
-          "title": "Storekeeper - Kitting (Student)",
-          "location": "Sainte-Anne-de-Bellevue, Quebec, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-10",
-          "last_seen": "2026-11-16",
-          "missed_runs": 3
         }
       }
     },
@@ -2583,7 +2582,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.smartrecruiters.com/GDMSI/744000147511629": {
           "title": "Co-op Winter 2027 - Software Engineering - 4-8 months",
@@ -2690,14 +2689,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
           "missed_runs": 0
-        },
-        "https://jobs.bombardier.com/job/Intern%2C-Project-Management-%28Winter-2027%29/14965-en_US": {
-          "title": "Intern, Project Management (Winter 2027)",
-          "location": "Mississauga, ON, CAN, L5S 1W1",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-16",
-          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Aftermarket-Programs-%28Winter-2027%29/15873-en_US": {
           "title": "Intern, Aftermarket Programs (Winter 2027)",
@@ -3227,14 +3218,6 @@
           "last_seen": "2026-11-16",
           "missed_runs": 0
         },
-        "https://jobs.bombardier.com/job/Intern%2C-Industrial-Engineering-and-Operations-Support-%28Winter-2027%29/16133-en_US": {
-          "title": "Intern, Industrial Engineering and Operations Support (Winter 2027)",
-          "location": "Pointe-Claire, QC, CAN, H9R 5Z3",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-16",
-          "missed_runs": 3
-        },
         "https://jobs.bombardier.com/job/Intern%2C-Project-Management-Production-Support-%28Winter-2027%29/16137-en_US": {
           "title": "Intern, Project Management - Production Support (Winter 2027)",
           "location": "Pointe-Claire, QC, CAN, H9R 5Z3",
@@ -3370,14 +3353,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
           "missed_runs": 0
-        },
-        "https://jobs.bombardier.com/job/Intern%2C-Digital-Transformation-%28Winter-2027%29/15795-en_US": {
-          "title": "Intern, Digital Transformation (Winter 2027)",
-          "location": "Dorval, QC, CAN, H4S 1Y9",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-16",
-          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Operations-CouncilStrategy-%28Winter-2027%29/15662-en_US": {
           "title": "Intern, Operations Council/Strategy (Winter 2027)",
@@ -3834,7 +3809,7 @@
           "country": "Canada",
           "first_seen": "2026-11-10",
           "last_seen": "2026-11-16",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     }
@@ -3876,6 +3851,20 @@
       "location": "Pointe-Claire, QC, CAN, H9R 5Z3",
       "country": "Canada",
       "url": "https://jobs.bombardier.com/job/Intern%2C-Operations-Management-Support-%28Winter-2027%29/16133-en_US"
+    },
+    {
+      "company": "Marvell",
+      "title": "System Engineer - Optical DSP Intern (PhD) - Co-Op 2027",
+      "location": "CA-ON - Ontario - Toronto; CA-ON - Ottawa; Canada",
+      "country": "Canada",
+      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/CA-ON---Ontario---Toronto/System-Engineer---Optical-DSP-Intern--PhD----Co-Op-2027_2604424"
+    },
+    {
+      "company": "Lumentum",
+      "title": "AI Engineer - Co-op/Intern",
+      "location": "Canada - Ottawa (Bill Leathem)",
+      "country": "Canada",
+      "url": "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/AI-Engineer---Co-op-Intern_20261778"
     }
   ],
   "last_email_slot": "2026-11-16T08:30:00-05:00",
