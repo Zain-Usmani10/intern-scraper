@@ -1123,14 +1123,6 @@
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-17",
           "missed_runs": 0
-        },
-        "https://ats.rippling.com/4ag/jobs/e42f7a66-f5aa-4f1d-9d5e-a9178e84add2": {
-          "title": "Mechatronics - Control Systems Co-op Student (Winter 2027)",
-          "location": "Salmon Arm, British Columbia, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-17",
-          "missed_runs": 3
         }
       }
     },
@@ -1864,7 +1856,7 @@
       }
     },
     "Celestica": {
-      "failures": 6,
+      "failures": 7,
       "seen": {
         "https://careers.celestica.com/job/Remote-Employee-Canada-Student-Intern%2C-Industrial-Engineering-Associate-ON/1452651333": {
           "title": "Student Intern, Industrial Engineering Associate",
@@ -2181,7 +2173,7 @@
           "missed_runs": 0
         }
       },
-      "broken_runs": 1
+      "broken_runs": 2
     },
     "CAE": {
       "failures": 0,
@@ -2245,7 +2237,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-17",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
@@ -2551,19 +2543,11 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-17",
           "missed_runs": 0
-        },
-        "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/155951": {
-          "title": "Refrigeration Mechanic Apprentice",
-          "location": "Burnaby, BC, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-17",
-          "missed_runs": 3
         }
       }
     },
     "Bombardier": {
-      "failures": 6,
+      "failures": 7,
       "seen": {
         "https://jobs.bombardier.com/job/Intern%2C-Electromechanical-EWIS-Design-%28EWIS%29-%28Winter-2027%29/16010-en_US": {
           "title": "Intern, Electromechanical EWIS Design (EWIS) (Winter 2027)",
