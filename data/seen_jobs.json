@@ -328,7 +328,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-17",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.lever.co/kepler/5514238a-8301-49f1-8116-26d38ea0900c": {
           "title": "Software Engineering Intern (January 2027)",
@@ -344,7 +344,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-17",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
@@ -1146,7 +1146,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-17",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -1728,7 +1728,7 @@
       }
     },
     "General Motors": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Oshawa-Ontario-Canada/XMLNAME-2027-Winter-Co-op-Data-Engineering-Software-Developer_JR-202624328": {
           "title": "2027 Winter Co-op Data Engineering Software Developer",
@@ -1872,7 +1872,7 @@
       }
     },
     "Celestica": {
-      "failures": 4,
+      "failures": 5,
       "seen": {
         "https://careers.celestica.com/job/Remote-Employee-Canada-Student-Intern%2C-Industrial-Engineering-Associate-ON/1452651333": {
           "title": "Student Intern, Industrial Engineering Associate",
@@ -2172,14 +2172,6 @@
           "last_seen": "2026-11-17",
           "missed_runs": 0
         },
-        "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Calgary-Alberta-Canada/Marketing-Discovery-Trainee_JR00047301": {
-          "title": "Marketing Discovery Trainee",
-          "location": "Calgary, Alberta, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-16",
-          "missed_runs": 3
-        },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Saint-Laurent-Quebec-Canada/ELDS-Marketing-Communications-Intern-Winter-2027_JR00052657": {
           "title": "ELDS Marketing Communications Intern-Winter 2027",
           "location": "Saint-Laurent, Quebec, Canada",
@@ -2196,8 +2188,7 @@
           "last_seen": "2026-11-17",
           "missed_runs": 0
         }
-      },
-      "broken_runs": 1
+      }
     },
     "CAE": {
       "failures": 0,
@@ -2261,10 +2252,9 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-17",
-          "missed_runs": 0
+          "missed_runs": 1
         }
-      },
-      "broken_runs": 1
+      }
     },
     "Thales Canada": {
       "failures": 0,
@@ -2575,12 +2565,12 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-17",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
     "Bombardier": {
-      "failures": 4,
+      "failures": 5,
       "seen": {
         "https://jobs.bombardier.com/job/Intern%2C-Electromechanical-EWIS-Design-%28EWIS%29-%28Winter-2027%29/16010-en_US": {
           "title": "Intern, Electromechanical EWIS Design (EWIS) (Winter 2027)",
