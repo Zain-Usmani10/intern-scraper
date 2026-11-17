@@ -1,7 +1,7 @@
 {
   "companies": {
     "Qualcomm": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://careers.qualcomm.com/careers/job/446721862429": {
           "title": "FY27 Intern - AI Software Engineering Co-op - Canada (4 months)",
@@ -256,6 +256,14 @@
           "location": "Toronto, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-09",
+          "last_seen": "2026-11-17",
+          "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446722176432": {
+          "title": "FY27 Intern - AI/Machine Learning Internship Internship - Canada (16 months)",
+          "location": "Markham, ON, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-17",
           "last_seen": "2026-11-17",
           "missed_runs": 0
         }
@@ -944,7 +952,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-17",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Quality-Assurance-Intern--Winter-2027--12months-_R0145764": {
           "title": "Quality Assurance Intern (Winter 2027, 12months)",
@@ -1856,7 +1864,7 @@
       }
     },
     "Celestica": {
-      "failures": 8,
+      "failures": 9,
       "seen": {
         "https://careers.celestica.com/job/Remote-Employee-Canada-Student-Intern%2C-Industrial-Engineering-Associate-ON/1452651333": {
           "title": "Student Intern, Industrial Engineering Associate",
@@ -2180,7 +2188,8 @@
           "last_seen": "2026-11-17",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "CAE": {
       "failures": 0,
@@ -2554,7 +2563,7 @@
       }
     },
     "Bombardier": {
-      "failures": 8,
+      "failures": 9,
       "seen": {
         "https://jobs.bombardier.com/job/Intern%2C-Electromechanical-EWIS-Design-%28EWIS%29-%28Winter-2027%29/16010-en_US": {
           "title": "Intern, Electromechanical EWIS Design (EWIS) (Winter 2027)",
@@ -3757,6 +3766,13 @@
       "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
       "country": "Canada",
       "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Automne-2026---Spcialiste-en-amlioration-des-procds--Leasco---Internship---Fall-2026---Process-Improvement-Specialist--Leasco_01847320"
+    },
+    {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - AI/Machine Learning Internship Internship - Canada (16 months)",
+      "location": "Markham, ON, Canada",
+      "country": "Canada",
+      "url": "https://careers.qualcomm.com/careers/job/446722176432"
     }
   ],
   "last_email_slot": "2026-11-17T08:30:00-05:00",
