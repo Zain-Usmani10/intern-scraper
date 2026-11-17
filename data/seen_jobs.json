@@ -19,14 +19,6 @@
           "last_seen": "2026-11-17",
           "missed_runs": 0
         },
-        "https://careers.qualcomm.com/careers/job/446721913672": {
-          "title": "FY27 Intern - Digital Design Engineering Internship - Canada (16 months)",
-          "location": "Toronto, ON, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-03",
-          "last_seen": "2026-11-16",
-          "missed_runs": 3
-        },
         "https://careers.qualcomm.com/careers/job/446721914045": {
           "title": "FY27 Intern - Qualcomm SoC Engineering Internship - Canada (16 months)",
           "location": "Markham, ON, Canada",
@@ -1763,14 +1755,6 @@
           "last_seen": "2026-11-17",
           "missed_runs": 0
         },
-        "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Cambridge-Ontario-Canada/Co-op--Warehouse-Engineering_R26-8236": {
-          "title": "Co-op, Warehouse Engineering",
-          "location": "Cambridge, Ontario, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-16",
-          "missed_runs": 3
-        },
         "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Cambridge-Ontario-Canada/Co-op--Delivery---Projects--LCS-_R26-5039-2": {
           "title": "Co-op, Delivery - Projects (LCS)",
           "location": "Cambridge, Ontario, Canada",
@@ -1888,7 +1872,7 @@
       }
     },
     "Celestica": {
-      "failures": 1,
+      "failures": 2,
       "seen": {
         "https://careers.celestica.com/job/Remote-Employee-Canada-Student-Intern%2C-Industrial-Engineering-Associate-ON/1452651333": {
           "title": "Student Intern, Industrial Engineering Associate",
@@ -2194,7 +2178,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Saint-Laurent-Quebec-Canada/ELDS-Marketing-Communications-Intern-Winter-2027_JR00052657": {
           "title": "ELDS Marketing Communications Intern-Winter 2027",
@@ -2585,7 +2569,7 @@
       }
     },
     "Bombardier": {
-      "failures": 1,
+      "failures": 2,
       "seen": {
         "https://jobs.bombardier.com/job/Intern%2C-Electromechanical-EWIS-Design-%28EWIS%29-%28Winter-2027%29/16010-en_US": {
           "title": "Intern, Electromechanical EWIS Design (EWIS) (Winter 2027)",
@@ -3761,6 +3745,6 @@
   "last_heartbeat": "2026-11-17",
   "telegram_queue": [],
   "email_queue": [],
-  "last_email_slot": "2026-11-16T16:30:00-05:00",
+  "last_email_slot": "2026-11-17T08:30:00-05:00",
   "pending_alerts": []
 }
