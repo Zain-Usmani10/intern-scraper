@@ -1,7 +1,7 @@
 {
   "companies": {
     "Qualcomm": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://careers.qualcomm.com/careers/job/446721862429": {
           "title": "FY27 Intern - AI Software Engineering Co-op - Canada (4 months)",
@@ -328,7 +328,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-17",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.lever.co/kepler/5514238a-8301-49f1-8116-26d38ea0900c": {
           "title": "Software Engineering Intern (January 2027)",
@@ -344,7 +344,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-17",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -1146,7 +1146,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-17",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     },
@@ -1872,7 +1872,7 @@
       }
     },
     "Celestica": {
-      "failures": 3,
+      "failures": 4,
       "seen": {
         "https://careers.celestica.com/job/Remote-Employee-Canada-Student-Intern%2C-Industrial-Engineering-Associate-ON/1452651333": {
           "title": "Student Intern, Industrial Engineering Associate",
@@ -2196,7 +2196,8 @@
           "last_seen": "2026-11-17",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "CAE": {
       "failures": 0,
@@ -2262,7 +2263,8 @@
           "last_seen": "2026-11-17",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "Thales Canada": {
       "failures": 0,
@@ -2573,12 +2575,12 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-17",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     },
     "Bombardier": {
-      "failures": 3,
+      "failures": 4,
       "seen": {
         "https://jobs.bombardier.com/job/Intern%2C-Electromechanical-EWIS-Design-%28EWIS%29-%28Winter-2027%29/16010-en_US": {
           "title": "Intern, Electromechanical EWIS Design (EWIS) (Winter 2027)",
