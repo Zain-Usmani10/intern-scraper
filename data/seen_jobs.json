@@ -25,7 +25,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-16",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.qualcomm.com/careers/job/446721914045": {
           "title": "FY27 Intern - Qualcomm SoC Engineering Internship - Canada (16 months)",
@@ -1165,14 +1165,6 @@
     "Altera": {
       "failures": 0,
       "seen": {
-        "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/FPGA-Development-Tools---Intern_R03394": {
-          "title": "FPGA Development Tools - Intern",
-          "location": "Toronto, Ontario, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-16",
-          "missed_runs": 3
-        },
         "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/Software-Engineer---Factory-Apps---Intern_R03384": {
           "title": "Software Engineer - Factory Apps - Intern",
           "location": "Toronto, Ontario, Canada",
@@ -1777,7 +1769,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Cambridge-Ontario-Canada/Co-op--Delivery---Projects--LCS-_R26-5039-2": {
           "title": "Co-op, Delivery - Projects (LCS)",
@@ -1819,7 +1811,7 @@
       }
     },
     "ecobee": {
-      "failures": 1,
+      "failures": 0,
       "seen": {}
     },
     "D-Wave": {
@@ -2248,14 +2240,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
           "missed_runs": 0
-        },
-        "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/Stagiaire-en-conception-lectrique---Electrical-Designer-Intern_122070": {
-          "title": "Stagiaire en conception électrique / Electrical Designer Intern",
-          "location": "Montreal (St. Laurent)",
-          "country": "",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-16",
-          "missed_runs": 3
         }
       }
     },
