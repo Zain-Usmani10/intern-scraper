@@ -1,7 +1,7 @@
 {
   "companies": {
     "Qualcomm": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://careers.qualcomm.com/careers/job/446721862429": {
           "title": "FY27 Intern - AI Software Engineering Co-op - Canada (4 months)",
@@ -328,7 +328,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-17",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.lever.co/kepler/5514238a-8301-49f1-8116-26d38ea0900c": {
           "title": "Software Engineering Intern (January 2027)",
@@ -344,7 +344,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-17",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     },
@@ -1872,7 +1872,7 @@
       }
     },
     "Celestica": {
-      "failures": 2,
+      "failures": 3,
       "seen": {
         "https://careers.celestica.com/job/Remote-Employee-Canada-Student-Intern%2C-Industrial-Engineering-Associate-ON/1452651333": {
           "title": "Student Intern, Industrial Engineering Associate",
@@ -2178,7 +2178,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-16",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Saint-Laurent-Quebec-Canada/ELDS-Marketing-Communications-Intern-Winter-2027_JR00052657": {
           "title": "ELDS Marketing Communications Intern-Winter 2027",
@@ -2266,7 +2266,16 @@
     },
     "Thales Canada": {
       "failures": 0,
-      "seen": {}
+      "seen": {
+        "https://thales.wd3.myworkdayjobs.com/Careers/job/Ottawa/Research-and-Innovation-Intern_R0348073-1": {
+          "title": "Research and Innovation Intern",
+          "location": "Ottawa",
+          "country": "",
+          "first_seen": "2026-11-17",
+          "last_seen": "2026-11-17",
+          "missed_runs": 0
+        }
+      }
     },
     "Lockheed Martin Canada": {
       "failures": 0,
@@ -2569,7 +2578,7 @@
       }
     },
     "Bombardier": {
-      "failures": 2,
+      "failures": 3,
       "seen": {
         "https://jobs.bombardier.com/job/Intern%2C-Electromechanical-EWIS-Design-%28EWIS%29-%28Winter-2027%29/16010-en_US": {
           "title": "Intern, Electromechanical EWIS Design (EWIS) (Winter 2027)",
@@ -3744,7 +3753,15 @@
   },
   "last_heartbeat": "2026-11-17",
   "telegram_queue": [],
-  "email_queue": [],
+  "email_queue": [
+    {
+      "company": "Thales Canada",
+      "title": "Research and Innovation Intern",
+      "location": "Ottawa",
+      "country": "",
+      "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/Ottawa/Research-and-Innovation-Intern_R0348073-1"
+    }
+  ],
   "last_email_slot": "2026-11-17T08:30:00-05:00",
   "pending_alerts": []
 }
