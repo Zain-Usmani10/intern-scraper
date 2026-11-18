@@ -377,7 +377,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-18",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Ottawa-ON/Analog-Design-Intern_REQ3625": {
           "title": "Analog Design Intern",
@@ -401,7 +401,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-18",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Applications-Engineering-Intern_REQ3616": {
           "title": "Applications Engineering Intern",
@@ -881,14 +881,6 @@
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-18",
           "missed_runs": 0
-        },
-        "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Varennes-Quebec-Canada/Stagiaire---Charg-de-projet-manufacturier--Profil---mcanique---Intern---Project-Engineer---Industrial--Profile--mechanical-_R0148375": {
-          "title": "Stagiaire – Chargé de projet manufacturier (Profil : mécanique)/ Intern - Project Engineer - Industrial (Profile: mechanical)",
-          "location": "Varennes, Quebec, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-18",
-          "missed_runs": 3
         },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Varennes-Quebec-Canada/Stagiaire-en-Gnie-Manufacturier-Manufacturing-Engineering-Intern_R0148373": {
           "title": "Stagiaire en Génie Manufacturier/Manufacturing Engineering Intern",
@@ -1432,7 +1424,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-18",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Ottawa/Product-Engineering--Prod-Dev--Intern_R267447": {
           "title": "Product Engineering (Prod Dev) Intern",
@@ -1952,14 +1944,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-18",
           "missed_runs": 0
-        },
-        "https://careers.celestica.com/job/Newmarket-Student-Intern%2C-Test-Development-ON/1439151233": {
-          "title": "Student Intern, Test Development",
-          "location": "",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-18",
-          "missed_runs": 3
         },
         "https://careers.celestica.com/job/Newmarket-Student-Intern%2C-Materials-Engineering-Lab-ON/1439146033": {
           "title": "Student Intern, Materials Engineering Lab",
