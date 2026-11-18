@@ -369,7 +369,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-18",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/R-D-Lab-Coordinator-Intern_REQ3626": {
           "title": "R&D Lab Coordinator Intern",
@@ -377,7 +377,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-18",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Ottawa-ON/Analog-Design-Intern_REQ3625": {
           "title": "Analog Design Intern",
@@ -401,7 +401,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-18",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Applications-Engineering-Intern_REQ3616": {
           "title": "Applications Engineering Intern",
@@ -1418,14 +1418,6 @@
     "Analog Devices": {
       "failures": 0,
       "seen": {
-        "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Analog-Design-Engineering-Intern_R266614": {
-          "title": "Analog Design Engineering Intern",
-          "location": "Canada, Toronto",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-18",
-          "missed_runs": 3
-        },
         "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Ottawa/Product-Engineering--Prod-Dev--Intern_R267447": {
           "title": "Product Engineering (Prod Dev) Intern",
           "location": "Canada, Ottawa",
@@ -3576,15 +3568,7 @@
   },
   "last_heartbeat": "2026-11-18",
   "telegram_queue": [],
-  "email_queue": [
-    {
-      "company": "Qualcomm",
-      "title": "FY27 Intern - GPU Compiler Development Internship - Canada (4 months)",
-      "location": "Markham, ON, Canada",
-      "country": "Canada",
-      "url": "https://careers.qualcomm.com/careers/job/446722198182"
-    }
-  ],
-  "last_email_slot": "2026-11-18T08:30:00-05:00",
+  "email_queue": [],
+  "last_email_slot": "2026-11-18T16:30:00-05:00",
   "pending_alerts": []
 }
