@@ -266,6 +266,14 @@
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-18",
           "missed_runs": 0
+        },
+        "https://careers.qualcomm.com/careers/job/446722198182": {
+          "title": "FY27 Intern - GPU Compiler Development Internship - Canada (4 months)",
+          "location": "Markham, ON, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-18",
+          "last_seen": "2026-11-18",
+          "missed_runs": 0
         }
       }
     },
@@ -880,7 +888,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-18",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Varennes-Quebec-Canada/Stagiaire-en-Gnie-Manufacturier-Manufacturing-Engineering-Intern_R0148373": {
           "title": "Stagiaire en Génie Manufacturier/Manufacturing Engineering Intern",
@@ -1424,7 +1432,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-18",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Ottawa/Product-Engineering--Prod-Dev--Intern_R267447": {
           "title": "Product Engineering (Prod Dev) Intern",
@@ -1704,7 +1712,8 @@
           "last_seen": "2026-11-18",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "Linamar": {
       "failures": 0,
@@ -1951,7 +1960,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-18",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.celestica.com/job/Newmarket-Student-Intern%2C-Materials-Engineering-Lab-ON/1439146033": {
           "title": "Student Intern, Materials Engineering Lab",
@@ -2186,14 +2195,6 @@
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-18",
           "missed_runs": 0
-        },
-        "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Quebec-Quebec-Canada/Internship---Technical-Mechanical-Engineering--Design-_JR00052344": {
-          "title": "Internship – Technical Mechanical Engineering (Design)",
-          "location": "Quebec, Quebec, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-18",
-          "last_seen": "2026-11-18",
-          "missed_runs": 3
         }
       }
     },
@@ -2386,7 +2387,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-18",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=67af442f-ca28-47b2-b86b-eaa3d5192fe0": {
           "title": "Engineering Student - Python Test Data Processing - Winter 2027",
@@ -3600,7 +3601,15 @@
   },
   "last_heartbeat": "2026-11-18",
   "telegram_queue": [],
-  "email_queue": [],
+  "email_queue": [
+    {
+      "company": "Qualcomm",
+      "title": "FY27 Intern - GPU Compiler Development Internship - Canada (4 months)",
+      "location": "Markham, ON, Canada",
+      "country": "Canada",
+      "url": "https://careers.qualcomm.com/careers/job/446722198182"
+    }
+  ],
   "last_email_slot": "2026-11-18T08:30:00-05:00",
   "pending_alerts": []
 }
