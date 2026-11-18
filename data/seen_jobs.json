@@ -888,7 +888,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-18",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Varennes-Quebec-Canada/Stagiaire-en-Gnie-Manufacturier-Manufacturing-Engineering-Intern_R0148373": {
           "title": "Stagiaire en Génie Manufacturier/Manufacturing Engineering Intern",
@@ -1432,7 +1432,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-18",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://analogdevices.wd1.myworkdayjobs.com/External/job/Canada-Ottawa/Product-Engineering--Prod-Dev--Intern_R267447": {
           "title": "Product Engineering (Prod Dev) Intern",
@@ -1712,8 +1712,7 @@
           "last_seen": "2026-11-18",
           "missed_runs": 0
         }
-      },
-      "broken_runs": 1
+      }
     },
     "Linamar": {
       "failures": 0,
@@ -1960,7 +1959,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-18",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.celestica.com/job/Newmarket-Student-Intern%2C-Materials-Engineering-Lab-ON/1439146033": {
           "title": "Student Intern, Materials Engineering Lab",
@@ -2380,14 +2379,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-18",
           "missed_runs": 0
-        },
-        "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=10498d90-e2f3-4e06-a86a-65fc0aae1fff": {
-          "title": "Engineering Student - PCB Design and Electronic Integration - Winter 2027",
-          "location": "Sainte-Anne-de-Bellevue, Quebec, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-18",
-          "missed_runs": 3
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=67af442f-ca28-47b2-b86b-eaa3d5192fe0": {
           "title": "Engineering Student - Python Test Data Processing - Winter 2027",
