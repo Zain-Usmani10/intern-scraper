@@ -418,6 +418,14 @@
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-19",
           "missed_runs": 0
+        },
+        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Product-Engineering-Intern_REQ3668-1": {
+          "title": "Product Engineering Intern",
+          "location": "CAN - Burlington, ON",
+          "country": "Canada",
+          "first_seen": "2026-11-19",
+          "last_seen": "2026-11-19",
+          "missed_runs": 0
         }
       }
     },
@@ -808,7 +816,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-19",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/AI-Intern--Supply-Chain--Winter-2027--12months-_R0145043": {
           "title": "AI Intern, Supply Chain (Winter 2027, 12months)",
@@ -970,14 +978,6 @@
           "last_seen": "2026-11-19",
           "missed_runs": 0
         },
-        "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/DevOps-Analyst-Intern_R0145523": {
-          "title": "DevOps Analyst Intern",
-          "location": "Toronto, Ontario, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-10",
-          "last_seen": "2026-11-19",
-          "missed_runs": 3
-        },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Burnaby-British-Columbia-Canada/Signalling-Design-Intern--Winter-2027-_R0146876": {
           "title": "Signalling Design Intern (Winter 2027)",
           "location": "Burnaby, British Columbia, Canada",
@@ -1106,7 +1106,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-19",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
@@ -1651,7 +1651,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     },
@@ -2181,8 +2181,7 @@
           "last_seen": "2026-11-19",
           "missed_runs": 0
         }
-      },
-      "broken_runs": 1
+      }
     },
     "Thales Canada": {
       "failures": 0,
@@ -2195,7 +2194,8 @@
           "last_seen": "2026-11-19",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "Lockheed Martin Canada": {
       "failures": 0,
@@ -2610,7 +2610,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern-Business-Management-Aircraft-Health-Management-Systems-%28AHMS%29-%28Winter-2027%29/16134-en_US": {
           "title": "Intern- Business Management - Aircraft Health Management Systems (AHMS) (Winter 2027)",
@@ -2618,7 +2618,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Business-Analyst-Customer-Support-in-Fleet-Operation-%28Winter-2027%29/16110-en_US": {
           "title": "Intern, Business Analyst - Customer Support in Fleet Operation (Winter 2027)",
@@ -2626,7 +2626,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Research-&amp;-Technology-Aircraft-system-architecture-%28Winter-2027%29/16086-en_US": {
           "title": "Intern, Research & Technology - Aircraft system architecture (Winter 2027)",
@@ -2642,7 +2642,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Defense-Transformation-%28Winter-2027%29/16102-en_US": {
           "title": "Intern, Defense Transformation (Winter 2027)",
@@ -2722,7 +2722,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Software-Developer-%28Winter-2027%29/16151-en_US": {
           "title": "Intern, Software Developer (Winter 2027)",
@@ -2738,7 +2738,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Sales-Engineering-Business-Aviation-%28Winter-2027%29/15888-en_US": {
           "title": "Intern, Sales Engineering - Business Aviation (Winter 2027)",
@@ -2780,14 +2780,6 @@
           "last_seen": "2026-11-19",
           "missed_runs": 0
         },
-        "https://jobs.bombardier.com/job/Intern%2C-Finance-Business-partner-Toronto-%28Winter-2027%29/16085-en_US": {
-          "title": "Intern, Finance Business partner Toronto (Winter 2027)",
-          "location": "Mississauga, ON, CAN, L5S 1W1",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-19",
-          "missed_runs": 3
-        },
         "https://jobs.bombardier.com/job/Intern%2C-PMO-Project-Coordinator-%28Winter-2027%29/16117-en_US": {
           "title": "Intern, PMO Project Coordinator (Winter 2027)",
           "location": "St-Laurent, QC, CAN,",
@@ -2818,7 +2810,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Continuous-Improvement-%28Winter-2027%29/16148-en_US": {
           "title": "Intern, Continuous Improvement (Winter 2027)",
@@ -3050,7 +3042,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Manufacturing-Engineering-%28Winter-2027%29/15953-en_US": {
           "title": "Intern, Manufacturing Engineering (Winter 2027)",
@@ -3298,14 +3290,6 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 2
-        },
-        "https://jobs.bombardier.com/job/Intern%2C-Talent-Acquisition-%28Winter-2027%29/15769-en_US": {
-          "title": "Intern, Talent Acquisition (Winter 2027)",
-          "location": "Dorval, QC, CAN, H4S 1Y9",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-19",
           "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-MDO-Tools-Development-%28Winter-2027%29/15372-en_US": {
@@ -3418,7 +3402,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Research-&amp;-Technology-EcoJet-Project-Engineering-Management-%28Winter-2027%29/15536-en_US": {
           "title": "Intern, Research & Technology - EcoJet Project Engineering Management (Winter 2027)",
@@ -3450,7 +3434,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Hydromechanical-systems-%28Winter-2027%29/15210-en_US": {
           "title": "Intern, Hydromechanical systems (Winter 2027)",
@@ -3527,6 +3511,13 @@
       "location": "Dorval, QC, CAN, H4S 1Y9",
       "country": "Canada",
       "url": "https://jobs.bombardier.com/job/Intern%2C-Project-Coordination-and-Tool-Development%2C-Engineering-Strategy-%28Winter-2027%29/15907-en_US"
+    },
+    {
+      "company": "Semtech",
+      "title": "Product Engineering Intern",
+      "location": "CAN - Burlington, ON",
+      "country": "Canada",
+      "url": "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Product-Engineering-Intern_REQ3668-1"
     }
   ],
   "last_email_slot": "2026-11-19T08:30:00-05:00",
