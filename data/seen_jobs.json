@@ -976,7 +976,7 @@
           "country": "Canada",
           "first_seen": "2026-11-10",
           "last_seen": "2026-11-19",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Burnaby-British-Columbia-Canada/Signalling-Design-Intern--Winter-2027-_R0146876": {
           "title": "Signalling Design Intern (Winter 2027)",
@@ -994,8 +994,7 @@
           "last_seen": "2026-11-19",
           "missed_runs": 0
         }
-      },
-      "broken_runs": 1
+      }
     },
     "Skyworks": {
       "failures": 0,
@@ -1691,7 +1690,8 @@
           "last_seen": "2026-11-19",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "Avidbots": {
       "failures": 0,
@@ -2275,7 +2275,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=ea57438a-cb1d-44e0-96a0-b9d680cf5e7b": {
           "title": "Engineering Student, Systems Design (Project Engineering) - Winter 2027",
@@ -2794,7 +2794,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-PMO-Project-Coordinator-%28Winter-2027%29/16117-en_US": {
           "title": "Intern, PMO Project Coordinator (Winter 2027)",
@@ -3314,7 +3314,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-MDO-Tools-Development-%28Winter-2027%29/15372-en_US": {
           "title": "Intern, MDO Tools Development (Winter 2027)",
