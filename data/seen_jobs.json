@@ -1,7 +1,7 @@
 {
   "companies": {
     "Qualcomm": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://careers.qualcomm.com/careers/job/446721862429": {
           "title": "FY27 Intern - AI Software Engineering Co-op - Canada (4 months)",
@@ -369,7 +369,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-18",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/R-D-Lab-Coordinator-Intern_REQ3626": {
           "title": "R&D Lab Coordinator Intern",
@@ -377,7 +377,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-18",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Ottawa-ON/Analog-Design-Intern_REQ3625": {
           "title": "Analog Design Intern",
@@ -401,7 +401,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-18",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Applications-Engineering-Intern_REQ3616": {
           "title": "Applications Engineering Intern",
@@ -1373,7 +1373,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-18",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://aptiv.wd5.myworkdayjobs.com/APTIV_CAREERS/job/CAN-Kanata-2-ON---WR/Engineering-Intern_J000693018": {
           "title": "Engineering Intern",
@@ -1386,7 +1386,7 @@
       }
     },
     "Microchip": {
-      "failures": 0,
+      "failures": 1,
       "seen": {}
     },
     "Synopsys": {
@@ -1493,7 +1493,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-18",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Vancouver-Canada/Analog-Engineer-Intern---PhD_2502424-1": {
           "title": "Analog Engineer Intern - PhD",
@@ -1501,7 +1501,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-18",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Toronto-Canada/Analog-Engineer-Intern---PhD_2502426-1": {
           "title": "Analog Engineer Intern - PhD",
@@ -1509,7 +1509,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-18",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Analog-Engineer-Intern---PhD_2502430-1": {
           "title": "Analog Engineer Intern - PhD",
@@ -1517,7 +1517,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-18",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Data-Center-Silicon-Hardware-Engineering-Intern---BS---2027-Co-Op_2604525": {
           "title": "Data Center Silicon Hardware Engineering Intern - BS - 2027 Co-Op",
