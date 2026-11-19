@@ -994,7 +994,8 @@
           "last_seen": "2026-11-19",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "Skyworks": {
       "failures": 0,
@@ -1640,8 +1641,7 @@
           "last_seen": "2026-11-19",
           "missed_runs": 0
         }
-      },
-      "broken_runs": 1
+      }
     },
     "Linamar": {
       "failures": 0,
@@ -2275,7 +2275,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=ea57438a-cb1d-44e0-96a0-b9d680cf5e7b": {
           "title": "Engineering Student, Systems Design (Project Engineering) - Winter 2027",
