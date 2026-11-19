@@ -286,7 +286,7 @@
       "seen": {}
     },
     "NVIDIA": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/ASIC-Verification-Intern---Summer-2027_JR2027982": {
           "title": "ASIC Verification Intern - Summer 2027",
@@ -976,7 +976,7 @@
           "country": "Canada",
           "first_seen": "2026-11-10",
           "last_seen": "2026-11-19",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Burnaby-British-Columbia-Canada/Signalling-Design-Intern--Winter-2027-_R0146876": {
           "title": "Signalling Design Intern (Winter 2027)",
@@ -1106,7 +1106,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-19",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -2181,7 +2181,8 @@
           "last_seen": "2026-11-19",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "Thales Canada": {
       "failures": 0,
@@ -2609,7 +2610,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern-Business-Management-Aircraft-Health-Management-Systems-%28AHMS%29-%28Winter-2027%29/16134-en_US": {
           "title": "Intern- Business Management - Aircraft Health Management Systems (AHMS) (Winter 2027)",
@@ -2617,7 +2618,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Business-Analyst-Customer-Support-in-Fleet-Operation-%28Winter-2027%29/16110-en_US": {
           "title": "Intern, Business Analyst - Customer Support in Fleet Operation (Winter 2027)",
@@ -2625,7 +2626,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Research-&amp;-Technology-Aircraft-system-architecture-%28Winter-2027%29/16086-en_US": {
           "title": "Intern, Research & Technology - Aircraft system architecture (Winter 2027)",
@@ -2641,7 +2642,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Defense-Transformation-%28Winter-2027%29/16102-en_US": {
           "title": "Intern, Defense Transformation (Winter 2027)",
@@ -2721,7 +2722,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Software-Developer-%28Winter-2027%29/16151-en_US": {
           "title": "Intern, Software Developer (Winter 2027)",
@@ -2737,7 +2738,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Sales-Engineering-Business-Aviation-%28Winter-2027%29/15888-en_US": {
           "title": "Intern, Sales Engineering - Business Aviation (Winter 2027)",
@@ -2785,7 +2786,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-PMO-Project-Coordinator-%28Winter-2027%29/16117-en_US": {
           "title": "Intern, PMO Project Coordinator (Winter 2027)",
@@ -2817,7 +2818,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Continuous-Improvement-%28Winter-2027%29/16148-en_US": {
           "title": "Intern, Continuous Improvement (Winter 2027)",
@@ -3049,7 +3050,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Manufacturing-Engineering-%28Winter-2027%29/15953-en_US": {
           "title": "Intern, Manufacturing Engineering (Winter 2027)",
@@ -3297,7 +3298,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Talent-Acquisition-%28Winter-2027%29/15769-en_US": {
           "title": "Intern, Talent Acquisition (Winter 2027)",
@@ -3305,7 +3306,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-MDO-Tools-Development-%28Winter-2027%29/15372-en_US": {
           "title": "Intern, MDO Tools Development (Winter 2027)",
@@ -3417,7 +3418,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Research-&amp;-Technology-EcoJet-Project-Engineering-Management-%28Winter-2027%29/15536-en_US": {
           "title": "Intern, Research & Technology - EcoJet Project Engineering Management (Winter 2027)",
@@ -3449,7 +3450,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Hydromechanical-systems-%28Winter-2027%29/15210-en_US": {
           "title": "Intern, Hydromechanical systems (Winter 2027)",
