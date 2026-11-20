@@ -105,7 +105,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-20",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.qualcomm.com/careers/job/446721678727": {
           "title": "FY27 Intern - Camera Design Implementation Intern - Canada (16 months)",
@@ -137,7 +137,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-20",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.qualcomm.com/careers/job/446721661830": {
           "title": "FY27 Intern - Edge AI and Display Hardware Architecture Development Engineering Internship - Canada (16 months)",
@@ -209,7 +209,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-20",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.qualcomm.com/careers/job/446721972361": {
           "title": "FY27 Intern - Display IP FPGA Emulation Intern - Canada (4 months)",
@@ -1169,7 +1169,8 @@
           "last_seen": "2026-11-20",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "Aptiv": {
       "failures": 0,
@@ -1705,7 +1706,7 @@
           "country": "Canada",
           "first_seen": "2026-11-20",
           "last_seen": "2026-11-20",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     },
@@ -1911,7 +1912,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-20",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.celestica.com/job/Toronto-Student-Intern%2C-SCM-Data-Scientist-ON/1442072133": {
           "title": "Student Intern, SCM Data Scientist",
@@ -2115,7 +2116,8 @@
           "last_seen": "2026-11-20",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "CAE": {
       "failures": 0,
@@ -2155,7 +2157,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-20",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-NS-HALIFAX-PLANT-41--189-Pratt--Whitney-Dr--PLANT-41/Internship-Spring-2027---Mechanical-Engineering-Technology--CNC--or-Precision-Machining-Student_01883260": {
           "title": "Internship Spring 2027 - Mechanical Engineering Technology, CNC, or Precision Machining Student",
@@ -2179,7 +2181,7 @@
           "country": "Canada",
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-20",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
