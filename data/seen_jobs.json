@@ -123,14 +123,6 @@
           "last_seen": "2026-11-20",
           "missed_runs": 0
         },
-        "https://careers.qualcomm.com/careers/job/446721661677": {
-          "title": "FY27 Intern - Display Systems Engineering Internship - Canada (16 months)",
-          "location": "Markham, ON, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-03",
-          "last_seen": "2026-11-20",
-          "missed_runs": 3
-        },
         "https://careers.qualcomm.com/careers/job/446721661830": {
           "title": "FY27 Intern - Edge AI and Display Hardware Architecture Development Engineering Internship - Canada (16 months)",
           "location": "Markham, ON, Canada",
@@ -1689,7 +1681,7 @@
           "country": "Canada",
           "first_seen": "2026-11-20",
           "last_seen": "2026-11-20",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
@@ -2065,7 +2057,7 @@
           "country": "Canada",
           "first_seen": "2026-11-10",
           "last_seen": "2026-11-20",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Dorval-Quebec-Canada/Trade-Compliance-Intern-Winter-2027_JR00052505": {
           "title": "Trade Compliance Intern-Winter 2027",
@@ -2139,7 +2131,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-20",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-NS-HALIFAX-PLANT-41--189-Pratt--Whitney-Dr--PLANT-41/Internship-Spring-2027---Mechanical-Engineering-Technology--CNC--or-Precision-Machining-Student_01883260": {
           "title": "Internship Spring 2027 - Mechanical Engineering Technology, CNC, or Precision Machining Student",
@@ -3384,36 +3376,7 @@
   },
   "last_heartbeat": "2026-11-20",
   "telegram_queue": [],
-  "email_queue": [
-    {
-      "company": "ecobee",
-      "title": "Intern Hardware",
-      "location": "Toronto, Canada",
-      "country": "Canada",
-      "url": "https://generac.wd5.myworkdayjobs.com/External/job/Toronto-Canada/Intern-Hardware_JR17325"
-    },
-    {
-      "company": "Skyworks",
-      "title": "RF & Semiconductor Test Engineering Co-Op (8-12 Months)",
-      "location": "",
-      "country": "Canada",
-      "url": "https://careers.skyworksinc.com/job/RF-&amp;-Semiconductor-Test-Engineering-Co-Op-%288-12-Months%29/78405-en_US"
-    },
-    {
-      "company": "Thales Canada",
-      "title": "Member of Technical Staff- Intern",
-      "location": "Ottawa",
-      "country": "",
-      "url": "https://thales.wd3.myworkdayjobs.com/Careers/job/Ottawa/Member-of-Technical-Staff--Intern_R0348683-2"
-    },
-    {
-      "company": "ABB",
-      "title": "Quality Intern - Winter 2027",
-      "location": "Saint-Laurent, Quebec, Canada",
-      "country": "Canada",
-      "url": "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Saint-Laurent-Quebec-Canada/Quality-Intern---Winter-2027_JR00054235"
-    }
-  ],
-  "last_email_slot": "2026-11-20T08:30:00-05:00",
+  "email_queue": [],
+  "last_email_slot": "2026-11-20T16:30:00-05:00",
   "pending_alerts": []
 }
