@@ -418,14 +418,6 @@
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-20",
           "missed_runs": 0
-        },
-        "https://semtech.wd1.myworkdayjobs.com/SemtechCareers/job/CAN---Burlington-ON/Product-Engineering-Intern_REQ3668-1": {
-          "title": "Product Engineering Intern",
-          "location": "CAN - Burlington, ON",
-          "country": "Canada",
-          "first_seen": "2026-11-19",
-          "last_seen": "2026-11-19",
-          "missed_runs": 3
         }
       }
     },
@@ -659,7 +651,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-19",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.l3harris.com/en/job/waterdown/operations-test-engineering-mechanical-tooling-co-op-waterdown-can/4832/101356263296": {
           "title": "Operations Test Engineering, Mechanical Tooling Co-Op (Waterdown, CAN)",
@@ -1114,7 +1106,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-19",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/IP-Design-PEY-Intern_R03341": {
           "title": "IP Design PEY Intern",
@@ -1822,7 +1814,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Buying-and-Planning-Data-Analytics-ON/1454452933": {
           "title": "Student Intern, Buying and Planning Data Analytics",
@@ -1830,7 +1822,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Supply-Chain-Management-Strategic-Sourcing-Value-Creation-ON/1454907033": {
           "title": "Student Intern, Supply Chain Management | Strategic Sourcing | Value Creation",
@@ -1982,7 +1974,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.celestica.com/job/Toronto-Student-Intern%2C-IT-Business-Application-Development-ON/1455777233": {
           "title": "Student Intern, IT Business Application Development",
@@ -2062,7 +2054,7 @@
           "country": "Canada",
           "first_seen": "2026-11-19",
           "last_seen": "2026-11-19",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -2233,7 +2225,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=e40bbead-0940-4adb-9ae8-2b3d4d3d6874": {
           "title": "Engineering Student - FPGA Verification - Winter 2027",
@@ -2281,7 +2273,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=4620a5ce-7260-4d2c-bb1a-d6beff72610e": {
           "title": "Engineering Student - Electronics Production and AI&T - Winter 2027",
@@ -3423,29 +3415,7 @@
   },
   "last_heartbeat": "2026-11-20",
   "telegram_queue": [],
-  "email_queue": [
-    {
-      "company": "Altera",
-      "title": "FPGA Software Engineer Intern",
-      "location": "Toronto, Ontario, Canada",
-      "country": "Canada",
-      "url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/FPGA-Software-Engineer-Intern_R03445"
-    },
-    {
-      "company": "Linamar",
-      "title": "Apprentice - Millwright",
-      "location": "Guelph, ON, Canada",
-      "country": "Canada",
-      "url": "https://fa-epmd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/14857"
-    },
-    {
-      "company": "L3Harris",
-      "title": "Intern, Systems Engineering",
-      "location": "Ottawa, Ontario",
-      "country": "Canada",
-      "url": "https://careers.l3harris.com/en/job/ottawa/intern-systems-engineering/4832/102173096672"
-    }
-  ],
-  "last_email_slot": "2026-11-19T16:30:00-05:00",
+  "email_queue": [],
+  "last_email_slot": "2026-11-20T08:30:00-05:00",
   "pending_alerts": []
 }
