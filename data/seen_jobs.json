@@ -105,7 +105,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-20",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.qualcomm.com/careers/job/446721678727": {
           "title": "FY27 Intern - Camera Design Implementation Intern - Canada (16 months)",
@@ -137,7 +137,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-20",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.qualcomm.com/careers/job/446721661830": {
           "title": "FY27 Intern - Edge AI and Display Hardware Architecture Development Engineering Internship - Canada (16 months)",
@@ -209,7 +209,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-20",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.qualcomm.com/careers/job/446721972361": {
           "title": "FY27 Intern - Display IP FPGA Emulation Intern - Canada (4 months)",
@@ -1911,7 +1911,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-20",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.celestica.com/job/Toronto-Student-Intern%2C-SCM-Data-Scientist-ON/1442072133": {
           "title": "Student Intern, SCM Data Scientist",
@@ -2179,7 +2179,7 @@
           "country": "Canada",
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-20",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -2202,8 +2202,7 @@
           "last_seen": "2026-11-20",
           "missed_runs": 0
         }
-      },
-      "broken_runs": 3
+      }
     },
     "Lockheed Martin Canada": {
       "failures": 0,
