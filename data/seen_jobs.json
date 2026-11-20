@@ -651,7 +651,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-19",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.l3harris.com/en/job/waterdown/operations-test-engineering-mechanical-tooling-co-op-waterdown-can/4832/101356263296": {
           "title": "Operations Test Engineering, Mechanical Tooling Co-Op (Waterdown, CAN)",
@@ -1100,14 +1100,6 @@
     "Altera": {
       "failures": 0,
       "seen": {
-        "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/Software-Engineer---Factory-Apps---Intern_R03384": {
-          "title": "Software Engineer - Factory Apps - Intern",
-          "location": "Toronto, Ontario, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-19",
-          "missed_runs": 3
-        },
         "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/IP-Design-PEY-Intern_R03341": {
           "title": "IP Design PEY Intern",
           "location": "Toronto, Ontario, Canada",
@@ -1814,7 +1806,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Buying-and-Planning-Data-Analytics-ON/1454452933": {
           "title": "Student Intern, Buying and Planning Data Analytics",
@@ -1822,7 +1814,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Supply-Chain-Management-Strategic-Sourcing-Value-Creation-ON/1454907033": {
           "title": "Student Intern, Supply Chain Management | Strategic Sourcing | Value Creation",
@@ -1974,7 +1966,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.celestica.com/job/Toronto-Student-Intern%2C-IT-Business-Application-Development-ON/1455777233": {
           "title": "Student Intern, IT Business Application Development",
@@ -2054,7 +2046,7 @@
           "country": "Canada",
           "first_seen": "2026-11-19",
           "last_seen": "2026-11-19",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
@@ -2219,14 +2211,6 @@
     "MDA Space": {
       "failures": 0,
       "seen": {
-        "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=22619eb6-89ca-40d4-8484-4ac004b4932d": {
-          "title": "Engineering Student, Mechanical - Winter 2027 - 4-12 months",
-          "location": "Brampton, Ontario, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-19",
-          "missed_runs": 3
-        },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=e40bbead-0940-4adb-9ae8-2b3d4d3d6874": {
           "title": "Engineering Student - FPGA Verification - Winter 2027",
           "location": "Sainte-Anne-de-Bellevue, Quebec, Canada",
@@ -2266,14 +2250,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-20",
           "missed_runs": 0
-        },
-        "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=ea57438a-cb1d-44e0-96a0-b9d680cf5e7b": {
-          "title": "Engineering Student, Systems Design (Project Engineering) - Winter 2027",
-          "location": "Brampton, Ontario, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-19",
-          "missed_runs": 3
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=4620a5ce-7260-4d2c-bb1a-d6beff72610e": {
           "title": "Engineering Student - Electronics Production and AI&T - Winter 2027",
