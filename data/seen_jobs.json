@@ -425,7 +425,7 @@
           "country": "Canada",
           "first_seen": "2026-11-19",
           "last_seen": "2026-11-19",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -810,14 +810,6 @@
           "last_seen": "2026-11-19",
           "missed_runs": 0
         },
-        "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Software-Analyst-Intern--Fall-2026--8-months-_R0148741": {
-          "title": "Software Analyst Intern (Winter 2027, 8 months)",
-          "location": "Toronto, Ontario, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-19",
-          "missed_runs": 3
-        },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/AI-Intern--Supply-Chain--Winter-2027--12months-_R0145043": {
           "title": "AI Intern, Supply Chain (Winter 2027, 12months)",
           "location": "Toronto, Ontario, Canada",
@@ -1114,7 +1106,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-19",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/IP-Design-PEY-Intern_R03341": {
           "title": "IP Design PEY Intern",
@@ -1152,6 +1144,14 @@
           "title": "CAD Support - Student",
           "location": "TLV",
           "country": "",
+          "first_seen": "2026-11-19",
+          "last_seen": "2026-11-19",
+          "missed_runs": 0
+        },
+        "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/FPGA-Software-Engineer-Intern_R03445": {
+          "title": "FPGA Software Engineer Intern",
+          "location": "Toronto, Ontario, Canada",
+          "country": "Canada",
           "first_seen": "2026-11-19",
           "last_seen": "2026-11-19",
           "missed_runs": 0
@@ -1636,13 +1636,13 @@
     "Linamar": {
       "failures": 0,
       "seen": {
-        "https://fa-epmd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/14493": {
-          "title": "Articling Student",
+        "https://fa-epmd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/14857": {
+          "title": "Apprentice - Millwright",
           "location": "Guelph, ON, Canada",
           "country": "Canada",
-          "first_seen": "2026-11-05",
+          "first_seen": "2026-11-19",
           "last_seen": "2026-11-19",
-          "missed_runs": 3
+          "missed_runs": 0
         }
       }
     },
@@ -2225,7 +2225,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=e40bbead-0940-4adb-9ae8-2b3d4d3d6874": {
           "title": "Engineering Student - FPGA Verification - Winter 2027",
@@ -2273,7 +2273,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-19",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=4620a5ce-7260-4d2c-bb1a-d6beff72610e": {
           "title": "Engineering Student - Electronics Production and AI&T - Winter 2027",
@@ -3415,7 +3415,22 @@
   },
   "last_heartbeat": "2026-11-19",
   "telegram_queue": [],
-  "email_queue": [],
+  "email_queue": [
+    {
+      "company": "Altera",
+      "title": "FPGA Software Engineer Intern",
+      "location": "Toronto, Ontario, Canada",
+      "country": "Canada",
+      "url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/FPGA-Software-Engineer-Intern_R03445"
+    },
+    {
+      "company": "Linamar",
+      "title": "Apprentice - Millwright",
+      "location": "Guelph, ON, Canada",
+      "country": "Canada",
+      "url": "https://fa-epmd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/14857"
+    }
+  ],
   "last_email_slot": "2026-11-19T16:30:00-05:00",
   "pending_alerts": []
 }
