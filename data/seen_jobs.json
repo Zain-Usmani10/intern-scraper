@@ -1674,16 +1674,7 @@
     },
     "ecobee": {
       "failures": 0,
-      "seen": {
-        "https://generac.wd5.myworkdayjobs.com/External/job/Toronto-Canada/Intern-Hardware_JR17325": {
-          "title": "Intern Hardware",
-          "location": "Toronto, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-20",
-          "last_seen": "2026-11-20",
-          "missed_runs": 3
-        }
-      }
+      "seen": {}
     },
     "D-Wave": {
       "failures": 0,
@@ -2057,7 +2048,7 @@
           "country": "Canada",
           "first_seen": "2026-11-10",
           "last_seen": "2026-11-20",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Dorval-Quebec-Canada/Trade-Compliance-Intern-Winter-2027_JR00052505": {
           "title": "Trade Compliance Intern-Winter 2027",
@@ -2125,14 +2116,6 @@
     "Pratt & Whitney Canada": {
       "failures": 0,
       "seen": {
-        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-SAINT-HUBERT-H05--7007-Chemin-De-La-Savane--BLDG-H05-FACTORY/Stage---Hiver-2027---Spcialiste-Qualit---Internship---Winter-2027---Quality-Specialist_01874468": {
-          "title": "Stage - Hiver 2027 - Spécialiste Qualité / Internship - Winter 2027 - Quality Specialist",
-          "location": "CA-QC-SAINT HUBERT-H05 ~ 7007 Chemin De La Savane ~ BLDG H05 FACTORY",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-20",
-          "missed_runs": 3
-        },
         "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-NS-HALIFAX-PLANT-41--189-Pratt--Whitney-Dr--PLANT-41/Internship-Spring-2027---Mechanical-Engineering-Technology--CNC--or-Precision-Machining-Student_01883260": {
           "title": "Internship Spring 2027 - Mechanical Engineering Technology, CNC, or Precision Machining Student",
           "location": "CA-NS-HALIFAX-PLANT 41 ~ 189 Pratt & Whitney Dr ~ PLANT 41",
