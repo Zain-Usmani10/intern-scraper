@@ -2275,22 +2275,6 @@
           "last_seen": "2026-11-23",
           "missed_runs": 0
         },
-        "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=7bdbb72d-684a-4d8d-81c5-150519fd548c": {
-          "title": "Engineering Student - Structural Analysis - Winter 2027",
-          "location": "Sainte-Anne-de-Bellevue, Quebec, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-23",
-          "missed_runs": 3
-        },
-        "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=accf9951-7929-48e7-b6df-50721fe24857": {
-          "title": "Engineering Student - Materials & Processes - Winter 2027",
-          "location": "Sainte-Anne-de-Bellevue, Quebec, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-23",
-          "missed_runs": 3
-        },
         "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=a76fc83c-7852-43cf-a5c7-1951f9b04cf4": {
           "title": "Engineering student - Industrial Engineering - Winter 2027",
           "location": "Sainte-Anne-de-Bellevue, Quebec, Canada",
@@ -2411,7 +2395,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-23",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
