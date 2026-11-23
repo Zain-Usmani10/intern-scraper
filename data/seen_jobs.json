@@ -1090,7 +1090,7 @@
           "country": "Canada",
           "first_seen": "2026-11-09",
           "last_seen": "2026-11-23",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/Quartus-Compiler-Software---Intern_R03108": {
           "title": "Quartus Compiler Software - Intern",
@@ -1134,6 +1134,14 @@
           "location": "Canada, Toronto",
           "country": "Canada",
           "first_seen": "2026-11-04",
+          "last_seen": "2026-11-23",
+          "missed_runs": 0
+        },
+        "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535": {
+          "title": "Graphics Hardware Validation Undergraduate Engineering Intern",
+          "location": "Canada, Toronto",
+          "country": "Canada",
+          "first_seen": "2026-11-23",
           "last_seen": "2026-11-23",
           "missed_runs": 0
         }
@@ -3394,6 +3402,13 @@
       "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
       "country": "Canada",
       "url": "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Planificateur-de-production--Hiver-2027----Internship---Production-Planner-Winter-2027_01867333"
+    },
+    {
+      "company": "Intel",
+      "title": "Graphics Hardware Validation Undergraduate Engineering Intern",
+      "location": "Canada, Toronto",
+      "country": "Canada",
+      "url": "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535"
     }
   ],
   "last_email_slot": "2026-11-23T08:30:00-05:00",
