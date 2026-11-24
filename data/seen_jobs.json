@@ -177,7 +177,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-24",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.qualcomm.com/careers/job/446721972361": {
           "title": "FY27 Intern - Display IP FPGA Emulation Intern - Canada (4 months)",
@@ -1119,7 +1119,7 @@
       }
     },
     "Intel": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Compiler-Engineering-Graduate-Intern_JR0287933": {
           "title": "Compiler Engineering Graduate Intern",
@@ -2161,14 +2161,6 @@
     "Thales Canada": {
       "failures": 0,
       "seen": {
-        "https://thales.wd3.myworkdayjobs.com/Careers/job/Ottawa/Research-and-Innovation-Intern_R0348073-1": {
-          "title": "Research and Innovation Intern",
-          "location": "Ottawa",
-          "country": "",
-          "first_seen": "2026-11-17",
-          "last_seen": "2026-11-24",
-          "missed_runs": 3
-        },
         "https://thales.wd3.myworkdayjobs.com/Careers/job/Ottawa/Member-of-Technical-Staff--Intern_R0348683-2": {
           "title": "Member of Technical Staff- Intern",
           "location": "Ottawa",
@@ -2399,6 +2391,14 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-24",
           "missed_runs": 0
+        },
+        "https://jobs.smartrecruiters.com/GDMSI/744000163517369": {
+          "title": "Articling Student (In-House Legal Department) August 2027",
+          "location": "Ottawa, ON, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-24",
+          "last_seen": "2026-11-24",
+          "missed_runs": 0
         }
       }
     },
@@ -2427,7 +2427,15 @@
           "country": "Canada",
           "first_seen": "2026-11-24",
           "last_seen": "2026-11-24",
-          "missed_runs": 2
+          "missed_runs": 3
+        },
+        "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/162658": {
+          "title": "Intern Bachelors Field Service Technician (Ottowa, ON)",
+          "location": "Ottawa, ON, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-24",
+          "last_seen": "2026-11-24",
+          "missed_runs": 0
         }
       }
     },
@@ -2568,7 +2576,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-24",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Operations-%28Winter-2027%29/16150-en_US": {
           "title": "Intern, Operations (Winter 2027)",
@@ -2632,7 +2640,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-24",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Sales-Engineering-Business-Aviation-%28Winter-2027%29/15888-en_US": {
           "title": "Intern, Sales Engineering - Business Aviation (Winter 2027)",
@@ -2858,14 +2866,6 @@
           "last_seen": "2026-11-24",
           "missed_runs": 0
         },
-        "https://jobs.bombardier.com/job/Intern%2C-Manufacturing-support-Assembly-%28Winter%2C-2027%29/16089-en_US": {
-          "title": "Intern, Manufacturing support - Assembly (Winter, 2027)",
-          "location": "St-Laurent, QC, CAN, H4R 1K2",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-24",
-          "missed_runs": 3
-        },
         "https://jobs.bombardier.com/job/Intern%2C-Quality-Analyst-%28Winter-2027%29/16097-en_US": {
           "title": "Intern, Quality Analyst (Winter 2027)",
           "location": "Dorval, QC, CAN, H4S 1Y9",
@@ -2880,7 +2880,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-24",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Strategy-CAPEX-Project-%28Winter-2027%29/16061-en_US": {
           "title": "Intern, Strategy- CAPEX Project (Winter 2027)",
@@ -2920,7 +2920,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-24",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Manufacturing-Engineering-%28Winter-2027%29/15953-en_US": {
           "title": "Intern, Manufacturing Engineering (Winter 2027)",
@@ -2976,7 +2976,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-24",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Methods-%28Winter-2027%29/15639-en_US": {
           "title": "Intern, Methods (Winter 2027)",
@@ -3312,7 +3312,7 @@
           "country": "Canada",
           "first_seen": "2026-11-16",
           "last_seen": "2026-11-24",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Site-Services-%28Summer-2027%29/16657-en_US": {
           "title": "Intern, Site Services (Summer 2027)",
@@ -3379,6 +3379,20 @@
       "location": "Toronto, Ontario, Canada",
       "country": "Canada",
       "url": "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/Embedded-Solutions-Intern_R03512"
+    },
+    {
+      "company": "General Dynamics Mission Systems Canada",
+      "title": "Articling Student (In-House Legal Department) August 2027",
+      "location": "Ottawa, ON, Canada",
+      "country": "Canada",
+      "url": "https://jobs.smartrecruiters.com/GDMSI/744000163517369"
+    },
+    {
+      "company": "Honeywell",
+      "title": "Intern Bachelors Field Service Technician (Ottowa, ON)",
+      "location": "Ottawa, ON, Canada",
+      "country": "Canada",
+      "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/162658"
     }
   ],
   "last_email_slot": "2026-11-24T08:30:00-05:00",
