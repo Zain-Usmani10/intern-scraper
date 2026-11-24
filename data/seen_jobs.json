@@ -35,14 +35,6 @@
           "last_seen": "2026-11-24",
           "missed_runs": 0
         },
-        "https://careers.qualcomm.com/careers/job/446721913769": {
-          "title": "FY27 Intern - Design Verification Engineering Internship - Canada (16 months)",
-          "location": "Toronto, ON, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-03",
-          "last_seen": "2026-11-23",
-          "missed_runs": 3
-        },
         "https://careers.qualcomm.com/careers/job/446721874877": {
           "title": "FY27 Intern - High-Speed Electrical and Optical Systems Validation Co-Op - Canada (4 months)",
           "location": "Ottawa, ON, Canada",
@@ -1129,8 +1121,7 @@
           "last_seen": "2026-11-24",
           "missed_runs": 0
         }
-      },
-      "broken_runs": 2
+      }
     },
     "Aptiv": {
       "failures": 0,
@@ -2112,7 +2103,8 @@
           "last_seen": "2026-11-24",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "Pratt & Whitney Canada": {
       "failures": 0,
@@ -2152,7 +2144,7 @@
           "country": "",
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-24",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://thales.wd3.myworkdayjobs.com/Careers/job/Ottawa/Member-of-Technical-Staff--Intern_R0348683-2": {
           "title": "Member of Technical Staff- Intern",
@@ -2403,6 +2395,14 @@
           "location": "Markham, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-05",
+          "last_seen": "2026-11-24",
+          "missed_runs": 0
+        },
+        "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/160397": {
+          "title": "Intern Bachelors Field Service Tech (Mississauga | Oakville)",
+          "location": "Markham, ON, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-24",
           "last_seen": "2026-11-24",
           "missed_runs": 0
         }
@@ -2841,7 +2841,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-24",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Quality-Analyst-%28Winter-2027%29/16097-en_US": {
           "title": "Intern, Quality Analyst (Winter 2027)",
@@ -3328,7 +3328,15 @@
   },
   "last_heartbeat": "2026-11-24",
   "telegram_queue": [],
-  "email_queue": [],
+  "email_queue": [
+    {
+      "company": "Honeywell",
+      "title": "Intern Bachelors Field Service Tech (Mississauga | Oakville)",
+      "location": "Markham, ON, Canada",
+      "country": "Canada",
+      "url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/160397"
+    }
+  ],
   "last_email_slot": "2026-11-24T08:30:00-05:00",
   "pending_alerts": []
 }
