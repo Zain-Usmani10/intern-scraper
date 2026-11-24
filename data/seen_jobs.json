@@ -177,7 +177,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-24",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.qualcomm.com/careers/job/446721972361": {
           "title": "FY27 Intern - Display IP FPGA Emulation Intern - Canada (4 months)",
@@ -1615,7 +1615,8 @@
           "last_seen": "2026-11-24",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "Linamar": {
       "failures": 0,
@@ -2398,7 +2399,7 @@
           "country": "Canada",
           "first_seen": "2026-11-24",
           "last_seen": "2026-11-24",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     },
@@ -2632,7 +2633,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-24",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Continuous-Improvement-Agent-%28BOE%29-%28Winter-2027%29/16081-en_US": {
           "title": "Intern, Continuous Improvement Agent (BOE) (Winter 2027)",
@@ -2896,7 +2897,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-24",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Quality-Project-%28Winter-2027%29/16044-en_US": {
           "title": "Intern, Quality Project (Winter 2027)",
@@ -3056,7 +3057,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-24",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Manufacturing-Engineering%2C-Reliability-%28Winter-2027%29/16017-en_US": {
           "title": "Intern, Manufacturing Engineering, Reliability (Winter 2027)",
