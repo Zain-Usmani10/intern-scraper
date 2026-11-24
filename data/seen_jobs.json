@@ -41,7 +41,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-23",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.qualcomm.com/careers/job/446721874877": {
           "title": "FY27 Intern - High-Speed Electrical and Optical Systems Validation Co-Op - Canada (4 months)",
@@ -1084,14 +1084,6 @@
           "last_seen": "2026-11-24",
           "missed_runs": 0
         },
-        "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/Quartus-Compiler-Software---Intern_R03108": {
-          "title": "Quartus Compiler Software - Intern",
-          "location": "Toronto, Ontario, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-13",
-          "last_seen": "2026-11-23",
-          "missed_runs": 3
-        },
         "https://altera.wd1.myworkdayjobs.com/Altera/job/TLV/CAD-Support---Student_R03490": {
           "title": "CAD Support - Student",
           "location": "TLV",
@@ -1138,7 +1130,7 @@
           "missed_runs": 0
         }
       },
-      "broken_runs": 1
+      "broken_runs": 2
     },
     "Aptiv": {
       "failures": 0,
@@ -2435,14 +2427,6 @@
           "last_seen": "2026-11-24",
           "missed_runs": 0
         },
-        "https://jobs.bombardier.com/job/Intern%2C-Strategy-and-Governance%2C-Operations-Support-%28Winter-2027%29/15946-en_US": {
-          "title": "Intern, Strategy and Governance, Operations Support (Winter 2027)",
-          "location": "Dorval, QC, CAN, H4S 1Y9",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-23",
-          "missed_runs": 3
-        },
         "https://jobs.bombardier.com/job/Intern%2C-Project-Manager-%28Winter-2027%29/16450-en_US": {
           "title": "Intern, Project Manager (Winter 2027)",
           "location": "Dorval, QC, CAN, H4S 1Y9",
@@ -2554,14 +2538,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-24",
           "missed_runs": 0
-        },
-        "https://jobs.bombardier.com/job/Intern%2C-Research-&amp;-Technology-Aircraft-system-architecture-%28Winter-2027%29/16086-en_US": {
-          "title": "Intern, Research & Technology - Aircraft system architecture (Winter 2027)",
-          "location": "Dorval, QC, CAN, H4S 1Y9",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-23",
-          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Computational-Aerodynamics-Advanced-Aerodynamics-%28Winter-2027%29/15602-en_US": {
           "title": "Intern, Computational Aerodynamics - Advanced Aerodynamics (Winter 2027)",
@@ -3352,15 +3328,7 @@
   },
   "last_heartbeat": "2026-11-24",
   "telegram_queue": [],
-  "email_queue": [
-    {
-      "company": "MDA Space",
-      "title": "Engineering Student, Mission Operations - 8-16 months",
-      "location": "Brampton, Ontario, Canada",
-      "country": "Canada",
-      "url": "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/7667adcc-47ae-477a-9183-0d8ef8bc0748/OpportunityDetail?opportunityId=4d66c2ea-38ba-479b-9920-62d2a281a277"
-    }
-  ],
-  "last_email_slot": "2026-11-23T16:30:00-05:00",
+  "email_queue": [],
+  "last_email_slot": "2026-11-24T08:30:00-05:00",
   "pending_alerts": []
 }
