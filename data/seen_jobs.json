@@ -246,7 +246,7 @@
       "seen": {}
     },
     "NVIDIA": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/ASIC-Verification-Intern---Summer-2027_JR2027982": {
           "title": "ASIC Verification Intern - Summer 2027",
@@ -965,7 +965,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-25",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.skyworksinc.com/job/Quality-Systems-Production-Part-Approval-Process-%28PPAP%29-Coordinator-Data-Analyst-Co-Op/78438-en_US": {
           "title": "Quality Systems Production Part Approval Process (PPAP) Coordinator - Data Analyst Co-Op",
@@ -2157,7 +2157,7 @@
           "missed_runs": 0
         }
       },
-      "broken_runs": 1
+      "broken_runs": 2
     },
     "Thales Canada": {
       "failures": 0,
@@ -2170,7 +2170,8 @@
           "last_seen": "2026-11-25",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "Lockheed Martin Canada": {
       "failures": 0,
@@ -2393,14 +2394,6 @@
           "last_seen": "2026-11-25",
           "missed_runs": 0
         },
-        "https://jobs.smartrecruiters.com/GDMSI/744000163544930": {
-          "title": "Articling Student (In-House Legal Department) August 2027",
-          "location": "Ottawa, ON, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-24",
-          "last_seen": "2026-11-25",
-          "missed_runs": 3
-        },
         "https://jobs.smartrecruiters.com/GDMSI/744000163696169": {
           "title": "Articling Student (In-House Legal Department) August 2027",
           "location": "Ottawa, ON, Canada",
@@ -2444,7 +2437,7 @@
           "country": "Canada",
           "first_seen": "2026-11-24",
           "last_seen": "2026-11-25",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
