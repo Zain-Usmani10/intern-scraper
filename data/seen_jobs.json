@@ -1,7 +1,7 @@
 {
   "companies": {
     "Qualcomm": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://careers.qualcomm.com/careers/job/446721862429": {
           "title": "FY27 Intern - AI Software Engineering Co-op - Canada (4 months)",
@@ -1607,8 +1607,7 @@
           "last_seen": "2026-11-25",
           "missed_runs": 0
         }
-      },
-      "broken_runs": 1
+      }
     },
     "Linamar": {
       "failures": 0,
@@ -2048,6 +2047,14 @@
           "first_seen": "2026-11-25",
           "last_seen": "2026-11-25",
           "missed_runs": 0
+        },
+        "https://careers.celestica.com/job/Remote-Employee-Canada-Student-Intern%2C-AI-Agent-Developer-and-Sales-Enablement-ON/1460765233": {
+          "title": "Student Intern, AI Agent Developer and Sales Enablement",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-25",
+          "last_seen": "2026-11-25",
+          "missed_runs": 0
         }
       }
     },
@@ -2067,14 +2074,6 @@
     "ABB": {
       "failures": 0,
       "seen": {
-        "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Quebec-Quebec-Canada/Environment--Health---Safety-Intern----Winter-2027_JR00047128": {
-          "title": "Environment, Health & Safety Intern - Winter 2027",
-          "location": "Quebec, Quebec, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-24",
-          "missed_runs": 3
-        },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Saint-Laurent-Quebec-Canada/Project-Management-Intern-Winter-2027_JR00053441": {
           "title": "Project Management Intern-Winter 2027",
           "location": "Saint-Laurent, Quebec, Canada",
@@ -2128,8 +2127,7 @@
           "last_seen": "2026-11-25",
           "missed_runs": 0
         }
-      },
-      "broken_runs": 1
+      }
     },
     "Pratt & Whitney Canada": {
       "failures": 0,
@@ -2400,7 +2398,7 @@
           "country": "Canada",
           "first_seen": "2026-11-24",
           "last_seen": "2026-11-25",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.smartrecruiters.com/GDMSI/744000163696169": {
           "title": "Articling Student (In-House Legal Department) August 2027",
@@ -2445,7 +2443,7 @@
           "country": "Canada",
           "first_seen": "2026-11-24",
           "last_seen": "2026-11-25",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     },
@@ -3310,6 +3308,13 @@
       "location": "Ottawa, ON, Canada",
       "country": "Canada",
       "url": "https://jobs.smartrecruiters.com/GDMSI/744000163696169"
+    },
+    {
+      "company": "Celestica",
+      "title": "Student Intern, AI Agent Developer and Sales Enablement",
+      "location": "",
+      "country": "Canada",
+      "url": "https://careers.celestica.com/job/Remote-Employee-Canada-Student-Intern%2C-AI-Agent-Developer-and-Sales-Enablement-ON/1460765233"
     }
   ],
   "last_email_slot": "2026-11-25T08:30:00-05:00",
