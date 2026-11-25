@@ -1,7 +1,7 @@
 {
   "companies": {
     "Qualcomm": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://careers.qualcomm.com/careers/job/446721862429": {
           "title": "FY27 Intern - AI Software Engineering Co-op - Canada (4 months)",
@@ -1682,8 +1682,7 @@
     },
     "ecobee": {
       "failures": 0,
-      "seen": {},
-      "broken_runs": 1
+      "seen": {}
     },
     "D-Wave": {
       "failures": 0,
@@ -1759,7 +1758,7 @@
       }
     },
     "Celestica": {
-      "failures": 1,
+      "failures": 0,
       "seen": {
         "https://careers.celestica.com/job/Remote-Employee-Canada-Student-Intern%2C-Industrial-Engineering-Associate-ON/1452651333": {
           "title": "Student Intern, Industrial Engineering Associate",
@@ -2065,7 +2064,7 @@
           "country": "Canada",
           "first_seen": "2026-11-12",
           "last_seen": "2026-11-24",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Saint-Laurent-Quebec-Canada/Project-Management-Intern-Winter-2027_JR00053441": {
           "title": "Project Management Intern-Winter 2027",
@@ -2091,8 +2090,7 @@
           "last_seen": "2026-11-24",
           "missed_runs": 0
         }
-      },
-      "broken_runs": 1
+      }
     },
     "CAE": {
       "failures": 0,
@@ -2386,14 +2384,6 @@
           "last_seen": "2026-11-24",
           "missed_runs": 0
         },
-        "https://jobs.smartrecruiters.com/GDMSI/744000163517369": {
-          "title": "Articling Student (In-House Legal Department) August 2027",
-          "location": "Ottawa, ON, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-24",
-          "last_seen": "2026-11-24",
-          "missed_runs": 3
-        },
         "https://jobs.smartrecruiters.com/GDMSI/744000163544930": {
           "title": "Articling Student (In-House Legal Department) August 2027",
           "location": "Ottawa, ON, Canada",
@@ -2635,14 +2625,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-24",
           "missed_runs": 0
-        },
-        "https://jobs.bombardier.com/job/Intern%2C-Aftermarket-Marketing-%28Winter-2027%29/16132-en_US": {
-          "title": "Intern, Aftermarket Marketing (Winter 2027)",
-          "location": "Dorval, QC, CAN, H4S 1Y9",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-24",
-          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Continuous-Improvement-Agent-%28BOE%29-%28Winter-2027%29/16081-en_US": {
           "title": "Intern, Continuous Improvement Agent (BOE) (Winter 2027)",
@@ -2900,14 +2882,6 @@
           "last_seen": "2026-11-24",
           "missed_runs": 0
         },
-        "https://jobs.bombardier.com/job/Intern%2C-Supply-Chain-%28Data-Insights-and-Profitability%29%2C-%28Winter-2027%29/16096-en_US": {
-          "title": "Intern, Supply Chain (Data Insights and Profitability), (Winter 2027)",
-          "location": "Dorval, QC, CAN, H4S 1Y9",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-24",
-          "missed_runs": 3
-        },
         "https://jobs.bombardier.com/job/Intern%2C-Quality-Project-%28Winter-2027%29/16044-en_US": {
           "title": "Intern, Quality Project (Winter 2027)",
           "location": "Mississauga, ON, CAN, L5S 1W1",
@@ -3059,14 +3033,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-24",
           "missed_runs": 0
-        },
-        "https://jobs.bombardier.com/job/Intern%2C-Green-Aircraft-Wiring-Systems/16015-en_US": {
-          "title": "Intern, Green Aircraft Wiring Systems",
-          "location": "Mississauga, ON, CAN, L5S 1W1",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-24",
-          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Manufacturing-Engineering%2C-Reliability-%28Winter-2027%29/16017-en_US": {
           "title": "Intern, Manufacturing Engineering, Reliability (Winter 2027)",
