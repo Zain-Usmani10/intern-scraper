@@ -254,7 +254,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-25",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/PhD-Research-Intern--Quantum-and-AI-for-Chemistry---2027_JR2024997": {
           "title": "PhD Research Intern, Quantum and AI for Chemistry - 2027",
@@ -262,7 +262,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-25",
-          "missed_runs": 1
+          "missed_runs": 0
         }
       }
     },
@@ -394,7 +394,7 @@
       "seen": {}
     },
     "OPG": {
-      "failures": 0,
+      "failures": 1,
       "seen": {}
     },
     "NXP": {
@@ -959,21 +959,13 @@
           "last_seen": "2026-11-25",
           "missed_runs": 0
         },
-        "https://careers.skyworksinc.com/job/QA-Software-Development-Co-op-%28Jan-Dec-2027%29/78427-en_US": {
-          "title": "QA / Software Development Co-op (Jan-Dec 2027)",
-          "location": "",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-25",
-          "missed_runs": 3
-        },
         "https://careers.skyworksinc.com/job/Quality-Systems-Production-Part-Approval-Process-%28PPAP%29-Coordinator-Data-Analyst-Co-Op/78438-en_US": {
           "title": "Quality Systems Production Part Approval Process (PPAP) Coordinator - Data Analyst Co-Op",
           "location": "",
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-25",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.skyworksinc.com/job/RFIC-Design-12-month-Co-op-%28May-&apos;27-April-&apos;28%29/78401-en_US": {
           "title": "RFIC Design | 12-month Co-op (May '27 - April '28)",
@@ -2154,7 +2146,7 @@
           "country": "Canada",
           "first_seen": "2026-11-23",
           "last_seen": "2026-11-25",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -2169,7 +2161,8 @@
           "last_seen": "2026-11-25",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "Lockheed Martin Canada": {
       "failures": 0,
@@ -2648,7 +2641,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-25",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-PMO-Project-Coordinator-%28Winter-2027%29/16117-en_US": {
           "title": "Intern, PMO Project Coordinator (Winter 2027)",
@@ -2920,7 +2913,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-25",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Operations-CouncilStrategy-%28Winter-2027%29/15662-en_US": {
           "title": "Intern, Operations Council/Strategy (Winter 2027)",
