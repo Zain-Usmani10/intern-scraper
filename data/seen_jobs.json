@@ -1,7 +1,7 @@
 {
   "companies": {
     "Qualcomm": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://careers.qualcomm.com/careers/job/446721862429": {
           "title": "FY27 Intern - AI Software Engineering Co-op - Canada (4 months)",
@@ -1607,7 +1607,8 @@
           "last_seen": "2026-11-25",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "Linamar": {
       "failures": 0,
@@ -2031,6 +2032,22 @@
           "first_seen": "2026-11-23",
           "last_seen": "2026-11-25",
           "missed_runs": 0
+        },
+        "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Engineering-AI-Development-ON/1460691233": {
+          "title": "Student Intern, Engineering AI Development",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-25",
+          "last_seen": "2026-11-25",
+          "missed_runs": 0
+        },
+        "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Engineering-Data-Analytics-ON/1460684533": {
+          "title": "Student Intern, Engineering Data Analytics",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-25",
+          "last_seen": "2026-11-25",
+          "missed_runs": 0
         }
       }
     },
@@ -2055,14 +2072,6 @@
           "location": "Quebec, Quebec, Canada",
           "country": "Canada",
           "first_seen": "2026-11-05",
-          "last_seen": "2026-11-24",
-          "missed_runs": 2
-        },
-        "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Dorval-Quebec-Canada/Trade-Compliance-Intern-Winter-2027_JR00052505": {
-          "title": "Trade Compliance Intern-Winter 2027",
-          "location": "Dorval, Quebec, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-12",
           "last_seen": "2026-11-24",
           "missed_runs": 3
         },
@@ -2119,7 +2128,8 @@
           "last_seen": "2026-11-25",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "Pratt & Whitney Canada": {
       "failures": 0,
@@ -2389,6 +2399,14 @@
           "location": "Ottawa, ON, Canada",
           "country": "Canada",
           "first_seen": "2026-11-24",
+          "last_seen": "2026-11-25",
+          "missed_runs": 1
+        },
+        "https://jobs.smartrecruiters.com/GDMSI/744000163696169": {
+          "title": "Articling Student (In-House Legal Department) August 2027",
+          "location": "Ottawa, ON, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-25",
           "last_seen": "2026-11-25",
           "missed_runs": 0
         }
@@ -3265,13 +3283,35 @@
       "seen": {}
     },
     "Ballard Power Systems": {
-      "failures": 1,
+      "failures": 0,
       "seen": {}
     }
   },
   "last_heartbeat": "2026-11-25",
   "telegram_queue": [],
-  "email_queue": [],
+  "email_queue": [
+    {
+      "company": "Celestica",
+      "title": "Student Intern, Engineering AI Development",
+      "location": "",
+      "country": "Canada",
+      "url": "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Engineering-AI-Development-ON/1460691233"
+    },
+    {
+      "company": "Celestica",
+      "title": "Student Intern, Engineering Data Analytics",
+      "location": "",
+      "country": "Canada",
+      "url": "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Engineering-Data-Analytics-ON/1460684533"
+    },
+    {
+      "company": "General Dynamics Mission Systems Canada",
+      "title": "Articling Student (In-House Legal Department) August 2027",
+      "location": "Ottawa, ON, Canada",
+      "country": "Canada",
+      "url": "https://jobs.smartrecruiters.com/GDMSI/744000163696169"
+    }
+  ],
   "last_email_slot": "2026-11-25T08:30:00-05:00",
   "pending_alerts": []
 }
