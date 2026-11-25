@@ -121,7 +121,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-25",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.qualcomm.com/careers/job/446721636316": {
           "title": "FY27 Intern - QDSP Hardware Physical Design Internship - Canada (12 or 16 months)",
@@ -254,7 +254,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-25",
-          "missed_runs": 2
+          "missed_runs": 0
         },
         "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/Canada-Toronto/PhD-Research-Intern--Quantum-and-AI-for-Chemistry---2027_JR2024997": {
           "title": "PhD Research Intern, Quantum and AI for Chemistry - 2027",
@@ -394,7 +394,7 @@
       "seen": {}
     },
     "OPG": {
-      "failures": 1,
+      "failures": 2,
       "seen": {}
     },
     "NXP": {
@@ -965,7 +965,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-25",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.skyworksinc.com/job/RFIC-Design-12-month-Co-op-%28May-&apos;27-April-&apos;28%29/78401-en_US": {
           "title": "RFIC Design | 12-month Co-op (May '27 - April '28)",
@@ -1674,7 +1674,8 @@
     },
     "ecobee": {
       "failures": 0,
-      "seen": {}
+      "seen": {},
+      "broken_runs": 1
     },
     "D-Wave": {
       "failures": 0,
@@ -2089,6 +2090,14 @@
           "first_seen": "2026-11-20",
           "last_seen": "2026-11-25",
           "missed_runs": 0
+        },
+        "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Dorval-Quebec-Canada/Software-Intern---Winter-2027_JR00053791": {
+          "title": "Software Intern - Winter 2027",
+          "location": "Dorval, Quebec, Canada",
+          "country": "Canada",
+          "first_seen": "2026-11-25",
+          "last_seen": "2026-11-25",
+          "missed_runs": 0
         }
       }
     },
@@ -2146,7 +2155,7 @@
           "country": "Canada",
           "first_seen": "2026-11-23",
           "last_seen": "2026-11-25",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
@@ -2162,7 +2171,7 @@
           "missed_runs": 0
         }
       },
-      "broken_runs": 1
+      "broken_runs": 2
     },
     "Lockheed Martin Canada": {
       "failures": 0,
@@ -2641,7 +2650,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-25",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-PMO-Project-Coordinator-%28Winter-2027%29/16117-en_US": {
           "title": "Intern, PMO Project Coordinator (Winter 2027)",
@@ -2913,7 +2922,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-25",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Operations-CouncilStrategy-%28Winter-2027%29/15662-en_US": {
           "title": "Intern, Operations Council/Strategy (Winter 2027)",
@@ -3292,6 +3301,13 @@
       "location": "",
       "country": "Canada",
       "url": "https://careers.celestica.com/job/Remote-Employee-Canada-Student-Intern%2C-AI-Agent-Developer-and-Sales-Enablement-ON/1460765233"
+    },
+    {
+      "company": "ABB",
+      "title": "Software Intern - Winter 2027",
+      "location": "Dorval, Quebec, Canada",
+      "country": "Canada",
+      "url": "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Dorval-Quebec-Canada/Software-Intern---Winter-2027_JR00053791"
     }
   ],
   "last_email_slot": "2026-11-25T08:30:00-05:00",
