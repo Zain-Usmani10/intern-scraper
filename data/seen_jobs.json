@@ -736,7 +736,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-26",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Supply-Chain-Intern--Winter-2027---12-months-_R0147289": {
           "title": "Supply Chain Intern (Winter 2027 - 12 months)",
@@ -808,7 +808,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-26",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Saint-Laurent-Quebec-Canada/Stagiaire-en-administration---t-2027---Administrative-Intern---Summer-2027_R0145352": {
           "title": "Stagiaire en administration - été 2027 / Administrative Intern – Summer 2027",
@@ -928,7 +928,7 @@
           "country": "Canada",
           "first_seen": "2026-11-24",
           "last_seen": "2026-11-26",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
@@ -1592,8 +1592,7 @@
     },
     "General Motors": {
       "failures": 0,
-      "seen": {},
-      "broken_runs": 2
+      "seen": {}
     },
     "Ford": {
       "failures": 0,
@@ -1676,14 +1675,6 @@
           "last_seen": "2026-11-26",
           "missed_runs": 0
         },
-        "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Electrical-Engineer-Co-op-Intern_20261433": {
-          "title": "Electrical Engineer Co-op/Intern",
-          "location": "Canada - Ottawa (Bill Leathem)",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-26",
-          "missed_runs": 3
-        },
         "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/IT-Desktop-Engineer---Co-Op-Intern_20261458": {
           "title": "IT Desktop Engineer - Co-Op/Intern",
           "location": "Canada - Ottawa (Bill Leathem)",
@@ -1691,22 +1682,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-26",
           "missed_runs": 0
-        },
-        "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Embedded-Software-Developer-Co-op--Optical-Circuit-Switch-_20261320": {
-          "title": "Embedded Software Developer Co-op (Optical Circuit Switch)",
-          "location": "Canada - Ottawa (Bill Leathem)",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-26",
-          "missed_runs": 3
-        },
-        "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Advanced-Packaging---Integration-Co-op-Student_20261236-1": {
-          "title": "Advanced Packaging & Integration Co-op Student",
-          "location": "Canada - Ottawa (Bill Leathem)",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-26",
-          "missed_runs": 3
         },
         "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/AI-Engineer---Co-op-Intern_20261778": {
           "title": "AI Engineer - Co-op/Intern",
@@ -2041,7 +2016,7 @@
           "country": "Canada",
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-26",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Saint-Laurent-Quebec-Canada/Quality-Intern---Winter-2027_JR00054235": {
           "title": "Quality Intern - Winter 2027",
@@ -2078,7 +2053,7 @@
           "country": "",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-26",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-SSE-150-Environment--Health---Safety-Intern_124200": {
           "title": "C-SSE-150 Environment, Health & Safety Intern",
@@ -2086,7 +2061,7 @@
           "country": "",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-26",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GSS-156--Supplier-Data-Agent-Intern_124527-1": {
           "title": "C-GSS-156 Supplier Data Agent Intern",
@@ -2098,6 +2073,14 @@
         },
         "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GSS-157-Business-Intelligence-and-Applied-AI-Intern---Sustainable-Procurement_124528": {
           "title": "C-GSS-157 Business Intelligence and Applied AI Intern - Sustainable Procurement",
+          "location": "Montreal (St. Laurent)",
+          "country": "",
+          "first_seen": "2026-11-26",
+          "last_seen": "2026-11-26",
+          "missed_runs": 0
+        },
+        "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-MO-420-Manufacturing-Operations-Management-Intern_123305": {
+          "title": "C-MO-420 Manufacturing Operations Management Intern",
           "location": "Montreal (St. Laurent)",
           "country": "",
           "first_seen": "2026-11-26",
@@ -3245,6 +3228,13 @@
       "location": "Montreal (St. Laurent)",
       "country": "",
       "url": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GSS-157-Business-Intelligence-and-Applied-AI-Intern---Sustainable-Procurement_124528"
+    },
+    {
+      "company": "CAE",
+      "title": "C-MO-420 Manufacturing Operations Management Intern",
+      "location": "Montreal (St. Laurent)",
+      "country": "",
+      "url": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-MO-420-Manufacturing-Operations-Management-Intern_123305"
     }
   ],
   "last_email_slot": "2026-11-26T08:30:00-05:00",
