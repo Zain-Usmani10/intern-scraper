@@ -794,14 +794,6 @@
           "last_seen": "2026-11-26",
           "missed_runs": 0
         },
-        "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Project-Management-Intern--Winter-2027--8months-_R0143067": {
-          "title": "Project Management Intern (Winter 2027, 8months)",
-          "location": "Toronto, Ontario, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-26",
-          "missed_runs": 3
-        },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Saint-Laurent-Quebec-Canada/Stagiaire-en-administration---t-2027---Administrative-Intern---Summer-2027_R0145352": {
           "title": "Stagiaire en administration - été 2027 / Administrative Intern – Summer 2027",
           "location": "Saint-Laurent, Quebec, Canada",
@@ -1079,7 +1071,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-26",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535": {
           "title": "Graphics Hardware Validation Undergraduate Engineering Intern",
@@ -1276,6 +1268,22 @@
           "location": "",
           "country": "",
           "first_seen": "2026-11-10",
+          "last_seen": "2026-11-26",
+          "missed_runs": 0
+        },
+        "https://careers.synopsys.com/job/waterloo/summer-2027-computational-fluid-dynamics-cfd-testing-internship/44408/103833808176": {
+          "title": "Summer 2027: Computational Fluid Dynamics (CFD) Testing Internship",
+          "location": "",
+          "country": "",
+          "first_seen": "2026-11-26",
+          "last_seen": "2026-11-26",
+          "missed_runs": 0
+        },
+        "https://careers.synopsys.com/job/mississauga/summer-2027-electronics-engineering-internship-16-month-co-op/44408/103833808160": {
+          "title": "Summer 2027: Electronics Engineering Internship (16-Month Co-op)",
+          "location": "",
+          "country": "",
+          "first_seen": "2026-11-26",
           "last_seen": "2026-11-26",
           "missed_runs": 0
         }
@@ -1975,6 +1983,14 @@
           "first_seen": "2026-11-25",
           "last_seen": "2026-11-26",
           "missed_runs": 0
+        },
+        "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Human-Resources-%28Global-Compensation%29-ON/1448227733": {
+          "title": "Student Intern, Human Resources (Global Compensation)",
+          "location": "",
+          "country": "Canada",
+          "first_seen": "2026-11-26",
+          "last_seen": "2026-11-26",
+          "missed_runs": 0
         }
       }
     },
@@ -2023,21 +2039,13 @@
           "last_seen": "2026-11-26",
           "missed_runs": 0
         },
-        "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/IT-Security-Vulnerability-Management---Brand-Protection-Trainee_124274": {
-          "title": "IT Security Vulnerability Management & Brand Protection Trainee",
-          "location": "Montreal (St. Laurent)",
-          "country": "",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-26",
-          "missed_runs": 3
-        },
         "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-SSE-150-Environment--Health---Safety-Intern_124200": {
           "title": "C-SSE-150 Environment, Health & Safety Intern",
           "location": "Montreal (St. Laurent)",
           "country": "",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-26",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GSS-156--Supplier-Data-Agent-Intern_124527-1": {
           "title": "C-GSS-156 Supplier Data Agent Intern",
@@ -3211,6 +3219,27 @@
       "location": "Montreal (St. Laurent)",
       "country": "",
       "url": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-MO-420-Manufacturing-Operations-Management-Intern_123305"
+    },
+    {
+      "company": "Synopsys",
+      "title": "Summer 2027: Computational Fluid Dynamics (CFD) Testing Internship",
+      "location": "",
+      "country": "",
+      "url": "https://careers.synopsys.com/job/waterloo/summer-2027-computational-fluid-dynamics-cfd-testing-internship/44408/103833808176"
+    },
+    {
+      "company": "Synopsys",
+      "title": "Summer 2027: Electronics Engineering Internship (16-Month Co-op)",
+      "location": "",
+      "country": "",
+      "url": "https://careers.synopsys.com/job/mississauga/summer-2027-electronics-engineering-internship-16-month-co-op/44408/103833808160"
+    },
+    {
+      "company": "Celestica",
+      "title": "Student Intern, Human Resources (Global Compensation)",
+      "location": "",
+      "country": "Canada",
+      "url": "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Human-Resources-%28Global-Compensation%29-ON/1448227733"
     }
   ],
   "last_email_slot": "2026-11-26T08:30:00-05:00",
