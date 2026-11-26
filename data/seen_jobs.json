@@ -1068,14 +1068,6 @@
           "last_seen": "2026-11-26",
           "missed_runs": 0
         },
-        "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/AI-Software-Development-Engineer-Intern_R03487": {
-          "title": "AI Software Development Engineer Intern",
-          "location": "Toronto, Ontario, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-24",
-          "last_seen": "2026-11-25",
-          "missed_runs": 3
-        },
         "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/Embedded-Solutions-Intern_R03512": {
           "title": "Embedded Solutions Intern",
           "location": "Toronto, Ontario, Canada",
@@ -1583,7 +1575,8 @@
           "last_seen": "2026-11-26",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "Linamar": {
       "failures": 0,
@@ -2050,14 +2043,6 @@
           "last_seen": "2026-11-26",
           "missed_runs": 0
         },
-        "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Dorval-Quebec-Canada/Manufacturing-Engineering-Intern-Winter-2027_JR00051511": {
-          "title": "Manufacturing Engineering Intern-Winter 2027",
-          "location": "Dorval, Quebec, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-17",
-          "last_seen": "2026-11-25",
-          "missed_runs": 3
-        },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Saint-Laurent-Quebec-Canada/Quality-Intern---Winter-2027_JR00054235": {
           "title": "Quality Intern - Winter 2027",
           "location": "Saint-Laurent, Quebec, Canada",
@@ -2074,7 +2059,8 @@
           "last_seen": "2026-11-26",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "CAE": {
       "failures": 0,
@@ -2137,7 +2123,8 @@
           "last_seen": "2026-11-26",
           "missed_runs": 0
         }
-      }
+      },
+      "broken_runs": 1
     },
     "Lockheed Martin Canada": {
       "failures": 0,
@@ -3112,7 +3099,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-26",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://jobs.bombardier.com/job/Intern%2C-Marketing-Employer-Brand-%28Winter-2027%29/15761-en_US": {
           "title": "Intern, Marketing Employer Brand (Winter 2027)",
