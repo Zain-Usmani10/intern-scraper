@@ -1074,7 +1074,7 @@
           "country": "Canada",
           "first_seen": "2026-11-24",
           "last_seen": "2026-11-25",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/Embedded-Solutions-Intern_R03512": {
           "title": "Embedded Solutions Intern",
@@ -1699,14 +1699,6 @@
           "last_seen": "2026-11-26",
           "missed_runs": 0
         },
-        "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Embedded-Software-Engineer-Co-op-Intern_20261370": {
-          "title": "Embedded Software Engineer Co-op/Intern",
-          "location": "Canada - Ottawa (Bill Leathem)",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-25",
-          "missed_runs": 3
-        },
         "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Embedded-Software-Developer-Co-op--Optical-Circuit-Switch-_20261320": {
           "title": "Embedded Software Developer Co-op (Optical Circuit Switch)",
           "location": "Canada - Ottawa (Bill Leathem)",
@@ -2064,7 +2056,7 @@
           "country": "Canada",
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-25",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Saint-Laurent-Quebec-Canada/Quality-Intern---Winter-2027_JR00054235": {
           "title": "Quality Intern - Winter 2027",
@@ -3232,6 +3224,6 @@
   "last_heartbeat": "2026-11-26",
   "telegram_queue": [],
   "email_queue": [],
-  "last_email_slot": "2026-11-25T16:30:00-05:00",
+  "last_email_slot": "2026-11-26T08:30:00-05:00",
   "pending_alerts": []
 }
