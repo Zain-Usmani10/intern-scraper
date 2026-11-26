@@ -1071,7 +1071,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-26",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535": {
           "title": "Graphics Hardware Validation Undergraduate Engineering Intern",
@@ -2038,14 +2038,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-26",
           "missed_runs": 0
-        },
-        "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-SSE-150-Environment--Health---Safety-Intern_124200": {
-          "title": "C-SSE-150 Environment, Health & Safety Intern",
-          "location": "Montreal (St. Laurent)",
-          "country": "",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-26",
-          "missed_runs": 3
         },
         "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GSS-156--Supplier-Data-Agent-Intern_124527-1": {
           "title": "C-GSS-156 Supplier Data Agent Intern",
@@ -3191,57 +3183,7 @@
   },
   "last_heartbeat": "2026-11-26",
   "telegram_queue": [],
-  "email_queue": [
-    {
-      "company": "CAE",
-      "title": "C-GSS-156 Supplier Data Agent Intern",
-      "location": "Montreal (St. Laurent)",
-      "country": "",
-      "url": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GSS-156--Supplier-Data-Agent-Intern_124527-1"
-    },
-    {
-      "company": "Bombardier",
-      "title": "Intern, Instructional Design and Digital Learning (Winter 2027)",
-      "location": "Dorval, QC, CAN, H4S 1Y9",
-      "country": "Canada",
-      "url": "https://jobs.bombardier.com/job/Intern%2C-Instructional-Design-and-Digital-Learning-%28Winter-2027%29/15262-en_US"
-    },
-    {
-      "company": "CAE",
-      "title": "C-GSS-157 Business Intelligence and Applied AI Intern - Sustainable Procurement",
-      "location": "Montreal (St. Laurent)",
-      "country": "",
-      "url": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GSS-157-Business-Intelligence-and-Applied-AI-Intern---Sustainable-Procurement_124528"
-    },
-    {
-      "company": "CAE",
-      "title": "C-MO-420 Manufacturing Operations Management Intern",
-      "location": "Montreal (St. Laurent)",
-      "country": "",
-      "url": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-MO-420-Manufacturing-Operations-Management-Intern_123305"
-    },
-    {
-      "company": "Synopsys",
-      "title": "Summer 2027: Computational Fluid Dynamics (CFD) Testing Internship",
-      "location": "",
-      "country": "",
-      "url": "https://careers.synopsys.com/job/waterloo/summer-2027-computational-fluid-dynamics-cfd-testing-internship/44408/103833808176"
-    },
-    {
-      "company": "Synopsys",
-      "title": "Summer 2027: Electronics Engineering Internship (16-Month Co-op)",
-      "location": "",
-      "country": "",
-      "url": "https://careers.synopsys.com/job/mississauga/summer-2027-electronics-engineering-internship-16-month-co-op/44408/103833808160"
-    },
-    {
-      "company": "Celestica",
-      "title": "Student Intern, Human Resources (Global Compensation)",
-      "location": "",
-      "country": "Canada",
-      "url": "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Human-Resources-%28Global-Compensation%29-ON/1448227733"
-    }
-  ],
-  "last_email_slot": "2026-11-26T08:30:00-05:00",
+  "email_queue": [],
+  "last_email_slot": "2026-11-26T16:30:00-05:00",
   "pending_alerts": []
 }
