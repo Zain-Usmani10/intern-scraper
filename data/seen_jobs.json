@@ -395,7 +395,8 @@
     },
     "BlackBerry QNX": {
       "failures": 0,
-      "seen": {}
+      "seen": {},
+      "broken_runs": 1
     },
     "Fortinet": {
       "failures": 0,
@@ -1575,8 +1576,7 @@
           "last_seen": "2026-11-26",
           "missed_runs": 0
         }
-      },
-      "broken_runs": 1
+      }
     },
     "Linamar": {
       "failures": 0,
@@ -1682,7 +1682,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-26",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/IT-Desktop-Engineer---Co-Op-Intern_20261458": {
           "title": "IT Desktop Engineer - Co-Op/Intern",
@@ -1698,7 +1698,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-26",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Advanced-Packaging---Integration-Co-op-Student_20261236-1": {
           "title": "Advanced Packaging & Integration Co-op Student",
@@ -1706,7 +1706,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-26",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/AI-Engineer---Co-op-Intern_20261778": {
           "title": "AI Engineer - Co-op/Intern",
@@ -2060,7 +2060,7 @@
           "missed_runs": 0
         }
       },
-      "broken_runs": 1
+      "broken_runs": 2
     },
     "CAE": {
       "failures": 0,
@@ -2124,7 +2124,7 @@
           "missed_runs": 0
         }
       },
-      "broken_runs": 1
+      "broken_runs": 2
     },
     "Lockheed Martin Canada": {
       "failures": 0,
@@ -3099,7 +3099,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-26",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Marketing-Employer-Brand-%28Winter-2027%29/15761-en_US": {
           "title": "Intern, Marketing Employer Brand (Winter 2027)",
