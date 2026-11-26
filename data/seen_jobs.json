@@ -730,14 +730,6 @@
     "Hitachi Rail": {
       "failures": 0,
       "seen": {
-        "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Intern-Safety-Specialist--Fall-2027--8-12-months-_R0143291": {
-          "title": "Intern Safety Specialist (Fall 2027, 8-12 months)",
-          "location": "Toronto, Ontario, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-04",
-          "last_seen": "2026-11-26",
-          "missed_runs": 3
-        },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Supply-Chain-Intern--Winter-2027---12-months-_R0147289": {
           "title": "Supply Chain Intern (Winter 2027 - 12 months)",
           "location": "Toronto, Ontario, Canada",
@@ -808,7 +800,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-26",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Saint-Laurent-Quebec-Canada/Stagiaire-en-administration---t-2027---Administrative-Intern---Summer-2027_R0145352": {
           "title": "Stagiaire en administration - été 2027 / Administrative Intern – Summer 2027",
@@ -921,14 +913,6 @@
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-26",
           "missed_runs": 0
-        },
-        "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Data-and-Business-Intelligence-Analyst--Intern_R0151457": {
-          "title": "Data and Business Intelligence Analyst, Intern",
-          "location": "Toronto, Ontario, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-24",
-          "last_seen": "2026-11-26",
-          "missed_runs": 3
         }
       }
     },
@@ -1095,7 +1079,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-26",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://intel.wd1.myworkdayjobs.com/External/job/Canada-Toronto/Graphics-Hardware-Validation-Undergraduate-Engineering-Intern_JR0287535": {
           "title": "Graphics Hardware Validation Undergraduate Engineering Intern",
@@ -2010,14 +1994,6 @@
     "ABB": {
       "failures": 0,
       "seen": {
-        "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Saint-Laurent-Quebec-Canada/Project-Management-Intern-Winter-2027_JR00053441": {
-          "title": "Project Management Intern-Winter 2027",
-          "location": "Saint-Laurent, Quebec, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-17",
-          "last_seen": "2026-11-26",
-          "missed_runs": 3
-        },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Saint-Laurent-Quebec-Canada/Quality-Intern---Winter-2027_JR00054235": {
           "title": "Quality Intern - Winter 2027",
           "location": "Saint-Laurent, Quebec, Canada",
@@ -2053,7 +2029,7 @@
           "country": "",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-26",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-SSE-150-Environment--Health---Safety-Intern_124200": {
           "title": "C-SSE-150 Environment, Health & Safety Intern",
@@ -2061,7 +2037,7 @@
           "country": "",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-26",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GSS-156--Supplier-Data-Agent-Intern_124527-1": {
           "title": "C-GSS-156 Supplier Data Agent Intern",
