@@ -121,7 +121,7 @@
           "country": "Canada",
           "first_seen": "2026-11-03",
           "last_seen": "2026-11-25",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.qualcomm.com/careers/job/446721636316": {
           "title": "FY27 Intern - QDSP Hardware Physical Design Internship - Canada (12 or 16 months)",
@@ -394,7 +394,7 @@
       "seen": {}
     },
     "OPG": {
-      "failures": 3,
+      "failures": 0,
       "seen": {}
     },
     "NXP": {
@@ -1082,7 +1082,7 @@
           "country": "Canada",
           "first_seen": "2026-11-24",
           "last_seen": "2026-11-25",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://altera.wd1.myworkdayjobs.com/Altera/job/Toronto-Ontario-Canada/Embedded-Solutions-Intern_R03512": {
           "title": "Embedded Solutions Intern",
@@ -1666,8 +1666,7 @@
     },
     "ecobee": {
       "failures": 0,
-      "seen": {},
-      "broken_runs": 2
+      "seen": {}
     },
     "D-Wave": {
       "failures": 0,
@@ -1714,7 +1713,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-25",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Embedded-Software-Developer-Co-op--Optical-Circuit-Switch-_20261320": {
           "title": "Embedded Software Developer Co-op (Optical Circuit Switch)",
@@ -2073,7 +2072,7 @@
           "country": "Canada",
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-25",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Saint-Laurent-Quebec-Canada/Quality-Intern---Winter-2027_JR00054235": {
           "title": "Quality Intern - Winter 2027",
@@ -2140,17 +2139,8 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-25",
           "missed_runs": 0
-        },
-        "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/CA-QC-LONGUEUIL-J01--1000-Blvd-Marie-Victorin--J01-BLDG/Stage---Planificateur-de-production--Hiver-2027----Internship---Production-Planner-Winter-2027_01867333": {
-          "title": "Stage - Planificateur de production (Hiver 2027) | Internship – Production Planner Winter 2027",
-          "location": "CA-QC-LONGUEUIL-J01 ~ 1000 Blvd Marie-Victorin ~ J01 BLDG",
-          "country": "Canada",
-          "first_seen": "2026-11-23",
-          "last_seen": "2026-11-25",
-          "missed_runs": 3
         }
-      },
-      "broken_runs": 1
+      }
     },
     "Thales Canada": {
       "failures": 0,
@@ -2163,8 +2153,7 @@
           "last_seen": "2026-11-25",
           "missed_runs": 0
         }
-      },
-      "broken_runs": 3
+      }
     },
     "Lockheed Martin Canada": {
       "failures": 0,
@@ -2637,14 +2626,6 @@
           "last_seen": "2026-11-25",
           "missed_runs": 0
         },
-        "https://jobs.bombardier.com/job/Intern%2C-Supply-Chain-%28Customs-and-Transport%29-%28Winter%2C-2027%29/16072-en_US": {
-          "title": "Intern, Supply Chain (Customs and Transport) (Winter, 2027)",
-          "location": "Dorval, QC, CAN, H4S 1Y9",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-25",
-          "missed_runs": 3
-        },
         "https://jobs.bombardier.com/job/Intern%2C-PMO-Project-Coordinator-%28Winter-2027%29/16117-en_US": {
           "title": "Intern, PMO Project Coordinator (Winter 2027)",
           "location": "St-Laurent, QC, CAN,",
@@ -2908,14 +2889,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-25",
           "missed_runs": 0
-        },
-        "https://jobs.bombardier.com/job/Intern%2C-Methods-%28Winter-2027%29/15639-en_US": {
-          "title": "Intern, Methods (Winter 2027)",
-          "location": "Mississauga, ON, CAN, L5S 1W1",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-25",
-          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Operations-CouncilStrategy-%28Winter-2027%29/15662-en_US": {
           "title": "Intern, Operations Council/Strategy (Winter 2027)",
