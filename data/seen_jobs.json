@@ -395,8 +395,7 @@
     },
     "BlackBerry QNX": {
       "failures": 0,
-      "seen": {},
-      "broken_runs": 1
+      "seen": {}
     },
     "Fortinet": {
       "failures": 0,
@@ -737,7 +736,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-26",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Toronto-Ontario-Canada/Supply-Chain-Intern--Winter-2027---12-months-_R0147289": {
           "title": "Supply Chain Intern (Winter 2027 - 12 months)",
@@ -929,7 +928,7 @@
           "country": "Canada",
           "first_seen": "2026-11-24",
           "last_seen": "2026-11-26",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     },
@@ -1593,7 +1592,8 @@
     },
     "General Motors": {
       "failures": 0,
-      "seen": {}
+      "seen": {},
+      "broken_runs": 1
     },
     "Ford": {
       "failures": 0,
@@ -1682,7 +1682,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-26",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/IT-Desktop-Engineer---Co-Op-Intern_20261458": {
           "title": "IT Desktop Engineer - Co-Op/Intern",
@@ -1698,7 +1698,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-26",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/Advanced-Packaging---Integration-Co-op-Student_20261236-1": {
           "title": "Advanced Packaging & Integration Co-op Student",
@@ -1706,7 +1706,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-26",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/AI-Engineer---Co-op-Intern_20261778": {
           "title": "AI Engineer - Co-op/Intern",
@@ -2041,7 +2041,7 @@
           "country": "Canada",
           "first_seen": "2026-11-17",
           "last_seen": "2026-11-26",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://abb.wd3.myworkdayjobs.com/External_Career_Page/job/Saint-Laurent-Quebec-Canada/Quality-Intern---Winter-2027_JR00054235": {
           "title": "Quality Intern - Winter 2027",
@@ -2059,8 +2059,7 @@
           "last_seen": "2026-11-26",
           "missed_runs": 0
         }
-      },
-      "broken_runs": 2
+      }
     },
     "CAE": {
       "failures": 0,
@@ -2086,6 +2085,14 @@
           "location": "Montreal (St. Laurent)",
           "country": "",
           "first_seen": "2026-11-05",
+          "last_seen": "2026-11-26",
+          "missed_runs": 0
+        },
+        "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GSS-156--Supplier-Data-Agent-Intern_124527-1": {
+          "title": "C-GSS-156 Supplier Data Agent Intern",
+          "location": "Montreal (St. Laurent)",
+          "country": "",
+          "first_seen": "2026-11-26",
           "last_seen": "2026-11-26",
           "missed_runs": 0
         }
@@ -2123,8 +2130,7 @@
           "last_seen": "2026-11-26",
           "missed_runs": 0
         }
-      },
-      "broken_runs": 2
+      }
     },
     "Lockheed Martin Canada": {
       "failures": 0,
@@ -3099,7 +3105,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-26",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Marketing-Employer-Brand-%28Winter-2027%29/15761-en_US": {
           "title": "Intern, Marketing Employer Brand (Winter 2027)",
@@ -3196,6 +3202,14 @@
           "first_seen": "2026-11-23",
           "last_seen": "2026-11-26",
           "missed_runs": 0
+        },
+        "https://jobs.bombardier.com/job/Intern%2C-Instructional-Design-and-Digital-Learning-%28Winter-2027%29/15262-en_US": {
+          "title": "Intern, Instructional Design and Digital Learning (Winter 2027)",
+          "location": "Dorval, QC, CAN, H4S 1Y9",
+          "country": "Canada",
+          "first_seen": "2026-11-26",
+          "last_seen": "2026-11-26",
+          "missed_runs": 0
         }
       }
     },
@@ -3210,7 +3224,22 @@
   },
   "last_heartbeat": "2026-11-26",
   "telegram_queue": [],
-  "email_queue": [],
+  "email_queue": [
+    {
+      "company": "CAE",
+      "title": "C-GSS-156 Supplier Data Agent Intern",
+      "location": "Montreal (St. Laurent)",
+      "country": "",
+      "url": "https://cae.wd3.myworkdayjobs.com/career/job/Montreal-St-Laurent/C-GSS-156--Supplier-Data-Agent-Intern_124527-1"
+    },
+    {
+      "company": "Bombardier",
+      "title": "Intern, Instructional Design and Digital Learning (Winter 2027)",
+      "location": "Dorval, QC, CAN, H4S 1Y9",
+      "country": "Canada",
+      "url": "https://jobs.bombardier.com/job/Intern%2C-Instructional-Design-and-Digital-Learning-%28Winter-2027%29/15262-en_US"
+    }
+  ],
   "last_email_slot": "2026-11-26T08:30:00-05:00",
   "pending_alerts": []
 }
