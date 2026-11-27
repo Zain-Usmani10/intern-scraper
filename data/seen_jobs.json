@@ -1657,7 +1657,7 @@
           "country": "Canada",
           "first_seen": "2026-11-16",
           "last_seen": "2026-11-27",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -1758,7 +1758,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-27",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.celestica.com/job/Newmarket-Student-Intern%2C-Planning-Associate-ON/1443371833": {
           "title": "Student Intern, Planning Associate",
@@ -2064,7 +2064,8 @@
     },
     "Thales Canada": {
       "failures": 0,
-      "seen": {}
+      "seen": {},
+      "broken_runs": 1
     },
     "Lockheed Martin Canada": {
       "failures": 0,
@@ -2447,7 +2448,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-27",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://jobs.bombardier.com/job/Intern%2C-Organizational-Learning-&amp;-Development-%28Winter-2027%29/16249-en_US": {
           "title": "Intern, Organizational Learning & Development (Winter 2027)",
