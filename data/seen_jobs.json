@@ -1665,7 +1665,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-27",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/AI-Engineer---Co-op-Intern_20261778": {
           "title": "AI Engineer - Co-op/Intern",
@@ -2080,16 +2080,7 @@
     },
     "Thales Canada": {
       "failures": 0,
-      "seen": {
-        "https://thales.wd3.myworkdayjobs.com/Careers/job/Ottawa/Member-of-Technical-Staff--Intern_R0348683-2": {
-          "title": "Member of Technical Staff- Intern",
-          "location": "Ottawa",
-          "country": "",
-          "first_seen": "2026-11-20",
-          "last_seen": "2026-11-26",
-          "missed_runs": 3
-        }
-      }
+      "seen": {}
     },
     "Lockheed Martin Canada": {
       "failures": 0,
