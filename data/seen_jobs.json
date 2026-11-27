@@ -925,7 +925,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-27",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.skyworksinc.com/job/RFIC-Design-12-month-Co-op-%28May-&apos;27-April-&apos;28%29/78401-en_US": {
           "title": "RFIC Design | 12-month Co-op (May '27 - April '28)",
@@ -965,7 +965,7 @@
           "country": "Canada",
           "first_seen": "2026-11-04",
           "last_seen": "2026-11-27",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.skyworksinc.com/job/RFIC-Design-Co-Op-%28Jan-Dec-2027%29/78275-en_US": {
           "title": "RFIC Design Co-Op (Jan-Dec 2027)",
@@ -1006,7 +1006,7 @@
       "seen": {}
     },
     "Novarc": {
-      "failures": 0,
+      "failures": 1,
       "seen": {}
     },
     "Altera": {
@@ -1673,7 +1673,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-27",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/AI-Engineer---Co-op-Intern_20261778": {
           "title": "AI Engineer - Co-op/Intern",
@@ -1995,7 +1995,7 @@
       }
     },
     "Siemens": {
-      "failures": 0,
+      "failures": 1,
       "seen": {
         "https://jobs.siemens.com/en_US/externaljobs/JobDetail/523351": {
           "title": "B2B Marketing Student - Jan 2027 - April 2027",
