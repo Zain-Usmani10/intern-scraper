@@ -1657,7 +1657,7 @@
           "country": "Canada",
           "first_seen": "2026-11-16",
           "last_seen": "2026-11-27",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
@@ -1758,7 +1758,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-27",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.celestica.com/job/Newmarket-Student-Intern%2C-Planning-Associate-ON/1443371833": {
           "title": "Student Intern, Planning Associate",
@@ -1830,7 +1830,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-27",
-          "missed_runs": 0
+          "missed_runs": 1
         },
         "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Aerospace-and-Defense%2C-Material-Pricing-and-Product-Data-ON/1452685833": {
           "title": "Student Intern, Aerospace and Defense, Material Pricing and Product Data",
@@ -2065,7 +2065,7 @@
     "Thales Canada": {
       "failures": 0,
       "seen": {},
-      "broken_runs": 1
+      "broken_runs": 2
     },
     "Lockheed Martin Canada": {
       "failures": 0,
@@ -2448,7 +2448,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-27",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Organizational-Learning-&amp;-Development-%28Winter-2027%29/16249-en_US": {
           "title": "Intern, Organizational Learning & Development (Winter 2027)",
@@ -3127,15 +3127,7 @@
   },
   "last_heartbeat": "2026-11-27",
   "telegram_queue": [],
-  "email_queue": [
-    {
-      "company": "Linamar",
-      "title": "Co-Op Student",
-      "location": "Guelph, ON, Canada",
-      "country": "Canada",
-      "url": "https://fa-epmd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3001/job/14919"
-    }
-  ],
-  "last_email_slot": "2026-11-27T08:30:00-05:00",
+  "email_queue": [],
+  "last_email_slot": "2026-11-27T16:30:00-05:00",
   "pending_alerts": []
 }
