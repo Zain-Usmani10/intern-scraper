@@ -2087,7 +2087,7 @@
           "country": "",
           "first_seen": "2026-11-20",
           "last_seen": "2026-11-26",
-          "missed_runs": 1
+          "missed_runs": 2
         }
       }
     },
@@ -2254,7 +2254,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-26",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.smartrecruiters.com/GDMSI/744000151059868": {
           "title": "Co-op Winter 2027 - Software Engineering - 4-8 months",
@@ -2270,7 +2270,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-26",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.smartrecruiters.com/GDMSI/744000149095849": {
           "title": "Co-op Winter 2027 – System of Systems Integration, Verification and Validation – 4-8 months",
@@ -2278,7 +2278,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-26",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://jobs.smartrecruiters.com/GDMSI/744000149046839": {
           "title": "Co-op Winter 2027 – Systems Engineering – 4-8-Months",
@@ -3176,6 +3176,6 @@
   "last_heartbeat": "2026-11-27",
   "telegram_queue": [],
   "email_queue": [],
-  "last_email_slot": "2026-11-26T16:30:00-05:00",
+  "last_email_slot": "2026-11-27T08:30:00-05:00",
   "pending_alerts": []
 }
