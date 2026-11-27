@@ -2087,7 +2087,7 @@
           "country": "",
           "first_seen": "2026-11-20",
           "last_seen": "2026-11-26",
-          "missed_runs": 2
+          "missed_runs": 3
         }
       }
     },
@@ -2248,14 +2248,6 @@
           "last_seen": "2026-11-27",
           "missed_runs": 0
         },
-        "https://jobs.smartrecruiters.com/GDMSI/744000153772296": {
-          "title": "Co-op Winter 2027 - Mechanical Engineering - 8 Months",
-          "location": "Calgary, AB, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-26",
-          "missed_runs": 3
-        },
         "https://jobs.smartrecruiters.com/GDMSI/744000151059868": {
           "title": "Co-op Winter 2027 - Software Engineering - 4-8 months",
           "location": "Cole Harbour, NS, Canada",
@@ -2263,22 +2255,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-27",
           "missed_runs": 0
-        },
-        "https://jobs.smartrecruiters.com/GDMSI/744000149100009": {
-          "title": "Co-op Winter 2027 - Systems Integration, Verification, and Validation - 8-12 months",
-          "location": "Ottawa, ON, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-26",
-          "missed_runs": 3
-        },
-        "https://jobs.smartrecruiters.com/GDMSI/744000149095849": {
-          "title": "Co-op Winter 2027 – System of Systems Integration, Verification and Validation – 4-8 months",
-          "location": "Ottawa, CA-ON, Canada",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-26",
-          "missed_runs": 3
         },
         "https://jobs.smartrecruiters.com/GDMSI/744000149046839": {
           "title": "Co-op Winter 2027 – Systems Engineering – 4-8-Months",
