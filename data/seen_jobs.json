@@ -1650,14 +1650,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-27",
           "missed_runs": 0
-        },
-        "https://lumentum.wd5.myworkdayjobs.com/LITE/job/Canada---Ottawa-Bill-Leathem/AI-Engineer---Co-op-Intern_20261778": {
-          "title": "AI Engineer - Co-op/Intern",
-          "location": "Canada - Ottawa (Bill Leathem)",
-          "country": "Canada",
-          "first_seen": "2026-11-16",
-          "last_seen": "2026-11-27",
-          "missed_runs": 3
         }
       }
     },
@@ -1758,7 +1750,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-27",
-          "missed_runs": 2
+          "missed_runs": 3
         },
         "https://careers.celestica.com/job/Newmarket-Student-Intern%2C-Planning-Associate-ON/1443371833": {
           "title": "Student Intern, Planning Associate",
@@ -1830,7 +1822,7 @@
           "country": "Canada",
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-27",
-          "missed_runs": 1
+          "missed_runs": 2
         },
         "https://careers.celestica.com/job/Toronto-Student-Intern%2C-Aerospace-and-Defense%2C-Material-Pricing-and-Product-Data-ON/1452685833": {
           "title": "Student Intern, Aerospace and Defense, Material Pricing and Product Data",
@@ -1979,7 +1971,7 @@
           "country": "Canada",
           "first_seen": "2026-11-10",
           "last_seen": "2026-11-27",
-          "missed_runs": 0
+          "missed_runs": 1
         }
       }
     },
@@ -2064,8 +2056,7 @@
     },
     "Thales Canada": {
       "failures": 0,
-      "seen": {},
-      "broken_runs": 2
+      "seen": {}
     },
     "Lockheed Martin Canada": {
       "failures": 0,
@@ -2441,14 +2432,6 @@
           "first_seen": "2026-11-05",
           "last_seen": "2026-11-27",
           "missed_runs": 0
-        },
-        "https://jobs.bombardier.com/job/Intern%2C-Manufacturing-processes-%28Winter-2027%29/16341-en_US": {
-          "title": "Intern, Manufacturing processes (Winter 2027)",
-          "location": "Mississauga, ON, CAN, L5S 1W1",
-          "country": "Canada",
-          "first_seen": "2026-11-05",
-          "last_seen": "2026-11-27",
-          "missed_runs": 3
         },
         "https://jobs.bombardier.com/job/Intern%2C-Organizational-Learning-&amp;-Development-%28Winter-2027%29/16249-en_US": {
           "title": "Intern, Organizational Learning & Development (Winter 2027)",
